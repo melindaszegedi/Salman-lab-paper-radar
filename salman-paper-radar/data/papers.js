@@ -1,7 +1,7 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
 "lastCurated": "2026-10-01",
-"lastRunAdded": 14,
+"lastRunAdded": 0,
 "total": 701,
 "topics": {
 "csvd": "Small vessel disease & CAA",
