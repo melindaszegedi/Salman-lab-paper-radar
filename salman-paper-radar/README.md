@@ -53,6 +53,13 @@ Every day the email goes out at about **08:00 UK time**, all year: the job is sc
 
 Resend's free plan allows 100 emails a day and 3,000 a month, which covers a lab of up to about 100 people.
 
+## Tracked authors and lab topics
+
+- **Tracked authors:** under *Tracked authors* in the sidebar, *Find an author* searches OpenAlex (an open index of researchers and papers built from PubMed, Crossref, ORCID and others). Pick the right person by institution and topics and click *Track*. A red dot next to a name means they have a newer paper than the last time you opened them; clicking the name shows their latest papers and clears the dot. Tracked authors also count towards your feed, the daily search and the morning email.
+- **Lab topics:** *+ Add a topic* under *Topics* lets anyone signed in add a topic with 1–12 keywords. Topics are shared: everyone sees them in the sidebar and can tick them in *Preferences*. Only the person who added a topic can remove it.
+- **How a new topic reaches the feed:** the *Update papers* job also runs every 30 minutes. It does nothing unless a new topic has appeared; then it searches PubMed, bioRxiv and medRxiv for that topic's keywords over the last 30 days, tags matching papers already in the archive, and republishes the site. From then on the topic is part of the daily search.
+- These need the latest `supabase/schema.sql`. If you set up Supabase before these features existed, run the whole file again in the SQL Editor (it is safe to re-run).
+
 ## How the personal feed works
 
 - **My feed** shows papers that match any of the person's topics, keywords, journals or authors, ranked by relevance plus matches: keyword +4 each (up to 3), topic +3, journal +4, author +6 each (up to 2). With no preferences yet, it shows the whole feed. **All papers** is the shared lab feed.
