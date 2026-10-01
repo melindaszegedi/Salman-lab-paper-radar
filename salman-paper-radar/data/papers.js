@@ -1,0 +1,607 @@
+window.PAPER_RADAR_DATA = {
+"meta": {
+"lastCurated": "2026-09-29",
+"lastRunAdded": 0,
+"total": 20,
+"topics": {
+"csvd": "Small vessel disease & CAA",
+"bbb": "BBB biology & in vitro models",
+"delivery": "Brain delivery & TfR shuttles",
+"adtx": "AD & neurodegeneration drugs",
+"glymph": "Glymphatics & AQP4"
+}
+},
+"papers": [
+{
+"addedAt": "2026-09-29",
+"authors": "Schuldt BR, Haworth-Staines D, Perez-Arevalo A, … Pereira AC, Blanchard JW (Mount Sinai)",
+"date": "2026-09-24",
+"journal": "Cell",
+"keywords": [
+"APOE4",
+"pericyte",
+"TGF-beta",
+"fibronectin",
+"miBrain",
+"iPSC",
+"CAA"
+],
+"links": [
+{
+"label": "Press release",
+"url": "https://www.mountsinai.org/about/newsroom/2026/mount-sinai-researchers-identify-how-apoe4-gene-damages-brain-blood-vessels-in-alzheimers-disease"
+},
+{
+"label": "bioRxiv preprint",
+"url": "https://www.biorxiv.org/content/10.1101/2025.09.04.674192.full.pdf"
+}
+],
+"q1": true,
+"relevance": 5,
+"title": "A pericyte-to-myofibroblast transition links APOE4 to cerebrovascular degeneration",
+"topics": [
+"csvd",
+"bbb",
+"adtx"
+],
+"type": "journal",
+"why": "APOE4 pushes brain pericytes to become fibronectin-secreting, scar-forming myofibroblast-like cells, driven by TGF-β; blocking TGF-β restored pericyte coverage and cut vascular fibrosis and amyloid in iPSC-derived 3D 'miBrain' tissue and aged APOE4 mice. A companion Cell Stem Cell paper from the same group links APOE4 to astrocyte cholesterol build-up. Directly relevant to multicellular iPSC BBB models and to cSVD/CAA mechanisms with a druggable pathway.",
+"id": "2026-09-24-schuldt-cell",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Actinogen Medical (company announcement)",
+"date": "2026-09-23",
+"journal": "GlobeNewswire",
+"keywords": [
+"Xanamem",
+"cortisol",
+"pTau181",
+"phase 3"
+],
+"links": [
+{
+"label": "Announcement",
+"url": "https://www.globenewswire.com/news-release/2026/09/23/3367466/0/en/actinogen-xanamia-pivotal-alzheimer-s-disease-trial-completes-final-patient-visit-with-topline-results-on-track-for-november.html"
+}
+],
+"q1": false,
+"relevance": 3,
+"title": "XanaMIA phase 2b/3 of oral Xanamem in Alzheimer's completes final patient visit; topline results due November",
+"topics": [
+"adtx"
+],
+"type": "trial",
+"why": "247 people with mild–moderate AD and raised plasma pTau181 on an oral drug aimed at controlling tissue cortisol; the first Xanamem trial running longer than 12 weeks. A non-amyloid mechanism to watch in November.",
+"id": "2026-09-23-xanamia",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Bhattarai P, Yilmaz E, Cakir EÖ, … Mayeux R, Kizil C",
+"date": "2026-09-11",
+"journal": "Nature Aging 6(9)",
+"keywords": [
+"APOE4",
+"fibronectin",
+"FN1",
+"astrocyte",
+"integrin",
+"FAK",
+"3D vascular model"
+],
+"links": [
+{
+"label": "Nature Aging",
+"url": "https://www.nature.com/articles/s43587-026-01204-0"
+}
+],
+"q1": true,
+"relevance": 5,
+"title": "Fibronectin mediates APOE4-driven blood–brain barrier dysfunction in Alzheimer's disease",
+"topics": [
+"bbb",
+"csvd",
+"adtx"
+],
+"type": "journal",
+"why": "Astrocyte-derived fibronectin, induced by APOE4, Aβ42 and inflammation, piles up around vessels and makes the barrier leak by dampening VEGF/HB-EGF/IGF-1 signalling through integrin–FAK. Lowering fibronectin or restoring growth-factor signalling rescued the barrier in human 3D vascular models and in vivo. Fits well with the Cell paper above: two independent routes to vascular fibronectin in APOE4.",
+"id": "2026-09-11-bhattarai-nataging",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Sichuan Provincial People's Hospital / UESTC group",
+"date": "2026-09-09",
+"journal": "Frontiers in Immunology",
+"keywords": [
+"review",
+"neuroinflammation",
+"pericyte",
+"endothelium"
+],
+"links": [
+{
+"label": "Frontiers",
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1955233/full"
+}
+],
+"q1": true,
+"relevance": 3,
+"title": "Blood–brain barrier dysfunction and peripheral immune activation in Alzheimer's disease: an inflammation-centered review",
+"topics": [
+"bbb"
+],
+"type": "journal",
+"why": "Review treating the BBB as an immunovascular interface in AD: pericyte injury, vascular senescence, endothelial inflammatory signalling, gliovascular remodelling and what multi-omics studies add. Useful background for inflammatory challenge readouts in BBB models.",
+"id": "2026-09-09-frontimmunol-bbb",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Singh B, Singh S, Banerjee S, Bhargava S, Subramaniyan V, Singh TG",
+"date": "2026-08-24",
+"journal": "International Journal of Neuroscience",
+"keywords": [
+"AQP4",
+"aquaporin",
+"glymphatic",
+"review"
+],
+"links": [
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42606899/"
+}
+],
+"q1": false,
+"relevance": 3,
+"title": "Aquaporin-4 mediated glymphatic dysfunction and neuroinflammatory signaling in neurodegenerative disorders",
+"topics": [
+"glymph"
+],
+"type": "journal",
+"why": "Review of AQP4 expression and polarisation at astrocyte endfeet and its links to glymphatic clearance, BBB disruption and neuroinflammation across AD, PD, epilepsy and stroke. Lab-relevant topic, lower-tier journal.",
+"id": "2026-08-24-singh-aqp4",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Yang J",
+"date": "2026-08-24",
+"journal": "Neurological Sciences 47",
+"keywords": [
+"ADNI",
+"CSF",
+"permeability",
+"biomarker",
+"Mendelian randomisation"
+],
+"links": [
+{
+"label": "Springer",
+"url": "https://link.springer.com/article/10.1007/s10072-026-09343-3"
+}
+],
+"q1": false,
+"relevance": 3,
+"title": "A cerebrospinal fluid blood–brain barrier dysfunction score is associated with progression from mild cognitive impairment to Alzheimer's disease",
+"topics": [
+"bbb",
+"csvd"
+],
+"type": "journal",
+"why": "In 134 ADNI participants with MCI, a CSF score for BBB permeability predicted faster conversion to AD dementia (HR about 1.7), independent of amyloid and tau; Mendelian randomisation screened 832 CSF proteins for candidate markers.",
+"id": "2026-08-24-yang-neurolsci",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Sun R, Ji X, Hu W, et al.",
+"date": "2026-08-21",
+"journal": "Neurochemical Research 51",
+"keywords": [
+"CADASIL",
+"NOTCH3",
+"lipidomics"
+],
+"links": [
+{
+"label": "Springer",
+"url": "https://link.springer.com/article/10.1007/s11064-026-04866-9"
+}
+],
+"q1": false,
+"relevance": 2,
+"title": "NOTCH3 mutations in CADASIL alter lipid metabolism: insights from patient plasma and in vitro models",
+"topics": [
+"csvd"
+],
+"type": "journal",
+"why": "Plasma lipidomics in CADASIL patients versus controls plus in vitro follow-up, looking at how NOTCH3 mutations shift lipid metabolism in the most common monogenic cSVD.",
+"id": "2026-08-21-sun-cadasil-lipid",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Roche; summarised by Alzforum",
+"date": "2026-07-24",
+"journal": "Alzforum therapeutics database",
+"keywords": [
+"trontinemab",
+"Brainshuttle",
+"TfR1",
+"transferrin receptor",
+"ARIA",
+"phase 3"
+],
+"links": [
+{
+"label": "Alzforum",
+"url": "https://www.alzforum.org/therapeutics/trontinemab"
+}
+],
+"q1": false,
+"relevance": 5,
+"title": "Trontinemab (Roche Brainshuttle anti-Aβ): open-label extension data and phase 3 TRONTIER programme",
+"topics": [
+"delivery",
+"adtx"
+],
+"type": "trial",
+"why": "The TfR1-shuttled antibody stayed safe in the open-label extension reported at AAIC 2026 (126 participants, no serious adverse events attributed to treatment), and phase 3 TRONTIER 1/2 are enrolling, with a preclinical trial selecting people on plasma p-tau217. The clinical benchmark for the brain-shuttle direction of the placement project.",
+"id": "2026-07-24-trontinemab",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Farahnak D, Kaur S, Rawson C, et al.",
+"date": "2026-07-23",
+"journal": "Molecular Neurobiology 63",
+"keywords": [
+"AQP4",
+"glymphatic",
+"TBI",
+"review"
+],
+"links": [
+{
+"label": "Springer",
+"url": "https://link.springer.com/article/10.1007/s12035-026-06077-3"
+}
+],
+"q1": false,
+"relevance": 2,
+"title": "Glymphatic dysfunction and aquaporin-4 dysregulation in traumatic brain injury and brain tumors: a review",
+"topics": [
+"glymph"
+],
+"type": "journal",
+"why": "Review of AQP4 and glymphatic clearance outside neurodegeneration (TBI, tumours). Peripheral to the lab's core, kept for AQP4 coverage.",
+"id": "2026-07-23-farahnak-molneurobiol",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "bioRxiv preprint",
+"date": "2026-07-22",
+"journal": "bioRxiv",
+"keywords": [
+"PSEN1",
+"E280A",
+"astrocyte",
+"familial AD",
+"cSVD"
+],
+"links": [
+{
+"label": "Preprint (PMC)",
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13419468/"
+}
+],
+"q1": false,
+"relevance": 5,
+"title": "Astrocyte-driven small vessel disease is an early, amyloid-independent feature of PSEN1 E280A familial Alzheimer's disease",
+"topics": [
+"csvd",
+"bbb"
+],
+"type": "preprint",
+"why": "Argues that small vessel disease in this familial AD mutation appears early, does not depend on amyloid, and is driven by astrocytes, rather than being a late consequence of plaques and tangles. A strong case for astrocytes as an active cell in cSVD models.",
+"id": "2026-07-22-psen1-svd-preprint",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Yang J, Tian S, Li Y, … Su J, Wu W",
+"date": "2026-07-16",
+"journal": "Brain Research Bulletin 244",
+"keywords": [
+"CADASIL",
+"Notch3 R170C",
+"mouse model",
+"MRI",
+"perfusion"
+],
+"links": [
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42462891/"
+}
+],
+"q1": false,
+"relevance": 3,
+"title": "Multimodal characterization of age-dependent neurovascular phenotypes in Notch3R170C CADASIL mice by ultra-high-field MRI and histological analyses",
+"topics": [
+"csvd"
+],
+"type": "journal",
+"why": "Tracks perfusion and neurovascular changes with age in the Notch3 R170C CADASIL mouse using ultra-high-field MRI plus histology. A reference point for which cSVD features this model actually shows.",
+"id": "2026-07-16-yang-notch3-mri",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Cai Y, et al. (Huashan Hospital, Fudan University and collaborators)",
+"date": "2026-07-08",
+"journal": "Alzheimer's & Dementia 22(7)",
+"keywords": [
+"lecanemab",
+"B cells",
+"scRNA-seq",
+"peripheral immunity"
+],
+"links": [
+{
+"label": "Wiley",
+"url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.71655"
+}
+],
+"q1": true,
+"relevance": 3,
+"title": "Lecanemab treatment improves B cell subpopulation immune homeostasis in patients with Alzheimer's disease",
+"topics": [
+"adtx"
+],
+"type": "journal",
+"why": "Serum chemokine arrays and single-cell RNA-seq of blood cells at baseline, 3 and 6 months on lecanemab: treatment brought dysregulated chemokines and B-cell subsets back toward healthy levels, suggesting peripheral immune effects beyond plaque clearance.",
+"id": "2026-07-08-cai-lecanemab-bcells",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Liu S, King OE, Wahid AA, … Webster CI, Miller PS (Cambridge, Oxford, AstraZeneca)",
+"date": "2026-07-05",
+"dateApprox": true,
+"dateNote": "posted early July",
+"journal": "bioRxiv",
+"keywords": [
+"TfR1",
+"8D3",
+"cryo-EM",
+"brain shuttle",
+"pH-dependent binding",
+"transcytosis"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735565v1.full"
+}
+],
+"q1": false,
+"relevance": 5,
+"title": "Molecular mechanism of action of a blood brain barrier shuttle antibody",
+"topics": [
+"delivery",
+"bbb"
+],
+"type": "preprint",
+"why": "Cryo-EM structure of mouse TfR1 bound to the model shuttle antibody 8D3. Binding pairs of receptors gives avidity without triggering receptor redistribution or degradation, and variants with graded pH sensitivity change how much reaches the brain in vivo. Directly useful for designing and interpreting antibody variants with TEER and TfR-transport readouts.",
+"id": "2026-07-05-liu-8d3-tfr1",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Ismail Z, McLeod GA, Marzoughi S, et al.",
+"date": "2026-06-06",
+"journal": "Alzheimer's & Dementia 22(6)",
+"keywords": [
+"COMPASS-ND",
+"cSVD score",
+"MRI",
+"cognition"
+],
+"links": [
+{
+"label": "PMC",
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13242612/"
+}
+],
+"q1": true,
+"relevance": 3,
+"title": "Cerebral small vessel disease and cognition in older adults across the neurodegenerative spectrum: insights from the COMPASS-ND study",
+"topics": [
+"csvd"
+],
+"type": "journal",
+"why": "MRI-based cSVD burden scores in 958 COMPASS-ND participants spanning normal cognition to dementia, and how those scores track cognition across different neurodegenerative diagnoses.",
+"id": "2026-06-06-compassnd-csvd",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Cummings JL, et al.",
+"date": "2026-05-05",
+"journal": "Alzheimer's & Dementia: Translational Research & Clinical Interventions",
+"keywords": [
+"pipeline",
+"clinical trials",
+"repurposing",
+"CADRO"
+],
+"links": [
+{
+"label": "Wiley",
+"url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/trc2.70251"
+}
+],
+"q1": true,
+"relevance": 4,
+"title": "Alzheimer's disease drug development pipeline: 2026",
+"topics": [
+"adtx"
+],
+"type": "journal",
+"why": "The annual map of AD trials: 158 drugs in 192 trials as of January 2026, with about a third repurposed and amyloid agents now a minority of the pipeline. The reference for which mechanisms are in phase 2/3.",
+"id": "2026-05-05-cummings-pipeline",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Ryu J-R, Narang A, LeGrand Q, Trégouët D-A, Debette S, Childs SJ",
+"date": "2026-04-18",
+"dateNote": "v2",
+"journal": "bioRxiv",
+"keywords": [
+"GWAS",
+"enhancer",
+"VCAN",
+"versican",
+"WMH"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.03.16.712010v2"
+}
+],
+"q1": false,
+"relevance": 3,
+"title": "Characterization of variants associated with cerebral small vessel disease identifies a functional SNV in Versican",
+"topics": [
+"csvd"
+],
+"type": "preprint",
+"why": "Tests non-coding variants from stroke, cSVD and white-matter-hyperintensity GWAS for enhancer activity, finding 26 allele-specific enhancers and validating an intronic SNV in VCAN. Moves cSVD genetics toward mechanism.",
+"id": "2026-04-18-ryu-versican",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "International Journal of Stroke authors",
+"date": "2026-04-04",
+"journal": "International Journal of Stroke",
+"keywords": [
+"prevalence",
+"meta-analysis",
+"MRI",
+"epidemiology"
+],
+"links": [
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/41934293/"
+}
+],
+"q1": true,
+"relevance": 3,
+"title": "Global burden of cerebral small vessel disease determined from large MRI studies: a systematic review and meta-analysis",
+"topics": [
+"csvd"
+],
+"type": "journal",
+"why": "Pooled large MRI studies put SVD at roughly one in five adults, rising with age and varying by region, and call for harmonised scanning protocols. Handy for introductions and grant framing.",
+"id": "2026-04-04-ijs-global-svd",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Nature Medicine news",
+"date": "2026-03-31",
+"journal": "Nature Medicine",
+"keywords": [
+"semaglutide",
+"GLP-1",
+"EVOKE",
+"repurposing"
+],
+"links": [
+{
+"label": "Nature Medicine",
+"url": "https://www.nature.com/articles/d41591-026-00018-2"
+}
+],
+"q1": true,
+"relevance": 3,
+"title": "GLP-1 receptor agonist fails to halt Alzheimer's disease",
+"topics": [
+"adtx"
+],
+"type": "news",
+"why": "Coverage of the phase 3 EVOKE/EVOKE+ results: oral semaglutide did not slow clinical progression of AD, though the data still inform the repurposing debate.",
+"id": "2026-03-31-natmed-evoke",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Chagnot A, et al.",
+"date": "2026-03-23",
+"journal": "bioRxiv",
+"keywords": [
+"pericyte",
+"PDGFRB",
+"VCAM-1",
+"human tissue",
+"cSVD severity"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.03.19.713028v1.full.pdf"
+}
+],
+"q1": false,
+"relevance": 4,
+"title": "Abrupt pericyte loss precedes endothelial activation in cerebral small vessel disease",
+"topics": [
+"csvd",
+"bbb"
+],
+"type": "preprint",
+"why": "Single-vessel multiplex imaging of human cortical microvessels across cSVD severity: PDGFRβ pericyte signal collapses before endothelial VCAM-1 rises, pointing to pericyte failure as an early event. Cited in the lab's J Physiol review of cSVD models.",
+"id": "2026-03-23-chagnot-pericyte-loss",
+"source": "manual"
+},
+{
+"addedAt": "2026-09-29",
+"authors": "Vemuri P, Hu M, Lundt ES, … Petersen RC, Graff-Radford J",
+"date": "2026-03-06",
+"journal": "bioRxiv",
+"keywords": [
+"diffusion MRI",
+"PSMD",
+"free water",
+"WMH",
+"Mayo"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.03.03.709452v1"
+}
+],
+"q1": false,
+"relevance": 3,
+"title": "Diffusion MRI based biomarkers reveal a prolonged pre-lesional phase of cerebral small vessel disease",
+"topics": [
+"csvd"
+],
+"type": "preprint",
+"why": "Models how diffusion markers (PSMD, free water, genu FA, ARTS) and white matter hyperintensities evolve over time, suggesting microstructural change long before visible lesions. Relevant to when a therapy window might open.",
+"id": "2026-03-06-vemuri-dmri",
+"source": "manual"
+}
+]
+};

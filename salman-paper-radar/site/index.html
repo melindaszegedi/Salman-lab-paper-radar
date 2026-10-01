@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Salman Lab Paper Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --slide:#F6F3F7; --panel:#FFFFFF; --gel:#E7E1EE; --line:#DDD5E6;
+  --ink:#231B30; --muted:#6B6380; --faint:#9A93AA;
+  --hema:#4B3A8C; --eosin:#C9476C; --dab:#8B5A2B; --fastgreen:#2A7F6A; --toluidine:#2E5AA8;
+  --focus:#4B3A8C;
+  --serif:"Literata", Georgia, "Times New Roman", serif;
+  --sans:"Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --slide:#15111C; --panel:#1E1928; --gel:#2A2336; --line:#342C42;
+    --ink:#EDE8F3; --muted:#ABA3BD; --faint:#7D7590;
+    --hema:#A796F0; --eosin:#F08BA8; --dab:#D6A06A; --fastgreen:#6CCFB3; --toluidine:#8AB0F2; --focus:#A796F0;
+  }
+}
+:root[data-theme="dark"]{color-scheme:dark}
+:root[data-theme="light"]{color-scheme:light}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){color-scheme:dark}}
+:root[data-theme="dark"]{
+  --slide:#15111C; --panel:#1E1928; --gel:#2A2336; --line:#342C42;
+  --ink:#EDE8F3; --muted:#ABA3BD; --faint:#7D7590;
+  --hema:#A796F0; --eosin:#F08BA8; --dab:#D6A06A; --fastgreen:#6CCFB3; --toluidine:#8AB0F2; --focus:#A796F0;
+}
+*,*::before,*::after{box-sizing:inherit}
+[hidden]{display:none !important}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--slide);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 24px 64px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:40px}
+@media (max-width:860px){.wrap{grid-template-columns:1fr;gap:20px;padding:18px 16px 48px}}
+
+/* Sidebar */
+.brand h1{font-family:var(--serif);font-weight:700;font-size:26px;line-height:1.1;margin:0 0 6px;letter-spacing:-.01em}
+.brand p{margin:0;color:var(--muted);font-size:13.5px}
+.side{position:sticky;top:calc(env(safe-area-inset-top,0px) + 20px);align-self:start;display:flex;flex-direction:column;gap:26px}
+@media (max-width:860px){.side{position:static;gap:18px}}
+.group h2{font-size:13px;font-weight:600;color:var(--muted);margin:0 0 10px}
+.seg{display:grid;grid-template-columns:repeat(4,1fr);background:var(--gel);border-radius:10px;padding:3px}
+.seg button{border:0;background:transparent;padding:7px 0;border-radius:8px;cursor:pointer;font-size:13.5px;font-weight:500;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 2px rgba(35,27,48,.12)}
+.topics{display:flex;flex-direction:column;gap:4px}
+.topic{display:flex;align-items:center;gap:10px;padding:6px 8px;border-radius:8px;border:0;background:transparent;cursor:pointer;text-align:left;font-size:14px}
+.topic:hover{background:var(--gel)}
+.topic .dot{width:12px;height:12px;border-radius:50%;flex:none;border:2px solid var(--c);background:var(--c)}
+.topic[aria-pressed="false"]{color:var(--faint)}
+.topic[aria-pressed="false"] .dot{background:transparent}
+.topic .n{margin-left:auto;color:var(--faint);font-size:12.5px;font-variant-numeric:tabular-nums}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;cursor:pointer;padding:4px 0}
+.check input{margin-top:3px;accent-color:var(--hema)}
+.check small{display:block;color:var(--muted);font-size:12.5px}
+.search{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--ink);font:inherit;font-size:14px}
+.search::placeholder{color:var(--faint)}
+.note{font-size:12.5px;color:var(--muted);line-height:1.5;border-left:3px solid var(--line);padding-left:10px}
+
+/* Header / period */
+.period{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.period .label{font-size:13.5px;color:var(--muted);margin:0 0 2px}
+.period h2{font-family:var(--serif);font-weight:600;font-size:clamp(28px,4.2vw,42px);line-height:1.05;margin:0;letter-spacing:-.015em}
+.nav{display:flex;gap:6px}
+.nav button{border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:7px 12px;cursor:pointer;font-size:14px}
+.nav button:hover{border-color:var(--hema)}
+.nav button:disabled{opacity:.4;cursor:default}
+
+/* Gel lane */
+.gel{margin:22px 0 8px;background:var(--gel);border-radius:10px;padding:12px 12px 8px}
+.gel-top{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);margin-bottom:8px}
+.lane{display:grid;gap:3px;height:44px;align-items:stretch}
+.band{border:0;padding:0;border-radius:3px;cursor:pointer;background:var(--hema);position:relative}
+.band[data-n="0"]{background:transparent;box-shadow:inset 0 0 0 1px var(--line);cursor:default}
+.band.sel{outline:2px solid var(--eosin);outline-offset:1px}
+.band.future{opacity:.25}
+.gel-axis{display:grid;gap:3px;margin-top:5px;font-size:11px;color:var(--faint);font-variant-numeric:tabular-nums}
+.gel-axis span{text-align:center}
+
+.status{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--muted);margin:14px 0 24px}
+.status b{color:var(--ink);font-weight:600}
+.status button{border:0;background:none;padding:0;color:var(--hema);text-decoration:underline;cursor:pointer;font-size:13px}
+
+/* Papers */
+.section-title{font-family:var(--serif);font-size:19px;font-weight:600;margin:28px 0 12px}
+.paper{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:12px;position:relative}
+.paper.top{border-left:5px solid var(--hema);padding-left:18px}
+.paper.read{opacity:.62}
+.paper .meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12.5px;color:var(--muted);margin-bottom:6px}
+.badge{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11.5px;font-weight:600;border:1px solid currentColor}
+.badge.q1{color:var(--hema)}
+.badge.pre{color:var(--fastgreen)}
+.badge.trial{color:var(--dab)}
+.badge.news{color:var(--muted)}
+.badge.oth{color:var(--faint)}
+.paper h3{font-family:var(--serif);font-weight:600;margin:0 0 4px;line-height:1.28;font-size:17px;max-width:70ch}
+.paper.top h3{font-size:20px}
+.paper h3 a{text-decoration:none}
+.paper h3 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.authors{font-size:13px;color:var(--muted);margin:0 0 10px}
+.why{margin:0 0 12px;font-size:14.5px;max-width:72ch}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--muted)}
+.tag i{width:8px;height:8px;border-radius:50%;background:var(--c);display:inline-block}
+.rel{display:inline-flex;gap:2px;align-items:center;font-size:12px;color:var(--muted)}
+.rel s{width:14px;height:5px;border-radius:2px;background:var(--line);display:inline-block;text-decoration:none}
+.rel s.on{background:var(--eosin)}
+.actions{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:transparent;border-radius:8px;padding:5px 10px;font-size:13px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:5px}
+.btn:hover{border-color:var(--hema)}
+.btn.primary{background:var(--hema);border-color:var(--hema);color:#fff}
+:root[data-theme="dark"] .btn.primary{color:#15111C}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn.primary{color:#15111C}}
+.btn[aria-pressed="true"]{border-color:var(--eosin);color:var(--eosin)}
+
+.empty{background:var(--panel);border:1px dashed var(--line);border-radius:12px;padding:26px;color:var(--muted)}
+.empty strong{display:block;color:var(--ink);font-family:var(--serif);font-size:18px;margin-bottom:4px}
+.empty button{margin-top:12px}
+.month-h{font-family:var(--serif);font-size:17px;font-weight:600;margin:26px 0 10px;color:var(--muted)}
+footer{max-width:1132px;margin:0 auto 40px;font-size:12.5px;color:var(--faint);border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:1180px){footer{margin:0 24px 40px}}
+@media (max-width:860px){footer{margin:0 16px 32px}}
+@media (min-width:861px){.side{max-height:calc(100vh - 40px);overflow-y:auto;scrollbar-width:thin;padding-right:4px}}
+.loading{color:var(--muted);padding:40px 0}
+/* Account row under the title */
+.account{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:14px}
+.account .who{font-size:13.5px;color:var(--muted);margin-right:4px}
+.account .btn{white-space:nowrap}
+/* Greeting and feed switch */
+.hello{margin:0 0 18px}
+.hello h2{font-family:var(--serif);font-weight:600;font-size:clamp(26px,3.6vw,36px);margin:0;color:var(--hema);line-height:1.1}
+.hello p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.hello button.link{border:0;background:none;padding:0;color:var(--hema);text-decoration:underline;cursor:pointer;font-size:14px}
+.theme-seg{grid-template-columns:repeat(3,1fr)}
+.feedseg{grid-template-columns:repeat(2,1fr);max-width:320px;margin:0 0 20px}
+.matched{font-size:12.5px;color:var(--eosin);margin:-4px 0 10px}
+.topics.off{opacity:.45;pointer-events:none}
+
+/* Dialogs */
+dialog{border:0;border-radius:14px;padding:0;background:var(--panel);color:var(--ink);width:min(560px,calc(100vw - 32px));max-height:calc(100dvh - 32px);box-shadow:0 20px 60px rgba(35,27,48,.35)}
+dialog::backdrop{background:rgba(35,27,48,.45)}
+.dlg-head{background:var(--gel);color:var(--ink);padding:16px 22px;display:flex;align-items:center;justify-content:space-between}
+.dlg-head h2{font-family:var(--serif);font-weight:600;font-size:21px;margin:0;color:var(--hema)}
+.dlg-head button{border:0;background:none;color:inherit;font-size:24px;line-height:1;cursor:pointer;padding:4px 6px}
+.dlg-body{padding:18px 22px 22px;display:flex;flex-direction:column;gap:14px;overflow:auto}
+.field label,.field .lbl{display:block;font-size:13px;font-weight:600;margin:0 0 5px}
+.field small{display:block;color:var(--muted);font-size:12.5px;margin-top:4px}
+.field input[type=text],.field input[type=email],.field input[type=password],.field select{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--ink);font:inherit;font-size:14.5px}
+.tabs{display:grid;grid-template-columns:1fr 1fr}
+.msg{font-size:13.5px;border-radius:8px;padding:9px 12px;background:var(--gel)}
+.msg.err{background:color-mix(in srgb,var(--eosin) 14%,transparent);color:var(--ink)}
+.msg:empty{display:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:6px;border:1px solid var(--line);border-radius:9px;background:var(--panel);min-height:42px;align-items:center}
+.chips input{flex:1;min-width:140px;border:0;outline:0;background:transparent;color:var(--ink);font:inherit;font-size:14.5px;padding:4px}
+.field .chips input[type=text]{border:0;padding:4px;width:auto;border-radius:0}
+.topic-picks label{font-weight:400;margin:0;font-size:14px}
+.chip{display:inline-flex;align-items:center;gap:4px;background:var(--gel);border-radius:999px;padding:2px 4px 2px 10px;font-size:13px}
+.chip button{border:0;background:none;cursor:pointer;color:var(--muted);font-size:15px;line-height:1;padding:0 4px}
+.topic-picks{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px}
+@media (max-width:520px){.topic-picks{grid-template-columns:1fr}}
+.dlg-foot{display:flex;gap:8px;justify-content:flex-end;align-items:center;flex-wrap:wrap}
+.linkbtn{border:0;background:none;padding:0;color:var(--hema);text-decoration:underline;cursor:pointer;font-size:13px}
+
+@media (prefers-reduced-motion:no-preference){.paper{animation:none}}
+</style>
+<script>
+  // Apply the saved theme before the page draws, so there is no flash of the wrong colours.
+  try { var t = localStorage.getItem("salmanRadar:theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+<script src="config.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <aside class="side">
+    <div class="brand">
+      <h1>Salman Lab Paper Radar</h1>
+      <p>Small vessel disease, the blood–brain barrier, brain delivery and drugs in testing for Alzheimer's and other neurodegenerative diseases.</p>
+      <div class="account" id="account"></div>
+    </div>
+
+    <div class="group">
+      <h2>Time window</h2>
+      <div class="seg" role="group" aria-label="Time window" id="modes">
+        <button data-mode="day">Day</button>
+        <button data-mode="week">Week</button>
+        <button data-mode="month">Month</button>
+        <button data-mode="all">All</button>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Topics</h2>
+      <div class="topics" id="topics"></div>
+      <p class="note" id="topicsNote" hidden style="margin-top:10px">Your feed uses the topics, keywords, journals and authors in your preferences.</p>
+    </div>
+
+    <div class="group">
+      <h2>Sources</h2>
+      <label class="check"><input type="checkbox" id="q1only" checked><span>Q1 journals and preprints only<small>Hides papers from lower-quartile journals</small></span></label>
+      <label class="check"><input type="checkbox" id="trials" checked><span>Trial and drug updates<small>Readouts, trial starts and news pieces</small></span></label>
+      <label class="check"><input type="checkbox" id="unread"><span>Unread only</span></label>
+    </div>
+
+    <div class="group">
+      <h2>Appearance</h2>
+      <div class="seg theme-seg" role="group" aria-label="Colour theme" id="themes">
+        <button data-theme-choice="auto" title="Follow your device setting">Auto</button>
+        <button data-theme-choice="light">Light</button>
+        <button data-theme-choice="dark">Dark</button>
+      </div>
+    </div>
+
+    <div class="group">
+      <input class="search" id="q" type="search" placeholder="Search titles, authors, drugs…" aria-label="Search papers">
+    </div>
+
+    <p class="note" id="curation">Loading feed…</p>
+  </aside>
+
+  <main id="main">
+    <div class="hello" id="hello" hidden></div>
+    <div class="seg feedseg" role="group" aria-label="Feed" id="feeds" hidden>
+      <button data-feed="mine">My feed</button>
+      <button data-feed="all">All papers</button>
+    </div>
+    <div class="period">
+      <div>
+        <p class="label" id="periodLabel">&nbsp;</p>
+        <h2 id="periodTitle">&nbsp;</h2>
+      </div>
+      <div class="nav">
+        <button id="prev" aria-label="Previous period">‹ Earlier</button>
+        <button id="latest">Latest</button>
+        <button id="next" aria-label="Next period">Later ›</button>
+      </div>
+    </div>
+
+    <div class="gel" aria-label="Papers per day this month">
+      <div class="gel-top"><span id="gelMonth"></span><span>Darker band = more papers that day</span></div>
+      <div class="lane" id="lane"></div>
+      <div class="gel-axis" id="axis"></div>
+    </div>
+
+    <div class="status" id="status"></div>
+    <div id="list"><p class="loading">Loading papers…</p></div>
+  </main>
+
+</div>
+<footer>Relevance comes from keyword scoring (or Claude, if enabled); Q1 flags come from the SCImago journal rankings. Summaries are drawn from abstracts. Check the original before citing.</footer>
+
+
+<dialog id="authDlg" aria-labelledby="authTitle">
+  <div class="dlg-head"><h2 id="authTitle">Your account</h2><button type="button" data-close aria-label="Close">×</button></div>
+  <form class="dlg-body" id="authForm" novalidate>
+    <div class="seg tabs" role="group" aria-label="Sign in or create account">
+      <button type="button" data-tab="in">Sign in</button>
+      <button type="button" data-tab="up">Create account</button>
+    </div>
+    <div class="field" id="fFirst"><label for="aFirst">First name</label><input type="text" id="aFirst" autocomplete="given-name" maxlength="60"></div>
+    <div class="field" id="fEmail"><label for="aEmail">Email</label><input type="email" id="aEmail" autocomplete="email" required><small id="emailHint">The morning email goes to this address.</small></div>
+    <div class="field" id="fPass"><label for="aPass">Password</label><input type="password" id="aPass" autocomplete="current-password" minlength="8"><small id="passHint" hidden>At least 8 characters.</small></div>
+    <p class="msg" id="authMsg" role="status" aria-live="polite"></p>
+    <div class="dlg-foot">
+      <button type="button" class="linkbtn" id="forgot">Forgot password?</button>
+      <button type="submit" class="btn primary" id="authGo">Sign in</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="prefDlg" aria-labelledby="prefTitle">
+  <div class="dlg-head"><h2 id="prefTitle">Your feed</h2><button type="button" data-close aria-label="Close">×</button></div>
+  <form class="dlg-body" id="prefForm">
+    <div class="field"><label for="pFirst">First name</label><input type="text" id="pFirst" maxlength="60" autocomplete="given-name"></div>
+    <div class="field"><span class="lbl">Topics</span><div class="topic-picks" id="pTopics"></div></div>
+    <div class="field"><span class="lbl" id="kwLbl">Keywords</span><div class="chips" data-chips="keywords" aria-labelledby="kwLbl"></div><small>Press Enter after each one, e.g. TEER, claudin-5, OrganoPlate, lecanemab. The daily search also looks for these, so papers outside the lab topics can appear in your feed.</small></div>
+    <div class="field"><span class="lbl" id="jLbl">Journals</span><div class="chips" data-chips="journals" aria-labelledby="jLbl"></div><small>Papers from these journals move up.</small></div>
+    <div class="field"><span class="lbl" id="auLbl">Authors</span><div class="chips" data-chips="authors" aria-labelledby="auLbl"></div><small>Surname and initial works best, e.g. Salman M or Koenderink GH. New papers by them are always collected.</small></div>
+    <label class="check"><input type="checkbox" id="pDigest"><span>Morning email at 8:00 (UK time)<small id="digestTo">Your top new papers, sent to your account email.</small></span></label>
+    <div class="field"><label for="pSize">Papers per email</label><select id="pSize"><option>5</option><option>8</option><option>10</option><option>15</option></select></div>
+    <p class="msg" id="prefMsg" role="status" aria-live="polite"></p>
+    <div class="dlg-foot"><button type="button" class="btn" data-close>Cancel</button><button type="submit" class="btn primary">Save</button></div>
+  </form>
+</dialog>
+<datalist id="journalList"></datalist>
+<script>
+(function(){
+  "use strict";
+  var TOPICS = [
+    {id:"csvd", name:"Small vessel disease & CAA", c:"var(--eosin)"},
+    {id:"bbb", name:"BBB biology & in vitro models", c:"var(--hema)"},
+    {id:"delivery", name:"Brain delivery & TfR shuttles", c:"var(--toluidine)"},
+    {id:"adtx", name:"AD & neurodegeneration drugs", c:"var(--dab)"},
+    {id:"glymph", name:"Glymphatics & AQP4", c:"var(--fastgreen)"}
+  ];
+  var TYPE_LABEL = {journal:"Journal", preprint:"Preprint", trial:"Trial update", news:"News & comment"};
+  var MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+  var papers = [], meta = null, loaded = false;
+  var state = {mode:"week", anchor:null, topics:new Set(TOPICS.map(function(t){return t.id})), q1only:true, trials:true, unread:false, q:"", feed:"all"};
+  var user = null, profile = null, sb = null;
+
+  // ---------------------------------------------------------------- personal ranking
+  // JavaScript copy of scripts/personal.py, so the site and the morning email agree. Change both together.
+  var PERSONAL = {relevance:2, keyword:4, topic:3, journal:4, author:6};
+  function fold(s){ return String(s||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim(); }
+  function normJournal(n){ n=fold(n).split(" : ")[0].replace(/&/g,"and").replace(/\(.*?\)/g,"").trim().replace(/^the /,""); return n.replace(/[^a-z0-9]+/g,""); }
+  function authorKey(name){
+    name=String(name||"").replace(/\./g," ").replace(/\s+/g," ").trim(); if(!name) return null;
+    var last, first;
+    if (name.indexOf(",")>-1){ last=name.slice(0,name.indexOf(",")).trim(); first=name.slice(name.indexOf(",")+1).trim(); }
+    else { var parts=name.split(" ");
+      if (parts.length>1 && /^[A-Z]{1,3}$/.test(parts[parts.length-1])){ first=parts.pop(); last=parts.join(" "); }
+      else if (parts.length>1){ last=parts.pop(); first=parts.join(" "); }
+      else { last=parts[0]; first=""; } }
+    last=fold(last).replace(/[^a-z' -]/g,"").trim(); if(!last) return null;
+    return last+"|"+fold(first).slice(0,1);
+  }
+  function authorMatches(f, pk){ if(!f||!pk) return false; var a=f.split("|"), b=pk.split("|"); return a[0]===b[0] && (!a[1]||!b[1]||a[1]===b[1]); }
+  function keywordRx(kw){ kw=fold(kw); if(!kw) return null;
+    var esc=kw.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+    try { return new RegExp((/^[a-z0-9]/.test(kw)?"(?<![a-z0-9])":"")+esc+(/[a-z0-9]$/.test(kw)?"(?![a-z0-9])":"")); } catch(e){ return null; } }
+  function hasPrefs(pr){ return !!pr && ["keywords","topics","journals","authors"].some(function(k){ return (pr[k]||[]).length; }); }
+  var matchCache = new Map(), rxCache = {};
+  function personalMatch(x){
+    if (matchCache.has(x)) return matchCache.get(x);
+    var pr=profile||{}, text=fold([x.title,x.why,(x.keywords||[]).join(" "),(x.fk||[]).join(" ")].join(" "));
+    var kws=(pr.keywords||[]).filter(function(k){ var rx=rxCache[k]||(rxCache[k]=keywordRx(k)); return rx && rx.test(text); });
+    var topic=(pr.topics||[]).some(function(t){ return (x.topics||[]).indexOf(t)>-1; });
+    var pj=normJournal(x.journal), journal=!!pj && (pr.journals||[]).some(function(j){ return normJournal(j)===pj; });
+    var pa=x.au || String(x.authors||"").split(/,\s*/).map(authorKey);
+    var authors=(pr.authors||[]).filter(function(a){ var k=authorKey(a); return k && pa.some(function(z){ return authorMatches(k,z); }); });
+    var m={keywords:kws, topic:topic, journal:journal, authors:authors, any:!!(kws.length||topic||journal||authors.length)};
+    m.score = PERSONAL.relevance*(x.relevance||0) + PERSONAL.keyword*Math.min(3,kws.length) + (topic?PERSONAL.topic:0) + (journal?PERSONAL.journal:0) + PERSONAL.author*Math.min(2,authors.length);
+    matchCache.set(x,m); return m;
+  }
+  function mine(){ return state.feed==="mine" && !!profile; }
+  function rankOf(x){ return mine() ? personalMatch(x).score : (x.relevance||0); }
+
+  // Per-viewer reading marks (browser only)
+  var marks = {read:{}, star:{}};
+  try { var raw = localStorage.getItem("salmanRadar:v1"); if (raw) marks = Object.assign(marks, JSON.parse(raw)); } catch(e){}
+  function saveMarks(){ try { localStorage.setItem("salmanRadar:v1", JSON.stringify(marks)); } catch(e){} }
+
+  // Dates (UTC, YYYY-MM-DD)
+  function p(s){ var a=s.split("-").map(Number); return Date.UTC(a[0],a[1]-1,a[2]); }
+  function f(t){ var d=new Date(t); return d.getUTCFullYear()+"-"+String(d.getUTCMonth()+1).padStart(2,"0")+"-"+String(d.getUTCDate()).padStart(2,"0"); }
+  var DAY = 864e5;
+  function todayStr(){ var n=new Date(); return f(Date.UTC(n.getFullYear(),n.getMonth(),n.getDate())); }
+  function weekStart(s){ var t=p(s), wd=(new Date(t).getUTCDay()+6)%7; return f(t-wd*DAY); }
+  function monthStart(s){ return s.slice(0,8)+"01"; }
+  function addMonths(s,n){ var d=new Date(p(s)); return f(Date.UTC(d.getUTCFullYear(), d.getUTCMonth()+n, 1)); }
+  function daysInMonth(s){ var d=new Date(p(s)); return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth()+1, 0)).getUTCDate(); }
+  function nice(s, withYear){ var d=new Date(p(s)); return d.getUTCDate()+" "+MON[d.getUTCMonth()]+(withYear?" "+d.getUTCFullYear():""); }
+
+  function range(){
+    var a = state.anchor;
+    if (state.mode==="day") return [a,a];
+    if (state.mode==="week"){ var s=weekStart(a); return [s, f(p(s)+6*DAY)]; }
+    if (state.mode==="month"){ var m=monthStart(a); return [m, f(p(m)+(daysInMonth(m)-1)*DAY)]; }
+    return ["0000-01-01","9999-12-31"];
+  }
+
+  function passesFilters(x){
+    if (mine()){
+      if (hasPrefs(profile) ? !personalMatch(x).any : !(x.topics||[]).length) return false;
+    } else if (!x.topics || !x.topics.some(function(t){return state.topics.has(t)})) return false;
+    if (state.q1only && x.type==="journal" && !x.q1) return false;
+    if (!state.trials && (x.type==="trial" || x.type==="news")) return false;
+    if (state.unread && marks.read[x.id]) return false;
+    if (state.q){
+      var hay = [x.title,x.authors,x.journal,x.why,(x.keywords||[]).join(" ")].join(" ").toLowerCase();
+      if (hay.indexOf(state.q.toLowerCase())===-1) return false;
+    }
+    return true;
+  }
+  function inRange(x, r){ return x.date>=r[0] && x.date<=r[1]; }
+  function byRelevance(a,b){ return rankOf(b)-rankOf(a) || (b.date<a.date?-1:b.date>a.date?1:0); }
+  function byDate(a,b){ return b.date<a.date?-1:b.date>a.date?1:((b.relevance||0)-(a.relevance||0)); }
+  function latestDate(){
+    var t=todayStr(), best=null;
+    papers.forEach(function(x){ if (x.date<=t && (!best || x.date>best)) best=x.date; });
+    return best || t;
+  }
+
+  // DOM helpers
+  function el(tag, attrs, kids){
+    var n=document.createElement(tag);
+    if (attrs) for (var k in attrs){
+      if (k==="text") n.textContent=attrs[k];
+      else if (k==="style") n.setAttribute("style",attrs[k]);
+      else if (k.slice(0,2)==="on") n.addEventListener(k.slice(2), attrs[k]);
+      else n.setAttribute(k, attrs[k]);
+    }
+    (kids||[]).forEach(function(c){ if (c) n.appendChild(typeof c==="string"?document.createTextNode(c):c); });
+    return n;
+  }
+  function safeUrl(u){ return /^https?:\/\//i.test(u||"") ? u : null; }
+
+  function renderTopics(){
+    var box=document.getElementById("topics"); box.textContent="";
+    TOPICS.forEach(function(t){
+      var n = papers.filter(function(x){ return (x.topics||[]).indexOf(t.id)>-1; }).length;
+      var b = el("button",{"class":"topic","aria-pressed":String(state.topics.has(t.id)),style:"--c:"+t.c,onclick:function(){
+        if (state.topics.has(t.id)) { if (state.topics.size>1) state.topics.delete(t.id); } else state.topics.add(t.id);
+        render();
+      }},[el("span",{"class":"dot"}), el("span",{text:t.name}), el("span",{"class":"n",text:String(n)})]);
+      box.appendChild(b);
+    });
+  }
+
+  function renderGel(){
+    var m = monthStart(state.anchor), nd = daysInMonth(m), t=todayStr(), r=range();
+    var lane=document.getElementById("lane"), axis=document.getElementById("axis");
+    lane.textContent=""; axis.textContent="";
+    lane.style.gridTemplateColumns = axis.style.gridTemplateColumns = "repeat("+nd+",1fr)";
+    var d0=new Date(p(m));
+    document.getElementById("gelMonth").textContent = MONTHS[d0.getUTCMonth()]+" "+d0.getUTCFullYear();
+    var counts={}, max=0;
+    papers.forEach(function(x){ if (x.date.slice(0,7)===m.slice(0,7) && passesFilters(x)){ counts[x.date]=(counts[x.date]||0)+1; } });
+    for (var k in counts) max=Math.max(max,counts[k]);
+    for (var i=0;i<nd;i++){
+      var ds=f(p(m)+i*DAY), n=counts[ds]||0;
+      var b=el("button",{"class":"band"+(state.mode!=="all" && ds>=r[0] && ds<=r[1]?" sel":"")+(ds>t?" future":""),"data-n":String(n),
+        "aria-label":nice(ds,true)+": "+n+" paper"+(n===1?"":"s"), title:nice(ds)+" · "+n});
+      if (n){ b.style.opacity = String(0.35+0.65*(n/max)); (function(ds){ b.addEventListener("click",function(){ state.anchor=ds; state.mode="day"; render(); }); })(ds); }
+      else b.disabled=true;
+      lane.appendChild(b);
+      axis.appendChild(el("span",{text:(i===0||(i+1)%5===0)?String(i+1):""}));
+    }
+  }
+
+  function paperCard(x, top){
+    var card = el("article",{"class":"paper"+(top?" top":"")+(marks.read[x.id]?" read":"")});
+    var type = x.type||"journal";
+    var badge = type==="preprint" ? el("span",{"class":"badge pre",text:x.journal||"Preprint"})
+      : type==="trial" ? el("span",{"class":"badge trial",text:"Trial update"})
+      : type==="news" ? el("span",{"class":"badge news",text:"News & comment"})
+      : x.q1 ? el("span",{"class":"badge q1",text:"Q1"}) : el("span",{"class":"badge oth",text:"Below Q1"});
+    var metaKids=[badge];
+    if (type!=="preprint") metaKids.push(el("span",{text:x.journal||""}));
+    metaKids.push(el("span",{text:(x.dateApprox?"≈ ":"")+nice(x.date,true)+(x.dateNote?" ("+x.dateNote+")":"")}));
+    card.appendChild(el("div",{"class":"meta"},metaKids));
+    var main = (x.links&&x.links[0]) ? safeUrl(x.links[0].url) : null;
+    var h = el("h3");
+    if (main) h.appendChild(el("a",{href:main,target:"_blank",rel:"noopener noreferrer",text:x.title}));
+    else h.textContent = x.title;
+    card.appendChild(h);
+    if (x.authors) card.appendChild(el("p",{"class":"authors",text:x.authors}));
+    if (x.why) card.appendChild(el("p",{"class":"why",text:x.why}));
+    if (mine()){
+      var m=personalMatch(x), bits=m.keywords.concat(m.authors); if (m.journal) bits.push(x.journal);
+      if (bits.length) card.appendChild(el("p",{"class":"matched",text:"Matches your "+bits.join(", ")}));
+    }
+
+    var tags = el("div",{"class":"tags"});
+    (x.topics||[]).forEach(function(id){ var t=TOPICS.find(function(z){return z.id===id}); if(t) tags.appendChild(el("span",{"class":"tag",style:"--c:"+t.c},[el("i"), t.name])); });
+    var rel = el("span",{"class":"rel","aria-label":"Relevance "+(x.relevance||0)+" of 5",title:"Relevance to the lab"});
+    for (var i=1;i<=5;i++) rel.appendChild(el("s",{"class":i<=(x.relevance||0)?"on":""}));
+    var acts = el("div",{"class":"actions"});
+    (x.links||[]).forEach(function(l,i){ var u=safeUrl(l.url); if(u) acts.appendChild(el("a",{"class":"btn"+(i===0?" primary":""),href:u,target:"_blank",rel:"noopener noreferrer",text:l.label||"Open"})); });
+    acts.appendChild(el("button",{"class":"btn","aria-pressed":String(!!marks.star[x.id]),text:marks.star[x.id]?"★ Saved":"☆ Save",onclick:function(){ if(marks.star[x.id]) delete marks.star[x.id]; else marks.star[x.id]=1; saveMarks(); render(); }}));
+    acts.appendChild(el("button",{"class":"btn","aria-pressed":String(!!marks.read[x.id]),text:marks.read[x.id]?"Read":"Mark read",onclick:function(){ if(marks.read[x.id]) delete marks.read[x.id]; else marks.read[x.id]=1; saveMarks(); render(); }}));
+    card.appendChild(el("div",{"class":"row"},[rel,tags,acts]));
+    return card;
+  }
+
+  function render(){
+    matchCache = new Map();
+    document.querySelectorAll("#modes button").forEach(function(b){ b.setAttribute("aria-pressed", String(b.dataset.mode===state.mode)); });
+    document.querySelectorAll("#feeds button").forEach(function(b){ b.setAttribute("aria-pressed", String(b.dataset.feed===state.feed)); });
+    document.getElementById("feeds").hidden = !profile;
+    document.getElementById("topics").classList.toggle("off", mine());
+    document.getElementById("topicsNote").hidden = !mine();
+    renderHello();
+    renderTopics();
+    var list=document.getElementById("list"); list.textContent="";
+    if (!loaded){ list.appendChild(el("p",{"class":"loading",text:"Loading papers…"})); return; }
+    renderGel();
+
+    var r=range(), t=todayStr();
+    var lbl=document.getElementById("periodLabel"), ttl=document.getElementById("periodTitle");
+    if (state.mode==="day"){ lbl.textContent = state.anchor===t?"Today":"Day"; ttl.textContent = nice(state.anchor,true); }
+    else if (state.mode==="week"){ lbl.textContent = (t>=r[0]&&t<=r[1])?"This week":"Week"; var a=new Date(p(r[0])), b=new Date(p(r[1])); ttl.textContent = a.getUTCMonth()===b.getUTCMonth() ? a.getUTCDate()+"–"+b.getUTCDate()+" "+MON[b.getUTCMonth()]+" "+b.getUTCFullYear() : nice(r[0])+" – "+nice(r[1],true); }
+    else if (state.mode==="month"){ var d=new Date(p(r[0])); lbl.textContent = t.slice(0,7)===r[0].slice(0,7)?"This month":"Month"; ttl.textContent = MONTHS[d.getUTCMonth()]+" "+d.getUTCFullYear(); }
+    else { lbl.textContent="Everything collected"; ttl.textContent="Full archive"; }
+    ["prev","next"].forEach(function(id){ document.getElementById(id).disabled = state.mode==="all"; });
+
+    var inWin = papers.filter(function(x){ return inRange(x,r); });
+    var shown = inWin.filter(passesFilters);
+    var hiddenQ = inWin.filter(function(x){ return x.type==="journal" && !x.q1; }).length;
+
+    var st=document.getElementById("status"); st.textContent="";
+    st.appendChild(el("span",null,[el("b",{text:String(shown.length)})," shown"]));
+    if (state.q1only && hiddenQ) st.appendChild(el("span",null,[String(hiddenQ)+" below-Q1 hidden · ",el("button",{text:"show them",onclick:function(){ state.q1only=false; document.getElementById("q1only").checked=false; render(); }})]));
+    var saved = papers.filter(function(x){return marks.star[x.id]}).length;
+    if (saved) st.appendChild(el("span",null,[el("b",{text:String(saved)})," saved"]));
+
+    if (!shown.length){
+      var ld = latestDate();
+      var box = el("div",{"class":"empty"},[el("strong",{text:mine()?"Nothing in your feed for this window":"No papers in this window"}),
+        el("span",{text: papers.length ? "Nothing matches these filters here. The most recent paper in the feed is from "+nice(ld,true)+"." : "The archive is empty. Run the \u201cUpdate papers\u201d workflow on GitHub to fill it."})]);
+      if (papers.length) box.appendChild(el("div",null,[el("button",{"class":"btn primary",text:"Jump to "+nice(ld),onclick:function(){ state.anchor=ld; state.mode="week"; render(); }})]));
+      list.appendChild(box);
+      return;
+    }
+
+    if (state.mode==="all"){
+      var starred = shown.filter(function(x){return marks.star[x.id]}).sort(byRelevance);
+      if (starred.length){ list.appendChild(el("h3",{"class":"section-title",text:"Saved"})); starred.forEach(function(x){ list.appendChild(paperCard(x,false)); }); }
+      var groups={}; shown.slice().sort(byDate).forEach(function(x){ (groups[x.date.slice(0,7)]=groups[x.date.slice(0,7)]||[]).push(x); });
+      Object.keys(groups).sort().reverse().forEach(function(k){
+        var d=new Date(p(k+"-01"));
+        list.appendChild(el("h3",{"class":"month-h",text:MONTHS[d.getUTCMonth()]+" "+d.getUTCFullYear()+" · "+groups[k].length}));
+        groups[k].sort(byRelevance).forEach(function(x){ list.appendChild(paperCard(x,false)); });
+      });
+      return;
+    }
+
+    var ranked = shown.slice().sort(byRelevance);
+    var nTop = ranked.length>4 ? 3 : Math.min(ranked.length, state.mode==="day"?ranked.length:2);
+    var topHead = (mine()?"Your top papers of the ":"Top papers of the ")+state.mode;
+    list.appendChild(el("h3",{"class":"section-title",text:topHead}));
+    ranked.slice(0,nTop).forEach(function(x){ list.appendChild(paperCard(x,true)); });
+    var rest = ranked.slice(nTop).sort(byDate);
+    if (rest.length){
+      list.appendChild(el("h3",{"class":"section-title",text:"Also in this window"}));
+      rest.forEach(function(x){ list.appendChild(paperCard(x,false)); });
+    }
+  }
+
+  function renderCuration(){
+    var n=document.getElementById("curation");
+    if (!loaded){ return; }
+    if (!meta){ n.textContent = papers.length+" papers in the feed."; return; }
+    n.textContent = "Updated automatically every morning from PubMed, bioRxiv and medRxiv. Last run "+nice(meta.lastCurated,true)+" · "+papers.length+" papers in the archive.";
+  }
+
+  // ---------------------------------------------------------------- greeting
+  function greetingWord(){ var h=new Date().getHours(); return h>=5&&h<12 ? "Good morning" : h>=12&&h<18 ? "Good afternoon" : "Good evening"; }
+  function renderHello(){
+    var box=document.getElementById("hello");
+    if (!profile || state.feed!=="mine"){ box.hidden=true; return; }
+    box.hidden=false; box.textContent="";
+    var first=(profile.first_name||"").trim();
+    box.appendChild(el("h2",{text:greetingWord()+(first?", "+first:"")}));
+    var sub=el("p");
+    if (!hasPrefs(profile)){
+      sub.appendChild(document.createTextNode("Pick your topics, keywords, journals and authors to make this feed yours. "));
+      sub.appendChild(el("button",{"class":"link",type:"button",text:"Set up my feed",onclick:openPrefs}));
+    } else if (loaded){
+      var since=f(p(todayStr())-DAY), n=papers.filter(function(x){ return (x.addedAt||"")>=since && passesFilters(x); }).length;
+      sub.appendChild(document.createTextNode(n ? n+" new paper"+(n===1?"":"s")+" for you since yesterday. " : "Nothing new for you since yesterday. "));
+      sub.appendChild(el("button",{"class":"link",type:"button",text:"Edit preferences",onclick:openPrefs}));
+    }
+    box.appendChild(sub);
+  }
+
+  // ---------------------------------------------------------------- accounts (Supabase)
+  var CFG = window.RADAR_CONFIG || {};
+  var accountsOn = !!(CFG.supabaseUrl && CFG.supabaseKey);
+  function $(id){ return document.getElementById(id); }
+  function setMsg(id, text, err){ var n=$(id); n.textContent=text||""; n.classList.toggle("err", !!err); }
+  function renderAccount(){
+    var box=$("account"); box.textContent="";
+    if (!accountsOn) return;
+    if (!user){
+      box.appendChild(el("button",{"class":"btn primary",type:"button",text:"Sign in",onclick:function(){ openAuth("in"); }}));
+      box.appendChild(el("button",{"class":"btn",type:"button",text:"Create account",onclick:function(){ openAuth("up"); }}));
+    } else {
+      box.appendChild(el("span",{"class":"who",text:(profile&&profile.first_name)||user.email}));
+      box.appendChild(el("button",{"class":"btn",type:"button",text:"Preferences",onclick:openPrefs}));
+      box.appendChild(el("button",{"class":"btn",type:"button",text:"Sign out",onclick:function(){ sb.auth.signOut(); }}));
+    }
+  }
+  document.querySelectorAll("dialog [data-close]").forEach(function(b){ b.addEventListener("click",function(){ b.closest("dialog").close(); }); });
+  document.querySelectorAll("dialog").forEach(function(d){ d.addEventListener("close",function(){ if (location.hash==="#settings") history.replaceState(null,"",location.pathname+location.search); }); });
+
+  var authMode="in";
+  function setAuthMode(m){
+    authMode=m;
+    document.querySelectorAll("#authForm [data-tab]").forEach(function(b){ b.setAttribute("aria-pressed", String(b.dataset.tab===m)); b.parentNode.hidden = (m==="reset"); });
+    $("fFirst").hidden = m!=="up"; $("fEmail").hidden = m==="reset"; $("passHint").hidden = m==="in";
+    $("aPass").setAttribute("autocomplete", m==="in"?"current-password":"new-password");
+    $("forgot").hidden = m!=="in";
+    $("authGo").textContent = m==="in"?"Sign in":m==="up"?"Create account":"Set new password";
+    $("authTitle").textContent = m==="reset"?"Choose a new password":"Your account";
+    setMsg("authMsg","");
+  }
+  function openAuth(m){ setAuthMode(m||"in"); if(!$("authDlg").open) $("authDlg").showModal(); ( m==="up"?$("aFirst"):m==="reset"?$("aPass"):$("aEmail") ).focus(); }
+  document.querySelectorAll("#authForm [data-tab]").forEach(function(b){ b.addEventListener("click",function(){ setAuthMode(b.dataset.tab); }); });
+  function backHere(){ return location.href.split("#")[0]; }
+  $("forgot").addEventListener("click",function(){
+    var email=$("aEmail").value.trim();
+    if (!email){ setMsg("authMsg","Type your email above first, then press this again.",true); return; }
+    sb.auth.resetPasswordForEmail(email,{redirectTo:backHere()}).then(function(r){
+      setMsg("authMsg", r.error ? r.error.message : "If that address has an account, a reset link is on its way.", !!r.error);
+    });
+  });
+  $("authForm").addEventListener("submit",function(e){
+    e.preventDefault();
+    var email=$("aEmail").value.trim(), pass=$("aPass").value, first=$("aFirst").value.trim();
+    if (authMode!=="reset" && !/^\S+@\S+\.\S+$/.test(email)) return setMsg("authMsg","Please enter a valid email address.",true);
+    if (authMode!=="in" && pass.length<8) return setMsg("authMsg","Please use at least 8 characters for the password.",true);
+    if (authMode==="up" && !first) return setMsg("authMsg","Please add your first name, for your greeting and emails.",true);
+    $("authGo").disabled=true; setMsg("authMsg","One moment…");
+    var done=function(){ $("authGo").disabled=false; };
+    if (authMode==="in"){
+      sb.auth.signInWithPassword({email:email,password:pass}).then(function(r){ done();
+        if (r.error) return setMsg("authMsg", /confirm/i.test(r.error.message) ? "Please confirm your email first: open the link we sent you." : "That email and password don't match an account.", true);
+        $("authDlg").close();
+      });
+    } else if (authMode==="up"){
+      sb.auth.signUp({email:email,password:pass,options:{data:{first_name:first},emailRedirectTo:backHere()}}).then(function(r){ done();
+        if (r.error) return setMsg("authMsg", r.error.message, true);
+        if (r.data && r.data.session){ $("authDlg").close(); state.feed="mine"; setTimeout(openPrefs,300); }
+        else setMsg("authMsg","Almost there: we sent a confirmation link to "+email+". Open it, and you'll come back here signed in.");
+      });
+    } else {
+      sb.auth.updateUser({password:pass}).then(function(r){ done();
+        if (r.error) return setMsg("authMsg", r.error.message, true);
+        setMsg("authMsg","Password changed. You're signed in."); setTimeout(function(){ $("authDlg").close(); },1200);
+      });
+    }
+  });
+
+  // Preferences dialog with chip inputs
+  var chipVals = {keywords:[], journals:[], authors:[]};
+  function drawChips(box){
+    var key=box.dataset.chips, input=box.querySelector("input");
+    box.querySelectorAll(".chip").forEach(function(c){ c.remove(); });
+    chipVals[key].forEach(function(v,i){
+      box.insertBefore(el("span",{"class":"chip"},[v, el("button",{type:"button","aria-label":"Remove "+v,text:"×",onclick:function(){ chipVals[key].splice(i,1); drawChips(box); input.focus(); }})]), input);
+    });
+  }
+  document.querySelectorAll("[data-chips]").forEach(function(box){
+    var key=box.dataset.chips;
+    var input=el("input",{type:"text","aria-label":"Add "+key.slice(0,-1), placeholder:key==="keywords"?"Add a keyword…":key==="journals"?"Add a journal…":"Add an author…"});
+    if (key==="journals") input.setAttribute("list","journalList");
+    function add(){ input.value.split(key==="keywords" ? /[;,\n]/ : /[;\n]/).forEach(function(v){ v=v.trim().slice(0,80); if (v && chipVals[key].map(fold).indexOf(fold(v))===-1) chipVals[key].push(v); }); input.value=""; drawChips(box); }
+    input.addEventListener("keydown",function(e){
+      if (e.key==="Enter"){ e.preventDefault(); add(); }
+      else if (e.key==="Backspace" && !input.value && chipVals[key].length){ chipVals[key].pop(); drawChips(box); }
+    });
+    input.addEventListener("blur",add);
+    input.addEventListener("change",function(){ if (key==="journals") add(); });
+    box.appendChild(input);
+    box.addEventListener("click",function(e){ if (e.target===box) input.focus(); });
+  });
+  function openPrefs(){
+    if (!accountsOn) return;
+    if (!user) return openAuth("in");
+    var pr=profile||{};
+    $("pFirst").value=pr.first_name||"";
+    var tp=$("pTopics"); tp.textContent="";
+    TOPICS.forEach(function(t){ var cb=el("input",{type:"checkbox",value:t.id}); cb.checked=(pr.topics||[]).indexOf(t.id)>-1;
+      tp.appendChild(el("label",{"class":"check"},[cb, el("span",{text:t.name})])); });
+    ["keywords","journals","authors"].forEach(function(k){ chipVals[k]=(pr[k]||[]).slice(); drawChips(document.querySelector('[data-chips="'+k+'"]')); });
+    $("pDigest").checked = pr.digest!==false;
+    $("digestTo").textContent = "Your top new papers, sent to "+(user.email||"your account email")+".";
+    var size=String(pr.digest_size||8); if (![].some.call($("pSize").options,function(o){return o.value===size;})) $("pSize").appendChild(el("option",{text:size}));
+    $("pSize").value=size;
+    var jl=$("journalList"); jl.textContent="";
+    Array.from(new Set(papers.filter(function(x){return x.type==="journal";}).map(function(x){return x.journal;}))).sort().forEach(function(j){ jl.appendChild(el("option",{value:j})); });
+    setMsg("prefMsg","");
+    if (!$("prefDlg").open) $("prefDlg").showModal();
+  }
+  $("prefForm").addEventListener("submit",function(e){
+    e.preventDefault();
+    document.querySelectorAll("[data-chips] input").forEach(function(i){ i.dispatchEvent(new Event("blur")); });
+    var row={ first_name:$("pFirst").value.trim(),
+      topics:[].map.call(document.querySelectorAll("#pTopics input:checked"),function(c){return c.value;}),
+      keywords:chipVals.keywords.slice(0,40), journals:chipVals.journals.slice(0,60), authors:chipVals.authors.slice(0,40),
+      digest:$("pDigest").checked, digest_size:parseInt($("pSize").value,10)||8 };
+    setMsg("prefMsg","Saving…");
+    var q = (profile && profile.created_at) ? sb.from("profiles").update(row).eq("id",user.id)
+                                            : sb.from("profiles").insert(Object.assign({id:user.id},row));
+    q.select().single().then(function(r){
+      if (r.error) return setMsg("prefMsg","Couldn't save: "+r.error.message,true);
+      profile=r.data; state.feed="mine"; $("prefDlg").close(); renderAccount(); render();
+    });
+  });
+
+  function loadProfile(){
+    return sb.from("profiles").select("*").eq("id",user.id).maybeSingle().then(function(r){
+      if (r.error){ console.warn(r.error); profile={id:user.id, first_name:(user.user_metadata||{}).first_name||""}; return; }
+      profile = r.data || {id:user.id, first_name:(user.user_metadata||{}).first_name||"", keywords:[], topics:[], journals:[], authors:[], digest:true, digest_size:8};
+    });
+  }
+  function setUser(u){
+    var was = user && user.id;
+    user = u || null;
+    if (!user){ profile=null; state.feed="all"; renderAccount(); render(); return; }
+    if (was===user.id && profile) return;
+    loadProfile().then(function(){
+      state.feed="mine"; renderAccount(); render();
+      if (location.hash==="#settings") openPrefs();
+    });
+  }
+  function startAccounts(){
+    if (!accountsOn) return;
+    var s=document.createElement("script");
+    s.src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js";
+    s.onload=function(){
+      sb=window.supabase.createClient(CFG.supabaseUrl, CFG.supabaseKey, {auth:{persistSession:true, autoRefreshToken:true, detectSessionInUrl:true}});
+      sb.auth.onAuthStateChange(function(event, session){
+        setTimeout(function(){  // keep Supabase calls out of the auth callback
+          if (event==="PASSWORD_RECOVERY"){ setUser(session&&session.user); openAuth("reset"); return; }
+          setUser(session && session.user);
+        },0);
+      });
+      renderAccount();
+      if (location.hash==="#settings") sb.auth.getSession().then(function(r){ if(!(r.data&&r.data.session)) openAuth("in"); });
+    };
+    s.onerror=function(){ console.warn("Could not load the account library"); };
+    document.head.appendChild(s);
+  }
+  window.addEventListener("hashchange",function(){ if (location.hash==="#settings") openPrefs(); });
+
+  // ---------------------------------------------------------------- light / dark
+  function currentTheme(){ var t=document.documentElement.getAttribute("data-theme"); return t==="light"||t==="dark" ? t : "auto"; }
+  function setTheme(t){
+    if (t==="auto") document.documentElement.removeAttribute("data-theme");
+    else document.documentElement.setAttribute("data-theme", t);
+    try { if (t==="auto") localStorage.removeItem("salmanRadar:theme"); else localStorage.setItem("salmanRadar:theme", t); } catch(e){}
+    document.querySelectorAll("#themes button").forEach(function(b){ b.setAttribute("aria-pressed", String(b.dataset.themeChoice===t)); });
+  }
+  document.querySelectorAll("#themes button").forEach(function(b){ b.addEventListener("click",function(){ setTheme(b.dataset.themeChoice); }); });
+  setTheme(currentTheme());
+
+  // Controls
+  document.querySelectorAll("#feeds button").forEach(function(b){ b.addEventListener("click",function(){ state.feed=b.dataset.feed; render(); }); });
+  document.querySelectorAll("#modes button").forEach(function(b){ b.addEventListener("click",function(){ state.mode=b.dataset.mode; render(); }); });
+  document.getElementById("prev").addEventListener("click",function(){ shift(-1); });
+  document.getElementById("next").addEventListener("click",function(){ shift(1); });
+  document.getElementById("latest").addEventListener("click",function(){ state.anchor=latestDate(); if(state.mode==="all") state.mode="week"; render(); });
+  document.getElementById("q1only").addEventListener("change",function(e){ state.q1only=e.target.checked; render(); });
+  document.getElementById("trials").addEventListener("change",function(e){ state.trials=e.target.checked; render(); });
+  document.getElementById("unread").addEventListener("change",function(e){ state.unread=e.target.checked; render(); });
+  var qt; document.getElementById("q").addEventListener("input",function(e){ clearTimeout(qt); qt=setTimeout(function(){ state.q=e.target.value.trim(); render(); },150); });
+  function shift(dir){
+    if (state.mode==="day") state.anchor=f(p(state.anchor)+dir*DAY);
+    else if (state.mode==="week") state.anchor=f(p(weekStart(state.anchor))+dir*7*DAY);
+    else if (state.mode==="month") state.anchor=addMonths(state.anchor,dir);
+    render();
+  }
+
+  state.anchor = todayStr();
+  render();
+  startAccounts();
+
+  // Data: papers.json is rebuilt every morning by the GitHub Action
+  function unavailable(msg){
+    loaded=true;
+    var list=document.getElementById("list"); list.textContent="";
+    list.appendChild(el("div",{"class":"empty"},[el("strong",{text:"The paper feed can't load"}), el("span",{text:msg})]));
+    document.getElementById("curation").textContent="Feed unavailable.";
+  }
+  function useData(j){
+    papers=(j.papers||[]).filter(function(x){ return typeof x.date==="string" && /^\d{4}-\d{2}-\d{2}$/.test(x.date) && x.title; });
+    meta=j.meta||null; loaded=true;
+    state.anchor=latestDate(); renderCuration(); render();
+  }
+  // Opened straight from disk (file://) browsers block fetch, so fall back to data/papers.js via a script tag.
+  function loadScript(srcs, lastErr){
+    if (!srcs.length){ unavailable("data/papers.json could not be read ("+lastErr+"). Check that the \u201cUpdate papers\u201d GitHub Action has run at least once."); return; }
+    var s=document.createElement("script"); s.src=srcs[0];
+    s.onload=function(){ if (window.PAPER_RADAR_DATA) useData(window.PAPER_RADAR_DATA); else loadScript(srcs.slice(1), lastErr); };
+    s.onerror=function(){ s.remove(); loadScript(srcs.slice(1), lastErr); };
+    document.head.appendChild(s);
+  }
+  var fallbacks=["data/papers.js","../data/papers.js"];
+  if (location.protocol==="file:") loadScript(fallbacks, "opened from disk");
+  else fetch("data/papers.json",{cache:"no-store"}).then(function(r){
+    if(!r.ok) throw new Error("HTTP "+r.status); return r.json();
+  }).then(useData).catch(function(e){ loadScript(fallbacks, e.message); });
+})();
+</script>
+</body>
+</html>

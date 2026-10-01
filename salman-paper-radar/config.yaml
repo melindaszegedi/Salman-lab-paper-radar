@@ -1,0 +1,157 @@
+# Salman Lab Paper Radar configuration.
+# Edit this file to change what gets collected and how it is scored.
+
+# How far back each daily run looks (days). Overlap is fine: duplicates are removed.
+days_back: 3
+
+# Contact email sent to NCBI with each request (NCBI asks for one).
+ncbi_email: "your.name@dpag.ox.ac.uk"
+
+# PubMed search. [tiab] = title/abstract. Broad on purpose: scoring below does the ranking.
+pubmed_query: >-
+  ("small vessel disease"[tiab] OR CADASIL[tiab] OR CARASIL[tiab] OR NOTCH3[tiab] OR HTRA1[tiab]
+  OR "cerebral amyloid angiopathy"[tiab] OR "white matter hyperintensit*"[tiab] OR lacunar[tiab]
+  OR "blood-brain barrier"[tiab] OR "blood brain barrier"[tiab] OR "neurovascular unit"[tiab]
+  OR "brain endothelial"[tiab] OR pericyte*[tiab] OR glymphatic*[tiab] OR "aquaporin-4"[tiab] OR AQP4[tiab]
+  OR "perivascular space*"[tiab] OR "transferrin receptor"[tiab] OR "brain shuttle"[tiab]
+  OR "receptor-mediated transcytosis"[tiab]
+  OR ((Alzheimer*[tiab] OR neurodegenerat*[tiab] OR Parkinson*[tiab] OR "amyotrophic lateral sclerosis"[tiab])
+      AND (trial[tiab] OR "drug"[tiab] OR therapeut*[tiab] OR antibod*[tiab] OR repurpos*[tiab])))
+  AND english[lang] NOT (comment[pt] OR erratum[pt])
+
+# Preprint servers checked through the bioRxiv/medRxiv API.
+preprint_servers: [biorxiv, medrxiv]
+
+# Keep a paper only if its keyword score reaches this.
+min_score: 4
+# Journals below Q1 need a higher score to be kept at all (they are hidden on the site by default).
+min_score_non_q1: 7
+
+# Relevance (1-5) from keyword score: first threshold reached wins.
+relevance_thresholds: [[14, 5], [10, 4], [7, 3], [4, 2]]
+
+# Topics. Ids must match the ones in site/index.html.
+# Each term is a regular expression (case-insensitive) with a weight.
+topics:
+  csvd:
+    name: "Small vessel disease & CAA"
+    terms:
+      - ["small vessel disease|\\bc?SVD\\b", 5]
+      - ["CADASIL|CARASIL|NOTCH3|HTRA1|COL4A[12]", 4]
+      - ["cerebral amyloid angiopathy|\\bCAA\\b", 4]
+      - ["white matter hyperintensit|\\bWMH\\b|lacun(e|ar)|microbleed|perivascular spaces?", 2]
+      - ["vascular (dementia|cognitive impairment)|\\bVCI\\b", 3]
+      - ["arteriol|capillar(y|ies)|cerebral blood flow|cerebrovascular reactivity", 1]
+  bbb:
+    name: "BBB biology & in vitro models"
+    terms:
+      - ["blood[- ]brain barrier|\\bBBB\\b", 4]
+      - ["neurovascular unit|brain (micro)?vascular endothelial|\\bBMECs?\\b|iBECs?", 3]
+      - ["pericytes?|astrocyt\\w* end-?feet|tight junction|claudin-5|occludin|ZO-1", 2]
+      - ["\\bTEER\\b|trans-?endothelial electrical resistance|permeability", 3]
+      - ["organ-on-(a-)?chip|microfluidic|OrganoPlate|Transwell|organoid|iPSC|induced pluripotent", 3]
+      - ["APOE4|APOE ?ε4|apolipoprotein E4", 2]
+  delivery:
+    name: "Brain delivery & TfR shuttles"
+    terms:
+      - ["transferrin receptor|\\bTfR1?\\b|brain shuttle|Brainshuttle", 6]
+      - ["receptor-mediated transcytosis|transcytosis|brain (delivery|penetration|uptake)", 4]
+      - ["trontinemab|\\bCD98hc\\b|\\bLRP1\\b|focused ultrasound", 3]
+      - ["bispecific|antibody engineering|nanoparticle", 1]
+  adtx:
+    name: "AD & neurodegeneration drugs"
+    terms:
+      - ["lecanemab|donanemab|aducanumab|gantenerumab|remternetug|trontinemab|sabirnetug|valiltramiprosate", 5]
+      - ["anti-?amyloid|anti-?tau|\\bARIA\\b|amyloid-related imaging abnormalit", 4]
+      - ["(phase (1|2|3|I{1,3})|randomi[sz]ed|placebo)", 3]
+      - ["Alzheimer", 2]
+      - ["Parkinson|amyotrophic|\\bALS\\b|frontotemporal|Huntington", 1]
+      - ["drug repurposing|GLP-1|semaglutide|TREM2|antisense|gene therapy", 2]
+  glymph:
+    name: "Glymphatics & AQP4"
+    terms:
+      - ["glymphatic", 5]
+      - ["aquaporin-?4|\\bAQP4\\b", 5]
+      - ["cerebrospinal fluid (flow|clearance)|interstitial fluid|meningeal lymphatic|perivascular (clearance|drainage)", 3]
+
+# Q1 journals (edit freely). Matching ignores case, punctuation and "The".
+# PubMed full titles and ISO abbreviations both work.
+q1_journals:
+  - Nature
+  - Science
+  - Cell
+  - New England Journal of Medicine
+  - Lancet
+  - Lancet Neurology
+  - JAMA
+  - JAMA Neurology
+  - BMJ
+  - Nature Medicine
+  - Nature Neuroscience
+  - Nature Aging
+  - Nature Communications
+  - Nature Biotechnology
+  - Nature Biomedical Engineering
+  - Nature Reviews Neurology
+  - Nature Reviews Neuroscience
+  - Nature Reviews Drug Discovery
+  - Nature Cardiovascular Research
+  - Science Translational Medicine
+  - Science Advances
+  - Cell Stem Cell
+  - Cell Reports
+  - Cell Reports Medicine
+  - Neuron
+  - Brain
+  - Annals of Neurology
+  - Neurology
+  - Acta Neuropathologica
+  - Molecular Neurodegeneration
+  - Alzheimer's & Dementia
+  - Alzheimer's Research & Therapy
+  - Alzheimer's & Dementia (New York, N. Y.)
+  - Stroke
+  - International Journal of Stroke
+  - Journal of Cerebral Blood Flow and Metabolism
+  - Fluids and Barriers of the CNS
+  - Journal of Neuroinflammation
+  - Translational Neurodegeneration
+  - Molecular Psychiatry
+  - Circulation
+  - Circulation Research
+  - Arteriosclerosis, Thrombosis, and Vascular Biology
+  - European Heart Journal
+  - Journal of Clinical Investigation
+  - JCI Insight
+  - EMBO Molecular Medicine
+  - EMBO Journal
+  - Proceedings of the National Academy of Sciences of the United States of America
+  - eLife
+  - Journal of Physiology
+  - Journal of Neuroscience
+  - Glia
+  - Journal of Controlled Release
+  - Molecular Therapy
+  - Biomaterials
+  - Lab on a Chip
+  - Advanced Science
+  - Stem Cell Reports
+  - Frontiers in Immunology
+  - Journal of Neurology, Neurosurgery, and Psychiatry
+  - Movement Disorders
+  - npj Parkinson's Disease
+  - Journal of Prevention of Alzheimer's Disease
+  - Nature Metabolism
+  - Aging Cell
+
+# Optional: short "why it matters" notes and relevance scores written by Claude.
+# Only runs if the ANTHROPIC_API_KEY secret is set. Costs a little per paper.
+llm:
+  model: "claude-haiku-4-5-20251001"
+  max_papers_per_run: 40
+  lab_profile: >-
+    Prof. Mootaz Salman's lab (University of Oxford, DPAG / Kavli Institute) studies cerebral small vessel
+    disease, the blood-brain barrier, aquaporin-4 and glymphatic clearance, and builds humanised in vitro
+    BBB models (iPSC-derived tricultures, MIMETAS OrganoPlate with OrganoTEER, Transwell TEER). Current
+    projects include TEER-validated 3D iPSC BBB models, transferrin-receptor brain-shuttle antibodies, and
+    drug discovery for Alzheimer's disease with the ARUK Oxford Drug Discovery Institute.
