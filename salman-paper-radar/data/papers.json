@@ -25303,7 +25303,13 @@
 "relevance": 2,
 "why": "Multiple sclerosis (MS) is increasingly recognized as a systems-level disorder encompassing grey matter injury, network disconnection, and neuropsychiatric symptoms alongside demyelination. Within this framework, the locus coeruleus (LC), the principal source of noradrenaline (NA) in the central nervous system,…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1186/s12974-026-03981-2",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "medrxiv-10.64898_2026.09.07.26362475",
@@ -25440,7 +25446,8 @@
 "relevance": 5,
 "why": "Arterial spin labeling (ASL) MRI noninvasively quantifies cerebral blood flow (CBF), but its role as a mechanistic biomarker and surrogate endpoint in trials of cognitive impairment remains undefined. This review evaluates evidence linking regional CBF to cognition across Alzheimer's disease, mild cognitive impairment…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42707783",
@@ -25485,7 +25492,13 @@
 "relevance": 5,
 "why": "The central nervous system has long been considered an immune-privileged organ, but discoveries about meningeal lymphatics, meningeal immune cells, cerebrospinal fluid (CSF)-interstitial fluid (ISF) exchange, and aquaporin-4 (AQP4)-associated glymphatic-like transport are reshaping our understanding of waste clearance…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1931370/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42709250",
@@ -25524,7 +25537,8 @@
 "relevance": 4,
 "why": "Neurodegenerative diseases have traditionally been classified by their predominant protein pathology. However, accumulating evidence reveals extensive molecular cross-talk between distinct pathological proteins, particularly in Alzheimer's disease (AD). This review examines cross-disease protein interactions and their…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42708269",
@@ -25566,7 +25580,8 @@
 "relevance": 4,
 "why": "Dysfunction of the Neurovascular Unit (NVU) represents a common pathway of injury in ischemia-reperfusion and critical illness. Disruption of blood-brain barrier integrity, microcirculatory reperfusion heterogeneity, and neuroinflammation synergistically amplify secondary neural damage. In this context, attention is…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42708090",
@@ -25611,7 +25626,13 @@
 "relevance": 4,
 "why": "The blood-brain barrier (BBB) remains a major obstacle to the delivery of therapeutics for central nervous system (CNS) diseases. Although several BBB-penetrating or BBB-bypassing strategies have been investigated, there remains a need for sustained, controllable delivery routes that can support prolonged CNS exposure…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.7150/thno.138110",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42707431",
@@ -25652,7 +25673,13 @@
 "relevance": 4,
 "why": "Neuroinflammatory mechanisms are increasingly recognized in biologically defined subgroups of psychiatric disorders, yet the cellular interfaces linking peripheral immune activation to brain dysfunction remain incompletely understood. This review examines the blood-brain barrier (BBB) and neurovascular unit (NVU) as…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.3389/fnmol.2026.1924581",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "biorxiv-10.64898_2026.09.03.744191",
@@ -25757,7 +25784,13 @@
 "relevance": 3,
 "why": "Therapeutic options for advanced esophageal squamous cell carcinoma (ESCC) after first-line failure remain limited, particularly in patients previously exposed to immune checkpoint inhibitors (ICIs). We evaluated the efficacy, safety, and exploratory biomarker correlates of camrelizumab, an ICI, combined with…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1136/jitc-2026-015887",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42711025",
@@ -25796,7 +25829,8 @@
 "relevance": 3,
 "why": "Obstructive sleep apnea (OSA) has a broad and clinically important effect on cognition, most often impairing attention, executive function, memory, processing speed, and visuospatial ability, while language and immediate recall are relatively preserved. A substantial proportion of adults referred to sleep clinics…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42709658",
@@ -25833,7 +25867,8 @@
 "relevance": 3,
 "why": "Autoimmune thyroid diseases (AITD), including Hashimoto's thyroiditis and Graves' disease, represent the most prevalent endocrine disorders worldwide, affecting hundreds of millions with profound but often under recognized neurological consequences. There are emerging lines of evidence establishing inflammation and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42708793",
@@ -25875,7 +25910,13 @@
 "relevance": 3,
 "why": "We aimed to examine whether additional metrics derived from the CERAD Word List Memory Test (WLMT) such as acquisition patterns, error frequencies, and consolidation efficiency, are associated with cerebrospinal fluid (CSF) biomarkers of amyloid and tau pathology, as well as magnetic resonance imaging (MRI) ratings of…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1080/13803395.2026.2729728",
+"pdf": false,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42708477",
@@ -25918,7 +25959,13 @@
 "relevance": 3,
 "why": "Locus coeruleus (LC) and glymphatic dysfunction have been linked both to Alzheimer's disease (AD) and, recently, to infraslow oscillation (ISO) in sleep spindle (sigma) activity (ISO). Here we hypothesize ISO integrity is a critical link between sleep and AD. We analyzed non-rapid eye movement sleep…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1002/alz.71525",
+"pdf": false,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42708335",
@@ -25956,7 +26003,8 @@
 "relevance": 3,
 "why": "Targeted cancer therapy focuses on inhibiting specific molecular pathways that drive tumor growth and survival. In this study, computational methods were employed to identify potential acetogenin- based inhibitors of two key anti-apoptotic proteins, HER2 and MELK. Given their crucial involvement in cancer…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42707613",
@@ -26001,7 +26049,13 @@
 "relevance": 3,
 "why": "Transcranial focused ultrasound (FUS)-mediated blood-brain barrier (BBB) modulation is a promising non-invasive therapeutic strategy for targeted brain drug delivery. However, its direct regenerative potential to actively remodel the brain microenvironment and promote adult hippocampal neurogenesis remains largely…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.7150/thno.133902",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42707284",
@@ -26042,7 +26096,13 @@
 "relevance": 3,
 "why": "Iron homeostasis is essential for healthy aging, yet whether Dietary Guidelines for Americans (DGA)-aligned diets support iron status in older adults remains unclear, particularly when iron is provided exclusively as non-heme iron. This exploratory secondary analysis of PRODMED1 examined iron-related outcomes, and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1889521/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42706570",
@@ -26093,7 +26153,13 @@
 "relevance": 3,
 "why": "Brain clearance pathways via the interstitial fluid and cerebrospinal fluid are essential for maintaining homeostasis and removing metabolic waste. Disruptions in these processes are linked to neurodegenerative diseases, particularly Alzheimer's Disease (AD), where an imbalance between amyloid β (Aβ) production and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1186/s12987-026-00872-9",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42706564",
@@ -26145,7 +26211,13 @@
 "relevance": 3,
 "why": "While both Alzheimer's disease (AD) and cerebral small vessel disease (CSVD) involve vascular dysfunction, the ocular microvascular differences between them remain largely underinvestigated. This cross-sectional study included 650 participants (149 AD, 276 CSVD, and 225 cognitively unimpaired individuals). Optical…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1002/alz.71809",
+"pdf": false,
+"status": "hybrid"
+}
 },
 {
 "id": "biorxiv-10.64898_2026.09.03.749088",
@@ -26287,7 +26359,13 @@
 "relevance": 2,
 "why": "Melanocortin 1 receptor (MC1R) is a key regulator of pigmentation and oxidative stress implicated in Parkinson disease (PD). MC1R loss-of-function variants, defined by experimentally demonstrated reductions in MC1R function, are carried by more than 60% of individuals of European descent. To determine whether MC1R…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://jamanetwork.com/journals/jamaneurology/articlepdf/2853695/jamaneurology_schumacher_2026_oi_260055_1787866015.03197.pdf",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42708970",
@@ -26331,7 +26409,13 @@
 "relevance": 2,
 "why": "Blood-brain barrier (BBB) dysfunction is a critical driver of neuroinflammation and demyelination, yet its cellular and molecular underpinnings remain poorly defined. Here, we identify a pathogenic subpopulation of astrocytes expressing phosphodiesterase 7B (PDE7B) that contributes to BBB disruption. Using a…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13552384/",
+"pdf": false,
+"status": "green"
+}
 },
 {
 "id": "pmid-42706501",
@@ -26373,7 +26457,13 @@
 "relevance": 2,
 "why": "Common Alzheimer's disease (AD) mouse models are widely used, but their molecular correspondence with human AD remains uncertain. We analyzed 15 post mortem human brain datasets, four human non-brain or in vitro sensitivity datasets, and nine AD-related mouse-model molecular-profiling datasets; GSE222494 was analyzed…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.71804",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42706497",
@@ -26411,7 +26501,13 @@
 "relevance": 2,
 "why": "",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.71830",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "biorxiv-10.64898_2026.09.02.748985",
@@ -26661,7 +26757,13 @@
 "relevance": 4,
 "why": "As the second leading cause of death, stroke has a significant impact on public health. Homocysteine (Hcy), a non-essential sulfur-containing amino acid, has recently been found to aggravate brain injury in stroke. This effect is closely associated with oxidative stress (OS), blood-brain barrier (BBB) dysfunction, and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.termedia.pl/Journal/-20/pdf-57937-10?filename=Etomidate protects.pdf",
+"pdf": true,
+"status": "diamond"
+}
 },
 {
 "id": "pmid-42704751",
@@ -26708,7 +26810,8 @@
 "relevance": 4,
 "why": "and Purpose: The endothelial glycocalyx (EG) is a protective carbohydrate-rich layer lining the luminal surface of endothelial cells and a key component of the neurovascular unit, where it contributes to blood-brain barrier (BBB) integrity, vascular permeability control, and regulation of inflammatory and hemostatic…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42706363",
@@ -26755,7 +26858,13 @@
 "relevance": 3,
 "why": "Familial Parkinson's disease (PD) and vascular parkinsonism (VP) present overlapping features and may co-exist. To investigate whether PD and VP may share a potential pathogenic link and to what extent white matter hyperintensities may influence PD phenotype, we used the modified Scheltens scale and presented a…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.nature.com/articles/s41598-026-69989-z.pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42705595",
@@ -26798,7 +26907,8 @@
 "relevance": 3,
 "why": "Ischemic stroke rapidly remodels sphingolipid metabolism across the neurovascular unit. Ceramide (Cer), sphingosine (Sph), and sphingosine-1-phosphate (S1P) form an interconvertible axis that connects membrane metabolism with mitochondrial dysfunction, endoplasmic reticulum stress, inflammatory signaling, blood-brain…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42705162",
@@ -26844,7 +26954,13 @@
 "relevance": 3,
 "why": "Memantine is a primary pharmacological treatment for moderate-to-severe Alzheimer's disease but its efficacy and brain delivery remain limited. Lipid bicontinuous cubic phases and their nanoparticle dispersions (cubosomes) offer platforms for enhancing central nervous system drug delivery, yet the rigid adamantane…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S0021979726015821/pdf",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42704946",
@@ -26887,7 +27003,8 @@
 "relevance": 3,
 "why": "The glymphatic system has been extensively implicated in neurodegenerative diseases as a key pathway responsible for cerebral metabolic waste clearance. However, its role in schizophrenia remains poorly understood. This study aimed to evaluate glymphatic system function in patients with schizophrenia through a…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42703714",
@@ -26930,7 +27047,13 @@
 "relevance": 3,
 "why": "Stroke is a leading cause of mortality and morbidity worldwide. Magnetic resonance imaging-visible perivascular spaces (PVS) are an emerging marker of cerebral small vessel disease and may have prognostic value in stroke. We aimed to characterise longitudinal changes in PVS volume and cluster count following ischaemic…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://academic.oup.com/esj/article-pdf/11/9/aakag108/70975792/aakag108.pdf",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42702933",
@@ -26976,7 +27099,13 @@
 "relevance": 3,
 "why": "Glymphatic dysfunction is increasingly recognized as a key contributor to the progression of Parkinson's disease (PD). In PD, both choroid plexus (CP) alterations and white matter abnormalities have been linked to glymphatic dysfunction. However, how CP microstructural abnormalities relate to glymphatic function,…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1002/cns.71039",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "biorxiv-10.64898_2026.09.03.745507",
@@ -27303,7 +27432,13 @@
 "relevance": 5,
 "why": "Blood-brain barrier (BBB) disruption is a key pathological mechanism of cerebral small vessel disease (CSVD). White matter hyperintensities (WMH), a major imaging feature of this disease, show unclear regional and severity-related differences in BBB leakage, along with uncertain independent risk factors. Conventional…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.21037/qims-2026-0878",
+"pdf": false,
+"status": "diamond"
+}
 },
 {
 "id": "pmid-42701347",
@@ -27345,7 +27480,13 @@
 "relevance": 4,
 "why": "The blood-brain barrier (BBB) restricts the delivery of therapeutic small-molecule and macromolecular drugs to the central nervous system and precludes the therapeutic application of monoclonal antibodies in glioblastoma (GBM). In this work, we investigate integrin-targeted polyelectrolyte complex nanoparticles for…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S2666934X26000322/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42702629",
@@ -27389,7 +27530,13 @@
 "relevance": 3,
 "why": "Epigenetic editing, particularly N6-methyladenosine (m6A) modification, represents a promising therapeutic strategy by silencing genes without altering DNA sequence. However, in vivo epigenetic intervention of neuroinflammation remains challenging and has rarely been explored. Here we developed a hybrid epigenetic…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.nature.com/articles/s41467-026-75862-4_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42702342",
@@ -27430,7 +27577,13 @@
 "relevance": 3,
 "why": "Tau pathology is strongly associated with neurodegeneration and clinical progression in Alzheimer's disease (AD), positioning it as an important therapeutic target. However, tau-targeted therapies have thus far demonstrated limited and inconsistent translation into meaningful clinical benefit. To examine clinical…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S1043661826003543/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42702136",
@@ -27468,7 +27621,8 @@
 "relevance": 3,
 "why": "Cytotoxic brain edema is a life-threatening condition arising from pathological water accumulation within brain parenchymal cells, primarily astrocytes, following metabolic or toxic insults. Aquaporin-4 (AQP4), the predominant water channel in the central nervous system, is highly enriched in the perivascular endfeet…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42701542",
@@ -27514,7 +27668,13 @@
 "relevance": 3,
 "why": "Primary insomnia is associated with cognitive impairment and subtle brain structural alterations; however, the relationship between white matter microstructural damage and glymphatic-related imaging changes remains unclear. This study investigated these alterations by jointly assessing peak width of skeletonized mean…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.21037/qims-2026-0804",
+"pdf": false,
+"status": "diamond"
+}
 },
 {
 "id": "pmid-42701403",
@@ -27563,7 +27723,13 @@
 "relevance": 3,
 "why": "Alzheimer's disease (AD) is increasingly recognized as an immunometabolic disorder characterized by a self-reinforcing cycle of neuroinflammation and glycolytic reprogramming in microglia. Herein, we developed KPBIT@NPs, a microglia-targeted polysaccharide-based nanomedicine. Unlike many conventional nanocarriers that…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1016/j.mtbio.2026.103620",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42699154",
@@ -27613,7 +27779,13 @@
 "relevance": 4,
 "why": "Amyloid-β (Aβ) can activate the factor XII (FXII)-driven contact system, which exerts several downstream effects on Alzheimer's disease (AD) pathology associated with cognitive impairment. Here, using genetically modified FXII deficient mice crossed with arcAβ mice, we show that genetic deletion of FXII ameliorates…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1016/j.nbas.2026.100167",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42700866",
@@ -27658,7 +27830,8 @@
 "relevance": 3,
 "why": "Alzheimer's disease (AD) is an age-dependent neurodegenerative syndrome in which microglial senescence bridges biological ageing and Aβ-tau pathology. Senescent microglia undergo permanent cell-cycle arrest, upregulate p16INK4a and SA-β-gal, and secrete a pro-inflammatory senescence-associated secretory phenotype…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42700810",
@@ -27704,7 +27877,8 @@
 "relevance": 3,
 "why": "Alzheimer's disease (AD) is a prevalent, chronic, and progressive neurodegenerative disorder that predominantly affects the elderly population, and no effective pharmacological treatments are currently available. Histone deacetylase 6 (HDAC6) is overexpressed in the hippocampus of AD patients, and its inhibition has…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42700370",
@@ -27742,7 +27916,8 @@
 "relevance": 3,
 "why": "Alzheimer disease (AD) pathology affects the transentorhinal/entorhinal region early but whether entorhinal cortex (EC) astrocytes are causal drivers or therapeutic targets remains unresolved. This narrative review evaluates EC astrocytes through an explicit evidence hierarchy. We distinguish: (1) human EC-specific…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42700326",
@@ -27788,7 +27963,8 @@
 "relevance": 3,
 "why": "Neurodegenerative disorders are characterized by progressive neuronal loss and remain a major global health concern, largely due to their complex and multifactorial nature. These conditions, including Alzheimer's disease, Parkinson's disease, and Huntington's disease, involve overlapping mechanisms such as oxidative…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42700142",
@@ -27837,7 +28013,8 @@
 "relevance": 3,
 "why": "Diabetes is an established driver of microvascular disease, causing complications such as retinopathy, nephropathy, and neuropathy. However, the mechanisms whereby diabetes disrupts brain microvascular function remain poorly understood. Diabetes is strongly associated with cognitive impairments, including Alzheimer's…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42699001",
@@ -27884,7 +28061,13 @@
 "relevance": 3,
 "why": "Magnetic Resonance Imaging (MRI) is essential for understanding post-stroke cognitive impairment (PSCI), yet the global research landscape remains unclear. This study aimed to analyze the trends and hotspots in MRI research on PSCI through bibliometric analysis. Publications were retrieved from the Web of Science Core…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1177/20552076261487046",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42698947",
@@ -27922,7 +28105,13 @@
 "relevance": 3,
 "why": "Arginine vasopressin (AVP) is a pleiotropic neuroendocrine hormone with diverse physiological functions that have important implications for immune regulation. Although AVP has been reported to exert both immunostimulating and immunosuppressive effects, its actions on immune function are highly context-dependent and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1016/j.bbih.2026.101328",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42698821",
@@ -27965,7 +28154,13 @@
 "relevance": 2,
 "why": "Viral burden or pathogen identity alone cannot adequately explain the progression of severe viral pneumonia from a compartmentalized respiratory infection to acute respiratory distress syndrome, multi-organ failure, and death. Maladaptive immunity, endothelial damage, and coagulation dysregulation are all functionally…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1878054/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42694561",
@@ -28015,7 +28210,13 @@
 "relevance": 4,
 "why": "Alzheimer's disease (AD) exhibits marked sex differences, with women bearing a disproportionate burden of disease, particularly after midlife. Among the major factors contributing to this vulnerability, the apolipoprotein E ϵ4 allele (APOE4) and the abrupt endocrine transition of perimenopause have emerged as two…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.3389/fimmu.2026.1925850",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42697418",
@@ -28058,7 +28259,13 @@
 "relevance": 3,
 "why": "Tauopathies encompass a heterogeneous group of neurodegenerative disorders characterized by the transition of tau from a microtubule-stabilizing protein into pathogenic, seed-competent species. Increasing evidence has redefined tau from a descriptive pathological hallmark to a pharmacologically actionable target…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1016/j.phrs.2026.108432",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42697379",
@@ -28106,7 +28313,8 @@
 "relevance": 3,
 "why": "Neurodegenerative diseases, including Alzheimer's disease, Parkinson's disease, amyotrophic lateral sclerosis, and Huntington's disease are among the progressive disorders of the nervous system that are characterized by the gradual destruction of neurons, the accumulation of misfolded proteins, and the limited…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42697106",
@@ -28150,7 +28358,8 @@
 "relevance": 3,
 "why": "Neuromyelitis optica spectrum disorder (NMOSD) is an extremely uncommon autoimmune inflammatory condition affecting the central nervous system with clinical features including recurrent episodes of optic neuritis and transverse myelitis. Complement-dependent astrocyte damage is the predominant mechanism involved in…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42696892",
@@ -28192,7 +28401,8 @@
 "relevance": 3,
 "why": "The Hedgehog (Hh) signaling pathway, crucial for embryonic development and tissue homeostasis, is frequently dysregulated in cancers, making its core component, the Smoothened (SMO) receptor, a prime therapeutic target. This study employed an integrative computational strategy to identify novel SMO inhibitors. Virtual…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42696890",
@@ -28233,7 +28443,8 @@
 "relevance": 3,
 "why": "The convergence of microfluidic engineering and organ-on-a-chip (OoC) technology is redefining the development and preclinical validation of polymer-based drug delivery systems and biomedical preparations. This review presents a bidirectional framework: first, how microfluidics enables precision synthesis of polymer…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42695591",
@@ -28282,7 +28493,8 @@
 "relevance": 3,
 "why": "From a neuropathological perspective, the most well-known pathological change in Alzheimer's disease (AD) to date is primarily tau protein hyperphosphorylation, which leads to the formation of intracellular neurofibrillary tangles (NFTs) and amyloid protein deposition-namely, the accumulation of amyloid protein (Aβ)…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42695230",
@@ -28328,7 +28540,8 @@
 "relevance": 3,
 "why": "Parkinson's disease (PD) is increasingly recognized not merely as a localized proteinopathy, but as a systemic metabolic disorder driven by bioenergetic failure. While mitochondrial dysfunction is a well-established pathological hallmark, the compensatory reprogramming of glycolysis has emerged as a critical, yet…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42694894",
@@ -28365,7 +28578,13 @@
 "relevance": 3,
 "why": "Understanding the physiological changes induced by ketamine in mood disorders, while reducing its side effects, is likely to contribute to a more comprehensive understanding of the physiology underlying mood disorders, as well as to the development of faster-acting and more efficacious antidepressant treatments. An…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://storage.imrpress.com/IMR/2091807804726501400/application/2757-8038-27-4-54760.pdf",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42694485",
@@ -28406,7 +28625,13 @@
 "relevance": 3,
 "why": "Post-stroke cognitive impairment (PSCI) affects 30-50% of acute ischemic stroke survivors within the first year, yet the prognostic relevance of dynamic inflammatory trajectories remains incompletely defined. This narrative review synthesizes clinical and mechanistic evidence linking temporally evolving inflammatory…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1903189/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42694129",
@@ -28445,7 +28670,13 @@
 "relevance": 3,
 "why": "Proper sleep and stress maintenance are essential for health and may contribute to disease progression when dysregulated. This review highlights the intricate links between sleep, stress, and Alzheimer's disease, including underlying neural circuitry and mechanisms that contribute to disease. Sleep is essential for…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.nature.com/articles/s44400-026-00127-2.pdf",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42693863",
@@ -28487,7 +28718,8 @@
 "relevance": 3,
 "why": "Neuroscience is making tremendous progress toward precision medicine, with nanotechnology playing a critical role in overcoming hurdles to successful brain medication delivery. Nano magnetism, namely biohybrid magnetoelectric nanocarriers (MENs), has emerged as a potential method for targeted and non-invasive…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42693839",
@@ -28527,7 +28759,8 @@
 "relevance": 3,
 "why": "Plant-derived Exosome-like Nanovesicles (PELNs) have the potential to exhibit improved biological functions in multiple pathological disorders, particularly in neurodegenerative and age-related brain diseases. In this review, advanced isolation techniques, including Differential Ultracentrifugation (dUC),…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42693576",
@@ -28571,7 +28804,13 @@
 "relevance": 3,
 "why": "Particulate matter with an aerodynamic diameter ≤10 μm (PM10) is a major environmental pollutant implicated in chronic airway injury and remodeling. This study investigated the effects of chronic PM10 exposure on epithelial barrier integrity, cellular differentiation, surfactant expression, and inflammatory signaling…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.e-trd.org/upload/pdf/trd-2026-0072.pdf",
+"pdf": true,
+"status": "diamond"
+}
 },
 {
 "id": "biorxiv-10.64898_2026.03.18.712473",
@@ -28767,7 +29006,13 @@
 "relevance": 2,
 "why": "Triggering receptor expressed on myeloid cells 2 (TREM2) is a microglia-enriched immunoreceptor that functions as a central regulator of microglial adaptation by integrating immune surveillance, lipid sensing, metabolic reprogramming, and phagocytic responses in the central nervous system (CNS). Through association…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1912989/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42694488",
@@ -28818,7 +29063,13 @@
 "relevance": 2,
 "why": "Prostate cancer (PCa) and Alzheimer's disease (AD) are age-related disorders with a complex epidemiological association and limited therapeutic options. Identifying shared molecular drivers may reveal new treatment targets. To identify common transcriptomic signatures between PCa and AD and validate the role of…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1911726/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42693483",
@@ -28880,7 +29131,13 @@
 "relevance": 2,
 "why": "Tau immunotherapy has recently shown clinical promise but required high dosing. We developed NIDB-3101, a novel third-generation, high-affinity anti-tau biparatopic antibody designed for superior tau binding, aggregation inhibition, and extended half-life. NIDB-3101 binds tau's microtubule-binding region and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1186/s13195-026-02155-9",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42693185",
@@ -28919,7 +29176,8 @@
 "relevance": 2,
 "why": "Complement comprises a group of plasma and membrane proteins that provide an effective bridging function for innate and adaptive humoral immunity. Understanding complement pathophysiology is fundamental given that inappropriate complement function in host defence can lead to infectious diseases and inefficient…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "biorxiv-10.64898_2026.09.01.748506",
@@ -29003,7 +29261,13 @@
 "relevance": 5,
 "why": "Anti-amyloid treatment (AAT) with monoclonal antibodies represents a major therapeutic advance in early Alzheimer disease (AD), but its introduction has important and underappreciated implications for vascular neurology. Because many patients with AD also have cerebral amyloid angiopathy and other cerebrovascular…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1889769/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42687907",
@@ -29094,7 +29358,8 @@
 "relevance": 4,
 "why": "Cerebral small vessel disease (CSVD) is associated with depressive symptoms. Exercise may reduce depressive symptoms for people with CSVD. We examined the effects of progressive resistance training (PRT) on depressive symptoms among adults with CSVD and mild cognitive impairment (ie, subcortical vascular cognitive…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42691219",
@@ -29144,7 +29409,13 @@
 "relevance": 4,
 "why": "The discovery of the glymphatic system and of meningeal lymphatic vessels has substantially revised our understanding of how the central nervous system clears waste and maintains neuroimmune homeostasis. Acting in series, these two pathways remove interstitial solutes, metabolic by-products, and neurotoxic proteins…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.aginganddisease.org/EN/PDF/10.14336/AD.2026.0009",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42689978",
@@ -29186,7 +29457,13 @@
 "relevance": 4,
 "why": "Ischemia-reperfusion (I/R) injury triggers a rapid and self-amplifying cascade of mitochondrial dysfunction, synaptic instability, and neuroinflammation that ultimately determines neuronal survival and functional recovery. Early bioenergetic collapse-driven by mitochondrial depolarization, Reactive oxygen species…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://storage.imrpress.com/IMR/2089624977334575000/application/2768-6698-31-8-49412.pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "medrxiv-10.64898_2026.08.30.26361511",
@@ -29288,7 +29565,13 @@
 "relevance": 3,
 "why": "Brain metastases (BM) are a common and clinically significant manifestation of advanced cancer that increasingly influences treatment decisions across solid tumors. Management requires a tailored approach because intracranial disease may behave differently from extracranial disease, reflecting differences in drug…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1016/j.neurot.2026.e00934",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42691466",
@@ -29340,7 +29623,8 @@
 "relevance": 3,
 "why": "Cerebral amyloid angiopathy (CAA) is currently diagnosed using MRI-based Boston criteria. However, imaging markers represent downstream consequences of vascular injury and may not fully reflect disease severity. CSF biomarkers, particularly β-amyloid 1-42 (Aβ42) and β-amyloid 1-40 (Aβ40), may provide a more direct…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42690731",
@@ -29385,7 +29669,8 @@
 "relevance": 3,
 "why": "BackgroundWhite matter hyperintensity (WMH) is linked to mild cognitive impairment (MCI) and vascular dementia, but its longitudinal change as an independent risk factor remains unclear.ObjectiveThis study aims to compare baseline WMH across diagnostic outcomes, and evaluate how WMH trajectory relates to outcomes,…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42690717",
@@ -29442,7 +29727,13 @@
 "relevance": 3,
 "why": "Phosphodiesterase 7B (PDE7B) is involved in the cAMP-PKA signaling pathway and has been implicated in neurodegenerative disorders. Accordingly, PDE7B represents a promising target for the development of therapeutics to treat such diseases. Recent efforts have led to the discovery of pyrimidinone-based compounds with…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://repo.qst.go.jp/records/2007484",
+"pdf": false,
+"status": "green"
+}
 },
 {
 "id": "pmid-42690525",
@@ -29486,7 +29777,13 @@
 "relevance": 3,
 "why": "Enlarged perivascular spaces (ePVS) are small, sparse MRI-visible markers of cerebral small vessel disease and brain ageing. Their size, low contrast, and severe foreground-background imbalance make automated segmentation challenging. Existing methods are mainly cross-sectional and do not model temporal consistency,…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1007/s10278-026-02242-1.pdf",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42689318",
@@ -29524,7 +29821,13 @@
 "relevance": 3,
 "why": "The blood-brain barrier (BBB) is a highly specialized interface between the central nervous system and the peripheral circulation, crucial for maintaining neuronal homeostasis and protecting the brain parenchyma from potentially harmful blood-borne substances. This review examines the molecular and cellular…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13544264/pdf/nihms-2206353.pdf",
+"pdf": true,
+"status": "green"
+}
 },
 {
 "id": "pmid-42689220",
@@ -29568,7 +29871,13 @@
 "relevance": 3,
 "why": "The human genome encodes a wide variety of protein kinases that regulate multiple cellular functions. These enzymes play a crucial role in amplifying and propagating intracellular signals during signal transduction. Dysregulation of protein kinase signaling is associated with vascular diseases, inflammatory disorders,…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://pubs.rsc.org/ra/article-pdf/doi/10.1039/d6ra03269a/13741785/d6ra03269a.pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42689185",
@@ -29612,7 +29921,13 @@
 "relevance": 3,
 "why": "Neurodegenerative diseases (NDDs) pose a major health challenge due to their high prevalence and the lack of effective treatments; ginseng, as medicine and food homology, has potential neuroprotective effects. This article provides a systematic review of research conducted over the past five years on the use of…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1912520/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42688794",
@@ -29660,7 +29975,13 @@
 "relevance": 3,
 "why": "The blood-brain barrier (BBB) offers a highly specialized protective boundary for the brain, but severely limits therapeutic delivery, posing major challenges for treating neurological diseases and solid tumors. Focused ultrasound (FUS) has emerged as a powerful tool to noninvasively and transiently disrupt the BBB to…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1016/j.celbio.2026.100461",
+"pdf": false,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42688580",
@@ -29701,7 +30022,13 @@
 "relevance": 3,
 "why": "Multiple sclerosis (MS) is a chronic autoimmune disorder of the central nervous system (CNS), characterized by sustained neuroinflammation, oxidative stress, demyelination, and progressive neurodegeneration. Although MS remains incurable, current disease-modifying therapies (DMTs) help reduce relapse frequency and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.3389/fimmu.2026.1797609",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42687991",
@@ -29872,7 +30199,8 @@
 "relevance": 3,
 "why": "Alzheimer's disease (AD) is characterized by amyloid-β (Aβ) aggregation, oxidative stress, mitochondrial dysfunction, and progressive neuronal loss, yet effective disease-modifying therapeutics remain limited. Herein, we report the sustainable synthesis of two triphenylamine-based donor-acceptor (D-A) scaffolds,…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42686946",
@@ -29921,7 +30249,13 @@
 "relevance": 3,
 "why": "Alzheimer's disease (AD) is characterized by progressive metabolic failure, impaired mitochondrial function, and diminished adaptive stress responses, highlighting the need for disease-modifying therapies that restore cellular resilience rather than target downstream pathology. Here, we report the discovery and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.nature.com/articles/s44386-026-00072-3.pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "biorxiv-10.64898_2026.08.27.746928",
@@ -30052,7 +30386,8 @@
 "relevance": 2,
 "why": "",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42689339",
@@ -30091,7 +30426,13 @@
 "relevance": 2,
 "why": "The role of immune checkpoint B7-H3 in acute ischemic stroke prognosis and poststroke immunosuppression remains uninvestigated, despite the clinical significance of immune checkpoints with inflammaging and poststroke infections. In this study, we investigated the effect of regulating cerebral induction of B7-H3 after…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1161/strokeaha.126.055713",
+"pdf": false,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42688514",
@@ -30131,7 +30472,13 @@
 "relevance": 2,
 "why": "Digital language markers show promise in detecting early cognitive impairment related to Alzheimer's disease (AD), yet their relationship with cerebrospinal fluid (CSF) biomarkers of AD pathology remains unclear mainly due to the lack of data with both CSF and language markers. Using National Alzheimer's Coordinating…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/dad2.70466",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42688001",
@@ -30268,7 +30615,8 @@
 "relevance": 2,
 "why": "Neurovascular dysfunction is an early and critical contributor to Alzheimer's disease (AD), yet the molecular mechanisms linking vascular pathology to metabolic dysregulation remain incompletely understood. Advanced glycation end products (AGEs), which accumulate during aging and metabolic stress, have been implicated…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "biorxiv-10.64898_2026.09.01.747915",
@@ -30452,7 +30800,13 @@
 "relevance": 5,
 "why": "Osteopontin (encoded by secreted phosphoprotein 1) is a multifunctional matricellular phosphoglycoprotein that has emerged as an important mediator in the aging nervous system. During aging, osteopontin interacts with microglial priming, vascular remodeling, myelin repair, and innate immune responses and is…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1177/03000605261476190",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42682458",
@@ -30495,7 +30849,13 @@
 "relevance": 5,
 "why": "Acute brain injury (ABI) frequently precipitates severe extracranial target-organ complications, with the lungs being the most directly and fatally affected distant organs. Traditionally, the rapid onset of pulmonary dysfunction following brain injury has been attributed to the \"massive catecholamine release\"-a…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1844527/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42681678",
@@ -30544,7 +30904,13 @@
 "relevance": 5,
 "why": "The brain was long been regarded as an immune-privileged organ with a lack of lymphatic drainage, partly because of the absence of parenchymal lymphatic vessels. This long-held doctrine has been challenged by recent advancements in central lymphatic vascular biology. The central drainage network, which consists of the…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1186/s40035-026-00579-9.pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42683793",
@@ -30592,7 +30958,13 @@
 "relevance": 4,
 "why": "Cerebral small-vessel disease (CSVD) is a major cause of cognitive impairment, but its underlying mechanisms remain incompletely understood. This study investigated the interrelationships among deep medullary vein (DMV) disruption, glymphatic dysfunction as assessed using the diffusion-tensor imaging analysis along…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "http://thejcn.com/Synapse/Data/PDFData/0145JCN/jcn-22-e54.pdf",
+"pdf": true,
+"status": "diamond"
+}
 },
 {
 "id": "pmid-42683271",
@@ -30635,7 +31007,13 @@
 "relevance": 4,
 "why": "Brain aging is increasingly recognized as a neurovascular and inflammatory process involving blood-brain barrier dysfunction, endothelial activation, pericyte impairment, astrocyte-microglia reactivity, oxidative stress, white matter vulnerability, and cognitive decline. Although polyphenol-rich diets are widely…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1895218/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42683218",
@@ -30678,7 +31056,13 @@
 "relevance": 4,
 "why": "Accumulation of amyloid-beta (Aβ) deposits is one of the neuropathological hallmarks of Alzheimer's disease (AD), the most frequent neurodegenerative disease in all age groups. While decades of research have focused on the production and aggregation of Aβ peptides, mounting evidence implicate impaired brain fluid…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.3389/fncel.2026.1903812",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42681755",
@@ -30732,7 +31116,13 @@
 "relevance": 4,
 "why": "The amyloid cascade involving the production and deposition of amyloid β (Aβ) peptides derived from amyloid precursor protein (APP) is a leading hypothesis in the pathogenesis of Alzheimer's disease (AD). However, disease-modifying therapies targeting this cascade remain an unmet challenge. Here, we identify small…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.77575",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42680958",
@@ -30778,7 +31168,8 @@
 "relevance": 4,
 "why": "Alzheimer's disease (AD) remains a major therapeutic challenge owing to its complex and multifactorial pathogenesis, as well as the limited clinical efficacy of conventional therapeutics caused by poor pharmacokinetic properties, rapid systemic clearance, and restricted transport across the blood-brain barrier (BBB).…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42685844",
@@ -30818,7 +31209,13 @@
 "relevance": 3,
 "why": "To explore glymphatic function and white matter microstructural alterations in high-frequency episodic migraine (HFEM). This study included 31 healthy controls (HCs), 44 patients with low-frequency episodic migraine (LFEM), and 27 with HFEM. Glymphatic function was indirectly assessed using diffusion tensor image…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S0361923026003977/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42684564",
@@ -30860,7 +31257,8 @@
 "relevance": 3,
 "why": "Missense mutations in NOTCH3, especially cysteine-altering pathogenic variants, are the cause of cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy. The NOTCH3 p.Arg1231Cys variant, located in EGFr domain 31, is classified as low-risk under the three-tiered EGFr domain risk…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42683436",
@@ -30898,7 +31296,13 @@
 "relevance": 3,
 "why": "Background: Alzheimer's disease drug development has produced a 99.6 percent failure rate for disease-modifying compounds (244 compounds tested 2002-2012, one regulatory approval; Cummings et al., 2014; Cummings, 2018)-the most sustained and costly therapeutic failure in the history of modern medicine. The field's…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://ejournals.uni-muenster.de/fnp/article/view/9650",
+"pdf": false,
+"status": "diamond"
+}
 },
 {
 "id": "pmid-42683414",
@@ -30938,7 +31342,13 @@
 "relevance": 3,
 "why": "Lung cancer brain metastasis (LCBM) is a major cause of cancer-related mortality, driven by the restrictive blood-brain barrier (BBB), an immunosuppressive microenvironment, and dynamic metabolic reprogramming. Increasing evidence suggests that LCBM is governed by coordinated interactions among neural, immune, and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1886585/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42683315",
@@ -30985,7 +31395,13 @@
 "relevance": 3,
 "why": "Glioblastoma (GBM) remains one of the most lethal malignancies in adults, with a median survival of 15 months under the current standard of care. The lack of effective targeted therapies is a critical gap, particularly for the mesenchymal subtype of glioblastoma (MES-GBM), which accounts for up to 49% of GBM cases and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2026.1857885/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42682864",
@@ -31032,7 +31448,13 @@
 "relevance": 3,
 "why": "Alzheimer's disease (AD) is characterized by the excessive accumulation of select proteins in the brain, associated with altered vascular function, glymphatic transport, cerebrospinal fluid (CSF) dynamics, and cerebral microstructure. Exosomes derived from cerebral endothelial cells (CEC-Exo) have been demonstrated to…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1788077/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42682794",
@@ -31073,7 +31495,13 @@
 "relevance": 3,
 "why": "Brain metastasis is the major cause of cancer-related mortality and remains a critical challenge in clinical oncology. Extravasation of circulating cancer cells across blood-brain barrier (BBB) is the first crucial and rate-limiting step for brain metastasis growth. However, the dynamic changes of brain endothelial…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1917794/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42682642",
@@ -31117,7 +31545,13 @@
 "relevance": 3,
 "why": "Glioma is the most common and aggressive primary intracranial tumor. Its clinical management is substantially hindered by the blood-brain barrier (BBB) and the immunosuppressive tumor microenvironment (TME). This study aimed to construct PD-1-functionalized mesenchymal stem cell (MSC) membrane biomimetic nanoparticles…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1906527/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42682105",
@@ -31159,7 +31593,13 @@
 "relevance": 3,
 "why": "Cerebral blood flow (CBF) often becomes compromised in patients suffering from cardiovascular diseases, increasing the risk of neurodegenerative disease and vascular dementia. There is an urgent need for treatments to address cardiovascular risk without compromising brain perfusion, yet the impact of many existing…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1113/EP093381",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42681186",
@@ -31202,7 +31642,8 @@
 "relevance": 3,
 "why": "In vivo phage display is a versatile strategy for an unbiased identification of peptide ligands that selectively interact with molecular targets, in vitro, in cell, and in vivo, in living organisms. In a previous study, we validated this technology to identify a brain targeting peptide. Here, we detail the protocol…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42685382",
@@ -31245,7 +31686,8 @@
 "relevance": 2,
 "why": "Matrix mechanics and microarchitecture jointly regulate tissue morphogenesis and functional maturation; however, defining their combined effects remains challenging when microenvironmental tuning requires changes in material composition. Here, we establish a UV-programmable gelatin methacryloyl (GelMA) hydrogel system…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42685299",
@@ -31289,7 +31731,13 @@
 "relevance": 2,
 "why": "There is a long history of early- and mid-phase amyotrophic lateral sclerosis (ALS) clinical trial data being used to make claims of clinical benefit that fail to translate into successful phase 3 outcomes. It is suggested that fallacious scientific reasoning is being encouraged by perverse incentives arising from a…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1212/wnl.0000000000218471",
+"pdf": false,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42683591",
@@ -31332,7 +31780,13 @@
 "relevance": 2,
 "why": "Ulcerative colitis (UC) patients experience cycles of active gut inflammation and remission, with neuropsychiatric comorbidities persisting even during clinical remission. While the dextran sulfate sodium (DSS) mouse model was previously applied to study gut-brain interactions, those studies focused on acute protocols…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1002/glia.70208",
+"pdf": false,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42682700",
@@ -31375,7 +31829,13 @@
 "relevance": 2,
 "why": "Music interventions show promise in dementia care and digital approaches may increase availability and accessibility. We investigated the efficacy of a digital music intervention (DMI) and conventional music therapy (CMT) compared to standard care (SC) across the dementia care continuum. In an exploratory…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/trc2.70317",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42682443",
@@ -31423,7 +31883,13 @@
 "relevance": 2,
 "why": "Cerebral amyloid angiopathy (CAA) is a common age-associated cerebrovascular disease marked by amyloid-β (Aβ) accumulation in cerebral vessel walls, and it is tightly linked to Alzheimer's disease (AD) and cognitive impairment. However, the specific mechanism in CAA progression remains poorly elucidated. We analyzed…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1933760/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "biorxiv-10.1101_2025.03.12.642808",
@@ -31632,7 +32098,13 @@
 "relevance": 5,
 "why": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder with few treatment options, especially for APOE4/4 homozygotes who carry high genetic risk. Valiltramiprosate/ALZ-801 is an oral small-molecule inhibitor of amyloid-beta oligomer formation in late-stage development as a disease-modifying therapy for…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1007/s40265-026-02381-3.pdf",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42680013",
@@ -31673,7 +32145,13 @@
 "relevance": 4,
 "why": "Drug delivery to the CNS has traditionally been evaluated by the ability of carriers to cross the blood-brain barrier (BBB). This barrier-centric view has enabled important progress, but it overlooks a therapeutically significant and design-relevant feature of the neurovascular unit: cerebral endothelial cells and…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S0168365926007273/pdf",
+"pdf": true,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-42678678",
@@ -31712,7 +32190,8 @@
 "relevance": 4,
 "why": "Real-world amyloid-related imaging abnormality (ARIA) rates with lecanemab are consistently lower than in the Clarity AD trial, yet whether this reduction is genotype-specific is unknown. We compared published APOE ε4-stratified ARIA-E and ARIA-H rates from Clarity AD with a US real-world cohort and Japanese…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42675575",
@@ -31758,7 +32237,13 @@
 "relevance": 4,
 "why": "The integrity of the brain's barrier systems-the blood-brain barrier (BBB) and blood-cerebrospinal fluid barrier (BCSFB)-is crucial for central nervous system homeostasis. Oxytocin (OXT), a neuropeptide with emerging peripheral roles, has been implicated in vascular function. This study investigates the hypothesis…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://pubmed.ncbi.nlm.nih.gov/42675575/",
+"pdf": false,
+"status": "green"
+}
 },
 {
 "id": "pmid-42680479",
@@ -31799,7 +32284,13 @@
 "relevance": 3,
 "why": "Cellular identity is maintained by precise epigenetic regulation, but chronic stress and aging can disrupt this control, leading to mesenchymal drift (MD). Unlike the coordinated process of epithelial-mesenchymal transition (EMT), MD is a stochastic, lineage-independent phenomenon marked by increased epigenetic noise…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.5483/bmbrep.2026-0150",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42680374",
@@ -31843,7 +32334,8 @@
 "relevance": 3,
 "why": "As emerging pollutants, N-(1,3-dimethylbutyl)-N'-phenyl-p-phenylenediamine (6PPD) and 6PPD-quinone (6PPD-Q) are considered to pose potential neurotoxicity. However, their long-term effects on nervous system of aquatic organisms are rarely understood. The neurotoxicity of 6PPD and 6PPD-Q was investigated in zebrafish…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42679938",
@@ -31888,7 +32380,8 @@
 "relevance": 3,
 "why": "Oleic acid (OA) is demonstrated to have neuroprotective effects and may improve the therapy of neurological disorders. However, the mechanism of OA impact on blood-brain barrier (BBB) and neuroinflammation following intracerebral hemorrhage (ICH) remains indistinct. Here, we aimed to affirm the neuroprotective…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42679734",
@@ -31933,7 +32426,13 @@
 "relevance": 3,
 "why": "Despite widespread environmental detection of 2,4-di-tert-butylphenol (2,4-DTBP), its neurotoxic impacts on cognitive behavior remain largely unexplored. In this study, adult zebrafish were exposed to 0.01, 0.1, and 1 μM 2,4-DTBP for 28 days. T-maze testing revealed dose-dependently longer path lengths to the…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S0160412026004484/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42679043",
@@ -31973,7 +32472,8 @@
 "relevance": 3,
 "why": "To investigate the independent factors associated with the detection of cerebral microbleeds (CMBs) after intravenous thrombolysis (IVT) in patients with acute ischemic stroke (AIS) based on susceptibility-weighted imaging (SWI). This was a retrospective analysis of 157 AIS patients who received IVT. Based on…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42678680",
@@ -32016,7 +32516,8 @@
 "relevance": 3,
 "why": "Glymphatic dysfunction has been implicated in Alzheimer's disease (AD), but its position relative to amyloid and tau biomarkers remains unclear. We examined the relative position of the diffusion tensor image analysis along the perivascular space (ALPS) index within the AD biomarker cascade using Alzheimer's Disease…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42677462",
@@ -32058,7 +32559,13 @@
 "relevance": 3,
 "why": "The brain's vasculature-from pial arteries through penetrating arterioles and the capillary bed to venous drainage-is enveloped by a narrow, compositionally elaborate perivascular space that provides the primary signaling interface between neural tissue and blood vessels. Here, we advance the principle that the…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13537212/pdf/nihms-2205626.pdf",
+"pdf": true,
+"status": "green"
+}
 },
 {
 "id": "pmid-42677156",
@@ -32101,7 +32608,13 @@
 "relevance": 3,
 "why": "Ischemic stroke (IS) remains a leading cause of global disability and mortality, with limited effective anti-inflammatory interventions. Targeting histone deacetylase 3 (HDAC3) to reprogram microglial polarization holds great therapeutic promise, but the HDAC3-specific inhibitor RGFP966 suffers from poor blood-brain…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1080/14686996.2026.2699624",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42676209",
@@ -32147,7 +32660,13 @@
 "relevance": 3,
 "why": "Interindividual variability in motor outcomes after subthalamic nucleus deep brain stimulation (STN-DBS) in Parkinson's disease (PD) remains incompletely understood. Glymphatic-related imaging abnormalities have been reported in PD, but their relevance to neuromodulation response is unclear. To investigate whether…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mdc3.70804",
+"pdf": true,
+"status": "bronze"
+}
 },
 {
 "id": "biorxiv-10.64898_2026.08.30.748173",
@@ -32335,7 +32854,13 @@
 "relevance": 2,
 "why": "Neuromyelitis optica spectrum disorder (NMOSD) is an autoimmune disease that mostly affects the central nervous system, and Sjögren's disease (SjD) is an autoimmune disease that mostly affects the exocrine glands. Recent evidence indicates that these conditions frequently coexist and may have overlapping…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1931729/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "biorxiv-10.64898_2026.08.26.747247",
@@ -32598,7 +33123,8 @@
 "relevance": 4,
 "why": "Cerebral amyloid angiopathy (CAA) has long been regarded as a hemorrhagic age-related small vessel disease (SVD). However, cerebral ischemia, indicated by symptomatic and incidental diffusion-weighted imaging (sDWI and iDWI) hyperintensities, remains controversial regarding its clinical relevance and pathological…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "id": "pmid-42675202",
@@ -32643,7 +33169,8 @@
 "relevance": 3,
 "why": "Parkinson's disease (PD), the second most common neurodegenerative condition, develops because of abnormal protein misfolding and aggregation of α-synuclein with its subsequent intercellular spread. Such pathological changes lead to disruption of neuronal homeostasis and contribute to neuronal degeneration. During…",
 "addedAt": "2026-10-01",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-10-01"
 },
 {
 "addedAt": "2026-09-29",
