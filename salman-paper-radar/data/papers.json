@@ -1,8 +1,8 @@
 {
 "meta": {
 "lastCurated": "2026-10-01",
-"lastRunAdded": 0,
-"total": 701,
+"lastRunAdded": 1,
+"total": 702,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -4646,6 +4646,60 @@
 "url": "https://www.medrxiv.org/content/10.64898/2026.09.26.26364080v1.full.pdf",
 "pdf": true,
 "status": "preprint"
+}
+},
+{
+"id": "pmid-42806112",
+"pmid": "42806112",
+"doi": "10.1038/s41587-026-03331-w",
+"title": "Accelerated discovery of thermostable mRNA-lipid nanoparticle vaccines using data-efficient AI.",
+"authors": "Tian J, Tran KTM, Pogostin BH, … Jaklenec A",
+"journal": "Nature biotechnology",
+"journal_iso": "Nat Biotechnol",
+"date": "2026-09-28",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41587-026-03331-w"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42806112/"
+}
+],
+"au": [
+"tian|j",
+"tran|k",
+"pogostin|b",
+"sheridan|o",
+"mursalova|s",
+"lee|a",
+"liu|s",
+"hamkins|j",
+"antov|d",
+"power|a",
+"dash|z",
+"yun|d",
+"konakovic lukovic|m",
+"langer|r",
+"jaklenec|a"
+],
+"topics": [],
+"keywords": [
+"nanoparticle"
+],
+"relevance": 1,
+"why": "The instability of mRNA-lipid nanoparticles (LNPs) necessitates ultra-cold storage, limiting global distribution and their broader application in advanced delivery systems. Solid-state, water-free formulations enhance thermostability and enable integration into emerging delivery modalities such as microneedle patches.…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1038/s41587-026-03331-w",
+"pdf": false,
+"status": "hybrid"
 }
 },
 {
