@@ -5,7 +5,7 @@
 days_back: 3
 
 # Contact email sent to NCBI with each request (NCBI asks for one).
-ncbi_email: "your.name@dpag.ox.ac.uk"
+ncbi_email: "szegedi.melibubu@gmail.com"
 
 # PubMed search. [tiab] = title/abstract. Broad on purpose: scoring below does the ranking.
 pubmed_query: >-
