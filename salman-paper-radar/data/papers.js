@@ -9,7 +9,8 @@ window.PAPER_RADAR_DATA = {
 "delivery": "Brain delivery & TfR shuttles",
 "adtx": "AD & neurodegeneration drugs",
 "glymph": "Glymphatics & AQP4"
-}
+},
+"customTopics": []
 },
 "papers": [
 {
