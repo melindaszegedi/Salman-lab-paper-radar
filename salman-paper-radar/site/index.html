@@ -133,6 +133,27 @@ footer{max-width:1132px;margin:0 auto 40px;font-size:12.5px;color:var(--faint);b
 @media (max-width:860px){footer{margin:0 16px 32px}}
 @media (min-width:861px){.side{max-height:calc(100vh - 40px);overflow-y:auto;scrollbar-width:thin;padding-right:4px}}
 .loading{color:var(--muted);padding:40px 0}
+/* Tracked authors, lab topics, author view */
+.addlink{margin-top:8px;font-size:13px;text-decoration:none}
+.addlink:hover{text-decoration:underline}
+.author-row .ini{width:22px;height:22px;border-radius:50%;flex:none;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;background:var(--gel);color:var(--muted)}
+.newdot{width:9px;height:9px;border-radius:50%;background:#E5484D;flex:none;margin-left:auto;box-shadow:0 0 0 2px var(--slide)}
+.topic.active{background:var(--gel)}
+.searchrow{display:flex;gap:8px}
+.searchrow input{flex:1;min-width:0}
+.results{display:flex;flex-direction:column;gap:8px}
+.res{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.res .who{flex:1;min-width:0}
+.res .who strong{display:block;font-size:14.5px}
+.res .who span{display:block;color:var(--muted);font-size:12.5px;line-height:1.4}
+.res .who a{color:var(--hema);font-size:12.5px}
+.mylist{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:12px}
+.mylist .row{justify-content:space-between;font-size:13.5px}
+.aview-head{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+.aview-head h2{font-family:var(--serif);font-weight:600;font-size:clamp(26px,3.6vw,36px);margin:0;line-height:1.1}
+.aview-sub{color:var(--muted);font-size:13.5px;margin:4px 0 20px}
+.aview-sub a{color:var(--hema)}
+.badge.new{color:#E5484D}
 /* Sign-in screen shown before the feed */
 .gate{display:none;min-height:100vh;min-height:100dvh;align-items:center;justify-content:center;padding:24px 16px}
 html.locked .gate{display:flex}
@@ -225,6 +246,13 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
       <h2>Topics</h2>
       <div class="topics" id="topics"></div>
       <p class="note" id="topicsNote" hidden style="margin-top:10px">Your feed uses the topics, keywords, journals and authors in your preferences.</p>
+      <button type="button" class="linkbtn addlink" id="addTopicBtn" hidden>+ Add a topic</button>
+    </div>
+
+    <div class="group" id="authorsGroup" hidden>
+      <h2>Tracked authors</h2>
+      <div class="topics" id="tracked"></div>
+      <button type="button" class="linkbtn addlink" id="findAuthorBtn">+ Find an author</button>
     </div>
 
     <div class="group">
@@ -251,6 +279,7 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
   </aside>
 
   <main id="main">
+    <section id="authorView" hidden aria-live="polite"></section>
     <div class="hello" id="hello" hidden></div>
     <div class="seg feedseg" role="group" aria-label="Feed" id="feeds" hidden>
       <button data-feed="mine">My feed</button>
@@ -314,6 +343,28 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
     <div class="dlg-foot"><button type="button" class="btn" data-close>Cancel</button><button type="submit" class="btn primary">Save</button></div>
   </form>
 </dialog>
+<dialog id="authorDlg" aria-labelledby="authorTitle">
+  <div class="dlg-head"><h2 id="authorTitle">Find an author</h2><button type="button" data-close aria-label="Close">×</button></div>
+  <form class="dlg-body" id="authorForm">
+    <div class="field"><label for="aQuery">Name</label>
+      <div class="searchrow"><input type="text" id="aQuery" placeholder="e.g. Mootaz Salman" autocomplete="off"><button type="submit" class="btn primary">Search</button></div>
+      <small>Searches OpenAlex, an open index of scholarly authors and papers built from PubMed, Crossref, ORCID and other sources. Check the institution and topics to pick the right person.</small></div>
+    <p class="msg" id="authorMsg" role="status" aria-live="polite"></p>
+    <div class="results" id="authorResults"></div>
+  </form>
+</dialog>
+
+<dialog id="topicDlg" aria-labelledby="topicTitle">
+  <div class="dlg-head"><h2 id="topicTitle">Add a topic</h2><button type="button" data-close aria-label="Close">×</button></div>
+  <form class="dlg-body" id="topicForm">
+    <div class="field"><label for="tName">Topic name</label><input type="text" id="tName" maxlength="60" placeholder="e.g. Brain organoids" autocomplete="off"></div>
+    <div class="field"><span class="lbl" id="tkLbl">Keywords to search for</span><div class="chips" data-chips="topickw" aria-labelledby="tkLbl"></div>
+      <small>1–12 terms, Enter after each, e.g. brain organoid, assembloid. A paper joins the topic when its title or abstract contains one of them. The daily search on PubMed, bioRxiv and medRxiv starts looking for them.</small></div>
+    <p class="msg" id="topicMsg" role="status" aria-live="polite"></p>
+    <div class="dlg-foot"><button type="button" class="btn" data-close>Close</button><button type="submit" class="btn primary">Add topic</button></div>
+    <div class="mylist" id="myTopics" hidden></div>
+  </form>
+</dialog>
 <datalist id="journalList"></datalist>
 <script>
 (function(){
@@ -325,6 +376,18 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
     {id:"adtx", name:"AD & neurodegeneration drugs", c:"var(--dab)"},
     {id:"glymph", name:"Glymphatics & AQP4", c:"var(--fastgreen)"}
   ];
+  var PALETTE = ["#7A5CC7","#2B8A8A","#B8642E","#C24B8F","#4F7BD1","#6E8B2F","#A0527A","#3F86B5","#8C6D1F","#5E6AD2"];
+  var BUILTIN_N = TOPICS.length;
+  // Topics lab members added on the site (shared by everyone)
+  function mergeTopics(list){
+    (list||[]).forEach(function(t){
+      if (!t || !t.id) return;
+      var ex=TOPICS.find(function(z){ return z.id===t.id; });
+      if (ex){ if (t.created_by_name!=null){ ex.by=t.created_by_name; ex.owner=t.created_by; } if (t.name && ex.custom) ex.name=t.name; return; }
+      TOPICS.push({id:t.id, name:t.name||t.id, c:PALETTE[(TOPICS.length-BUILTIN_N)%PALETTE.length], custom:true, by:t.created_by_name||"", owner:t.created_by||null});
+      state.topics.add(t.id);
+    });
+  }
   var TYPE_LABEL = {journal:"Journal", preprint:"Preprint", trial:"Trial update", news:"News & comment"};
   var MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
   var MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -353,7 +416,8 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
   function keywordRx(kw){ kw=fold(kw); if(!kw) return null;
     var esc=kw.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
     try { return new RegExp((/^[a-z0-9]/.test(kw)?"(?<![a-z0-9])":"")+esc+(/[a-z0-9]$/.test(kw)?"(?![a-z0-9])":"")); } catch(e){ return null; } }
-  function hasPrefs(pr){ return !!pr && ["keywords","topics","journals","authors"].some(function(k){ return (pr[k]||[]).length; }); }
+  function hasPrefs(pr){ return !!pr && ["keywords","topics","journals","authors","tracked_authors"].some(function(k){ return (pr[k]||[]).length; }); }
+  function followedAuthors(pr){ return (pr.authors||[]).concat((pr.tracked_authors||[]).map(function(t){ return t && t.name; }).filter(Boolean)); }
   var matchCache = new Map(), rxCache = {};
   function personalMatch(x){
     if (matchCache.has(x)) return matchCache.get(x);
@@ -362,7 +426,7 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
     var topic=(pr.topics||[]).some(function(t){ return (x.topics||[]).indexOf(t)>-1; });
     var pj=normJournal(x.journal), journal=!!pj && (pr.journals||[]).some(function(j){ return normJournal(j)===pj; });
     var pa=x.au || String(x.authors||"").split(/,\s*/).map(authorKey);
-    var authors=(pr.authors||[]).filter(function(a){ var k=authorKey(a); return k && pa.some(function(z){ return authorMatches(k,z); }); });
+    var authors=followedAuthors(pr).filter(function(a){ var k=authorKey(a); return k && pa.some(function(z){ return authorMatches(k,z); }); });
     var m={keywords:kws, topic:topic, journal:journal, authors:authors, any:!!(kws.length||topic||journal||authors.length)};
     m.score = PERSONAL.relevance*(x.relevance||0) + PERSONAL.keyword*Math.min(3,kws.length) + (topic?PERSONAL.topic:0) + (journal?PERSONAL.journal:0) + PERSONAL.author*Math.min(2,authors.length);
     matchCache.set(x,m); return m;
@@ -434,7 +498,7 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
     var box=document.getElementById("topics"); box.textContent="";
     TOPICS.forEach(function(t){
       var n = papers.filter(function(x){ return (x.topics||[]).indexOf(t.id)>-1; }).length;
-      var b = el("button",{"class":"topic","aria-pressed":String(state.topics.has(t.id)),style:"--c:"+t.c,onclick:function(){
+      var b = el("button",{"class":"topic","aria-pressed":String(state.topics.has(t.id)),style:"--c:"+t.c,title:t.custom?("Lab topic"+(t.by?" added by "+t.by:"")):"",onclick:function(){
         if (state.topics.has(t.id)) { if (state.topics.size>1) state.topics.delete(t.id); } else state.topics.add(t.id);
         render();
       }},[el("span",{"class":"dot"}), el("span",{text:t.name}), el("span",{"class":"n",text:String(n)})]);
@@ -500,6 +564,7 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
 
   function render(){
     matchCache = new Map();
+    renderTracked();
     document.querySelectorAll("#modes button").forEach(function(b){ b.setAttribute("aria-pressed", String(b.dataset.mode===state.mode)); });
     document.querySelectorAll("#feeds button").forEach(function(b){ b.setAttribute("aria-pressed", String(b.dataset.feed===state.feed)); });
     document.getElementById("feeds").hidden = !profile;
@@ -507,6 +572,8 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
     document.getElementById("topicsNote").hidden = !mine();
     renderHello();
     renderTopics();
+    showFeedParts(!state.author);
+    if (state.author) return;
     var list=document.getElementById("list"); list.textContent="";
     if (!loaded){ list.appendChild(el("p",{"class":"loading",text:"Loading papers…"})); return; }
     renderGel();
@@ -658,7 +725,7 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
   });
 
   // Preferences dialog with chip inputs
-  var chipVals = {keywords:[], journals:[], authors:[]};
+  var chipVals = {keywords:[], journals:[], authors:[], topickw:[]};
   function drawChips(box){
     var key=box.dataset.chips, input=box.querySelector("input");
     box.querySelectorAll(".chip").forEach(function(c){ c.remove(); });
@@ -668,9 +735,9 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
   }
   document.querySelectorAll("[data-chips]").forEach(function(box){
     var key=box.dataset.chips;
-    var input=el("input",{type:"text","aria-label":"Add "+key.slice(0,-1), placeholder:key==="keywords"?"Add a keyword…":key==="journals"?"Add a journal…":"Add an author…"});
+    var input=el("input",{type:"text","aria-label":"Add "+key.slice(0,-1), placeholder:key==="keywords"||key==="topickw"?"Add a keyword…":key==="journals"?"Add a journal…":"Add an author…"});
     if (key==="journals") input.setAttribute("list","journalList");
-    function add(){ input.value.split(key==="keywords" ? /[;,\n]/ : /[;\n]/).forEach(function(v){ v=v.trim().slice(0,80); if (v && chipVals[key].map(fold).indexOf(fold(v))===-1) chipVals[key].push(v); }); input.value=""; drawChips(box); }
+    function add(){ input.value.split(key==="keywords"||key==="topickw" ? /[;,\n]/ : /[;\n]/).forEach(function(v){ v=v.trim().slice(0,80); if (v && chipVals[key].map(fold).indexOf(fold(v))===-1) chipVals[key].push(v); }); input.value=""; drawChips(box); }
     input.addEventListener("keydown",function(e){
       if (e.key==="Enter"){ e.preventDefault(); add(); }
       else if (e.key==="Backspace" && !input.value && chipVals[key].length){ chipVals[key].pop(); drawChips(box); }
@@ -730,11 +797,12 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
   function setUser(u){
     var was = user && user.id;
     user = u || null;
-    if (!user){ profile=null; state.feed="all"; renderAccount(); renderGate(); setLocked(true); return; }
+    if (!user){ profile=null; state.feed="all"; state.author=null; renderAccount(); renderGate(); setLocked(true); renderTracked(); return; }
     setLocked(false); loadPapers();
     if (was===user.id && profile) return;
     loadProfile().then(function(){
       state.feed="mine"; renderAccount(); render();
+      loadTopics(); refreshAuthorDots();
       if (location.hash==="#settings") openPrefs();
     });
   }
@@ -757,6 +825,208 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
     document.head.appendChild(s);
   }
   window.addEventListener("hashchange",function(){ if (location.hash==="#settings") openPrefs(); });
+
+  // ---------------------------------------------------------------- saving profile fields
+  function saveProfile(fields){
+    return sb.from("profiles").update(fields).eq("id",user.id).select().single().then(function(r){
+      if (r.error){
+        var m=r.error.message||"";
+        if (/column|tracked_authors|author_seen/i.test(m)) m="The database needs the latest update: run supabase/schema.sql again in Supabase.";
+        throw new Error(m);
+      }
+      profile=r.data; return profile;
+    });
+  }
+  function showFeedParts(on){
+    ["hello","feeds","status","list"].forEach(function(id){ var n=$(id); if (!on) n.hidden=true; });
+    if (on){ $("status").hidden=false; $("list").hidden=false; }
+    document.querySelector(".period").hidden=!on;
+    document.querySelector(".gel").hidden=!on;
+    $("authorView").hidden=on;
+  }
+
+  // ---------------------------------------------------------------- lab topics (shared)
+  function slugify(s){ return fold(s).replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,40); }
+  var topicsTable=false;
+  function loadTopics(){
+    if (!sb || !user) return;
+    sb.from("topics").select("id,name,keywords,created_by,created_by_name").order("created_at").then(function(r){
+      if (r.error){ console.warn("Lab topics unavailable:", r.error.message); topicsTable=false; $("addTopicBtn").hidden=true; return; }
+      topicsTable=true; $("addTopicBtn").hidden=false;
+      mergeTopics(r.data); render();
+    });
+  }
+  function drawMyTopics(){
+    var box=$("myTopics"); box.textContent="";
+    var mine=TOPICS.filter(function(t){ return t.custom && user && t.owner===user.id; });
+    box.hidden=!mine.length;
+    if (!mine.length) return;
+    box.appendChild(el("strong",{style:"font-size:13px",text:"Topics you added"}));
+    mine.forEach(function(t){
+      box.appendChild(el("div",{"class":"row"},[el("span",{text:t.name}), el("button",{"class":"linkbtn",type:"button",text:"Remove",onclick:function(){
+        sb.from("topics").delete().eq("id",t.id).then(function(r){
+          if (r.error) return setMsg("topicMsg","Couldn't remove: "+r.error.message,true);
+          TOPICS.splice(TOPICS.indexOf(t),1); state.topics.delete(t.id);
+          setMsg("topicMsg","Removed “"+t.name+"”. Its papers stay in the archive."); drawMyTopics(); render();
+        });
+      }})]));
+    });
+  }
+  function openTopicDlg(){
+    if (!user) return openAuth("in");
+    $("tName").value=""; chipVals.topickw=[]; drawChips(document.querySelector('[data-chips="topickw"]'));
+    setMsg("topicMsg",""); drawMyTopics();
+    if (!$("topicDlg").open) $("topicDlg").showModal();
+    $("tName").focus();
+  }
+  $("addTopicBtn").addEventListener("click",openTopicDlg);
+  $("topicForm").addEventListener("submit",function(e){
+    e.preventDefault();
+    document.querySelector('[data-chips="topickw"] input').dispatchEvent(new Event("blur"));
+    var name=$("tName").value.trim(), kws=chipVals.topickw.slice(), id=slugify(name);
+    if (name.length<2) return setMsg("topicMsg","Give the topic a name.",true);
+    if (!kws.length) return setMsg("topicMsg","Add at least one keyword, then press Enter.",true);
+    if (kws.length>12) return setMsg("topicMsg","Use at most 12 keywords.",true);
+    var ex=TOPICS.find(function(t){ return t.id===id || fold(t.name)===fold(name); });
+    if (ex) return setMsg("topicMsg","“"+ex.name+"” already exists. You can pick it in Preferences.",true);
+    setMsg("topicMsg","Adding…");
+    sb.from("topics").insert({id:id, name:name, keywords:kws, created_by_name:(profile&&profile.first_name)||""}).select().single().then(function(r){
+      if (r.error) return setMsg("topicMsg","Couldn't add it: "+r.error.message,true);
+      mergeTopics([r.data]);
+      var mineT=(profile.topics||[]).slice(); if (mineT.indexOf(id)<0) mineT.push(id);
+      return saveProfile({topics:mineT}).catch(function(){}).then(function(){
+        $("tName").value=""; chipVals.topickw=[]; drawChips(document.querySelector('[data-chips="topickw"]'));
+        setMsg("topicMsg","Added “"+name+"” and put it in your feed. The radar searches the last 30 days for it within about half an hour; after that its papers show up for everyone, and others can pick it in Preferences.");
+        drawMyTopics(); render();
+      });
+    });
+  });
+
+  // ---------------------------------------------------------------- tracked authors (OpenAlex)
+  var OA="https://api.openalex.org";
+  var latestWork={};   // author id -> {id, date} of their newest paper
+  function shortId(u){ return String(u||"").split("/").pop(); }
+  function trackedList(){ return (profile && profile.tracked_authors) || []; }
+  function seenOf(id){ return ((profile && profile.author_seen) || {})[id] || null; }
+  function isNewer(w, seen){ return !!(w && seen && w.date && (w.date>(seen.date||"") || (w.date===seen.date && w.id!==seen.id))); }
+  function hasNew(a){ return isNewer(latestWork[a.id], seenOf(a.id)); }
+  function oaJSON(path){ return fetch(OA+path).then(function(r){ if(!r.ok) throw new Error("OpenAlex answered "+r.status); return r.json(); }); }
+  function fetchLatest(id){
+    return oaJSON("/works?filter=author.id:"+encodeURIComponent(id)+"&sort=publication_date:desc&per-page=1&select=id,publication_date")
+      .then(function(j){ var w=(j.results||[])[0]; return w ? {id:shortId(w.id), date:w.publication_date||""} : {id:"", date:""}; });
+  }
+  function refreshAuthorDots(){
+    var list=trackedList(); if (!list.length){ renderTracked(); return; }
+    var missing={};
+    list.reduce(function(chain,a){
+      return chain.then(function(){ return fetchLatest(a.id).then(function(w){ latestWork[a.id]=w; if (!seenOf(a.id)) missing[a.id]=w; }).catch(function(){}); });
+    }, Promise.resolve()).then(function(){
+      if (Object.keys(missing).length) saveProfile({author_seen:Object.assign({}, profile.author_seen||{}, missing)}).catch(function(){});
+      renderTracked();
+    });
+  }
+  function initials(n){ return String(n||"").split(/\s+/).filter(Boolean).map(function(w){return w[0];}).slice(0,2).join("").toUpperCase(); }
+  function renderTracked(){
+    var g=$("authorsGroup"); if (!g) return;
+    g.hidden = !(accountsOn && profile);
+    if (g.hidden) return;
+    var box=$("tracked"); box.textContent="";
+    var list=trackedList();
+    if (!list.length) box.appendChild(el("p",{"class":"note",style:"margin:0",text:"Follow researchers to see their newest papers here. A red dot means something new you haven't opened yet."}));
+    list.forEach(function(a){
+      var nw=hasNew(a);
+      var kids=[el("span",{"class":"ini","aria-hidden":"true",text:initials(a.name)}), el("span",{text:a.name})];
+      if (nw) kids.push(el("span",{"class":"newdot",title:"New paper you haven't seen"}));
+      box.appendChild(el("button",{"class":"topic author-row"+(state.author&&state.author.id===a.id?" active":""),type:"button",
+        "aria-label":a.name+(nw?", new paper":""),onclick:function(){ openAuthor(a); }},kids));
+    });
+  }
+  $("findAuthorBtn").addEventListener("click",function(){
+    setMsg("authorMsg",""); $("authorResults").textContent="";
+    if (!$("authorDlg").open) $("authorDlg").showModal();
+    $("aQuery").focus();
+  });
+  function isTracked(id){ return trackedList().some(function(t){ return t.id===id; }); }
+  function trackAuthor(r, btn){
+    if (trackedList().length>=50) return setMsg("authorMsg","You can track up to 50 authors.",true);
+    btn.disabled=true; btn.textContent="Adding…";
+    var a={id:shortId(r.id), name:r.display_name, orcid:r.orcid||null,
+      inst:((r.last_known_institutions||[])[0]||{}).display_name||""};
+    fetchLatest(a.id).catch(function(){ return {id:"",date:""}; }).then(function(w){
+      latestWork[a.id]=w;
+      var seen=Object.assign({}, profile.author_seen||{}); seen[a.id]=w;
+      return saveProfile({tracked_authors:trackedList().concat([a]), author_seen:seen});
+    }).then(function(){ btn.textContent="Tracking ✓"; render(); setMsg("authorMsg","Added "+a.name+". Their new papers also count in your feed and morning email."); })
+      .catch(function(e){ btn.disabled=false; btn.textContent="Track"; setMsg("authorMsg","Couldn't add: "+e.message,true); });
+  }
+  $("authorForm").addEventListener("submit",function(e){
+    e.preventDefault();
+    var q=$("aQuery").value.trim(); if (q.length<3) return setMsg("authorMsg","Type at least 3 letters of the name.",true);
+    setMsg("authorMsg","Searching…"); var box=$("authorResults"); box.textContent="";
+    var sel="&select=id,display_name,orcid,works_count,last_known_institutions,topics";
+    oaJSON("/authors?search="+encodeURIComponent(q)+"&per-page=10"+sel).catch(function(){ return oaJSON("/authors?search="+encodeURIComponent(q)+"&per-page=10"); }).then(function(j){
+      var res=j.results||[];
+      setMsg("authorMsg", res.length ? "" : "No authors found. Try the full name, or surname plus first name.");
+      res.forEach(function(r){
+        var inst=(r.last_known_institutions||[])[0], tops=(r.topics||[]).slice(0,2).map(function(t){return t.display_name;});
+        var who=el("div",{"class":"who"},[el("strong",{text:r.display_name}),
+          el("span",{text:[inst&&inst.display_name, inst&&inst.country_code].filter(Boolean).join(", ")||"Institution unknown"}),
+          el("span",{text:(r.works_count||0)+" works"+(tops.length?" · "+tops.join(", "):"")})]);
+        var orcid=safeUrl(r.orcid); if (orcid) who.appendChild(el("a",{href:orcid,target:"_blank",rel:"noopener noreferrer",text:"ORCID"}));
+        var btn=el("button",{"class":"btn",type:"button",text:isTracked(shortId(r.id))?"Tracking ✓":"Track"});
+        if (isTracked(shortId(r.id))) btn.disabled=true;
+        btn.addEventListener("click",function(){ trackAuthor(r, btn); });
+        box.appendChild(el("div",{"class":"res"},[who,btn]));
+      });
+    }).catch(function(){ setMsg("authorMsg","The author search couldn't reach OpenAlex. Check your connection and try again.",true); });
+  });
+  function shortAuthors(list){ list=list.filter(Boolean); return list.length<=4 ? list.join(", ") : list.slice(0,3).join(", ")+", … "+list[list.length-1]; }
+  function openAuthor(a){
+    state.author=a; render(); window.scrollTo(0,0);
+    var v=$("authorView"); v.textContent="";
+    var head=el("div",{"class":"aview-head"},[el("div",null,[el("p",{"class":"label",style:"margin:0 0 2px;color:var(--muted);font-size:13.5px",text:"Tracked author"}), el("h2",{text:a.name})]),
+      el("div",{"class":"nav"},[el("button",{type:"button",text:"‹ Back to papers",onclick:closeAuthor}),
+        el("button",{type:"button",text:"Stop tracking",onclick:function(){
+          var seen=Object.assign({}, profile.author_seen||{}); delete seen[a.id];
+          saveProfile({tracked_authors:trackedList().filter(function(t){return t.id!==a.id;}), author_seen:seen}).then(closeAuthor).catch(function(e){ alertBox(e.message); });
+        }})])]);
+    v.appendChild(head);
+    var sub=el("p",{"class":"aview-sub"}); if (a.inst) sub.appendChild(document.createTextNode(a.inst+" · "));
+    var orc=safeUrl(a.orcid); if (orc){ sub.appendChild(el("a",{href:orc,target:"_blank",rel:"noopener noreferrer",text:"ORCID"})); sub.appendChild(document.createTextNode(" · ")); }
+    sub.appendChild(el("a",{href:"https://openalex.org/"+a.id,target:"_blank",rel:"noopener noreferrer",text:"OpenAlex profile"}));
+    v.appendChild(sub);
+    var listBox=el("div",null,[el("p",{"class":"loading",text:"Loading their latest papers…"})]); v.appendChild(listBox);
+    var seenBefore=seenOf(a.id);
+    oaJSON("/works?filter=author.id:"+encodeURIComponent(a.id)+"&sort=publication_date:desc&per-page=25&select=id,display_name,publication_date,doi,primary_location,authorships,type")
+      .then(function(j){
+        if (!state.author || state.author.id!==a.id) return;
+        var works=j.results||[]; listBox.textContent="";
+        if (!works.length){ listBox.appendChild(el("div",{"class":"empty"},[el("strong",{text:"No papers found"}),"OpenAlex has no works listed for this author yet."])); return; }
+        listBox.appendChild(el("h3",{"class":"section-title",text:"Latest papers"}));
+        works.forEach(function(w){
+          var wid=shortId(w.id), wd=w.publication_date||"", nw=isNewer({id:wid,date:wd}, seenBefore);
+          var src=((w.primary_location||{}).source||{}).display_name||"";
+          var link=safeUrl(w.doi)||safeUrl(w.id);
+          var metaKids=[];
+          if (nw) metaKids.push(el("span",{"class":"badge new",text:"New"}));
+          if (w.type==="preprint") metaKids.push(el("span",{"class":"badge pre",text:src||"Preprint"})); else if (src) metaKids.push(el("span",{text:src}));
+          if (/^\d{4}-\d{2}-\d{2}$/.test(wd)) metaKids.push(el("span",{text:nice(wd,true)}));
+          var card=el("article",{"class":"paper"+(nw?" top":"")},[el("div",{"class":"meta"},metaKids)]);
+          var h=el("h3"); if (link) h.appendChild(el("a",{href:link,target:"_blank",rel:"noopener noreferrer",text:w.display_name||"Untitled"})); else h.textContent=w.display_name||"Untitled";
+          card.appendChild(h);
+          card.appendChild(el("p",{"class":"authors",text:shortAuthors((w.authorships||[]).map(function(x){ return (x.author||{}).display_name; }))}));
+          if (link) card.appendChild(el("div",{"class":"row"},[el("div",{"class":"actions"},[el("a",{"class":"btn primary",href:link,target:"_blank",rel:"noopener noreferrer",text:w.doi?"Open paper":"OpenAlex"})])]));
+          listBox.appendChild(card);
+        });
+        // mark as seen
+        var top={id:shortId(works[0].id), date:works[0].publication_date||""};
+        latestWork[a.id]=top;
+        var seen=Object.assign({}, profile.author_seen||{}); seen[a.id]=top;
+        saveProfile({author_seen:seen}).catch(function(){}).then(renderTracked);
+      }).catch(function(){ listBox.textContent=""; listBox.appendChild(el("div",{"class":"empty"},[el("strong",{text:"Couldn't load papers"}),"OpenAlex didn't answer. Try again in a moment."])); });
+  }
+  function alertBox(msg){ var v=$("authorView"); v.insertBefore(el("p",{"class":"msg err",text:msg}), v.children[1]||null); }
+  function closeAuthor(){ state.author=null; render(); renderTracked(); }
 
   // ---------------------------------------------------------------- light / dark
   function currentTheme(){ var t=document.documentElement.getAttribute("data-theme"); return t==="light"||t==="dark" ? t : "auto"; }
@@ -800,6 +1070,7 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
   function useData(j){
     papers=(j.papers||[]).filter(function(x){ return typeof x.date==="string" && /^\d{4}-\d{2}-\d{2}$/.test(x.date) && x.title; });
     meta=j.meta||null; loaded=true;
+    if (meta && meta.topics) mergeTopics(Object.keys(meta.topics).map(function(id){ return {id:id, name:meta.topics[id]}; }));
     state.anchor=latestDate(); renderCuration(); render();
   }
   // Opened straight from disk (file://) browsers block fetch, so fall back to data/papers.js via a script tag.
