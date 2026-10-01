@@ -133,6 +133,16 @@ footer{max-width:1132px;margin:0 auto 40px;font-size:12.5px;color:var(--faint);b
 @media (max-width:860px){footer{margin:0 16px 32px}}
 @media (min-width:861px){.side{max-height:calc(100vh - 40px);overflow-y:auto;scrollbar-width:thin;padding-right:4px}}
 .loading{color:var(--muted);padding:40px 0}
+/* Sign-in screen shown before the feed */
+.gate{display:none;min-height:100vh;min-height:100dvh;align-items:center;justify-content:center;padding:24px 16px}
+html.locked .gate{display:flex}
+html.locked .wrap, html.locked footer{display:none}
+.gate-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:34px 30px;max-width:460px;width:100%;text-align:center;box-shadow:0 10px 40px rgba(35,27,48,.08)}
+.gate-card h1{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;margin:0 0 10px;letter-spacing:-.01em}
+.gate-card p{color:var(--muted);margin:0 0 22px;font-size:14.5px}
+.gate-card .gate-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.gate-card .btn{padding:9px 18px;font-size:14.5px}
+.gate-card small{display:block;margin-top:18px;color:var(--faint);font-size:12.5px}
 /* Account row under the title */
 .account{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:14px}
 .account .who{font-size:13.5px;color:var(--muted);margin-right:4px}
@@ -179,8 +189,20 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
   try { var t = localStorage.getItem("salmanRadar:theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
 </script>
 <script src="config.js"></script>
+<script>
+  // With accounts switched on, the feed stays hidden until someone signs in.
+  (function(){ var c = window.RADAR_CONFIG || {}; if (c.supabaseUrl && c.supabaseKey) document.documentElement.classList.add("locked"); })();
+</script>
 </head>
 <body>
+<section class="gate" id="gate" aria-labelledby="gateTitle">
+  <div class="gate-card">
+    <h1 id="gateTitle">Salman Lab Paper Radar</h1>
+    <p>New papers and preprints on small vessel disease, the blood–brain barrier, brain delivery and drugs in testing for Alzheimer's and other neurodegenerative diseases, ranked for you, with an optional morning email.</p>
+    <div class="gate-actions" id="gateActions"><span class="loading" style="padding:0">Checking your sign-in…</span></div>
+    <small>An account keeps your topics, keywords, journals and authors.</small>
+  </div>
+</section>
 <div class="wrap">
   <aside class="side">
     <div class="brand">
@@ -698,10 +720,18 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
       profile = r.data || {id:user.id, first_name:(user.user_metadata||{}).first_name||"", keywords:[], topics:[], journals:[], authors:[], digest:true, digest_size:8};
     });
   }
+  function renderGate(msg){
+    var box=$("gateActions"); box.textContent="";
+    if (msg){ box.appendChild(el("span",{"class":"loading",style:"padding:0",text:msg})); return; }
+    box.appendChild(el("button",{"class":"btn primary",type:"button",text:"Sign in",onclick:function(){ openAuth("in"); }}));
+    box.appendChild(el("button",{"class":"btn",type:"button",text:"Create account",onclick:function(){ openAuth("up"); }}));
+  }
+  function setLocked(on){ document.documentElement.classList.toggle("locked", !!on); }
   function setUser(u){
     var was = user && user.id;
     user = u || null;
-    if (!user){ profile=null; state.feed="all"; renderAccount(); render(); return; }
+    if (!user){ profile=null; state.feed="all"; renderAccount(); renderGate(); setLocked(true); return; }
+    setLocked(false); loadPapers();
     if (was===user.id && profile) return;
     loadProfile().then(function(){
       state.feed="mine"; renderAccount(); render();
@@ -723,7 +753,7 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
       renderAccount();
       if (location.hash==="#settings") sb.auth.getSession().then(function(r){ if(!(r.data&&r.data.session)) openAuth("in"); });
     };
-    s.onerror=function(){ console.warn("Could not load the account library"); };
+    s.onerror=function(){ console.warn("Could not load the account library"); renderGate("Sign-in couldn't load. Check your connection and reload the page."); };
     document.head.appendChild(s);
   }
   window.addEventListener("hashchange",function(){ if (location.hash==="#settings") openPrefs(); });
@@ -780,11 +810,16 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
     s.onerror=function(){ s.remove(); loadScript(srcs.slice(1), lastErr); };
     document.head.appendChild(s);
   }
-  var fallbacks=["data/papers.js","../data/papers.js"];
-  if (location.protocol==="file:") loadScript(fallbacks, "opened from disk");
-  else fetch("data/papers.json",{cache:"no-store"}).then(function(r){
-    if(!r.ok) throw new Error("HTTP "+r.status); return r.json();
-  }).then(useData).catch(function(e){ loadScript(fallbacks, e.message); });
+  var papersRequested=false;
+  function loadPapers(){
+    if (papersRequested) return; papersRequested=true;
+    var fallbacks=["data/papers.js","../data/papers.js"];
+    if (location.protocol==="file:") loadScript(fallbacks, "opened from disk");
+    else fetch("data/papers.json",{cache:"no-store"}).then(function(r){
+      if(!r.ok) throw new Error("HTTP "+r.status); return r.json();
+    }).then(useData).catch(function(e){ loadScript(fallbacks, e.message); });
+  }
+  if (!accountsOn) loadPapers();   // no accounts set up: the feed is open to everyone
 })();
 </script>
 </body>
