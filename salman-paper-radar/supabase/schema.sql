@@ -136,3 +136,90 @@ end $$;
 drop trigger if exists topics_guard on public.topics;
 create trigger topics_guard before insert on public.topics
   for each row execute function public.topics_guard();
+
+-- =====================================================================================
+-- Added later: weekly email, journal club queue, comments and reactions. Safe to re-run.
+-- =====================================================================================
+
+-- Morning email: daily (default) or weekly on Mondays.
+alter table public.profiles add column if not exists digest_weekly boolean not null default false;
+grant update (digest_weekly) on public.profiles to authenticated;
+
+-- Journal club queue: one entry per paper, shared by the whole lab.
+create table if not exists public.club (
+  paper_id       text primary key,
+  paper          jsonb not null,                       -- title, link, journal, date (a snapshot for the list)
+  note           text not null default '',
+  added_by       uuid references auth.users (id) on delete set null default auth.uid(),
+  added_by_name  text not null default '',
+  created_at     timestamptz not null default now()
+);
+-- Comments on papers.
+create table if not exists public.comments (
+  id           bigint generated always as identity primary key,
+  paper_id     text not null,
+  body         text not null,
+  author       uuid references auth.users (id) on delete cascade default auth.uid(),
+  author_name  text not null default '',
+  created_at   timestamptz not null default now()
+);
+create index if not exists comments_paper on public.comments (paper_id);
+-- Reactions on papers (one of each kind per person per paper).
+create table if not exists public.reactions (
+  paper_id    text not null,
+  user_id     uuid not null references auth.users (id) on delete cascade default auth.uid(),
+  kind        text not null check (kind in ('like', 'must', 'idea', 'doubt')),
+  created_at  timestamptz not null default now(),
+  primary key (paper_id, user_id, kind)
+);
+
+alter table public.club      enable row level security;
+alter table public.comments  enable row level security;
+alter table public.reactions enable row level security;
+
+drop policy if exists "club: read"   on public.club;
+drop policy if exists "club: add"    on public.club;
+drop policy if exists "club: remove" on public.club;
+create policy "club: read"   on public.club for select to authenticated using (true);
+create policy "club: add"    on public.club for insert to authenticated with check (added_by = auth.uid());
+create policy "club: remove" on public.club for delete to authenticated using (added_by = auth.uid());
+
+drop policy if exists "comments: read"   on public.comments;
+drop policy if exists "comments: add"    on public.comments;
+drop policy if exists "comments: remove" on public.comments;
+create policy "comments: read"   on public.comments for select to authenticated using (true);
+create policy "comments: add"    on public.comments for insert to authenticated with check (author = auth.uid());
+create policy "comments: remove" on public.comments for delete to authenticated using (author = auth.uid());
+
+drop policy if exists "reactions: read"   on public.reactions;
+drop policy if exists "reactions: add"    on public.reactions;
+drop policy if exists "reactions: remove" on public.reactions;
+create policy "reactions: read"   on public.reactions for select to authenticated using (true);
+create policy "reactions: add"    on public.reactions for insert to authenticated with check (user_id = auth.uid());
+create policy "reactions: remove" on public.reactions for delete to authenticated using (user_id = auth.uid());
+
+revoke all on public.club, public.comments, public.reactions from anon;
+revoke insert, update, delete on public.club, public.comments, public.reactions from authenticated;
+grant select, delete on public.club, public.comments, public.reactions to authenticated;
+grant insert (paper_id, paper, note, added_by_name) on public.club to authenticated;
+grant insert (paper_id, body, author_name)          on public.comments to authenticated;
+grant insert (paper_id, kind)                       on public.reactions to authenticated;
+
+create or replace function public.social_guard() returns trigger language plpgsql as $$
+begin
+  if length(new.paper_id) > 200 then raise exception 'Bad paper id'; end if;
+  if tg_table_name = 'club' then
+    if pg_column_size(new.paper) > 4000 then raise exception 'Paper details too long'; end if;
+    new.note := left(trim(new.note), 500);
+    new.added_by_name := left(trim(new.added_by_name), 60);
+  elsif tg_table_name = 'comments' then
+    new.body := trim(new.body);
+    if length(new.body) < 1 or length(new.body) > 2000 then raise exception 'Comments are 1 to 2000 characters'; end if;
+    new.author_name := left(trim(new.author_name), 60);
+  end if;
+  return new;
+end $$;
+drop trigger if exists club_guard on public.club;
+create trigger club_guard before insert on public.club for each row execute function public.social_guard();
+drop trigger if exists comments_guard on public.comments;
+create trigger comments_guard before insert on public.comments for each row execute function public.social_guard();
