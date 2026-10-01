@@ -2,7 +2,8 @@ name: Update papers
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # every day at 05:00 UTC (06:00 UK summer time)
+    - cron: "0 5 * * *"      # every day at 05:00 UTC (06:00 UK summer time)
+    - cron: "*/30 * * * *"   # every 30 min: only does work when someone added a topic on the site
   workflow_dispatch:
     inputs:
       days:
@@ -30,26 +31,34 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.collect.outputs.changed }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - run: pip install requests pyyaml
-      - name: Refresh the Q1 journal list (monthly, from SCImago)
-        run: python scripts/update_q1.py
       - name: Collect new papers
+        id: collect
         env:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: python scripts/fetch_papers.py --days "${{ github.event.inputs.days || '3' }}"
+        run: |
+          if [ "${{ github.event.schedule }}" = "*/30 * * * *" ]; then
+            python scripts/fetch_papers.py --if-new-topics
+          else
+            python scripts/update_q1.py
+            python scripts/fetch_papers.py --days "${{ github.event.inputs.days || '3' }}"
+          fi
       - name: Save the archive
+        if: steps.collect.outputs.changed == 'true'
         run: |
           git config user.name "paper-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/papers.json data/papers.js
+          git add data/papers.json data/papers.js data/topics_state.json
           [ -f data/q1_journals.json ] && git add data/q1_journals.json
           if ! git diff --cached --quiet; then
             git commit -m "Papers update $(date -u +%F)"
@@ -57,16 +66,19 @@ jobs:
             git push
           fi
       - name: Build site folder
+        if: steps.collect.outputs.changed == 'true'
         run: |
           mkdir -p _site/data
           cp -r site/. _site/
           cp data/papers.json data/papers.js _site/data/
       - uses: actions/upload-pages-artifact@v4
+        if: steps.collect.outputs.changed == 'true'
         with:
           path: salman-paper-radar/_site
 
   deploy:
     needs: update
+    if: needs.update.outputs.changed == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
