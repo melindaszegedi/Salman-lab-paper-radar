@@ -60,6 +60,23 @@ Resend's free plan allows 100 emails a day and 3,000 a month, which covers a lab
 - **How a new topic reaches the feed:** the *Update papers* job also runs every 30 minutes. It does nothing unless a new topic has appeared; then it searches PubMed, bioRxiv and medRxiv for that topic's keywords over the last 30 days, tags matching papers already in the archive, and republishes the site. From then on the topic is part of the daily search.
 - These need the latest `supabase/schema.sql`. If you set up Supabase before these features existed, run the whole file again in the SQL Editor (it is safe to re-run).
 
+## Sections of the site
+
+The tabs at the top of the page:
+
+- **Papers:** the feed (My feed / All papers). On each paper:
+  - **Free PDF / Free full text** appears when a legal open-access copy exists. The daily job looks this up in OpenAlex, which includes Unpaywall's data, and every preprint links to its PDF.
+  - **Cite** downloads the reference as a `.ris` file (opens in Zotero, EndNote and Mendeley) or `.bib` (BibTeX), or copies a formatted citation. Saved papers can be exported all at once from the line above the list.
+  - **+ Journal club** puts the paper in the shared queue, with an optional note on why.
+  - **Reactions** (👍 Useful, ⭐ Must read, 💡 Idea for us, 🤔 Not convinced) and **comments** are shared with everyone signed in. You can delete your own.
+- **Journal club:** the shared queue, newest first, with who added each paper and their note. It can be exported for Zotero/EndNote in one go. Only the person who added a paper can take it off.
+- **Trials:** recently updated studies from ClinicalTrials.gov for the searches in `config.yaml` (`trials:`), refreshed daily. You can filter by area, status and phase, search by drug, sponsor or NCT number, and show only trials that changed in the last 30 days. New registrations are marked.
+- **Trends:** papers per topic per month, with hover details and a table view, plus the journals with the most papers in the last 90 days. It becomes more informative as the archive grows.
+- **Lab papers:** the lab's publications from OpenAlex, with citation counts, open-access links and export. It uses Mootaz M. Salman's OpenAlex profile (`A5075665531`). To add or change profiles, put `labOpenAlexIds: ["A…", "A…"]` in `site/config.js`.
+- **Email:** in *Preferences* choose a daily email at 8:00, a weekly one on Monday mornings, or none.
+
+The journal club, comments, reactions and weekly email need the latest `supabase/schema.sql`. Run the whole file again in the Supabase SQL Editor; it is safe to re-run.
+
 ## How the personal feed works
 
 - **My feed** shows papers that match any of the person's topics, keywords, journals or authors, ranked by relevance plus matches: keyword +4 each (up to 3), topic +3, journal +4, author +6 each (up to 2). With no preferences yet, it shows the whole feed. **All papers** is the shared lab feed.

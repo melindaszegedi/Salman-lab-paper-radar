@@ -155,3 +155,30 @@ llm:
     BBB models (iPSC-derived tricultures, MIMETAS OrganoPlate with OrganoTEER, Transwell TEER). Current
     projects include TEER-validated 3D iPSC BBB models, transferrin-receptor brain-shuttle antibodies, and
     drug discovery for Alzheimer's disease with the ARUK Oxford Drug Discovery Institute.
+
+# Clinical trial tracker (ClinicalTrials.gov). Each group is one search; the site shows them as filters.
+# cond = condition search, intr = intervention search, term = anything; filter = extra ClinicalTrials.gov
+# "advanced" filter (Essie syntax). Trials updated in the last `days` days are kept, newest first.
+trials:
+  days: 365
+  max_per_group: 300
+  groups:
+    - id: ad
+      name: "Alzheimer's disease"
+      cond: "Alzheimer Disease"
+      filter: "AREA[StudyType]INTERVENTIONAL"
+    - id: svd
+      name: "Small vessel disease & CAA"
+      cond: "cerebral small vessel disease OR CADASIL OR cerebral amyloid angiopathy OR vascular cognitive impairment"
+    - id: neuro
+      name: "Other neurodegeneration (phase 2–3)"
+      cond: "Parkinson Disease OR Amyotrophic Lateral Sclerosis OR Frontotemporal Dementia OR Huntington Disease"
+      filter: "AREA[StudyType]INTERVENTIONAL AND AREA[Phase](PHASE2 OR PHASE3)"
+    - id: delivery
+      name: "Brain delivery & BBB"
+      intr: "trontinemab OR focused ultrasound OR brain shuttle OR transferrin receptor"
+      cond: "Alzheimer Disease OR Parkinson Disease OR neurodegenerative disease OR blood-brain barrier"
+    - id: glymph
+      name: "Glymphatics & sleep"
+      term: "glymphatic OR aquaporin-4 OR perivascular space"
+      cond: "Alzheimer Disease OR dementia OR small vessel disease OR sleep"
