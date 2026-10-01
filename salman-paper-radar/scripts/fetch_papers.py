@@ -281,14 +281,28 @@ def load_follows():
     return list(kws.values()), list(auths.keys())
 
 
+PM_FILTER = ' AND english[lang] NOT (comment[pt] OR "published erratum"[pt])'
+
+
+def tiab_term(k):
+    """PubMed title/abstract search for a keyword. Quoted multi-word phrases only match PubMed's
+    phrase index, so also search for all the words; the exact phrase is checked again locally."""
+    stop = {"a", "an", "and", "of", "on", "in", "the", "to", "for", "with", "by", "or", "at", "as"}
+    words = [w for w in re.split(r"\s+", k.strip()) if w and w.lower() not in stop]
+    if len(words) < 2:
+        return f'"{k}"[tiab]'
+    return f'("{k}"[tiab] OR (' + " AND ".join(f'"{w}"[tiab]' for w in words) + "))"
+
+
 def follow_queries(keywords, authors, chunk=25):
     """PubMed searches for followed terms, a few dozen terms per query."""
-    terms = [f'"{k}"[tiab]' for k in keywords]
+    terms = [tiab_term(k) for k in keywords]
     for a in authors:
         last, init = a.split("|")
-        terms.append(f'"{last} {init}"[au]' if init else f'"{last}"[au]')
+        # unquoted so 'salman m' also finds 'Salman MM' (PubMed truncates initials)
+        terms.append(f'{last} {init}[au]' if init else f'{last}[au]')
     for i in range(0, len(terms), chunk):
-        yield "(" + " OR ".join(terms[i:i + chunk]) + ") AND english[lang] NOT (comment[pt] OR erratum[pt])"
+        yield "(" + " OR ".join(terms[i:i + chunk]) + ")" + PM_FILTER
 
 
 # ---------------------------------------------------------------- lab topics added on the site
@@ -326,8 +340,7 @@ def add_custom_topics(custom):
 
 def topic_queries(custom):
     for t in custom:
-        yield t["id"], "(" + " OR ".join(f'"{k}"[tiab]' for k in t["keywords"]) + \
-            ") AND english[lang] NOT (comment[pt] OR erratum[pt])"
+        yield t["id"], "(" + " OR ".join(tiab_term(k) for k in t["keywords"]) + ")" + PM_FILTER
 
 
 def retag(archive, custom):
