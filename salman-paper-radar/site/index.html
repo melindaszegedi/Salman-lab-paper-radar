@@ -534,7 +534,7 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
     if (mine()){
       if (hasPrefs(profile) ? !personalMatch(x).any : !(x.topics||[]).length) return false;
     } else if (!x.topics || !x.topics.some(function(t){return state.topics.has(t)})) return false;
-    if (state.q1only && x.type==="journal" && !x.q1) return false;
+    if (state.q1only && x.type==="journal" && !x.q1 && !(mine() && (personalMatch(x).keywords.length || personalMatch(x).authors.length))) return false;
     if (!state.trials && (x.type==="trial" || x.type==="news")) return false;
     if (state.unread && marks.read[x.id]) return false;
     if (state.q){
@@ -679,7 +679,7 @@ dialog::backdrop{background:rgba(35,27,48,.45)}
     if (!shown.length){
       var ld = latestDate();
       var box = el("div",{"class":"empty"},[el("strong",{text:mine()?"Nothing in your feed for this window":"No papers in this window"}),
-        el("span",{text: papers.length ? "Nothing matches these filters here. The most recent paper in the feed is from "+nice(ld,true)+"." : "The archive is empty. Run the \u201cUpdate papers\u201d workflow on GitHub to fill it."})]);
+        el("span",{text: papers.length ? "Nothing matches these filters here. The most recent paper in the feed is from "+nice(ld,true)+"."+(mine()?" A keyword or author you just added is searched within about 30 minutes, going back 30 days \u2014 try the \u201cAll\u201d view to see older matches.":"") : "The archive is empty. Run the \u201cUpdate papers\u201d workflow on GitHub to fill it."})]);
       if (papers.length) box.appendChild(el("div",null,[el("button",{"class":"btn primary",text:"Jump to "+nice(ld),onclick:function(){ state.anchor=ld; state.mode="week"; render(); }})]));
       list.appendChild(box);
       return;
