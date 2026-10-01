@@ -85,7 +85,8 @@ def personal_match(p, prefs):
     journal = bool(pj) and any(norm_journal(j) == pj for j in prefs.get("journals") or [])
     paper_authors = p.get("au") or [author_key(a) for a in re.split(r",\s*", p.get("authors") or "")]
     authors = []
-    for a in prefs.get("authors") or []:
+    tracked = [t.get("name") for t in prefs.get("tracked_authors") or [] if isinstance(t, dict) and t.get("name")]
+    for a in list(prefs.get("authors") or []) + tracked:
         k = author_key(a)
         if k and any(author_matches(k, pa) for pa in paper_authors if pa):
             authors.append(a)
@@ -94,7 +95,7 @@ def personal_match(p, prefs):
 
 
 def has_prefs(prefs):
-    return any(prefs.get(k) for k in ("keywords", "topics", "journals", "authors"))
+    return any(prefs.get(k) for k in ("keywords", "topics", "journals", "authors", "tracked_authors"))
 
 
 def personal_score(p, m):

@@ -151,7 +151,7 @@ def main():
     TOPIC_NAMES.update((data.get("meta") or {}).get("topics") or {})
 
     r = requests.get(f"{sb_url}/rest/v1/profiles", headers=sb_headers(sb_key), timeout=60, params={
-        "select": "id,email,first_name,keywords,topics,journals,authors,digest,digest_size,last_digest_on",
+        "select": "*",
         "digest": "eq.true"})
     r.raise_for_status()
     profiles = r.json()

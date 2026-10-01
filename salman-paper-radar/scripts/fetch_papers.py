@@ -241,21 +241,30 @@ def author_keys(names, limit=60):
 
 
 # ---------------------------------------------------------------- followed keywords/authors
-def load_follows():
-    """Keywords and authors followed in anyone's account (needs the Supabase service key)."""
+def supabase_get(table, select):
+    """Read a Supabase table with the service key (None if accounts aren't set up)."""
     url, key = os.environ.get("SUPABASE_URL"), os.environ.get("SUPABASE_SERVICE_KEY")
     if not url or not key:
-        return [], []
+        return None
     headers = {"apikey": key}
     if key.startswith("eyJ"):  # legacy JWT-style keys also go in Authorization
         headers["Authorization"] = f"Bearer {key}"
+    r = SESSION.get(url.rstrip("/") + f"/rest/v1/{table}", params={"select": select}, headers=headers, timeout=60)
+    r.raise_for_status()
+    return r.json()
+
+
+def load_follows():
+    """Keywords and authors followed in anyone's account (needs the Supabase service key)."""
     try:
-        r = SESSION.get(url.rstrip("/") + "/rest/v1/profiles", params={"select": "keywords,authors"},
-                        headers=headers, timeout=60)
-        r.raise_for_status()
-        rows = r.json()
-    except Exception as e:
-        log("Could not read followed keywords from Supabase:", e)
+        rows = supabase_get("profiles", "keywords,authors,tracked_authors")
+    except Exception:
+        try:  # database not yet updated with the tracked-authors column
+            rows = supabase_get("profiles", "keywords,authors")
+        except Exception as e:
+            log("Could not read followed keywords from Supabase:", e)
+            return [], []
+    if rows is None:
         return [], []
     kws, auths = {}, {}
     for row in rows:
@@ -263,7 +272,8 @@ def load_follows():
             k = re.sub(r"[\"\[\]()]", " ", k or "").strip()[:60]
             if len(k) >= 2:
                 kws.setdefault(fold(k), k)
-        for a in row.get("authors") or []:
+        tracked = [t.get("name") for t in (row.get("tracked_authors") or []) if isinstance(t, dict)]
+        for a in (row.get("authors") or []) + tracked:
             ak = author_key(a)
             if ak:
                 auths.setdefault(ak, a)
@@ -279,6 +289,70 @@ def follow_queries(keywords, authors, chunk=25):
         terms.append(f'"{last} {init}"[au]' if init else f'"{last}"[au]')
     for i in range(0, len(terms), chunk):
         yield "(" + " OR ".join(terms[i:i + chunk]) + ") AND english[lang] NOT (comment[pt] OR erratum[pt])"
+
+
+# ---------------------------------------------------------------- lab topics added on the site
+STATE = ROOT / "data" / "topics_state.json"
+
+
+def load_custom_topics():
+    """Topics lab members added on the site (Supabase table 'topics')."""
+    try:
+        rows = supabase_get("topics", "id,name,keywords")
+    except Exception as e:
+        log("Could not read lab topics from Supabase:", e)
+        return []
+    out = []
+    for r in rows or []:
+        tid = re.sub(r"[^a-z0-9-]", "", (r.get("id") or "").lower())[:40]
+        kws = [re.sub(r"[\"\[\]()]", " ", k or "").strip()[:60] for k in r.get("keywords") or []]
+        kws = [k for k in kws if len(k) >= 2]
+        if tid and tid not in CFG["topics"] and kws:
+            out.append({"id": tid, "name": (r.get("name") or tid)[:60], "keywords": kws})
+    log(f"Lab topics added on the site: {len(out)}")
+    return out
+
+
+def add_custom_topics(custom):
+    """Score lab topics like the built-in ones: each keyword found is worth 4 points."""
+    for t in custom:
+        terms = []
+        for k in t["keywords"]:
+            rx = keyword_rx(k)
+            if rx:
+                terms.append((re.compile(rx.pattern, re.I), 4))
+        TOPICS[t["id"]] = {"name": t["name"], "terms": terms}
+
+
+def topic_queries(custom):
+    for t in custom:
+        yield t["id"], "(" + " OR ".join(f'"{k}"[tiab]' for k in t["keywords"]) + \
+            ") AND english[lang] NOT (comment[pt] OR erratum[pt])"
+
+
+def retag(archive, custom):
+    """Add lab-topic tags to papers already in the archive (from title and summary)."""
+    if not custom:
+        return 0
+    n = 0
+    for p in archive:
+        if p.get("source") == "manual":
+            continue
+        text = fold(f"{p.get('title', '')} {p.get('title', '')} {p.get('why', '')} {' '.join(p.get('keywords') or [])}")
+        for t in custom:
+            sub = sum(w for rx, w in TOPICS[t["id"]]["terms"] if rx.search(text))
+            topics = p.setdefault("topics", [])
+            if sub >= 3 and t["id"] not in topics:
+                topics.append(t["id"])
+                n += 1
+    return n
+
+
+def set_output(name, value):
+    out = os.environ.get("GITHUB_OUTPUT")
+    if out:
+        with open(out, "a") as f:
+            f.write(f"{name}={value}\n")
 
 
 # ---------------------------------------------------------------- bioRxiv / medRxiv
@@ -357,10 +431,30 @@ def dedupe_key(p):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=CFG.get("days_back", 3))
-    days = ap.parse_args().days
+    ap.add_argument("--if-new-topics", action="store_true",
+                    help="only run (with a 30-day backfill) when someone has added a topic on the site")
+    a = ap.parse_args()
+    days = a.days
+
+    custom = load_custom_topics()
+    try:
+        seen_ids = set(json.loads(STATE.read_text(encoding="utf-8")).get("ids", []))
+    except FileNotFoundError:
+        seen_ids = set()
+    fresh_topics = [t for t in custom if t["id"] not in seen_ids]
+    if a.if_new_topics:
+        if not fresh_topics:
+            log("No new lab topics; nothing to do")
+            set_output("changed", "false")
+            return
+        log("New lab topics: " + ", ".join(t["name"] for t in fresh_topics) + " (searching the last 30 days)")
+        days = max(days, 30)
+    set_output("changed", "true")
+    add_custom_topics(custom)
 
     archive = json.loads(ARCHIVE.read_text(encoding="utf-8"))["papers"] if ARCHIVE.exists() else []
     known = {dedupe_key(p) for p in archive}
+    log(f"Tagged {retag(archive, custom)} archived papers with lab topics")
 
     follow_kws, follow_authors = load_follows()
     kw_rx = [(k, keyword_rx(k)) for k in follow_kws]
@@ -369,6 +463,13 @@ def main():
     candidates = []
     try:
         ids = pubmed_ids(days)
+        for tid, q in topic_queries(custom):
+            # new topics get a 30-day backfill, existing ones the normal window
+            tdays = max(days, 30) if any(t["id"] == tid for t in fresh_topics) else days
+            try:
+                ids += pubmed_ids(tdays, term=q, label=f"PubMed (topic {tid})")
+            except Exception as e:
+                log(f"Topic search {tid} failed:", e)
         for q in follow_queries(follow_kws, follow_authors):
             try:
                 ids += pubmed_ids(days, term=q, label="PubMed (followed terms)")
@@ -426,11 +527,13 @@ def main():
 
     payload = json.dumps({
         "meta": {"lastCurated": dt.date.today().isoformat(), "lastRunAdded": len(new),
-                 "total": len(papers), "topics": {k: v["name"] for k, v in CFG["topics"].items()}},
+                 "total": len(papers), "topics": {k: v["name"] for k, v in TOPICS.items()},
+                 "customTopics": [t["id"] for t in custom]},
         "papers": papers}, ensure_ascii=False, indent=0)
     ARCHIVE.parent.mkdir(parents=True, exist_ok=True)
     ARCHIVE.write_text(payload, encoding="utf-8")
     ARCHIVE_JS.write_text("window.PAPER_RADAR_DATA = " + payload.replace("</", "<\\/") + ";\n", encoding="utf-8")
+    STATE.write_text(json.dumps({"ids": sorted(t["id"] for t in custom)}), encoding="utf-8")
 
 
 if __name__ == "__main__":
