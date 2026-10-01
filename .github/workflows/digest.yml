@@ -1,0 +1,52 @@
+name: Morning email
+
+# 08:00 UK time. UK clocks move between GMT and BST, so this runs at both 06:58 and 07:58 UTC;
+# the script sends from 07:55 London time and never twice to the same person on one day.
+# GitHub can start scheduled runs a few minutes late, so emails arrive at about 08:00.
+on:
+  schedule:
+    - cron: "58 6 * * *"
+    - cron: "58 7 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Send a test to just this email address (leave empty for everyone)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+# The project files live in the "salman-paper-radar" folder of this repository.
+defaults:
+  run:
+    working-directory: salman-paper-radar
+
+concurrency:
+  group: morning-email
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Send the morning emails
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DIGEST_FROM: ${{ vars.DIGEST_FROM }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          ONLY: ${{ github.event.inputs.only }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ -n "$ONLY" ]; then python scripts/send_digest.py --force --only "$ONLY"
+            else python scripts/send_digest.py --force; fi
+          else
+            python scripts/send_digest.py
+          fi
