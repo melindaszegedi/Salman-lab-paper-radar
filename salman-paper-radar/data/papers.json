@@ -1,16 +1,19 @@
 {
 "meta": {
 "lastCurated": "2026-10-01",
-"lastRunAdded": 0,
-"total": 687,
+"lastRunAdded": 14,
+"total": 701,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
 "delivery": "Brain delivery & TfR shuttles",
 "adtx": "AD & neurodegeneration drugs",
-"glymph": "Glymphatics & AQP4"
+"glymph": "Glymphatics & AQP4",
+"lab-on-a-chip": "lab-on-a-chip"
 },
-"customTopics": []
+"customTopics": [
+"lab-on-a-chip"
+]
 },
 "papers": [
 {
@@ -6396,6 +6399,106 @@
 }
 },
 {
+"id": "pmid-42796210",
+"pmid": "42796210",
+"doi": "10.3390/mi17091091",
+"title": "Custom-Built Vision-Assisted Arc Discharge System for Fabricating High-Q In-Line Microbubble Resonator Arrays.",
+"authors": "Ma Y, Shu F, Wang M, … Sun C",
+"journal": "Micromachines",
+"journal_iso": "Micromachines (Basel)",
+"date": "2026-09-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3390/mi17091091"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42796210/"
+}
+],
+"au": [
+"ma|y",
+"shu|f",
+"wang|m",
+"yu|d",
+"wang|y",
+"yue|z",
+"sun|c"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"capillary",
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Whispering gallery mode microbubble resonators (MBRs) are prominent optofluidic platforms, yet fabricating highly symmetric in-line arrays remains a technical challenge. Here, we demonstrate a custom-built, vision-assisted arc discharge apparatus for the deterministic fabrication of high-Q MBRs. Using finite-element…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.3390/mi17091091",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42796130",
+"pmid": "42796130",
+"doi": "10.3390/mi17091011",
+"title": "In Situ Fabrication of Complex Hollow Nickel Microstructures via Filament-Guided Electrolyte-Column Electrodeposition.",
+"authors": "Wang W, Li T, Li Y, … Chen L",
+"journal": "Micromachines",
+"journal_iso": "Micromachines (Basel)",
+"date": "2026-09-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3390/mi17091011"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42796130/"
+}
+],
+"au": [
+"wang|w",
+"li|t",
+"li|y",
+"an|l",
+"zhang|y",
+"chen|l"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Complex hollow metallic microstructures are essential for microelectromechanical systems (MEMS), lab-on-a-chip microfluidics, and bio-integrated devices, yet their fabrication remains challenging because geometric complexity, microscale precision, and high aspect ratios must be satisfied simultaneously. This study…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.3390/mi17091011",
+"pdf": false,
+"status": "gold"
+}
+},
+{
 "id": "pmid-42800424",
 "pmid": "42800424",
 "doi": "10.1016/j.biomaterials.2026.124649",
@@ -8826,6 +8929,53 @@
 "url": "https://www.medrxiv.org/content/10.64898/2026.09.23.26363703v1.full.pdf",
 "pdf": true,
 "status": "preprint"
+}
+},
+{
+"id": "pmid-42783165",
+"pmid": "42783165",
+"doi": "10.3390/bios16090498",
+"title": "Optical and Electrochemical Biosensors Using Electrochemically Etched Porous Silicon.",
+"authors": "Despotovski Kiš T, Radović M, Kartalović B, Knežević N",
+"journal": "Biosensors",
+"journal_iso": "Biosensors (Basel)",
+"date": "2026-09-24",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3390/bios16090498"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42783165/"
+}
+],
+"au": [
+"despotovski kis|t",
+"radovic|m",
+"kartalovic|b",
+"knezevic|n"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Versatile nanostructured materials based on electrochemically etched porous silicon (pSi) are being developed, which have tuneable pore morphology and unique optical and electrochemical properties that enable their effective biosensing applications. It has been shown that fabrication parameters critically influence…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.3390/bios16090498",
+"pdf": false,
+"status": "gold"
 }
 },
 {
@@ -11492,6 +11642,55 @@
 }
 },
 {
+"id": "pmid-42771412",
+"pmid": "42771412",
+"doi": "10.1364/ol.604012",
+"title": "Laser-induced photothermal and photovoltaic effects in an LN-based sandwich structure: competitive interplay in microfluidic interface evolution.",
+"authors": "Liu X, Wang C, Wang M, … Yan W",
+"journal": "Optics letters",
+"journal_iso": "Opt Lett",
+"date": "2026-09-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1364/ol.604012"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42771412/"
+}
+],
+"au": [
+"liu|x",
+"wang|c",
+"wang|m",
+"shi|l",
+"yan|w"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"capillary",
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Understanding the evolution of microfluidic interfaces in light-induced multi-physical fields is of great significance for the development of lithium niobate-based microfluidic lab-on-a-chip devices. In this study, a focused laser beam is employed to simultaneously induce both photothermal and photovoltaic effects…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.6084/m9.figshare.c.8442712",
+"pdf": false,
+"status": "green"
+}
+},
+{
 "id": "pmid-42773087",
 "pmid": "42773087",
 "doi": "10.1002/alz.71852",
@@ -12747,6 +12946,102 @@
 "url": "https://www.medrxiv.org/content/10.64898/2026.09.18.26363412v1.full.pdf",
 "pdf": true,
 "status": "preprint"
+}
+},
+{
+"id": "pmid-42766250",
+"pmid": "42766250",
+"doi": "10.1186/s11671-026-04938-3",
+"title": "From molecular networks to the clinic: a systems biology-nanomedicine roadmap for osteoarthritis diagnosis, regeneration, and safety-by-design.",
+"authors": "Dortaj H, Asoudeh-Fard A, Alizadeh A, … Gholami A",
+"journal": "Discover nano",
+"journal_iso": "Discov Nano",
+"date": "2026-09-21",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s11671-026-04938-3"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42766250/"
+}
+],
+"au": [
+"dortaj|h",
+"asoudeh-fard|a",
+"alizadeh|a",
+"vaez|a",
+"gholami|a"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Osteoarthritis (OA) is a severe, whole-joint illness that is characterized by the permanent destruction of articular cartilage. The failure of traditional therapies and early tissue engineering efforts is mainly due to their reductionist biological strategies and reliance on bulk, non-biomimetic materials that cannot…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1186/s11671-026-04938-3.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42764540",
+"pmid": "42764540",
+"doi": "10.1088/1741-2552/aeaa0e",
+"title": "In vitro modeling of the peripheral nerve: cell culture embodiments and outcomes.",
+"authors": "Vernekar VN, Rodriguez Pequeno K, Sharma RR, … Golabi R",
+"journal": "Journal of neural engineering",
+"journal_iso": "J Neural Eng",
+"date": "2026-09-21",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1088/1741-2552/aeaa0e"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42764540/"
+}
+],
+"au": [
+"vernekar|v",
+"rodriguez pequeno|k",
+"sharma|r",
+"vo|n",
+"golabi|r"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Peripheral nerve injuries (PNI) are common and significantly affect the quality of life of patients. In vitro models of the peripheral nerve have emerged as a critical tool for studying peripheral nerve injury and regeneration. These existing models are cost-effective, reproducible, and offer controlled experimental…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1088/1741-2552/aeaa0e",
+"pdf": false,
+"status": "hybrid"
 }
 },
 {
@@ -15250,7 +15545,8 @@
 }
 ],
 "topics": [
-"bbb"
+"bbb",
+"lab-on-a-chip"
 ],
 "keywords": [
 "blood-brain barrier",
@@ -18777,6 +19073,56 @@
 }
 },
 {
+"id": "pmid-42744800",
+"pmid": "42744800",
+"doi": "10.1038/s41467-026-76930-5",
+"title": "Reconfigurable multibeam engineering of Marangoni convection for programmable optofluidic steering.",
+"authors": "Liu C, Huang Z, Nan F, … Lei H",
+"journal": "Nature communications",
+"journal_iso": "Nat Commun",
+"date": "2026-09-15",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41467-026-76930-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42744800/"
+}
+],
+"au": [
+"liu|c",
+"huang|z",
+"nan|f",
+"zhang|y",
+"yang|g",
+"lei|h"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "Optofluidic manipulation provides a powerful route for guiding micro- and nanoparticles, yet conventional light-induced flow systems often suffer from limited controllability, unstable flow patterns, and poor reconfigurability. Here, we demonstrate programmable optofluidic steering based on multibeam engineering of…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.nature.com/articles/s41467-026-76930-5_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
 "id": "pmid-42744600",
 "pmid": "42744600",
 "doi": "10.1136/jnnp-2026-339197",
@@ -19442,6 +19788,56 @@
 "url": "https://www.medrxiv.org/content/10.64898/2026.09.10.26360585v1.full.pdf",
 "pdf": true,
 "status": "preprint"
+}
+},
+{
+"id": "pmid-42734731",
+"pmid": "42734731",
+"doi": "10.1186/s11671-026-04913-y",
+"title": "Intelligent predictive neural network analysis on microbes in bioconvection flow of hybrid nanoliquid under diffusion thermo and thermo diffusion effects.",
+"authors": "Kanwal H, Ebad SA, Alsarari F, … Abiyev R",
+"journal": "Discover nano",
+"journal_iso": "Discov Nano",
+"date": "2026-09-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s11671-026-04913-y"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42734731/"
+}
+],
+"au": [
+"kanwal|h",
+"ebad|s",
+"alsarari|f",
+"alghawli|a",
+"choukaier|d",
+"abiyev|r"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "The model optimizes microfluidic and lab-on-a-chip systems by predicting gyrotactic microbe-driven mixing and transport in the presence of linked thermal and concentration gradients. It aids in the design and operation of bioreactors and wastewater treatment units by simulating microbe dispersal, nutrient transport,…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1186/s11671-026-04913-y.pdf",
+"pdf": true,
+"status": "gold"
 }
 },
 {
@@ -21817,6 +22213,53 @@
 "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13562816/pdf/EJN-64-0.pdf",
 "pdf": true,
 "status": "green"
+}
+},
+{
+"id": "pmid-42725792",
+"pmid": "42725792",
+"doi": "10.1002/advs.77563",
+"title": "Spatiotemporal Thermal Modulation and Patterning using a Programmable 1024 Element Microheater Array.",
+"authors": "Goyal R, Han JH, Pashapour S, Fischer P",
+"journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+"journal_iso": "Adv Sci (Weinh)",
+"date": "2026-09-11",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/advs.77563"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42725792/"
+}
+],
+"au": [
+"goyal|r",
+"han|j",
+"pashapour|s",
+"fischer|p"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Programmable microheater arrays are essential for a variety of applications including gas sensing, microfluidic lab-on-a-chip devices, 3D printers, and biosensors that rely on DNA amplification. Increasing the density and number of heating elements directly correlates with the precision with which spatiotemporal heat…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1002/advs.77563",
+"pdf": false,
+"status": "gold"
 }
 },
 {
@@ -26316,6 +26759,49 @@
 }
 },
 {
+"id": "pmid-42708384",
+"pmid": "42708384",
+"doi": "10.1002/elps.70147",
+"title": "The \"Lock-and-Key\" Advantage: Molecularly Imprinted Polymers in Modern Electrophoresis in Drug Assay.",
+"authors": "Shahzad S, Türkoğlu EA, Cetinkaya A, Ozkan SA",
+"journal": "Electrophoresis",
+"journal_iso": "Electrophoresis",
+"date": "2026-09-08",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/elps.70147"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42708384/"
+}
+],
+"au": [
+"shahzad|s",
+"turkoglu|e",
+"cetinkaya|a",
+"ozkan|s"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"capillary",
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Molecularly imprinted polymers (MIPs) have gained increasing attention as synthetic recognition materials that mimic biological binding sites while offering greater stability and lower cost. In recent years, their combination with electrophoretic techniques has opened new possibilities for improving selectivity and…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01"
+},
+{
 "id": "pmid-42709445",
 "pmid": "42709445",
 "doi": "10.1001/jamaneurol.2026.2998",
@@ -28960,6 +29446,54 @@
 "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26360967v1.full.pdf",
 "pdf": true,
 "status": "preprint"
+}
+},
+{
+"id": "pmid-42695773",
+"pmid": "42695773",
+"doi": "10.1039/d5lc01038a",
+"title": "Microfluidic diffusional sizing in bioanalysis and biosensing.",
+"authors": "Bauernhofer L, Baron J, Keller S, Krainer G",
+"journal": "Lab on a chip",
+"journal_iso": "Lab Chip",
+"date": "2026-09-04",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1039/d5lc01038a"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42695773/"
+}
+],
+"au": [
+"bauernhofer|l",
+"baron|j",
+"keller|s",
+"krainer|g"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "Microfluidic diffusional sizing (MDS) has emerged as a versatile lab-on-a-chip technology for quantitative analysis of biomolecules in solution, particularly for determining particle sizes and characterizing biomolecular interactions. By measuring the diffusive behavior of molecules under laminar flow in a…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://doi.org/10.1039/d5lc01038a",
+"pdf": false,
+"status": "hybrid"
 }
 },
 {
@@ -31641,6 +32175,144 @@
 ],
 "relevance": 3,
 "why": "In vivo phage display is a versatile strategy for an unbiased identification of peptide ligands that selectively interact with molecular targets, in vitro, in cell, and in vivo, in living organisms. In a previous study, we validated this technology to identify a brain targeting peptide. Here, we detail the protocol…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01"
+},
+{
+"id": "pmid-42685669",
+"pmid": "42685669",
+"doi": "10.1016/j.bioadv.2026.215136",
+"title": "Dental biomaterials-on-chip: A scoping review of dynamic material-tissue-biofilm models.",
+"authors": "Garcia-Contreras R, Vazquez-Vazquez FC",
+"journal": "Biomaterials advances",
+"journal_iso": "Biomater Adv",
+"date": "2026-09-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bioadv.2026.215136"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42685669/"
+}
+],
+"au": [
+"garcia-contreras|r",
+"vazquez-vazquez|f"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "The preclinical evaluation of dental biomaterials remains largely dependent on static in vitro assays that provide limited insight into dynamic material-tissue-biofilm interactions. Microfluidic lab-on-a-chip (LoC) and organ-on-a-chip (OoC) platforms can reproduce selected features of the oral microenvironment,…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S277295082600436X/pdf",
+"pdf": true,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42684494",
+"pmid": "42684494",
+"doi": "10.1007/s00604-026-08381-0",
+"title": "A piezoelectric pump with flow-concentrating chamber for multifunctional microfluidic systems.",
+"authors": "Chen S, Zhou J, Li J, … Shen Y",
+"journal": "Mikrochimica acta",
+"journal_iso": "Mikrochim Acta",
+"date": "2026-09-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00604-026-08381-0"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42684494/"
+}
+],
+"au": [
+"chen|s",
+"zhou|j",
+"li|j",
+"zou|z",
+"zhang|z",
+"kan|j",
+"cui|q",
+"zhang|t",
+"shen|y"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Piezoelectric pumps have garnered significant interest in such systems owing to their compact form factor, ease of integration, rapid response, and precise fluid delivery. However, simultaneously achieving high output and stable flow remains challenging due to internal flow losses and flow field fluctuations. To…",
+"addedAt": "2026-10-01",
+"source": "auto",
+"oaChecked": "2026-10-01"
+},
+{
+"id": "pmid-42683749",
+"pmid": "42683749",
+"doi": "10.1002/smll.75590",
+"title": "Photoactuated Micropumps Enable Oscillatory Fluidics and Autonomous Locomotion.",
+"authors": "Singh D, Bera S, Gill AK, … Patra D",
+"journal": "Small (Weinheim an der Bergstrasse, Germany)",
+"journal_iso": "Small",
+"date": "2026-09-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/smll.75590"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42683749/"
+}
+],
+"au": [
+"singh|d",
+"bera|s",
+"gill|a",
+"mahapatra|r",
+"sharma|d",
+"kumar|k",
+"tiwari|n",
+"patra|d"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Oscillatory fluid flows underpin transport, mixing, and signal propagation in living systems, yet artificial microfluidic platforms rely almost extensively on external power or chemically driven gradients to reproduce such dynamics. Here, we introduce a fuel-free strategy based on photo-mechanical transduction, in…",
 "addedAt": "2026-10-01",
 "source": "auto",
 "oaChecked": "2026-10-01"
