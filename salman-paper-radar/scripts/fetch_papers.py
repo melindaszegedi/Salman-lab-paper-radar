@@ -136,12 +136,12 @@ def first_sentences(text, limit=320):
 
 
 # ---------------------------------------------------------------- PubMed
-def pubmed_ids(days, term=None, label="PubMed"):
+def pubmed_ids(days, term=None, label="PubMed", cap=9999):
     # Page through results: a 30-day backfill of this broad query can pass 2,000 records.
     ids, start, total = [], 0, None
     while True:
         params = {"db": "pubmed", "term": term or CFG["pubmed_query"], "datetype": "edat", "reldate": days,
-                  "retstart": start, "retmax": 1000, "retmode": "json", "tool": "salman-paper-radar",
+                  "retstart": start, "retmax": min(1000, cap), "retmode": "json", "tool": "salman-paper-radar",
                   "email": CFG.get("ncbi_email", "")}
         if os.environ.get("NCBI_API_KEY"):
             params["api_key"] = os.environ["NCBI_API_KEY"]
@@ -152,7 +152,7 @@ def pubmed_ids(days, term=None, label="PubMed"):
         batch = res.get("idlist", [])
         ids += batch
         start += len(batch)
-        if not batch or start >= min(total, 9999):  # esearch cannot page past 9,999
+        if not batch or start >= min(total, 9999, cap):  # esearch cannot page past 9,999
             break
         time.sleep(0.4)
     log(f"{label}: {len(ids)} of {total} candidate records in the last {days} days")
@@ -481,17 +481,28 @@ def main():
 
     custom = load_custom_topics()
     try:
-        seen_ids = set(json.loads(STATE.read_text(encoding="utf-8")).get("ids", []))
+        state = json.loads(STATE.read_text(encoding="utf-8"))
     except FileNotFoundError:
-        seen_ids = set()
+        state = {}
+    seen_ids = set(state.get("ids", []))
     fresh_topics = [t for t in custom if t["id"] not in seen_ids]
+
+    # keywords/authors people follow; ones nobody followed before get a 30-day backfill
+    follow_kws, follow_authors = load_follows()
+    seen_kws, seen_auths = set(state.get("kws", [])), set(state.get("authors", []))
+    fresh_kws = [k for k in follow_kws if fold(k) not in seen_kws]
+    fresh_auths = [x for x in follow_authors if x not in seen_auths]
+
     if a.if_new_topics:
-        if not fresh_topics:
-            log("No new lab topics; nothing to do")
+        if not (fresh_topics or fresh_kws or fresh_auths):
+            log("No new lab topics, keywords or authors; nothing to do")
             set_output("changed", "false")
             return
-        log("New lab topics: " + ", ".join(t["name"] for t in fresh_topics) + " (searching the last 30 days)")
-        days = max(days, 30)
+        if fresh_topics:
+            log("New lab topics: " + ", ".join(t["name"] for t in fresh_topics) + " (searching the last 30 days)")
+            days = max(days, 30)
+        if fresh_kws or fresh_auths:
+            log(f"Newly followed: {len(fresh_kws)} keywords, {len(fresh_auths)} authors (searching the last 30 days)")
     set_output("changed", "true")
     add_custom_topics(custom)
 
@@ -499,7 +510,6 @@ def main():
     known = {dedupe_key(p) for p in archive}
     log(f"Tagged {retag(archive, custom)} archived papers with lab topics")
 
-    follow_kws, follow_authors = load_follows()
     kw_rx = [(k, keyword_rx(k)) for k in follow_kws]
     kw_rx = [(k, rx) for k, rx in kw_rx if rx]
 
@@ -513,11 +523,18 @@ def main():
                 ids += pubmed_ids(tdays, term=q, label=f"PubMed (topic {tid})")
             except Exception as e:
                 log(f"Topic search {tid} failed:", e)
-        for q in follow_queries(follow_kws, follow_authors):
+        old_kws = [k for k in follow_kws if k not in fresh_kws]
+        old_auths = [x for x in follow_authors if x not in fresh_auths]
+        for q in follow_queries(old_kws, old_auths):
             try:
                 ids += pubmed_ids(days, term=q, label="PubMed (followed terms)")
             except Exception as e:
                 log("Followed-terms search failed:", e)
+        for q in follow_queries(fresh_kws, fresh_auths, chunk=1):  # one term per search so each gets its share
+            try:
+                ids += pubmed_ids(max(days, 30), term=q, label="PubMed (newly followed term)", cap=300)
+            except Exception as e:
+                log("Newly-followed search failed:", e)
         candidates += pubmed_records(list(dict.fromkeys(ids)))
     except Exception as e:
         log("PubMed failed:", e)
@@ -539,7 +556,7 @@ def main():
         fa = any(author_matches(f, pa) for pa in p.get("au") or [] for f in follow_authors)
         needed = CFG["min_score"] if (p["q1"] or p["type"] == "preprint") else CFG["min_score_non_q1"]
         on_topic = s >= needed and topics
-        followed = fa or (fk and (p["q1"] or p["type"] == "preprint"))
+        followed = fa or bool(fk)  # shown only to people who follow the keyword/author, so any journal
         if not on_topic and not followed:
             continue
         if not on_topic:
@@ -577,7 +594,9 @@ def main():
     ARCHIVE.parent.mkdir(parents=True, exist_ok=True)
     ARCHIVE.write_text(payload, encoding="utf-8")
     ARCHIVE_JS.write_text("window.PAPER_RADAR_DATA = " + payload.replace("</", "<\\/") + ";\n", encoding="utf-8")
-    STATE.write_text(json.dumps({"ids": sorted(t["id"] for t in custom)}), encoding="utf-8")
+    STATE.write_text(json.dumps({"ids": sorted(t["id"] for t in custom),
+                                 "kws": sorted({fold(k) for k in follow_kws}),
+                                 "authors": sorted(set(follow_authors))}), encoding="utf-8")
 
 
 if __name__ == "__main__":
