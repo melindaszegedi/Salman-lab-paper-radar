@@ -165,9 +165,12 @@ def main():
         last = prof.get("last_digest_on")
         if last == today.isoformat() and not a.force:
             continue
+        weekly = bool(prof.get("digest_weekly"))
+        if weekly and today.weekday() != 0 and not a.force:   # weekly emails go out on Mondays
+            continue
         # new since the last email (or the last 2 days for a first email), published in the last 3 weeks
-        since = last if (last and not a.force) else (today - dt.timedelta(days=2)).isoformat()
-        recent_cut = (today - dt.timedelta(days=21)).isoformat()
+        since = last if (last and not a.force) else (today - dt.timedelta(days=8 if weekly else 2)).isoformat()
+        recent_cut = (today - dt.timedelta(days=28 if weekly else 21)).isoformat()
         fresh = [p for p in papers if (p.get("addedAt") or "") > since and (p.get("date") or "") >= recent_cut]
         if a.force:
             fresh = [p for p in papers if (p.get("addedAt") or "") >= since and (p.get("date") or "") >= recent_cut]
@@ -178,7 +181,8 @@ def main():
             log(f"  {email}: nothing new today, no email")
             continue
         first = (prof.get("first_name") or "").strip()
-        subject = f"{greeting(now)}{', ' + first if first else ''}: {len(items)} new paper{'s' if len(items) != 1 else ''} for you"
+        subject = (f"{greeting(now)}{', ' + first if first else ''}: {len(items)} new paper{'s' if len(items) != 1 else ''} "
+                   f"for you {'this week' if weekly else ''}").strip()
         body = email_html(first, now, items, site_url)
 
         if a.dry_run:

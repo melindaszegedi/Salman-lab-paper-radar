@@ -355,6 +355,47 @@ def set_output(name, value):
             f.write(f"{name}={value}\n")
 
 
+# ---------------------------------------------------------------- open-access PDFs (OpenAlex)
+def enrich_oa(papers, limit=400):
+    """Find a free full-text link for journal papers (OpenAlex knows Unpaywall's data)."""
+    for p in papers:  # preprints are free: link their PDF
+        if p.get("type") == "preprint" and not p.get("oa"):
+            u = next((l.get("url") for l in p.get("links") or [] if "rxiv.org/content/" in str(l.get("url"))), None)
+            if u:
+                p["oa"] = {"url": u.rstrip("/") + ".full.pdf", "pdf": True, "status": "preprint"}
+    todo = [p for p in papers if p.get("doi") and p.get("type") == "journal" and not p.get("oaChecked")][:limit]
+    found = 0
+    for i in range(0, len(todo), 50):
+        batch = todo[i:i + 50]
+        dois = "|".join(p["doi"] for p in batch if "|" not in p["doi"] and "," not in p["doi"])
+        try:
+            params = {"filter": "doi:" + dois, "per-page": 50, "select": "doi,open_access,best_oa_location"}
+            if CFG.get("ncbi_email"):
+                params["mailto"] = CFG["ncbi_email"]
+            res = get("https://api.openalex.org/works", params).json().get("results", [])
+        except Exception as e:
+            log("  OpenAlex open-access lookup failed:", e)
+            break
+        info = {}
+        for w in res:
+            d = (w.get("doi") or "").lower().replace("https://doi.org/", "")
+            best = w.get("best_oa_location") or {}
+            oa = w.get("open_access") or {}
+            info[d] = {"pdf": best.get("pdf_url") or None, "url": oa.get("oa_url") or best.get("landing_page_url"),
+                       "is_oa": bool(oa.get("is_oa")), "status": oa.get("oa_status")}
+        today = dt.date.today().isoformat()
+        for p in batch:
+            p["oaChecked"] = today
+            d = info.get(p["doi"])
+            if d and d["is_oa"]:
+                link = d["pdf"] or d["url"]
+                if link and str(link).startswith("http"):
+                    p["oa"] = {"url": link, "pdf": bool(d["pdf"]), "status": d["status"]}
+                    found += 1
+        time.sleep(0.2)
+    log(f"Open access: checked {len(todo)} papers, found free full text for {found}")
+
+
 # ---------------------------------------------------------------- bioRxiv / medRxiv
 def rxiv_records(server, days):
     end = dt.date.today()
@@ -378,6 +419,8 @@ def rxiv_records(server, days):
                 "version": c.get("version"), "au": keys,
                 "links": [{"label": "bioRxiv" if server == "biorxiv" else "medRxiv",
                            "url": f"https://www.{server}.org/content/{doi}v{c.get('version') or 1}"}],
+                "oa": {"url": f"https://www.{server}.org/content/{doi}v{c.get('version') or 1}.full.pdf",
+                       "pdf": True, "status": "preprint"},
             })
         cursor += len(coll)
         if not coll or cursor >= total:
@@ -524,6 +567,7 @@ def main():
     for m in manual:
         by_key[dedupe_key(m)] = m
     papers = sorted(by_key.values(), key=lambda p: (p["date"], p.get("relevance", 0)), reverse=True)
+    enrich_oa(papers)
 
     payload = json.dumps({
         "meta": {"lastCurated": dt.date.today().isoformat(), "lastRunAdded": len(new),
