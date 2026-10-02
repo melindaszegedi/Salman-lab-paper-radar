@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-01",
-"lastRunAdded": 1,
-"total": 702,
+"lastCurated": "2026-10-02",
+"lastRunAdded": 19,
+"total": 721,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,412 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42823889",
+"pmid": "42823889",
+"doi": "10.1177/0271678x261496217",
+"title": "EXPRESS: Bayesian networks to estimate prognosis in vascular cognitive impairment and small vessel disease: integrated analyses of interdependent contributors to multiple outcomes.",
+"authors": "Overmars LM, Allaart C, Bron EE, … Biessels GJ",
+"journal": "Journal of cerebral blood flow and metabolism",
+"journal_iso": "J Cereb Blood Flow Metab",
+"date": "2026-10-02",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/0271678x261496217"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42823889/"
+}
+],
+"au": [
+"overmars|l",
+"allaart|c",
+"bron|e",
+"brunner la rocca|h",
+"de bresser|j",
+"muller|m",
+"van osch|m",
+"teunissen|c",
+"tijms|b",
+"wolters|f",
+"biessels|g"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"vascular cognitive impairment"
+],
+"relevance": 3,
+"why": "Vascular cognitive impairment (VCI) and small vessel disease (SVD) involve interconnected factors influencing multiple outcomes, also beyond cognitive decline. Bayesian networks (BNs) can help unravel these complex interrelations, which we demonstrate in this proof-of-concept study in the Heart-Brain Connection…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02"
+},
+{
+"id": "pmid-42823835",
+"pmid": "42823835",
+"doi": "10.1002/open.70314",
+"title": "Synthesis and Cytotoxic Activity of 1,3-Selenazole-2-Amine Derivatives With Computational ADMET Profiling.",
+"authors": "Dilek G, Akkoc S",
+"journal": "ChemistryOpen",
+"journal_iso": "ChemistryOpen",
+"date": "2026-10-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/open.70314"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42823835/"
+}
+],
+"au": [
+"dilek|g",
+"akkoc|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "A set of newly developed 1,3-selenazole-2-amine derivatives (1-4) was prepared via a modified Hantzsch-type cyclization of appropriately substituted α-bromoacetophenones with selenourea under reflux conditions. The synthesized compounds were tested for cytotoxic activity in HT-29 (colon cancer), MCF-7 (breast cancer),…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02"
+},
+{
+"id": "pmid-42823887",
+"pmid": "42823887",
+"doi": "10.1177/0271678x261496208",
+"title": "EXPRESS: Association between Neurovascular Network Dysfunction and Poor Sleep Quality in Patients with Cerebral Small Vessel Disease.",
+"authors": "Guo T, Gao Z, Yang Q, … Guan L",
+"journal": "Journal of cerebral blood flow and metabolism",
+"journal_iso": "J Cereb Blood Flow Metab",
+"date": "2026-10-02",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/0271678x261496208"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42823887/"
+}
+],
+"au": [
+"guo|t",
+"gao|z",
+"yang|q",
+"lu|y",
+"zhao|m",
+"hu|g",
+"li|x",
+"wang|t",
+"wang|d",
+"wang|y",
+"collet|j",
+"guan|l"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease"
+],
+"relevance": 2,
+"why": "Poor sleep quality is frequently reported among patients with cerebral small vessel disease (CSVD), but its neurovascular correlates remain unclear. We examined exploratory associations between multidomain neurovascular network (NVN) measures and poor sleep quality in patients with CSVD. In this cross-sectional…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02"
+},
+{
+"id": "biorxiv-10.64898_2026.09.30.755814",
+"doi": "10.64898/2026.09.30.755814",
+"title": "Proteomics of highly post-translationally modified proteins in kidney tubulointerstitium",
+"authors": "Langston, J. C., Candib, A., Sethi, M., … Zaia, J.",
+"journal": "bioRxiv",
+"date": "2026-10-02",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "biochemistry",
+"version": "1",
+"au": [
+"langston|j",
+"candib|a",
+"sethi|m",
+"henderson|j",
+"zaia|j"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755814v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755814v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd"
+],
+"keywords": [
+"col4a2"
+],
+"relevance": 2,
+"why": "Kidney disease affects over 850 million people and leads to degradation of the kidney cortical compartments and kidney failure. Interstitial fibrosis and tubular atrophy (IFTA) is a universal feature of chronic kidney disease, yet the sequence of tubulointerstitial matrix protein (matrisome) changes that underlie the…",
+"addedAt": "2026-10-02",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.09.30.755777",
+"doi": "10.64898/2026.09.30.755777",
+"title": "A New Soaking Protocol to Live Stain C. elegans with Proteostat Dye Reveals Global Patterns of Stress-Induced Protein Aggregation",
+"authors": "Krishingner, T., Fausett, S. R.",
+"journal": "bioRxiv",
+"date": "2026-10-02",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"krishingner|t",
+"fausett|s"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755777v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755777v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"huntington",
+"permeability"
+],
+"relevance": 2,
+"why": "Protein aggregates are a diverse array of intra- and extracellular structures containing misfolded proteins with limited macromolecular movement. Protein aggregation is induced by aging and cellular stress and is a hallmark of neurodegenerative diseases including Huntington's, Alzheimer's, and Parkinson's. Fluorescent…",
+"addedAt": "2026-10-02",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.09.30.755749",
+"doi": "10.64898/2026.09.30.755749",
+"title": "Phase-noise tolerant fully-coherent optical coherence tomography angiography for high-contrast 3D microvasculature mapping",
+"authors": "Jie, T., Ruiz Lopera, S., Bouma, B. E., Uribe-Patarroyo, N.",
+"journal": "bioRxiv",
+"date": "2026-10-02",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "1",
+"au": [
+"jie|t",
+"ruiz lopera|s",
+"bouma|b",
+"uribe-patarroyo|n"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755749v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755749v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"capillary",
+"phase i"
+],
+"relevance": 2,
+"why": "Optical coherence tomography angiography (OCTA) has been extensively explored for the detection of pathological retinal changes arising in various ophthalmological diseases. Due to phase instability of conventional systems, most OCTA signal processing methods to date have relied on intensity-based averaging, despite…",
+"addedAt": "2026-10-02",
+"source": "auto"
+},
+{
+"id": "pmid-42819782",
+"pmid": "42819782",
+"doi": "10.3389/fncel.2026.1901256",
+"title": "Brain endothelial homeostasis in psychiatric disorders: mechanisms, evidence, and translational opportunities.",
+"authors": "Zhang M, Huang X, Yao L, Wu W",
+"journal": "Frontiers in cellular neuroscience",
+"journal_iso": "Front Cell Neurosci",
+"date": "2026-10-01",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fncel.2026.1901256"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42819782/"
+}
+],
+"au": [
+"zhang|m",
+"huang|x",
+"yao|l",
+"wu|w"
+],
+"topics": [
+"bbb",
+"delivery",
+"glymph"
+],
+"keywords": [
+"blood-brain barrier",
+"cerebral blood flow",
+"glymphatic",
+"interstitial fluid",
+"neurovascular unit",
+"permeability",
+"transcytosis"
+],
+"relevance": 5,
+"why": "Brain endothelial cells (BECs) are specialized components of the neurovascular unit that couple circulating signals to cerebral blood flow regulation, blood-brain barrier (BBB) function, and selective molecular transport. This narrative review evaluates the correlation of these endothelial functions with psychiatric…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02",
+"oa": {
+"url": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2026.1901256/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42823573",
+"pmid": "42823573",
+"doi": "10.1007/s11095-026-04201-5",
+"title": "From Design to Bedside: Brain-Targeted Engineered Nanoparticles and Predictive Modeling for Neurodegenerative Diseases Therapeutics.",
+"authors": "Nguyen N, Yuan M, Wang Y",
+"journal": "Pharmaceutical research",
+"journal_iso": "Pharm Res",
+"date": "2026-10-01",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s11095-026-04201-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42823573/"
+}
+],
+"au": [
+"nguyen|n",
+"yuan|m",
+"wang|y"
+],
+"topics": [
+"bbb",
+"delivery",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"brain penetration",
+"nanoparticle",
+"parkinson",
+"permeability"
+],
+"relevance": 5,
+"why": "Nanoparticle (NP)-based drug delivery systems offer promising solutions for neurodegenerative diseases such as Alzheimer's, Parkinson's, and Huntington's, which have no cure due to the brain's structural complexity and the restrictive nature of the blood-brain barrier (BBB). Conventional therapeutics, despite strong…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02"
+},
+{
+"id": "pmid-42820785",
+"pmid": "42820785",
+"doi": "10.1080/10717544.2026.2738285",
+"title": "Redefining intranasal brain delivery: from nasal entry to meaningful parenchymal and cellular exposure.",
+"authors": "Kim Y, Yun CO, Yoon AR",
+"journal": "Drug delivery",
+"journal_iso": "Drug Deliv",
+"date": "2026-10-01",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1080/10717544.2026.2738285"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42820785/"
+}
+],
+"au": [
+"kim|y",
+"yun|c",
+"yoon|a"
+],
+"topics": [
+"bbb",
+"delivery",
+"glymph"
+],
+"keywords": [
+"bbb",
+"brain delivery",
+"glymphatic",
+"perivascular space"
+],
+"relevance": 5,
+"why": "Nose-to-brain (N2B) delivery is a promising noninvasive strategy to circumvent the blood‒brain barrier (BBB). However, the clinical translation of N2B platforms remains hindered by a conceptual oversimplification that equates crude central nervous system (CNS) exposure with effective therapeutic delivery. This review…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02",
+"oa": {
+"url": "https://doi.org/10.1080/10717544.2026.2738285",
+"pdf": false,
+"status": "gold"
+}
+},
 {
 "id": "pmid-42817696",
 "pmid": "42817696",
@@ -99,6 +505,195 @@
 "addedAt": "2026-10-01",
 "source": "auto",
 "oaChecked": "2026-10-01"
+},
+{
+"id": "pmid-42822706",
+"pmid": "42822706",
+"doi": "10.1016/j.ijpharm.2026.127471",
+"title": "Antimicrobial peptides for central nervous system infections: potential of nose-to-brain delivery and current challenges.",
+"authors": "Campus C, Serri C, Roldo M, … Rassu G",
+"journal": "International journal of pharmaceutics",
+"journal_iso": "Int J Pharm",
+"date": "2026-10-01",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ijpharm.2026.127471"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42822706/"
+}
+],
+"au": [
+"campus|c",
+"serri|c",
+"roldo|m",
+"giunchedi|p",
+"gavini|e",
+"rassu|g"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain delivery",
+"permeability"
+],
+"relevance": 4,
+"why": "Antimicrobial resistance (AMR) in central nervous system (CNS) infections remains one of the major therapeutic challenges, as conventional antibiotics often fail to achieve adequate brain exposure. Antimicrobial peptides (AMPs) are attractive candidates because of their broad-spectrum activity and low propensity to…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02"
+},
+{
+"id": "pmid-42821430",
+"pmid": "42821430",
+"doi": "10.4103/nrr.nrronline-d-26-00798",
+"title": "Astaxanthin in cerebrovascular diseases: Pharmacokinetics, delivery systems, dietary safety, and multitarget mechanisms of action.",
+"authors": "Qin W, Du J, Zhang Q, … Li J",
+"journal": "Neural regeneration research",
+"journal_iso": "Neural Regen Res",
+"date": "2026-10-01",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.4103/nrr.nrronline-d-26-00798"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42821430/"
+}
+],
+"au": [
+"qin|w",
+"du|j",
+"zhang|q",
+"wang|s",
+"xu|j",
+"hou|z",
+"chen|g",
+"ji|z",
+"ji|r",
+"guo|x",
+"gao|y",
+"cai|c",
+"li|j"
+],
+"topics": [
+"csvd",
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"randomized",
+"vascular dementia"
+],
+"relevance": 4,
+"why": "Cerebrovascular diseases are characterized by high incidence and prevalence, substantial disability, and complex pathological mechanisms. Current therapeutic interventions have limited efficacy, highlighting the need to develop novel multitarget strategies. Astaxanthin, a natural lipid-soluble keto-carotenoid,…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02"
+},
+{
+"id": "pmid-42817909",
+"pmid": "42817909",
+"doi": "10.1080/14737175.2026.2737272",
+"title": "Focused ultrasound blood-brain barrier opening: a review of post-procedure MRI outcomes.",
+"authors": "LeBlang S, Mehta RI, D'haese PF, … Frazzetta G",
+"journal": "Expert review of neurotherapeutics",
+"journal_iso": "Expert Rev Neurother",
+"date": "2026-10-01",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1080/14737175.2026.2737272"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42817909/"
+}
+],
+"au": [
+"leblang|s",
+"mehta|r",
+"d'haese|p",
+"grinspan|a",
+"sokolov|a",
+"frazzetta|g"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound",
+"permeability"
+],
+"relevance": 4,
+"why": "Focused ultrasound (FUS) blood-brain barrier opening (BBBo) is an incisionless technique that facilitates cerebral drug delivery by temporarily increasing BBB permeability. Clinical trials have shown that FUS produces reversible BBBo and is feasible in humans. There are currently no standardized imaging protocols for…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02"
+},
+{
+"id": "biorxiv-10.64898_2026.09.25.754477",
+"doi": "10.64898/2026.09.25.754477",
+"title": "Ryanodine receptor cluster remodeling links COL4A2 mutation to cerebral artery dysfunction",
+"authors": "Lavanderos, B., Yamasaki, E., Earley, S., … Gould, D.",
+"journal": "bioRxiv",
+"date": "2026-10-01",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "physiology",
+"version": "1",
+"au": [
+"lavanderos|b",
+"yamasaki|e",
+"earley|s",
+"sanchez solano|a",
+"zhu|w",
+"labelle-dumais|c",
+"feng earley|y",
+"gould|d"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754477v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754477v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd"
+],
+"keywords": [
+"arteriol",
+"col4a2",
+"small vessel disease"
+],
+"relevance": 4,
+"why": "Pathogenic variants of COL4A1 and COL4A2, which encode the 1 and 2 chains of type IV collagen in vascular basement membranes, cause cerebral small vessel disease and intracerebral hemorrhage, but the signaling mechanisms that precede vascular damage remain incompletely defined. Here, we investigated cerebral arterial…",
+"addedAt": "2026-10-02",
+"source": "auto"
 },
 {
 "id": "pmid-42817119",
@@ -226,6 +821,276 @@
 "addedAt": "2026-10-01",
 "source": "auto",
 "oaChecked": "2026-10-01"
+},
+{
+"id": "pmid-42822996",
+"pmid": "42822996",
+"doi": "10.1016/j.spen.2026.101298",
+"title": "Biomarkers of new onset refractory status epilepticus (NORSE) and febrile infection-related epilepsy syndrome (FIRES).",
+"authors": "Farias-Moeller R, Lai YC",
+"journal": "Seminars in pediatric neurology",
+"journal_iso": "Semin Pediatr Neurol",
+"date": "2026-10-01",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.spen.2026.101298"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42822996/"
+}
+],
+"au": [
+"farias-moeller|r",
+"lai|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "New Onset Refractory Status Epilepticus (NORSE) and Febrile Infection-Related Epilepsy Syndrome (FIRES) present significant diagnostic challenges. To date, no single testing modality has emerged as the standard to confirm or exclude NORSE/FIRES. However, there has been increasing characterization of NORSE/FIRES by…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02"
+},
+{
+"id": "pmid-42822726",
+"pmid": "42822726",
+"doi": "10.1016/j.neuint.2026.106267",
+"title": "Glabridin and Glabrene from Glycyrrhiza glabra L. as Natural Co-operative Modulators of the Human Serotonin Transporter: Evidence from Docking, Molecular Simulations and Machine-Learning QSAR Models.",
+"authors": "Varughese D, Mohanakumar KP, Rajamma U",
+"journal": "Neurochemistry international",
+"journal_iso": "Neurochem Int",
+"date": "2026-10-01",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.neuint.2026.106267"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42822726/"
+}
+],
+"au": [
+"varughese|d",
+"mohanakumar|k",
+"rajamma|u"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Serotonin transporter (SERT), encoded by SLC6A4, is a key regulator of serotonergic neurotransmission and a primary target for selective serotonin reuptake inhibitors (SSRIs). Dysregulation of SERT is implicated in neuropsychiatric and neurodevelopmental disorders, including autism spectrum disorder (ASD). SSRIs,…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02"
+},
+{
+"id": "pmid-42819537",
+"pmid": "42819537",
+"doi": "10.3389/fnagi.2026.1930675",
+"title": "Artificial intelligence for white matter hyperintensity segmentation: performance, determinants, and clinical implications.",
+"authors": "Hu J, Zhang Z, Lei P, … Li B",
+"journal": "Frontiers in aging neuroscience",
+"journal_iso": "Front Aging Neurosci",
+"date": "2026-10-01",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fnagi.2026.1930675"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42819537/"
+}
+],
+"au": [
+"hu|j",
+"zhang|z",
+"lei|p",
+"zhang|j",
+"zhu|x",
+"li|b"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "White matter hyperintensities (WMH) are key neuroimaging markers of cerebral small vessel disease, associated with cognitive decline and stroke risk. Accurate quantification is essential yet manual segmentation is time-consuming and variable. We systematically evaluated AI performance for automated WMH segmentation…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02",
+"oa": {
+"url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1930675/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42819534",
+"pmid": "42819534",
+"doi": "10.1177/25424823261470053",
+"title": "The evolutionary origins of dementia.",
+"authors": "Stone J, Johnstone DM, Mason RS, … Robinson SR",
+"journal": "Journal of Alzheimer's disease reports",
+"journal_iso": "J Alzheimers Dis Rep",
+"date": "2026-10-01",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/25424823261470053"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42819534/"
+}
+],
+"au": [
+"stone|j",
+"johnstone|d",
+"mason|r",
+"mitrofanis|j",
+"robinson|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"capillaries"
+],
+"relevance": 3,
+"why": "Evidence has grown that the core pathology of age-related dementias, including Alzheimer's disease, is microvascular-small, symptomless bleeds from cerebral capillaries, accelerated by the hypertension of age. Each such bleed, this evidence suggests, damages a patch of brain, causing the death of neurons. This review…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02",
+"oa": {
+"url": "https://doi.org/10.1177/25424823261470053",
+"pdf": false,
+"status": "diamond"
+}
+},
+{
+"id": "pmid-42819415",
+"pmid": "42819415",
+"doi": "10.3389/fnagi.2026.1935861",
+"title": "Gait performance in cerebral small vessel disease: associations with cognitive and oculomotor function and exploratory mediation analyses.",
+"authors": "Shen CX, Zhao XY, Wang SY, … Zhang BW",
+"journal": "Frontiers in aging neuroscience",
+"journal_iso": "Front Aging Neurosci",
+"date": "2026-10-01",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fnagi.2026.1935861"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42819415/"
+}
+],
+"au": [
+"shen|c",
+"zhao|x",
+"wang|s",
+"miao|y",
+"liang|z",
+"liu|l",
+"zhang|b"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"perivascular spaces",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Gait impairment in cerebral small vessel disease (CSVD) is heterogeneous and may not be fully explained by conventional structural MRI markers. We investigated the associations of neuroimaging burden, cognitive function, and oculomotor function with gait performance in CSVD and explored potential indirect associations…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02",
+"oa": {
+"url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1935861/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42819353",
+"pmid": "42819353",
+"doi": "10.3389/fmed.2026.1921232",
+"title": "Operationalizing perioperative clearance reserve: a reserve-load interaction model for neurocognitive outcomes in older surgical patients.",
+"authors": "La B, Bai Y, Qiu Y, Wang L",
+"journal": "Frontiers in medicine",
+"journal_iso": "Front Med (Lausanne)",
+"date": "2026-10-01",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fmed.2026.1921232"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42819353/"
+}
+],
+"au": [
+"la|b",
+"bai|y",
+"qiu|y",
+"wang|l"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"meningeal lymphatic"
+],
+"relevance": 3,
+"why": "Older patients who undergo similar operations and receive comparable anesthetic care do not always recover cognitively in the same way. Inflammation explains an important part of perioperative brain injury, yet it does not fully account for why the response settles quickly in one patient and persists in another. We…",
+"addedAt": "2026-10-02",
+"source": "auto",
+"oaChecked": "2026-10-02",
+"oa": {
+"url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1921232/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42816949",
