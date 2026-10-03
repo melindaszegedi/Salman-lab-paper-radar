@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-10-02",
-"lastRunAdded": 19,
-"total": 721,
+"lastCurated": "2026-10-03",
+"lastRunAdded": 12,
+"total": 733,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,249 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-42827358",
+"pmid": "42827358",
+"doi": "10.1177/17474930261496637",
+"title": "Prognosis and predictors of fatigue after stroke. An individual patient data meta-analysis from three large multicentre trials of fluoxetine for stroke recovery.",
+"authors": "Mead GE, Graham C, Lundström E, … Dennis M",
+"journal": "International journal of stroke",
+"journal_iso": "Int J Stroke",
+"date": "2026-10-03",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/17474930261496637"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42827358/"
+}
+],
+"au": [
+"mead|g",
+"graham|c",
+"lundstrom|e",
+"hankey|g",
+"hackett|m",
+"billot|l",
+"nasman|p",
+"forbes|j",
+"dennis|m"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"randomised",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "BackgroundFatigue affects about half of stroke survivors, but its natural history and associations are uncertain. We aimed to determine the trajectory of fatigue between 6 and 12 months after stroke, and factors associated with changes in fatigue between 6 and 12 months after stroke, in patients recruited to three…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03"
+},
+{
+"id": "pmid-42827367",
+"pmid": "42827367",
+"doi": "10.1177/0271678x261496694",
+"title": "EXPRESS: Sex-dependent roles for RIPK1 in the subacute period of intracerebral hemorrhage in mice.",
+"authors": "Yang H, Dillon BE, Marzialo DM, … Wu L",
+"journal": "Journal of cerebral blood flow and metabolism",
+"journal_iso": "J Cereb Blood Flow Metab",
+"date": "2026-10-03",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/0271678x261496694"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42827367/"
+}
+],
+"au": [
+"yang|h",
+"dillon|b",
+"marzialo|d",
+"dillon|j",
+"cao|t",
+"levy|e",
+"popeo|l",
+"jamali|s",
+"wootton|d",
+"grzegorczyk|e",
+"beckey|c",
+"davis|a",
+"karthik|n",
+"ingrando|p",
+"stogsdill|r",
+"nguyen|b",
+"sirbulescu|r",
+"degterev|a",
+"whalen|m",
+"wu|l"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Receptor-interacting protein kinase-1 (RIPK1) is a serine-threonine kinase that is activated in the brain early after intracerebral hemorrhage (ICH), but its spatial and temporal course in the subacute period is unknown. We used mice deficient in RIPK1 kinase activity to investigate RIPK1 regulation of clinically…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03"
+},
+{
+"id": "pmid-42824599",
+"pmid": "42824599",
+"doi": "10.3389/fimmu.2026.1953626",
+"title": "The role of glymphatic system in brain injury after subarachnoid hemorrhage.",
+"authors": "Peng J, Li W, Zhong Q, … Liu Q",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-02",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1953626"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42824599/"
+}
+],
+"au": [
+"peng|j",
+"li|w",
+"zhong|q",
+"li|l",
+"tang|s",
+"li|y",
+"liu|q"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aquaporin-4",
+"astrocytic endfeet",
+"glymphatic",
+"perivascular clearance"
+],
+"relevance": 5,
+"why": "Subarachnoid hemorrhage (SAH) remains a devastating cerebrovascular emergency with high mortality and long-term neurological morbidity, yet the mechanisms driving secondary brain injury remain incompletely understood. The glymphatic system, a glial-dependent perivascular clearance pathway, promotes convective exchange…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1953626/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42825835",
+"pmid": "42825835",
+"doi": "10.1007/s10143-026-04508-2",
+"title": "Glymphatic system dysfunction in central nervous system malignancies: A narrative review.",
+"authors": "Villacis G, Rudolf JC, Ditz C, … Ulloa P",
+"journal": "Neurosurgical review",
+"journal_iso": "Neurosurg Rev",
+"date": "2026-10-02",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s10143-026-04508-2"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42825835/"
+}
+],
+"au": [
+"villacis|g",
+"rudolf|j",
+"ditz|c",
+"schramm|p",
+"ulloa|p"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"interstitial fluid",
+"perivascular spaces"
+],
+"relevance": 4,
+"why": "The hypothesis of the glymphatic system as playing an important part in clearing waste from the brain has revolutionized our understanding of cerebrospinal and interstitial fluid dynamics in the brain. This review explores current knowledge of central nervous system (CNS) malignancies and their implications in the…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03"
+},
+{
+"id": "pmid-42825541",
+"pmid": "42825541",
+"doi": "10.1039/d6tb00466k",
+"title": "Investigation of trends in the research on ferritin-based drug delivery systems via a bibliometric and thematic analysis.",
+"authors": "Ma J, Tai Z, Li Y, … Chen Z",
+"journal": "Journal of materials chemistry. B",
+"journal_iso": "J Mater Chem B",
+"date": "2026-10-02",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1039/d6tb00466k"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42825541/"
+}
+],
+"au": [
+"ma|j",
+"tai|z",
+"li|y",
+"shen|m",
+"shen|c",
+"xin|r",
+"zhu|q",
+"chen|z"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"transferrin receptor"
+],
+"relevance": 4,
+"why": "Ferritin can be used as a delivery system with a unique nanocage structure, loading different types of cargo for therapeutic, prophylactic, or diagnostic purposes with targeting properties, low immunogenicity, and definite in vivo behavior. This study was based on a longitudinal bibliometric analysis of 706…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03"
+},
 {
 "id": "pmid-42823889",
 "pmid": "42823889",
@@ -102,6 +345,205 @@ window.PAPER_RADAR_DATA = {
 "addedAt": "2026-10-02",
 "source": "auto",
 "oaChecked": "2026-10-02"
+},
+{
+"id": "pmid-42827140",
+"pmid": "42827140",
+"doi": "10.1038/s41398-026-04301-1",
+"title": "Coordinated response of vascular and glial cells in a pig model of sepsis.",
+"authors": "Olney KC, Barnett JH, Tallant LE, … Fryer JD",
+"journal": "Translational psychiatry",
+"journal_iso": "Transl Psychiatry",
+"date": "2026-10-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41398-026-04301-1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42827140/"
+}
+],
+"au": [
+"olney|k",
+"barnett|j",
+"tallant|l",
+"gibson|k",
+"todd|k",
+"de avila|c",
+"hota|p",
+"shyamala pandian|a",
+"cay durgun|p",
+"serhan|m",
+"wang|r",
+"lind|m",
+"forzani|e",
+"gades|n",
+"thomas|l",
+"fryer|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"neurovascular unit"
+],
+"relevance": 3,
+"why": "Sepsis is a deadly syndrome arising from overactivation of the immune system in response to a pathogen. Severe sepsis can result in sepsis-associated encephalopathy (SAE) that significantly contributes to morbidity and long-term cognitive impairment. Studying the molecular underpinnings of SAE in the human brain is…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03",
+"oa": {
+"url": "https://doi.org/10.1038/s41398-026-04301-1",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42826643",
+"pmid": "42826643",
+"doi": "10.1016/j.jhazmat.2026.143726",
+"title": "Neurotoxicity and neurodegenerative disorders caused by pyrethroids: Adverse events, mechanisms of action and therapeutic approaches.",
+"authors": "Liu Y, Xie S, He F, … Martínez MA",
+"journal": "Journal of hazardous materials",
+"journal_iso": "J Hazard Mater",
+"date": "2026-10-02",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jhazmat.2026.143726"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42826643/"
+}
+],
+"au": [
+"liu|y",
+"xie|s",
+"he|f",
+"ares|i",
+"martinez|m",
+"lopez-torres|b",
+"maximiliano|j",
+"martinez-larranaga|m",
+"anadon|a",
+"wang|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability",
+"tight junction"
+],
+"relevance": 3,
+"why": "Pyrethroid insecticides are extensively used worldwide and were initially considered to have low toxicity to non-target organisms. However, with the widespread application of Type I (non-cyano) and Type II (α-cyano) pyrethroids, evidence increasingly indicates that chronic exposure can induce neurological damage and…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03",
+"oa": {
+"url": "https://doi.org/10.1016/j.jhazmat.2026.143726",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42826515",
+"pmid": "42826515",
+"doi": "10.1016/j.ejmech.2026.119353",
+"title": "Rational design, synthesis, and biological evaluation of indole-piperazine based α-ketoamide derivatives as dual Aβ and tau aggregation modulators for Alzheimer's disease.",
+"authors": "Das B, Baidya AT, Chouhan D, … Kumar R",
+"journal": "European journal of medicinal chemistry",
+"journal_iso": "Eur J Med Chem",
+"date": "2026-10-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ejmech.2026.119353"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42826515/"
+}
+],
+"au": [
+"das|b",
+"baidya|a",
+"chouhan|d",
+"gupta|h",
+"thakur|b",
+"darreh-shori|t",
+"chen|g",
+"tiwari|v",
+"kumar|r"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by pathological aggregation of amyloid-β (Aβ) and tau proteins, representing two major hallmarks of disease progression. Targeting both aggregation pathways simultaneously offers a promising therapeutic strategy. Building upon our…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03"
+},
+{
+"id": "pmid-42825842",
+"pmid": "42825842",
+"doi": "10.1007/s10072-026-09430-5",
+"title": "Incidence, severity, and associated risk factors for amyloid-related imaging abnormalities in anti-amyloid monoclonal antibody therapy for early Alzheimer's disease: a systematic review and meta-analysis.",
+"authors": "Martinez Holst MA, Sierra Valiente AM, Garcia-Becerra CA",
+"journal": "Neurological sciences",
+"journal_iso": "Neurol Sci",
+"date": "2026-10-02",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s10072-026-09430-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42825842/"
+}
+],
+"au": [
+"martinez holst|m",
+"sierra valiente|a",
+"garcia-becerra|c"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"amyloid-related imaging abnormalit",
+"phase 3"
+],
+"relevance": 3,
+"why": "Amyloid-related imaging abnormalities (ARIA) are the most concerning side effect of the treatment for early Alzheimer's disease (AD) with anti-amyloid monoclonal antibodies (mAbs). This study systematically evaluates the incidence, severity, and associated risk factors of ARIA in patients with early AD receiving…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03"
 },
 {
 "id": "pmid-42823887",
@@ -272,6 +714,140 @@ window.PAPER_RADAR_DATA = {
 "relevance": 2,
 "why": "Optical coherence tomography angiography (OCTA) has been extensively explored for the detection of pathological retinal changes arising in various ophthalmological diseases. Due to phase instability of conventional systems, most OCTA signal processing methods to date have relied on intensity-based averaging, despite…",
 "addedAt": "2026-10-02",
+"source": "auto"
+},
+{
+"id": "pmid-42826718",
+"pmid": "42826718",
+"doi": "10.1016/j.xcrm.2026.103104",
+"title": "From patient cells to patient therapy: Twenty years of iPSC-based translation in neurodegenerative disease.",
+"authors": "Cha Y, Kim KS",
+"journal": "Cell reports. Medicine",
+"journal_iso": "Cell Rep Med",
+"date": "2026-10-02",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.xcrm.2026.103104"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42826718/"
+}
+],
+"au": [
+"cha|y",
+"kim|k"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"ipsc",
+"parkinson"
+],
+"relevance": 2,
+"why": "Twenty years after the discovery of induced pluripotent stem cells, the field has progressed from patient-specific disease modeling toward cell-based therapies for neurodegenerative disorders. Parkinson's disease has emerged as the leading model for neuronal replacement, whereas Huntington's disease, Alzheimer's…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03"
+},
+{
+"id": "pmid-42824924",
+"pmid": "42824924",
+"doi": "10.3389/fimmu.2026.1933882",
+"title": "S100B in brain-gut-liver crosstalk: from glial activation to multiorgan inflammation.",
+"authors": "Liu Q, Ming Y, Ji C, … Wen S",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-02",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1933882"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42824924/"
+}
+],
+"au": [
+"liu|q",
+"ming|y",
+"ji|c",
+"fu|l",
+"li|r",
+"yang|z",
+"wen|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "S100 calcium-binding protein B (S100B) is conventionally viewed as a marker of astrocytic injury, blood-brain barrier (BBB) disruption, and neurological disorders. Emerging evidence places S100B within the broader brain-gut-liver axis of inflammatory signaling. This review proposes that S100B is a glial-derived…",
+"addedAt": "2026-10-03",
+"source": "auto",
+"oaChecked": "2026-10-03",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1933882/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "medrxiv-10.64898_2026.09.30.26364437",
+"doi": "10.64898/2026.09.30.26364437",
+"title": "Interaction Between Exercise Intensity and Sedentary Behavior on VO2max Change in Patients with De Novo Parkinson Disease: The Study in Parkinson Disease of Exercise (SPARX) Phase 2 Randomized Clinical Trial",
+"authors": "Pae, B. J., Novak, T. S., Griffith, G. J., … Nocera, J. R.",
+"journal": "medRxiv",
+"date": "2026-10-02",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"pae|b",
+"novak|t",
+"griffith|g",
+"patterson|c",
+"hackney|m",
+"christiansen|c",
+"corcos|d",
+"nocera|j"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.09.30.26364437v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.09.30.26364437v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"parkinson",
+"phase 2"
+],
+"relevance": 2,
+"why": "Background Parkinson disease (PD) is associated with increased sedentary time and reduced cardiorespiratory fitness, making exercise an important component of disease management. Although exercise improves cardiorespiratory fitness, individuals with PD vary substantially in their response to exercise. Sedentary time…",
+"addedAt": "2026-10-03",
 "source": "auto"
 },
 {
