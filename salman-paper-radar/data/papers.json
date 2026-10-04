@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-03",
-"lastRunAdded": 12,
-"total": 733,
+"lastCurated": "2026-10-04",
+"lastRunAdded": 7,
+"total": 740,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,202 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42828592",
+"pmid": "42828592",
+"doi": "10.1007/s11910-026-01512-3",
+"title": "Neuroinflammation as a Final Common Pathway in Systemic Disease - How Systemic Disease Becomes Brain Disease.",
+"authors": "Gaitan AA, de Azevedo Pereira AV, Romero J, Lopez-Yunez A",
+"journal": "Current neurology and neuroscience reports",
+"journal_iso": "Curr Neurol Neurosci Rep",
+"date": "2026-10-03",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s11910-026-01512-3"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42828592/"
+}
+],
+"au": [
+"gaitan|a",
+"de azevedo pereira|a",
+"romero|j",
+"lopez-yunez|a"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"blood-brain barrier",
+"glymphatic",
+"meningeal lymphatic",
+"permeability"
+],
+"relevance": 5,
+"why": "This chapter reviews evidence that neuroinflammation constitutes a final common pathway linking systemic disease of diverse origin to a shared spectrum of CNS injury, and synthesizes its mechanistic, biomarker, and therapeutic implications. Autoimmune, infectious, metabolic, malignant, and age-related diseases…",
+"addedAt": "2026-10-04",
+"source": "auto",
+"oaChecked": "2026-10-04"
+},
+{
+"id": "pmid-42827837",
+"pmid": "42827837",
+"doi": "10.1186/s44477-026-00053-w",
+"title": "Mild traumatic brain injury promotes chronic cerebrovascular inflammation and glymphatic suppression.",
+"authors": "Eisenbaum M, Pearson A, Cembran A, … Bachmeier C",
+"journal": "Molecular neurodegeneration advances",
+"journal_iso": "Mol Neurodegener Adv",
+"date": "2026-10-03",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s44477-026-00053-w"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42827837/"
+}
+],
+"au": [
+"eisenbaum|m",
+"pearson|a",
+"cembran|a",
+"mufson|e",
+"ortiz|c",
+"spelman|m",
+"mullan|m",
+"crawford|f",
+"ojo|j",
+"bachmeier|c"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4",
+"astrocyte endfeet",
+"glymphatic"
+],
+"relevance": 4,
+"why": "Repetitive exposure to mild traumatic brain injury (r-mTBI) increases the risk for chronic traumatic encephalopathy (CTE) and vascular contributions to cognitive impairment and dementia (VCID). Given the strong association between head trauma exposure, persistent inflammatory endothelial damage, and glymphatic…",
+"addedAt": "2026-10-04",
+"source": "auto",
+"oaChecked": "2026-10-04",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1186/s44477-026-00053-w.pdf",
+"pdf": true,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42827746",
+"pmid": "42827746",
+"doi": "10.1016/j.bbih.2026.101361",
+"title": "Astrocyte-centered temporal resilience at the brain-behavior-immunity interface: sleep-circadian disruption and perioperative cognitive vulnerability in older adults.",
+"authors": "Fan W, Han S, Wang C, Gao J",
+"journal": "Brain, behavior, & immunity - health",
+"journal_iso": "Brain Behav Immun Health",
+"date": "2026-10-03",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bbih.2026.101361"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42827746/"
+}
+],
+"au": [
+"fan|w",
+"han|s",
+"wang|c",
+"gao|j"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aquaporin-4",
+"glymphatic"
+],
+"relevance": 4,
+"why": "Perioperative cognitive vulnerability in older adults reflects interactions among inflammatory stress, altered brain state, sleep-circadian disruption, and recovery capacity. This narrative review examines astrocyte-centered temporal resilience as a hypothesis-generating framework for integrating these…",
+"addedAt": "2026-10-04",
+"source": "auto",
+"oaChecked": "2026-10-04",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S2666354626001948/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42827711",
+"pmid": "42827711",
+"doi": "10.3389/fimmu.2026.1917373",
+"title": "Disease-specific patterns of glymphatic-related dysfunction between multiple sclerosis and neuromyelitis optica spectrum disorder.",
+"authors": "Chen X, Zhang K, Dong X, … Li Y",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-03",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1917373"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42827711/"
+}
+],
+"au": [
+"chen|x",
+"zhang|k",
+"dong|x",
+"zhang|x",
+"shi|z",
+"yan|z",
+"zhu|q",
+"peng|y",
+"han|y",
+"li|y"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4",
+"glymphatic",
+"perivascular space"
+],
+"relevance": 4,
+"why": "Glymphatic dysfunction has been reported in multiple sclerosis (MS) and neuromyelitis optica spectrum disorder (NMOSD), yet disease-specific patterns of glymphatic-related impairment and their structural and cognitive consequences remain poorly characterized. This study enrolled 196 MS patients, 88 NMOSD patients, and…",
+"addedAt": "2026-10-04",
+"source": "auto",
+"oaChecked": "2026-10-04",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1917373/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
 {
 "id": "pmid-42827358",
 "pmid": "42827358",
@@ -62,6 +258,162 @@
 "addedAt": "2026-10-03",
 "source": "auto",
 "oaChecked": "2026-10-03"
+},
+{
+"id": "pmid-42828568",
+"pmid": "42828568",
+"doi": "10.1007/s00234-026-04206-2",
+"title": "Exploring the role of glymphatic system in Alzheimer's disease with insights from MRI-based studies: a systematic review.",
+"authors": "Bernetti C, Calandrelli R, Pilato F, … Mallio CA",
+"journal": "Neuroradiology",
+"journal_iso": "Neuroradiology",
+"date": "2026-10-03",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00234-026-04206-2"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42828568/"
+}
+],
+"au": [
+"bernetti|c",
+"calandrelli|r",
+"pilato|f",
+"di lazzaro|v",
+"zobel|b",
+"d'amelio|m",
+"mallio|c"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "The glymphatic constitutes a crucial neurophysiological mechanism for the clearance of interstitial solutes and neurotoxic metabolites from the central nervous system. Dysfunction within this pathway is increasingly implicated in the etiopathogenesis of neurodegenerative diseases, notably Alzheimer's disease (AD).…",
+"addedAt": "2026-10-04",
+"source": "auto",
+"oaChecked": "2026-10-04"
+},
+{
+"id": "pmid-42828235",
+"pmid": "42828235",
+"doi": "10.3389/fneur.2026.1868105",
+"title": "Advances in MRI of glymphatic system dysfunction associated with obstructive sleep apnea and enlarged perivascular spaces.",
+"authors": "Di C, Li Y, Jin G",
+"journal": "Frontiers in neurology",
+"journal_iso": "Front Neurol",
+"date": "2026-10-03",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fneur.2026.1868105"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42828235/"
+}
+],
+"au": [
+"di|c",
+"li|y",
+"jin|g"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular spaces"
+],
+"relevance": 3,
+"why": "Obstructive sleep apnea (OSA) is closely associated with an increased risk of cerebral small-vessel disease and cognitive impairment. OSA not only impairs cognitive function but also promotes the occurrence and development of enlarged perivascular spaces (EPVS) by impairing glymphatic system (GS) function.…",
+"addedAt": "2026-10-04",
+"source": "auto",
+"oaChecked": "2026-10-04",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1868105/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42829432",
+"pmid": "42829432",
+"doi": "10.1186/s12964-026-03272-6",
+"title": "CDK2/9 blockade remodels chromatin and drives phenotypic plasticity in glioblastoma organoids.",
+"authors": "Kaps P, Hieltscher AS, Auditore A, … Maletzki C",
+"journal": "Cell communication and signaling",
+"journal_iso": "Cell Commun Signal",
+"date": "2026-10-03",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12964-026-03272-6"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42829432/"
+}
+],
+"au": [
+"kaps|p",
+"hieltscher|a",
+"auditore|a",
+"kamper|c",
+"nelz|s",
+"heskamp|j",
+"meiner|p",
+"wolff|a",
+"richter|k",
+"brandstetter|j",
+"grabarczyk|p",
+"troschke-meurer|s",
+"hinz|b",
+"wittig|f",
+"dubinski|d",
+"gessler|f",
+"freiman|t",
+"stahlke|s",
+"ficht|p",
+"boeckmann|l",
+"polley|c",
+"classen|c",
+"junghanss|c",
+"maletzki|c"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"organoid"
+],
+"relevance": 3,
+"why": "Glioblastoma (GBM) remains a highly lethal brain tumor with limited therapeutic options and pervasive resistance to standard treatments. Cyclin-dependent kinases (CDKs), key regulators of cell cycle progression and transcription, are frequently dysregulated in GBM and contribute to tumor pathogenesis. We employed a…",
+"addedAt": "2026-10-04",
+"source": "auto",
+"oaChecked": "2026-10-04",
+"oa": {
+"url": "https://doi.org/10.1186/s12964-026-03272-6",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42827367",
