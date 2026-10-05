@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-04",
-"lastRunAdded": 7,
-"total": 740,
+"lastCurated": "2026-10-05",
+"lastRunAdded": 4,
+"total": 744,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,190 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42830918",
+"pmid": "42830918",
+"doi": "10.2147/ijn.s633993",
+"title": "Nanoparticle-Mediated Lutein Delivery for Diabetic Retinopathy: From Blood-Retinal Barrier Crossing to Neurovascular Unit Protection.",
+"authors": "Wang Y, Xu W, Xu Y",
+"journal": "International journal of nanomedicine",
+"journal_iso": "Int J Nanomedicine",
+"date": "2026-10-05",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijn.s633993"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42830918/"
+}
+],
+"au": [
+"wang|y",
+"xu|w",
+"xu|y"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"nanoparticle",
+"neurovascular unit",
+"permeability",
+"receptor-mediated transcytosis"
+],
+"relevance": 4,
+"why": "Diabetic retinopathy (DR) is increasingly understood as an integrated neurovascular unit (NVU) pathology driven by chronic hyperglycemia, rather than solely a microvascular complication. Anti-vascular endothelial growth factor (anti-VEGF) therapy remains limited by repeated intravitreal injections, treatment…",
+"addedAt": "2026-10-05",
+"source": "auto",
+"oaChecked": "2026-10-05",
+"oa": {
+"url": "https://www.dovepress.com/article/download/120258",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42831108",
+"pmid": "42831108",
+"doi": "10.2147/dddt.s638249",
+"title": "GLP-1 Receptor Agonists Versus DPP-4 Inhibitors and Incident Dementia Risk in COVID-19 Survivors with Type 2 Diabetes: A Target Trial Emulation Study.",
+"authors": "Hung KC, Yu TS, Liu PH, … Chen IW",
+"journal": "Drug design, development and therapy",
+"journal_iso": "Drug Des Devel Ther",
+"date": "2026-10-05",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/dddt.s638249"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42831108/"
+}
+],
+"au": [
+"hung|k",
+"yu|t",
+"liu|p",
+"lai|y",
+"chen|i"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"glp-1",
+"vascular dementia"
+],
+"relevance": 3,
+"why": "Type 2 diabetes mellitus (T2DM) and COVID-19 are independently associated with an elevated risk of dementia, and COVID-19 survivors with T2DM may represent a clinically vulnerable population in whom metabolic, inflammatory, and vascular factors coexist. However, whether antidiabetic treatment choice is associated with…",
+"addedAt": "2026-10-05",
+"source": "auto",
+"oaChecked": "2026-10-05",
+"oa": {
+"url": "https://doi.org/10.2147/dddt.s638249",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42830424",
+"pmid": "42830424",
+"doi": "10.1080/09205063.2026.2741654",
+"title": "A LIFU-responsive phase-change nanoplatform enhances hippocampal galantamine exposure and cognitive outcomes in APP/PS1 mice.",
+"authors": "Chen Y, Liu Y, Xie J, … Dou Y",
+"journal": "Journal of biomaterials science. Polymer edition",
+"journal_iso": "J Biomater Sci Polym Ed",
+"date": "2026-10-05",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1080/09205063.2026.2741654"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42830424/"
+}
+],
+"au": [
+"chen|y",
+"liu|y",
+"xie|j",
+"wang|s",
+"zhou|d",
+"song|g",
+"dou|y"
+],
+"topics": [
+"delivery"
+],
+"keywords": [
+"alzheimer",
+"brain delivery",
+"focused ultrasound"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) lacks spatiotemporally controllable strategies for drug delivery to deep brain targets. Galantamine (GTM) is clinically used for symptomatic management of AD, yet systemic dosing is constrained by peripheral adverse effects and limited, nonselective brain exposure. Here, we engineered a…",
+"addedAt": "2026-10-05",
+"source": "auto",
+"oaChecked": "2026-10-05"
+},
+{
+"id": "pmid-42829998",
+"pmid": "42829998",
+"doi": "10.1016/j.jmgm.2026.109591",
+"title": "Structure-based drug repurposing for CDK6: Molecular docking and molecular dynamics characterization of FDA-approved non-oncological compounds.",
+"authors": "Husain S, Mohamed R, Abd Halim KB, Chia SL",
+"journal": "Journal of molecular graphics & modelling",
+"journal_iso": "J Mol Graph Model",
+"date": "2026-10-04",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jmgm.2026.109591"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42829998/"
+}
+],
+"au": [
+"husain|s",
+"mohamed|r",
+"abd halim|k",
+"chia|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"drug repurposing",
+"permeability"
+],
+"relevance": 3,
+"why": "Cyclin-dependent kinase 6 (CDK6) contributes to G1-to-S cell-cycle progression and represents an established therapeutic target in hormone receptor-positive breast cancer. However, adverse effects and acquired resistance associated with current CDK4/6 inhibitors support continued investigation of alternative chemical…",
+"addedAt": "2026-10-05",
+"source": "auto",
+"oaChecked": "2026-10-05"
+},
 {
 "id": "pmid-42828592",
 "pmid": "42828592",
