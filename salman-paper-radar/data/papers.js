@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-10-09",
-"lastRunAdded": 45,
-"total": 872,
+"lastCurated": "2026-10-10",
+"lastRunAdded": 22,
+"total": 894,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,194 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-42855813",
+"pmid": "42855813",
+"doi": "10.1002/ana.78388",
+"title": "Centrum Semiovale Perivascular Spaces Predict First Hemorrhagic Lesion in Asymptomatic Amyloid-Positive Individuals.",
+"authors": "Alten B, Gokcal E, Sperling RA, … Cucchiara BL",
+"journal": "Annals of neurology",
+"journal_iso": "Ann Neurol",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/ana.78388"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42855813/"
+}
+],
+"au": [
+"alten|b",
+"gokcal|e",
+"sperling|r",
+"shirzadi|z",
+"chhatwal|j",
+"gurol|m",
+"kasner|s",
+"greenberg|s",
+"cucchiara|b"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"cerebral amyloid angiopathy",
+"perivascular spaces",
+"phase 3",
+"small vessel disease"
+],
+"relevance": 5,
+"why": "Identification of cerebral amyloid angiopathy (CAA) before its hemorrhagic manifestations remains limited. We aimed to determine whether severe enlarged perivascular spaces in the centrum semiovale (EPVS-CSO) identify a prehemorrhagic stage of sporadic CAA by predicting the first appearance of CAA-related hemorrhagic…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10"
+},
+{
+"id": "pmid-42855849",
+"pmid": "42855849",
+"doi": "10.1093/jb/mvag070",
+"title": "NGS-Guided Discovery of Cross-Reactive TfR1 VHH Antibodies with Distinct Brain Localization Profiles.",
+"authors": "Jatnika MF, Nagashima A, Miyahara W, … Ito Y",
+"journal": "Journal of biochemistry",
+"journal_iso": "J Biochem",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1093/jb/mvag070"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42855849/"
+}
+],
+"au": [
+"jatnika|m",
+"nagashima|a",
+"miyahara|w",
+"rafique|a",
+"ito|y"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"tfr1"
+],
+"relevance": 4,
+"why": "Antibody delivery across the blood-brain barrier (BBB) remains challenging. We combined phage display with next-generation sequencing (NGS)-guided clone sequence-diverse selection to identify transferrin receptor 1 (TfR1)-binding VHH antibodies. Following alpacas immunization with human and rat TfR1, representative…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10"
+},
+{
+"id": "pmid-42855737",
+"pmid": "42855737",
+"doi": "10.1186/s40035-026-00588-8",
+"title": "The glymphatic-lymphatic axis: known pathways, open questions, and emerging roles in neurodegeneration.",
+"authors": "La Y, Yuan J, Chen J, … Zhang J",
+"journal": "Translational neurodegeneration",
+"journal_iso": "Transl Neurodegener",
+"date": "2026-10-10",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s40035-026-00588-8"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42855737/"
+}
+],
+"au": [
+"la|y",
+"yuan|j",
+"chen|j",
+"lv|k",
+"wang|x",
+"gao|q",
+"wang|y",
+"wang|c",
+"xu|b",
+"yang|y",
+"zhang|j"
+],
+"topics": [
+"adtx",
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glymphatic",
+"meningeal lymphatic",
+"parkinson"
+],
+"relevance": 4,
+"why": "The discovery of the glymphatic system and meningeal lymphatic vessels has transformed our understanding of brain fluid homeostasis and central-peripheral communication, highlighting the critical role of cerebrospinal fluid in brain clearance. While substantial progress has been made in defining the structural…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1186/s40035-026-00588-8.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42855877",
+"pmid": "42855877",
+"doi": "10.1111/ejn.70707",
+"title": "B Lymphocytes in Acute Ischemic Stroke: From Immune Tolerance to Neuroprotection and Autoimmunity.",
+"authors": "Zouali M",
+"journal": "The European journal of neuroscience",
+"journal_iso": "Eur J Neurosci",
+"date": "2026-10-10",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/ejn.70707"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42855877/"
+}
+],
+"au": [
+"zouali|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Whereas the pathobiology of stroke is traditionally thought to be mediated mainly by innate immune cells, the recent discovery that immune tolerance to brain-specific antigens takes place in the meninges suggests that the CNS makes use of unique pathways to respond to brain-derived antigens. By virtue of their…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10"
+},
 {
 "id": "pmid-42851145",
 "pmid": "42851145",
@@ -66,6 +254,195 @@ window.PAPER_RADAR_DATA = {
 "oaChecked": "2026-10-09"
 },
 {
+"id": "pmid-42854890",
+"pmid": "42854890",
+"doi": "10.1016/j.brainres.2026.150595",
+"title": "Single-cell RNA sequencing reveals vascular heterogeneity and cell-cell communication remodeling in the glioma blood-tumor barrier.",
+"authors": "Zhao Z, Lang J, Gu H, … He C",
+"journal": "Brain research",
+"journal_iso": "Brain Res",
+"date": "2026-10-09",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.brainres.2026.150595"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42854890/"
+}
+],
+"au": [
+"zhao|z",
+"lang|j",
+"gu|h",
+"wang|l",
+"luo|j",
+"yao|q",
+"qiao|x",
+"wang|z",
+"yin|l",
+"he|c"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"col4a1",
+"pericytes",
+"permeability"
+],
+"relevance": 4,
+"why": "The blood-brain barrier (BBB) restricts drug delivery in glioma, yet its pathologically remodeled counterpart, the blood-tumor barrier (BTB), is a promising therapeutic target. A comprehensive view of the cellular composition and transcriptional heterogeneity of the vascular compartment across the BBB-to-BTB…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10",
+"oa": {
+"url": "https://doi.org/10.1016/j.brainres.2026.150595",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42854182",
+"pmid": "42854182",
+"doi": "10.1212/cpj.0000000000200663",
+"title": "Clinical Meaningfulness of Donanemab in Early Symptomatic Alzheimer Disease: Data From the Randomized Phase 3 TRAILBLAZER-ALZ 2 Trial.",
+"authors": "Atri A, Apostolova LG, Iwata A, … Doty EG",
+"journal": "Neurology. Clinical practice",
+"journal_iso": "Neurol Clin Pract",
+"date": "2026-10-09",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1212/cpj.0000000000200663"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42854182/"
+}
+],
+"au": [
+"atri|a",
+"apostolova|l",
+"iwata|a",
+"wessels|a",
+"atkins|a",
+"lu|m",
+"ye|w",
+"ryan|s",
+"doty|e"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"donanemab",
+"randomized"
+],
+"relevance": 4,
+"why": "",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10"
+},
+{
+"id": "pmid-42852821",
+"pmid": "42852821",
+"doi": "10.1080/17434440.2026.2743929",
+"title": "Advances in non-invasive monitoring of drug delivery for neurodegenerative disorders.",
+"authors": "Choi JY, Heiss JD",
+"journal": "Expert review of medical devices",
+"journal_iso": "Expert Rev Med Devices",
+"date": "2026-10-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1080/17434440.2026.2743929"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42852821/"
+}
+],
+"au": [
+"choi|j",
+"heiss|j"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound",
+"permeability"
+],
+"relevance": 4,
+"why": "Effective therapies for neurodegenerative disorders remain limited by the blood-brain barrier. However, improving delivery across this barrier is only one part of the challenge. Investigators must also determine whether a therapy reaches the intended brain region, engages its target, and produces a meaningful…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10"
+},
+{
+"id": "pmid-42851720",
+"pmid": "42851720",
+"doi": "10.3389/fphar.2026.1955230",
+"title": "Disproportionality analysis of adverse event signals associated with seven Alzheimer's drugs: insights from the FAERS database.",
+"authors": "Liu K, Yang X, Kong L",
+"journal": "Frontiers in pharmacology",
+"journal_iso": "Front Pharmacol",
+"date": "2026-10-09",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fphar.2026.1955230"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42851720/"
+}
+],
+"au": [
+"liu|k",
+"yang|x",
+"kong|l"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"aducanumab",
+"alzheimer",
+"aria"
+],
+"relevance": 4,
+"why": "To compare adverse event reporting patterns for seven Alzheimer's disease (AD) drugs (aducanumab, donanemab, lecanemab, donepezil, galantamine, rivastigmine, and memantine) using the FDA Adverse Event Reporting System (FAERS), and to explore potential reporting signals. FAERS reports from the first quarter of 2004 to…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10",
+"oa": {
+"url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1955230/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
 "id": "pmid-42851142",
 "pmid": "42851142",
 "doi": "10.1080/1062936x.2026.2740626",
@@ -108,6 +485,362 @@ window.PAPER_RADAR_DATA = {
 "addedAt": "2026-10-09",
 "source": "auto",
 "oaChecked": "2026-10-09"
+},
+{
+"id": "pmid-42855393",
+"pmid": "42855393",
+"doi": "10.1016/j.hoc.2026.08.003",
+"title": "Converging Focused Ultrasound and Liquid Biopsy for Glioma Management: Next Steps.",
+"authors": "Liu CJ, Woodworth GF, Bettegowda C",
+"journal": "Hematology/oncology clinics of North America",
+"journal_iso": "Hematol Oncol Clin North Am",
+"date": "2026-10-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.hoc.2026.08.003"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42855393/"
+}
+],
+"au": [
+"liu|c",
+"woodworth|g",
+"bettegowda|c"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound"
+],
+"relevance": 3,
+"why": "Gliomas represent one of the most formidable challenges in oncology due to their diffuse infiltrative growth in the brain, marked molecular heterogeneity, immune evasion, and the restrictive nature of the blood-brain barrier (BBB), which collectively undermine effective therapy. This review examines the rationale,…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10"
+},
+{
+"id": "pmid-42854918",
+"pmid": "42854918",
+"doi": "10.1016/j.jconrel.2026.115443",
+"title": "Focused ultrasound for reshaping the immune microenvironment in glioblastoma.",
+"authors": "Gattegno R, Bismuth M, Sher D, … Ilovitsh T",
+"journal": "Journal of controlled release",
+"journal_iso": "J Control Release",
+"date": "2026-10-09",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jconrel.2026.115443"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42854918/"
+}
+],
+"au": [
+"gattegno|r",
+"bismuth|m",
+"sher|d",
+"friedmann-morvinski|d",
+"ilovitsh|t"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood brain barrier",
+"focused ultrasound",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "Glioblastoma (GBM) remains one of the most aggressive and treatment-resistant cancers, in part due to its highly immunosuppressive tumor microenvironment and the restricted therapeutic access imposed by the blood brain barrier (BBB). Focused ultrasound (FUS) has emerged as a promising noninvasive technology capable of…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10",
+"oa": {
+"url": "https://doi.org/10.1016/j.jconrel.2026.115443",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42854917",
+"pmid": "42854917",
+"doi": "10.1016/j.jconrel.2026.115451",
+"title": "Combining imaging strategies with physiologically-based pharmacokinetic modeling to improve precision dosing & drug delivery in brain tumors.",
+"authors": "Jordens T, Elskamp AJ, Bartelink IH",
+"journal": "Journal of controlled release",
+"journal_iso": "J Control Release",
+"date": "2026-10-09",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jconrel.2026.115451"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42854917/"
+}
+],
+"au": [
+"jordens|t",
+"elskamp|a",
+"bartelink|i"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Small molecule targeted therapies frequently fail to control brain metastases and primary brain tumors even when systemic exposure reaches toxicity-limiting levels. Systemic exposure-response relationships are often absent, which is well documented for tyrosine kinase inhibitors. Target-site information is therefore…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10",
+"oa": {
+"url": "https://doi.org/10.1016/j.jconrel.2026.115451",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42853712",
+"pmid": "42853712",
+"doi": "10.1159/ene/acsag015",
+"title": "Idiopathic Intracranial Hypertension, Basic Concepts and Emerging Molecular, Genetic, and Immunological Therapies.",
+"authors": "Rawson C, Somani Y, Karsy M, Pahlevani M",
+"journal": "European neurology",
+"journal_iso": "Eur Neurol",
+"date": "2026-10-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1159/ene/acsag015"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42853712/"
+}
+],
+"au": [
+"rawson|c",
+"somani|y",
+"karsy|m",
+"pahlevani|m"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glp-1",
+"glymphatic"
+],
+"relevance": 3,
+"why": "Idiopathic intracranial hypertension (IIH) is a chronic disorder characterized by elevated intracranial pressure (ICP) without an identifiable intracranial mass lesion or abnormal cerebrospinal fluid (CSF) composition. Traditionally viewed as a disorder of impaired CSF absorption or venous outflow obstruction, IIH…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10",
+"oa": {
+"url": "https://doi.org/10.1159/ene/acsag015",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42852773",
+"pmid": "42852773",
+"doi": "10.2174/011570159x482182260914104640",
+"title": "N1-methylnicotinamide Mediates Multi-Target Cognitive Deficit Relief via AMPK-Lysosome Axis Regulation.",
+"authors": "Qiu X, Zhang Q, Meng Y, … Tan Y",
+"journal": "Current neuropharmacology",
+"journal_iso": "Curr Neuropharmacol",
+"date": "2026-10-09",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/011570159x482182260914104640"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42852773/"
+}
+],
+"au": [
+"qiu|x",
+"zhang|q",
+"meng|y",
+"he|y",
+"tang|z",
+"chu|l",
+"tan|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"bbb",
+"permeability"
+],
+"relevance": 3,
+"why": "Alzheimer's Disease (AD) progresses via interconnected Aβ aggregation, tau hyperphosphorylation, neuroinflammation, and lysosomal failure, while current single-target drugs only relieve cognitive symptoms without halting pathogenesis. Gut microbiota-derived N1-methylnicotinamide (MNAM) is associated with lower AD…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10"
+},
+{
+"id": "pmid-42852756",
+"pmid": "42852756",
+"doi": "10.2174/0113816128496771260919124515",
+"title": "Phytochemical Composition, Pharmacological Activities, and Clinical Evidence of Bacopa monnieri in Cognitive and Memory Enhancement.",
+"authors": "Sivamaruthi BS, Kesika P, Alagarsamy K, … Chaiyasut C",
+"journal": "Current pharmaceutical design",
+"journal_iso": "Curr Pharm Des",
+"date": "2026-10-09",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0113816128496771260919124515"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42852756/"
+}
+],
+"au": [
+"sivamaruthi|b",
+"kesika|p",
+"alagarsamy|k",
+"sisubalan|n",
+"varman|d",
+"vijay|n",
+"chaiyasut|c"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"parkinson"
+],
+"relevance": 3,
+"why": "Bacopa monnieri (B. monnieri), a traditional Ayurvedic nootropic herb, has garnered growing scientific attention for its diverse pharmacological activities and potential therapeutic relevance across neurological, metabolic, inflammatory, and oncological disorders. This review consolidates current evidence on the…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10"
+},
+{
+"id": "pmid-42852552",
+"pmid": "42852552",
+"doi": "10.1080/14728222.2026.2747518",
+"title": "Targeting protein misfolding and aggregation in neurodegenerative diseases: challenges for the identification and validation of targets for small molecules.",
+"authors": "Choudhury A, Prabha S, Saeed MU, … Hassan MI",
+"journal": "Expert opinion on therapeutic targets",
+"journal_iso": "Expert Opin Ther Targets",
+"date": "2026-10-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1080/14728222.2026.2747518"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42852552/"
+}
+],
+"au": [
+"choudhury|a",
+"prabha|s",
+"saeed|m",
+"sulaimani|m",
+"hassan|m"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "Neurodegenerative diseases such as Alzheimer's disease (AD), Parkinson's disease (PD), amyotrophic lateral sclerosis (ALS), and related proteinopathies are characterized by the misfolding, aggregation, and accumulation of specific proteins that disrupt neuronal homeostasis, leading to neuronal death. Despite major…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10"
+},
+{
+"id": "biorxiv-10.64898_2026.10.02.754522",
+"doi": "10.64898/2026.10.02.754522",
+"title": "Pharmacokinetic properties of Ogerin and its regulation of post-ischemia signaling in mice",
+"authors": "Zhou, Y., Joshi, S., Zha, X.-m.",
+"journal": "bioRxiv",
+"date": "2026-10-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"zhou|y",
+"joshi|s",
+"zha|x"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.02.754522v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.02.754522v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain penetration"
+],
+"relevance": 3,
+"why": "Ogerin, a positive regulator of GPR68, reduces infarct volume and attenuates blood-brain barrier (BBB) leakage post transient middle cerebral artery occlusion (tMCAO). These data support the potential use of Ogerin for ischemic protection. For therapeutic interventions, tissue distribution, kinetics, and brain…",
+"addedAt": "2026-10-10",
+"source": "auto"
 },
 {
 "id": "biorxiv-10.64898_2026.10.08.757476",
@@ -155,6 +888,338 @@ window.PAPER_RADAR_DATA = {
 "relevance": 2,
 "why": "Background: More than 90% of rare diseases lack an approved therapy, partly reflecting economic barriers in developing treatments for small patient populations. A common bottleneck is costly and resource-intensive hit-to-lead prioritization. Congenital contractures of the limbs and face, hypotonia, and developmental…",
 "addedAt": "2026-10-09",
+"source": "auto"
+},
+{
+"id": "pmid-42854697",
+"pmid": "42854697",
+"doi": "10.1016/j.xcrm.2026.103098",
+"title": "Microbiota-regulated TCDCA associates with Parkinson's disease severity and promotes BBB dysfunction through VSMC TGR5 signaling in mice.",
+"authors": "Zhao Z, Liu Y, Ma W, … Yuan J",
+"journal": "Cell reports. Medicine",
+"journal_iso": "Cell Rep Med",
+"date": "2026-10-09",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.xcrm.2026.103098"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42854697/"
+}
+],
+"au": [
+"zhao|z",
+"liu|y",
+"ma|w",
+"hu|g",
+"hao|j",
+"bai|c",
+"chen|j",
+"zhang|q",
+"cao|h",
+"liu|x",
+"zhu|y",
+"dong|m",
+"zhang|z",
+"su|s",
+"zhan|r",
+"li|h",
+"zhao|r",
+"yuan|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"bbb",
+"parkinson"
+],
+"relevance": 2,
+"why": "Parkinson's disease (PD) is a systemic disorder linked to gut dysbiosis, yet key microbiota-regulated metabolites remain unclear. Here, we observe elevated taurochenodeoxycholic acid (TCDCA) in patients with PD that correlates with disease severity. Reduced bile salt hydrolase (BSH) gene abundance correlates inversely…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10",
+"oa": {
+"url": "https://doi.org/10.1016/j.xcrm.2026.103098",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42853458",
+"pmid": "42853458",
+"doi": "10.1007/s00401-026-03097-0",
+"title": "Histone neutralization protects the ischemic brain against the consequences of stroke-associated pneumonia.",
+"authors": "Yin D, Li A, Mohamud Yusuf A, … Hermann DM",
+"journal": "Acta neuropathologica",
+"journal_iso": "Acta Neuropathol",
+"date": "2026-10-09",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00401-026-03097-0"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42853458/"
+}
+],
+"au": [
+"yin|d",
+"li|a",
+"mohamud yusuf|a",
+"shevchuk|o",
+"gronewold|j",
+"thiebes|s",
+"tertel|t",
+"wang|c",
+"hagemann|n",
+"zhang|y",
+"graser|c",
+"tas|h",
+"fleischer|m",
+"kaltwasser|b",
+"frank|b",
+"tuz|a",
+"singh|v",
+"siemes|d",
+"pylaeva|e",
+"jablonska|j",
+"siebels|b",
+"schluter|h",
+"raspe|j",
+"schedel|m",
+"liu|y",
+"jin|f",
+"kilic|e",
+"yilmaz|b",
+"dzyubenko|e",
+"minnerup|j",
+"klotz|l",
+"giebel|b",
+"soehnlein|o",
+"gunzer|m",
+"engel|d",
+"hermann|d"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Bacterial pneumonia aggravates ischemic stroke via mechanisms that still remain to be determined. In ischemic stroke patients, we show that stroke-associated pneumonia is associated with poor clinical outcome and long-term neutrophil deregulation. In mice exposed to transient middle cerebral artery occlusion (MCAO),…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10",
+"oa": {
+"url": "https://doi.org/10.1007/s00401-026-03097-0",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42851430",
+"pmid": "42851430",
+"doi": "10.3389/fimmu.2026.1953059",
+"title": "Case Report: Unplanned pregnancy during treatment with inebilizumab in patients with AQP4-IgG-seropositive NMOSD: report of two cases.",
+"authors": "Luo W, Shi F, Xu Z, … He D",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-09",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1953059"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42851430/"
+}
+],
+"au": [
+"luo|w",
+"shi|f",
+"xu|z",
+"yu|y",
+"he|d"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4"
+],
+"relevance": 2,
+"why": "Neuromyelitis optica spectrum disorder (NMOSD) predominantly affects women and has a median age at onset of 40 years, meaning that many patients are of childbearing age. However, management of pregnant women with NMOSD remains extremely challenging. We report two patients with NMOSD who had unplanned pregnancies…",
+"addedAt": "2026-10-10",
+"source": "auto",
+"oaChecked": "2026-10-10",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1953059/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.08.757731",
+"doi": "10.64898/2026.10.08.757731",
+"title": "Carbonic anhydrase inhibition rescues heart function in the Tg2576 Alzheimer's mouse model by ameliorating cardiac amyloid-β pathology and neurotrophic signaling impairment.",
+"authors": "Elia, A., Vazquez-Torres, R., Carey, A., … Fossati, S.",
+"journal": "bioRxiv",
+"date": "2026-10-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"elia|a",
+"vazquez-torres|r",
+"carey|a",
+"wolf|m",
+"gade|v",
+"alves|m",
+"fossati|s"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757731v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757731v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"cerebral amyloid angiopathy"
+],
+"relevance": 2,
+"why": "FDA-approved carbonic anhydrase inhibitors (CAIs) have shown robust efficacy in reducing amyloid- beta pathology, neurodegeneration, and cerebrovascular dysfunction in Alzheimer disease (AD) and cerebral amyloid angiopathy (CAA) models, highlighting carbonic anhydrases (CAs) as a promising, previously untapped…",
+"addedAt": "2026-10-10",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.05.756743",
+"doi": "10.64898/2026.10.05.756743",
+"title": "Fluid transport properties dominate blastocyst expansion over mechanics",
+"authors": "Dagher, L., Bassanini, M., Deplater, L., … Maitre, J.-L.",
+"journal": "bioRxiv",
+"date": "2026-10-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "developmental biology",
+"version": "1",
+"au": [
+"dagher|l",
+"bassanini|m",
+"deplater|l",
+"gropplero|g",
+"caporal|c",
+"maillot|a",
+"kastas|o",
+"duclut|c",
+"descroix|s",
+"maitre|j"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756743v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756743v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"microfluidic",
+"permeability"
+],
+"relevance": 2,
+"why": "Lumens populate most of our organs and their size, which dynamically changes throughout the day and lifetime, can influence their function. During mammalian development, the first lumen appears in the blastocyst. Surface epithelial cells pump ions to build an osmotic gradient that draws water, which inflates the…",
+"addedAt": "2026-10-10",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.1101_2025.04.26.649701",
+"doi": "10.1101/2025.04.26.649701",
+"title": "Immunogenicity and Structure of a Stabilized HIV -1 clade C Env from a Pediatric Elite neutralizer in Complex with an Autologous bnAb",
+"authors": "Singh, S., Kumar, S., Chatterjee, A., … Luthra, K.",
+"journal": "bioRxiv",
+"date": "2026-10-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "immunology",
+"version": "3",
+"au": [
+"singh|s",
+"kumar|s",
+"chatterjee|a",
+"malhotra|l",
+"pervez|m",
+"rahman|a",
+"andrabi|i",
+"mondal|b",
+"katpara|s",
+"sharma|s",
+"bhakri|h",
+"gaur|a",
+"bansal|t",
+"iyer|v",
+"hussain|a",
+"ahmed|s",
+"kumar|r",
+"ethayathulla|a",
+"lodha|r",
+"dutta|s",
+"luthra|k"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.1101/2025.04.26.649701v3"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.1101/2025.04.26.649701v3.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"nanoparticle",
+"placebo"
+],
+"relevance": 2,
+"why": "Introduction: The envelope (Env) glycoproteins derived from circulating viruses in elite[ndash]neutralizers (ENs), who naturally develop potent broadly neutralizing antibody (bnAb) responses, serve as a potential template for HIV - vaccine design. Here, we investigated the immunogenicity and structure of a clade C HIV…",
+"addedAt": "2026-10-10",
 "source": "auto"
 },
 {
