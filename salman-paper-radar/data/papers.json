@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-10",
-"lastRunAdded": 22,
-"total": 894,
+"lastCurated": "2026-10-11",
+"lastRunAdded": 17,
+"total": 911,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,161 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42859492",
+"pmid": "42859492",
+"doi": "10.1155/srat/2132328",
+"title": "Nanoparticles in the Diagnosis and Management of Stroke: A Review.",
+"authors": "Furqan M, Qureshi MQ, Huda FNU, … Kamel P",
+"journal": "Stroke research and treatment",
+"journal_iso": "Stroke Res Treat",
+"date": "2026-10-11",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1155/srat/2132328"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42859492/"
+}
+],
+"au": [
+"furqan|m",
+"qureshi|m",
+"huda|f",
+"azhar|h",
+"younus|s",
+"sohail|s",
+"sattar|s",
+"rahim|s",
+"haider|m",
+"khalid|m",
+"butt|b",
+"phirke|t",
+"kamel|p"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"nanoparticle",
+"randomized"
+],
+"relevance": 3,
+"why": "Stroke is the third leading cause of death and the fourth leading cause of disability-adjusted life years worldwide, yet disease-modifying treatment remains largely confined to reperfusion of large-vessel ischemic occlusion within a narrow window. No neuroprotective or hemostatic agent has entered routine practice.…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/srat/2132328",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.07.757325",
+"doi": "10.64898/2026.10.07.757325",
+"title": "Exploiting Low-Rank Structure in Genomic Relationship Matrices for Computationally Efficient Optimum Contribution Selection",
+"authors": "Ahlinder, J., Waldmann, P.",
+"journal": "bioRxiv",
+"date": "2026-10-11",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioinformatics",
+"version": "1",
+"au": [
+"ahlinder|j",
+"waldmann|p"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757325v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757325v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"randomized",
+"svd"
+],
+"relevance": 3,
+"why": "Motivation: Optimum contribution selection (OCS) maximizes genetic gain under a constraint on relatedness. Genomic relationship matrices are dense, so the quadratic term costs O(n^3) operations, and existing OCS software assumes pedigree sparsity. Results: We replace the relationship matrix by its leading eigenpairs,…",
+"addedAt": "2026-10-11",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.09.757886",
+"doi": "10.64898/2026.10.09.757886",
+"title": "Intracellular accumulation of AAV6 genomes governs microglia reactivity and the inflammatory response in retinal gene therapy",
+"authors": "Pereira, A., Ducloyer, J.-B., Demilly, J., … Cronin, T.",
+"journal": "bioRxiv",
+"date": "2026-10-11",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"pereira|a",
+"ducloyer|j",
+"demilly|j",
+"toublanc|e",
+"libeau|l",
+"robert|b",
+"mellet|a",
+"augereau|d",
+"comtesse|l",
+"larcher|t",
+"lebreton|a",
+"socheleau|p",
+"grard|m",
+"journou|m",
+"couzinie|c",
+"blouin|v",
+"weber|m",
+"le meur|g",
+"le guiner|c",
+"adjali|o",
+"cronin|t"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757886v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757886v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"gene therapy",
+"ipsc"
+],
+"relevance": 2,
+"why": "Adeno-associated viral (AAV) vectors possess immense potential for gene therapy applications. However, microglia can mount an immune response against AAV vectors. Yet, microglia are therapeutic targets since they play a driving role in the progression of neurodegenerative diseases. Thus, it is critical to understand…",
+"addedAt": "2026-10-11",
+"source": "auto"
+},
 {
 "id": "pmid-42855813",
 "pmid": "42855813",
@@ -167,6 +322,262 @@
 }
 },
 {
+"id": "pmid-42858820",
+"pmid": "42858820",
+"doi": "10.1016/j.bcp.2026.118534",
+"title": "A GLP-1/apelin dual receptor agonist shows neuroprotective effects in the MPTP mouse model of Parkinson's disease.",
+"authors": "Xu A, Wei Y, Liu E, … Zhang Z",
+"journal": "Biochemical pharmacology",
+"journal_iso": "Biochem Pharmacol",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bcp.2026.118534"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42858820/"
+}
+],
+"au": [
+"xu|a",
+"wei|y",
+"liu|e",
+"tong|w",
+"lu|a",
+"zhang|f",
+"flatt|p",
+"gault|v",
+"irwin|n",
+"holscher|c",
+"zhang|z"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"glp-1",
+"parkinson",
+"permeability"
+],
+"relevance": 4,
+"why": "Parkinson's disease (PD) is a chronic disorder with no disease-modifying treatment available. The glucagon-like peptide-1 (GLP-1) class of drugs is on the market to treat diabetes and obesity. GLP-1 drugs have also shown neuroprotective effects in animal models and clinical trials in PD patients. Apelin (APJ) is an…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11"
+},
+{
+"id": "pmid-42857983",
+"pmid": "42857983",
+"doi": "10.1177/13872877261493065",
+"title": "Prevalence and impact of cerebral small vessel lesions in mild cognitive impairment and mild dementia due to Alzheimer's disease patients in memory clinic: Preparation for anti-amyloid therapy in Thailand.",
+"authors": "Smitasiri T, Pongpitakmetha T, Thanprasertsuk S, Likitjaroen Y",
+"journal": "Journal of Alzheimer's disease",
+"journal_iso": "J Alzheimers Dis",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/13872877261493065"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42857983/"
+}
+],
+"au": [
+"smitasiri|t",
+"pongpitakmetha|t",
+"thanprasertsuk|s",
+"likitjaroen|y"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"microbleed",
+"small vessel disease"
+],
+"relevance": 4,
+"why": "BackgroundAlzheimer's disease (AD) raises global concern with its impact on daily living. Anti-amyloid therapy (AAT) are specific treatments used in mild cognitive impairment (MCI) and mild dementia stage of AD (mild AD). Severe cerebral small vessel disease (SVD) lesions such as microbleeds, superficial siderosis,…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11"
+},
+{
+"id": "pmid-42857600",
+"pmid": "42857600",
+"doi": "10.1002/dad2.70479",
+"title": "The Advanced Therapeutics for Alzheimer's Disease Review Board: A multidisciplinary model to facilitate safe access to amyloid-targeting therapies in general neurology across the Sutter Health system.",
+"authors": "Moughamian AJ, La Vallee L, Kile S, … Minton J",
+"journal": "Alzheimer's & dementia (Amsterdam, Netherlands)",
+"journal_iso": "Alzheimers Dement (Amst)",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/dad2.70479"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42857600/"
+}
+],
+"au": [
+"moughamian|a",
+"la vallee|l",
+"kile|s",
+"urban|t",
+"momii|a",
+"manifield|m",
+"minton|j"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"amyloid-related imaging abnormalit",
+"lecanemab"
+],
+"relevance": 4,
+"why": "Amyloid-targeting therapies (ATTs) require workup and monitoring that some general neurologists are uncomfortable with. Sutter Health treats over 3.5 million patients with more than 100 neurologists, but only 5 cognitive specialists. We developed the Advanced Therapeutics for Alzheimer's Disease (ATAD) Review Board, a…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://doi.org/10.1002/dad2.70479",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42857575",
+"pmid": "42857575",
+"doi": "10.1162/imag.a.1391",
+"title": "Multimodal MRI insights into glymphatic clearance and blood-brain barrier integrity in healthy aging.",
+"authors": "Bhattarai A, Zhu YD, Albuhwailah B, … Fan AP",
+"journal": "Imaging neuroscience (Cambridge, Mass.)",
+"journal_iso": "Imaging Neurosci (Camb)",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1162/imag.a.1391"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42857575/"
+}
+],
+"au": [
+"bhattarai|a",
+"zhu|y",
+"albuhwailah|b",
+"maillard|p",
+"decarli|c",
+"fan|a"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"blood-brain barrier",
+"glymphatic",
+"perivascular spaces"
+],
+"relevance": 4,
+"why": "Aging is associated with impaired CSF clearance in preclinical models, but its impact on blood-brain barrier (BBB) health and glymphatic function in humans remains unclear. The BBB and glymphatic functions are complementary and may partially overlap, yet their interaction is yet to be fully elucidated. In this study,…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://direct.mit.edu/imag/article-pdf/doi/10.1162/IMAG.a.1391/2628863/imag.a.1391.pdf",
+"pdf": true,
+"status": "diamond"
+}
+},
+{
+"id": "pmid-42857419",
+"pmid": "42857419",
+"doi": "10.1002/dad2.70448",
+"title": "Regional amyloid-PET clearance dynamics and anti-Aβ monoclonal antibody therapy: a preliminary real-world study.",
+"authors": "Ghirelli A, Cecchetti G, Spinelli EG, … Agosta F",
+"journal": "Alzheimer's & dementia (Amsterdam, Netherlands)",
+"journal_iso": "Alzheimers Dement (Amst)",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/dad2.70448"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42857419/"
+}
+],
+"au": [
+"ghirelli|a",
+"cecchetti|g",
+"spinelli|e",
+"samanes gajate|a",
+"rugarli|g",
+"pisano|s",
+"zamboni|i",
+"canu|e",
+"castelnovo|v",
+"sibilla|e",
+"gilioli|a",
+"tripodi|c",
+"freri|f",
+"panzacchi|a",
+"pepe|g",
+"chiti|a",
+"filippi|m",
+"agosta|f"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"lecanemab"
+],
+"relevance": 4,
+"why": "Amyloid positron emission tomography (PET) is the reference biomarker for treatment target engagement in anti-amyloid beta (Aβ) therapies in early symptomatic Alzheimer's disease (AD), yet global metrics may mask a regional heterogeneity of amyloid clearance. We report real-world longitudinal amyloid-PET data from 26…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/dad2.70448",
+"pdf": true,
+"status": "gold"
+}
+},
+{
 "id": "pmid-42855877",
 "pmid": "42855877",
 "doi": "10.1111/ejn.70707",
@@ -203,6 +614,474 @@
 "addedAt": "2026-10-10",
 "source": "auto",
 "oaChecked": "2026-10-10"
+},
+{
+"id": "pmid-42858722",
+"pmid": "42858722",
+"doi": "10.1016/j.jns.2026.126211",
+"title": "White matter hyperintensity burden is associated with neuroaxonal injury in acute ischemic stroke.",
+"authors": "Ramis D, Bennouna N, Jové B, … Chamorro Á",
+"journal": "Journal of the neurological sciences",
+"journal_iso": "J Neurol Sci",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jns.2026.126211"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42858722/"
+}
+],
+"au": [
+"ramis|d",
+"bennouna|n",
+"jove|b",
+"girona|a",
+"cabero-arnold|a",
+"brengaret|o",
+"rosa-batlle|i",
+"bartolome-arenas|i",
+"doncel-moriano|a",
+"vargas|m",
+"urra|x",
+"rudilosso|s",
+"a|c"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "White matter hyperintensities (WMH) reflect accumulated microvascular brain injury in small vessel disease, yet their impact on acute-phase circulating biomarker profile after ischemic stroke remains poorly defined. We examined whether WMH burden is associated with greater circulating biomarker levels in acute…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://doi.org/10.1016/j.jns.2026.126211",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42858287",
+"pmid": "42858287",
+"doi": "10.1159/ced/accag037",
+"title": "Monitoring of Remote Ischemic Conditioning with a Tissue Reflectance Sensor: A Randomized Control Trial.",
+"authors": "Bhangoo G, Kashinkunti C, Sarmiento RJ, … Kate M",
+"journal": "Cerebrovascular diseases (Basel, Switzerland)",
+"journal_iso": "Cerebrovasc Dis",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1159/ced/accag037"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42858287/"
+}
+],
+"au": [
+"bhangoo|g",
+"kashinkunti|c",
+"sarmiento|r",
+"khan|n",
+"nair|r",
+"buck|b",
+"gauthier|m",
+"mushahwar|v",
+"shuaib|a",
+"ferguson-pell|m",
+"kate|m"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"randomized",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Remote ischemic conditioning (RIC) is delivered by a transient (5 min) pressure increase in the arm BP cuff by a variable 30-50 mmHg above systolic BP to a maximum of 200 mmHg. This inconsistency in pressure application may affect the fidelity of intervention delivery. We tested the hypothesis that monitoring remote…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11"
+},
+{
+"id": "pmid-42857723",
+"pmid": "42857723",
+"doi": "10.2147/ijn.s645228",
+"title": "Liposomal and Polymeric Drug Delivery of Creatine: Exploring a Multifaceted Molecule for Neurodegenerative Diseases and Beyond.",
+"authors": "Vojdanitalab K, Naderi M, Samadi R, … Gholami S",
+"journal": "International journal of nanomedicine",
+"journal_iso": "Int J Nanomedicine",
+"date": "2026-10-10",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijn.s645228"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42857723/"
+}
+],
+"au": [
+"vojdanitalab|k",
+"naderi|m",
+"samadi|r",
+"abbasi govari|d",
+"gholami|s"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain delivery"
+],
+"relevance": 3,
+"why": "Creatine (Cr), best known as a sports supplement, is increasingly recognized for its multifaceted biological functions and broad therapeutic potential. Through its roles in cellular energy homeostasis, mitochondrial function, oxidative stress reduction, and neuroinflammation modulation, Cr has shown therapeutic…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://www.dovepress.com/article/download/120512",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42857168",
+"pmid": "42857168",
+"doi": "10.3389/fneur.2026.1862317",
+"title": "Ferroptosis in vascular cognitive impairment: pathological mechanisms and traditional Chinese medicine interventions.",
+"authors": "Zheng S, Ji X, Zheng S",
+"journal": "Frontiers in neurology",
+"journal_iso": "Front Neurol",
+"date": "2026-10-10",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fneur.2026.1862317"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42857168/"
+}
+],
+"au": [
+"zheng|s",
+"ji|x"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"vascular cognitive impairment"
+],
+"relevance": 3,
+"why": "Vascular cognitive impairment (VCI) encompasses a spectrum of cognitive deficits arising from cerebrovascular disease, representing a major cause of dementia worldwide. Ferroptosis, a recently identified form of regulated cell death driven by iron-dependent lipid peroxidation, has emerged as a potential contributor to…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1862317/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42856764",
+"pmid": "42856764",
+"doi": "10.3389/fphar.2026.1917428",
+"title": "APOE4 differentially alters lipid composition in extracellular vesicles from hiPSC-derived neurons of Alzheimer's disease patients.",
+"authors": "Krokidis MG, Sagar R, Mustapic M, … Mahairaki V",
+"journal": "Frontiers in pharmacology",
+"journal_iso": "Front Pharmacol",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fphar.2026.1917428"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42856764/"
+}
+],
+"au": [
+"krokidis|m",
+"sagar|r",
+"mustapic|m",
+"papatheodorou|m",
+"exarchos|t",
+"lyketsos|c",
+"vlamos|p",
+"kapogiannis|d",
+"mahairaki|v"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"apoe4",
+"ipsc"
+],
+"relevance": 3,
+"why": "The Apolipoprotein E4 (APOE4) is the most significant genetic risk factor for late-onset Alzheimer's disease (AD), but the cellular mechanisms by which it increases vulnerability remain poorly understood. Lipids play a crucial role in membrane organization, vesicle trafficking, and inflammatory signaling in the brain.…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1917428/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42858252",
+"pmid": "42858252",
+"doi": "10.1016/j.celrep.2026.118102",
+"title": "Early infiltration of ischemia-conditioned Tregs attenuates BBB damage via suppressing neutrophil extracellular traps in ischemic stroke.",
+"authors": "Li H, Zhang X, Lu J, … Shi L",
+"journal": "Cell reports",
+"journal_iso": "Cell Rep",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.celrep.2026.118102"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42858252/"
+}
+],
+"au": [
+"li|h",
+"zhang|x",
+"lu|j",
+"lu|l",
+"chen|j",
+"ping|a",
+"lu|y",
+"jin|z",
+"tang|s",
+"wang|r",
+"gu|y",
+"wang|j",
+"xu|z",
+"zhang|q",
+"luan|w",
+"dai|x",
+"zhang|j",
+"shi|l"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"bbb"
+],
+"relevance": 2,
+"why": "Regulatory T cells (Tregs) modulate myeloid cells but are absent early after ischemic stroke when neutrophil infiltration peaks. Whether promoting their early infiltration into the brain as an introduced niche could modulate the cerebral immune micromilieu remains unknown. Here, we show that splenic Tregs at day 5…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://doi.org/10.1016/j.celrep.2026.118102",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42857403",
+"pmid": "42857403",
+"doi": "10.1002/dad2.70401",
+"title": "Residualized occipital amyloid burden and plasma biomarker profiles in relation to ARIA-E during anti-amyloid treatment.",
+"authors": "Agosta F, Cecchetti G, Ghirelli A, … Filippi M",
+"journal": "Alzheimer's & dementia (Amsterdam, Netherlands)",
+"journal_iso": "Alzheimers Dement (Amst)",
+"date": "2026-10-10",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/dad2.70401"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42857403/"
+}
+],
+"au": [
+"agosta|f",
+"cecchetti|g",
+"ghirelli|a",
+"spinelli|e",
+"rugarli|g",
+"pisano|s",
+"coraglia|f",
+"gajate|a",
+"vezzulli|p",
+"calloni|s",
+"canu|e",
+"castelnovo|v",
+"gilioli|a",
+"tripodi|c",
+"freri|f",
+"bianchi|a",
+"panzacchi|a",
+"pepe|g",
+"falini|a",
+"chiti|a",
+"filippi|m"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"aria"
+],
+"relevance": 2,
+"why": "Amyloid-related imaging abnormalities with edema (ARIA-E) represent the main safety concern of anti-amyloid monoclonal antibodies. Whether regional amyloid topology refines ARIA-E risk in real-world practice remains unclear. We analyzed 31 treatment courses in early Alzheimer's disease under European Medicines Agency…",
+"addedAt": "2026-10-11",
+"source": "auto",
+"oaChecked": "2026-10-11",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/dad2.70401",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42856685",
+"pmid": "42856685",
+"doi": "10.21203/rs.3.rs-10834572/v1",
+"title": "High frequency transcranial pulsed current stimulation improves quality of life in Parkinson's disease: A randomized controlled trial.",
+"authors": "Li Z, Zhong S, Wang L, … Xu R",
+"journal": "Research square",
+"journal_iso": "Res Sq",
+"date": "2026-10-10",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Preprint",
+"url": "https://doi.org/10.21203/rs.3.rs-10834572/v1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42856685/"
+}
+],
+"au": [
+"li|z",
+"zhong|s",
+"wang|l",
+"hao|f",
+"hong|w",
+"zhao|c",
+"ai|d",
+"zhao|z",
+"xiong|p",
+"sun|t",
+"wang|k",
+"leuk|j",
+"tan|e",
+"rencricca|g",
+"neufeld|e",
+"kuster|n",
+"pascual-leone|a",
+"xu|r"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"parkinson",
+"randomized"
+],
+"relevance": 2,
+"why": "Parkinson's disease (PD) is a progressive multisystem disorder in which motor and non-motor symptoms impair quality-of-life. High-frequency transcranial pulsed current stimulation (tPCS) modulates network-level dysfunction and may serve as an adjunct therapy in PD. In a randomized controlled trial, 38 participants…",
+"addedAt": "2026-10-11",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.05.14.26352486",
+"doi": "10.64898/2026.05.14.26352486",
+"title": "WALK for Freezing of Gait in Parkinson's Disease: A Sham-Controlled Home Rehabilitation Trial",
+"authors": "Benny, R., Desai, A., Venkitachalam, A., … Chakrabarty, S.",
+"journal": "medRxiv",
+"date": "2026-10-10",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "rehabilitation medicine and physical therapy",
+"version": "2",
+"au": [
+"benny|r",
+"desai|a",
+"venkitachalam|a",
+"thakkar|v",
+"rajput|r",
+"chakrabarty|s"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.05.14.26352486v2"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.05.14.26352486v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"parkinson",
+"randomised"
+],
+"relevance": 2,
+"why": "Background: Freezing of gait (FOG) in Parkinson disease often persists despite dopaminergic treatment. WALK is a bilateral thigh-worn device that delivers local muscle-tendon vibration during walking. We examined whether WALK could be incorporated into supervised home rehabilitation and explored differences in…",
+"addedAt": "2026-10-11",
+"source": "auto"
 },
 {
 "id": "pmid-42851145",
