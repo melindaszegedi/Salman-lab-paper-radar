@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-11",
-"lastRunAdded": 17,
-"total": 911,
+"lastCurated": "2026-10-12",
+"lastRunAdded": 8,
+"total": 919,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,272 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42861415",
+"pmid": "42861415",
+"doi": "10.1016/j.ijpx.2026.100674",
+"title": "Lactoferrin-modified MSC-derived extracellular vesicles facilitate BBB penetration and enhance gastrodin-induced neuroprotection in Parkinson's disease: involvement of mitophagy.",
+"authors": "Luo ZY, Han RJ, Guo TJ, … Chen HX",
+"journal": "International journal of pharmaceutics: X",
+"journal_iso": "Int J Pharm X",
+"date": "2026-10-12",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ijpx.2026.100674"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42861415/"
+}
+],
+"au": [
+"luo|z",
+"han|r",
+"guo|t",
+"huang|h",
+"su|b",
+"xu|j",
+"zhang|w",
+"li|j",
+"sang|z",
+"mei|z",
+"wang|k",
+"zhang|z",
+"an|s",
+"chen|h"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"bbb",
+"brain delivery",
+"parkinson",
+"permeability",
+"transwell"
+],
+"relevance": 5,
+"why": "The blood-brain barrier (BBB) severely impedes neuroprotective agent delivery to the brain in Parkinson's disease (PD). Although gastrodin (Gas) possesses neuroprotective properties, its efficacy is limited by poor BBB permeability. This study aimed to develop a brain-targeted extracellular vesicle (EV) delivery…",
+"addedAt": "2026-10-12",
+"source": "auto",
+"oaChecked": "2026-10-12",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S2590156726001945/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42860584",
+"pmid": "42860584",
+"doi": "10.1002/acn3.70487",
+"title": "Diabetes-Associated Cognitive Impairment: Pathophysiology and Emerging Therapies.",
+"authors": "Corbali O, Menon P, Corbali HI, … Levey AI",
+"journal": "Annals of clinical and translational neurology",
+"journal_iso": "Ann Clin Transl Neurol",
+"date": "2026-10-12",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/acn3.70487"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42860584/"
+}
+],
+"au": [
+"corbali|o",
+"menon|p",
+"corbali|h",
+"jagannathan|r",
+"levey|a"
+],
+"topics": [
+"csvd",
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"glp-1",
+"neurovascular unit",
+"small vessel disease",
+"vascular dementia"
+],
+"relevance": 5,
+"why": "Diabetes-associated cognitive impairment (DACI) is a common yet underrecognized condition, manifesting along a spectrum from mild cognitive impairment to dementia. DACI encompasses patients who develop vascular dementia (VaD) or Alzheimer's disease (AD) with diabetes as a risk factor; however, in certain patients,…",
+"addedAt": "2026-10-12",
+"source": "auto",
+"oaChecked": "2026-10-12"
+},
+{
+"id": "pmid-42860586",
+"pmid": "42860586",
+"doi": "10.1002/advs.78206",
+"title": "Meningeal Lymphatic LTBR Deficiency Links Spinal Cord Injury to Secondary Brain Pathology.",
+"authors": "Chen Y, Tang Y, Hu C, … Hou J",
+"journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+"journal_iso": "Adv Sci (Weinh)",
+"date": "2026-10-12",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/advs.78206"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42860586/"
+}
+],
+"au": [
+"chen|y",
+"tang|y",
+"hu|c",
+"duan|x",
+"min|l",
+"cong|b",
+"ma|c",
+"tan|m",
+"luo|y",
+"wei|p",
+"xu|m",
+"feng|z",
+"hou|j"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"meningeal lymphatic",
+"perivascular space"
+],
+"relevance": 4,
+"why": "Spinal cord injury (SCI) induces secondary brain pathology, but the mechanisms linking spinal and brain injury remain unclear. Here, we identify meningeal lymphatic dysfunction as a contributor to secondary brain pathology after SCI. In mice, meningeal lymphatic vessels (mLVs) progressively deteriorated from 14 to 56…",
+"addedAt": "2026-10-12",
+"source": "auto",
+"oaChecked": "2026-10-12"
+},
+{
+"id": "biorxiv-10.1101_2025.03.18.643859",
+"doi": "10.1101/2025.03.18.643859",
+"title": "Functional and structural profiling of circulation via genetically encoded modular fluorescent probes.",
+"authors": "Vittani, M., Lee, A. B., Wang, X., … Hirase, H.",
+"journal": "bioRxiv",
+"date": "2026-10-12",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "2",
+"au": [
+"vittani|m",
+"lee|a",
+"wang|x",
+"hiraoka|y",
+"sasaki|d",
+"konno|a",
+"knak|p",
+"kusk|p",
+"nagao|m",
+"courtin|j",
+"putranto|m",
+"nasu|y",
+"tsuno|s",
+"ueda|k",
+"osuga|y",
+"tsuboi|t",
+"piganiol|a",
+"bienvenu|t",
+"terunuma|m",
+"hirai|h",
+"nedergaard|m",
+"tanaka|k",
+"asiminas|a",
+"hirase|h"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.1101/2025.03.18.643859v2"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.1101/2025.03.18.643859v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"blood-brain barrier",
+"interstitial fluid",
+"permeability"
+],
+"relevance": 4,
+"why": "Sustained labeling of fluids is crucial for their investigation in animal models. Here, we introduce a mouse line (Alb-mSc-ST), where blood and interstitial fluid are labeled with the red fluorescent protein mScarlet and SpyTag. The SpyTag-SpyCatcher technology is exploited to monitor circulating fluid properties by…",
+"addedAt": "2026-10-12",
+"source": "auto"
+},
+{
+"id": "pmid-42860548",
+"pmid": "42860548",
+"doi": "10.1002/advs.78075",
+"title": "Mitochondrial Protection and Neural Repair via ROS-Responsive Biomimetic Nanoparticles in Intracerebral Hemorrhage.",
+"authors": "Gao L, Peng L, Zheng X, … Yang Z",
+"journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+"journal_iso": "Adv Sci (Weinh)",
+"date": "2026-10-12",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/advs.78075"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42860548/"
+}
+],
+"au": [
+"gao|l",
+"peng|l",
+"zheng|x",
+"tan|c",
+"wang|c",
+"xiong|q",
+"chen|w",
+"yang|z"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"nanoparticle"
+],
+"relevance": 2,
+"why": "Intracerebral hemorrhage (ICH)-induced secondary brain injury is driven in part by oxidative stress, blood-brain barrier disruption, mitochondrial dysfunction, and neuronal loss. Here, we developed a brain endothelial cell membrane-coated ROS-responsive biomimetic nanoplatform (NP@D+M) for co-delivery of the VDAC1…",
+"addedAt": "2026-10-12",
+"source": "auto",
+"oaChecked": "2026-10-12"
+},
 {
 "id": "pmid-42859492",
 "pmid": "42859492",
@@ -114,6 +380,46 @@
 "source": "auto"
 },
 {
+"id": "medrxiv-10.64898_2026.10.08.26365030",
+"doi": "10.64898/2026.10.08.26365030",
+"title": "Retinal arteriolar tortuosity as a candidate genetic window to inner-ear microvasculature: distributed sharing with blood pressure at CSK and PAWR and a roadmap for larger hearing GWAS",
+"authors": "yang, l., liu, y.",
+"journal": "medRxiv",
+"date": "2026-10-11",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "genetic and genomic medicine",
+"version": "1",
+"au": [
+"yang|l",
+"liu|y"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.08.26365030v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.08.26365030v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd"
+],
+"keywords": [
+"arteriol",
+"small vessel disease",
+"wmh"
+],
+"relevance": 3,
+"why": "Background: The inner ear is supplied by the labyrinthine artery, which is functionally close to an end artery with limited collateral reserve. Microvascular abnormalities have been implicated in sudden sensorineural hearing loss (SSNHL) and age-related hearing loss, yet inner-ear microvasculature cannot be assessed…",
+"addedAt": "2026-10-12",
+"source": "auto"
+},
+{
 "id": "biorxiv-10.64898_2026.10.09.757886",
 "doi": "10.64898/2026.10.09.757886",
 "title": "Intracellular accumulation of AAV6 genomes governs microglia reactivity and the inflammatory response in retinal gene therapy",
@@ -170,6 +476,106 @@
 "why": "Adeno-associated viral (AAV) vectors possess immense potential for gene therapy applications. However, microglia can mount an immune response against AAV vectors. Yet, microglia are therapeutic targets since they play a driving role in the progression of neurodegenerative diseases. Thus, it is critical to understand…",
 "addedAt": "2026-10-11",
 "source": "auto"
+},
+{
+"id": "pmid-42860508",
+"pmid": "42860508",
+"doi": "10.1002/advs.78189",
+"title": "Low-Density Lipoprotein Receptor-Targeted Biomimetic Nanoplatform Suppresses Glioblastoma Stemness and Remodels Antitumor Immunity via Dual Metabolic Disruption.",
+"authors": "Jiang Y, Yang W, Cheng W, … Li Y",
+"journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+"journal_iso": "Adv Sci (Weinh)",
+"date": "2026-10-11",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/advs.78189"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42860508/"
+}
+],
+"au": [
+"jiang|y",
+"yang|w",
+"cheng|w",
+"zuo|j",
+"pan|l",
+"zhong|s",
+"geng|r",
+"zhao|y",
+"chen|z",
+"huang|c",
+"bai|y",
+"zhao|l",
+"li|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"nanoparticle"
+],
+"relevance": 2,
+"why": "Glioblastoma (GBM) remains one of the most lethal malignancies because durable tumor control is constrained by limited brain-tumor drug exposure, metabolic plasticity, stem-like tumor states, and an immunosuppressive microenvironment. We developed apolipoprotein B fragment-decorated nanoparticles co-loaded with…",
+"addedAt": "2026-10-12",
+"source": "auto",
+"oaChecked": "2026-10-12"
+},
+{
+"id": "pmid-42860413",
+"pmid": "42860413",
+"doi": "10.1038/s41467-026-77395-2",
+"title": "ROS-autocatalytic nanoplatform interfering astrocyte-cancer crosstalk and enhancing glioblastoma therapy.",
+"authors": "Chen Y, Tian Z, Fan H, … Sun T",
+"journal": "Nature communications",
+"journal_iso": "Nat Commun",
+"date": "2026-10-11",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41467-026-77395-2"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42860413/"
+}
+],
+"au": [
+"chen|y",
+"tian|z",
+"fan|h",
+"zhou|j",
+"zhang|s",
+"li|x",
+"su|b",
+"jiang|c",
+"sun|t"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Glioblastoma (GBM) remains incurable and exhibits exceptionally high metabolic demands, driving the evolution of hyperactive mitochondrial systems within tumors. In parallel, mitochondrial transfer from astrocytes to cancer cells fuels metabolic reprogramming and enhances GBM tumorigenicity. These malignant traits…",
+"addedAt": "2026-10-12",
+"source": "auto",
+"oaChecked": "2026-10-12",
+"oa": {
+"url": "https://www.nature.com/articles/s41467-026-77395-2_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42855813",
