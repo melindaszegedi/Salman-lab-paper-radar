@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-13",
-"lastRunAdded": 28,
-"total": 947,
+"lastCurated": "2026-10-14",
+"lastRunAdded": 20,
+"total": 967,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,151 @@
 ]
 },
 "papers": [
+{
+"id": "biorxiv-10.64898_2026.01.08.698435",
+"doi": "10.64898/2026.01.08.698435",
+"title": "Pulsations of engineered microvessels enhance solute clearance via heterogeneous strain-dependent poroelasticity",
+"authors": "Alcaide Martin, D., Fiori, M., Lorthois, S., … Matsunaga, Y. T.",
+"journal": "bioRxiv",
+"date": "2026-10-14",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "3",
+"au": [
+"alcaide martin|d",
+"fiori|m",
+"lorthois|s",
+"bancaud|a",
+"cacheux|j",
+"matsunaga|y"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.01.08.698435v3"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.01.08.698435v3.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"interstitial fluid",
+"permeability"
+],
+"relevance": 2,
+"why": "Tissue homeostasis relies on the exchange of interstitial fluid between blood and tissues, as well as lymphatic drainage. In regions lacking conventional lymphatic vasculature, such as the central nervous system, the mechanisms governing interstitial fluid clearance remain debated, with vascular pulsatility proposed…",
+"addedAt": "2026-10-14",
+"source": "auto"
+},
+{
+"id": "pmid-42867637",
+"pmid": "42867637",
+"doi": "10.1007/s00401-026-03102-6",
+"title": "Pericyte loss and endothelial activation define distinct vascular states in cerebral small vessel disease.",
+"authors": "Chagnot A, Jaime Garcia D, McQuaid C, … Montagne A",
+"journal": "Acta neuropathologica",
+"journal_iso": "Acta Neuropathol",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00401-026-03102-6"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42867637/"
+}
+],
+"au": [
+"chagnot|a",
+"jaime garcia|d",
+"mcquaid|c",
+"cholewa-waclaw|j",
+"mcdade|k",
+"dando|o",
+"wardlaw|j",
+"smith|c",
+"montagne|a"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"pericyte",
+"small vessel disease",
+"vascular cognitive impairment"
+],
+"relevance": 5,
+"why": "Cerebral small vessel disease (cSVD) is a leading cause of stroke and vascular cognitive impairment, yet the cellular mechanisms underlying microvascular dysfunction in human disease remain incompletely understood. In particular, the relationship between pericyte alterations and endothelial activation, two key…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "pmid-42865480",
+"pmid": "42865480",
+"doi": "10.3389/fphar.2026.1947129",
+"title": "Efficacy and safety of lecanemab monoclonal antibody in the treatment of mild to moderate Alzheimer's disease: a systematic review and meta-analysis.",
+"authors": "Li SY, Zhang JX, Huang LZ, … Lai S",
+"journal": "Frontiers in pharmacology",
+"journal_iso": "Front Pharmacol",
+"date": "2026-10-13",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fphar.2026.1947129"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42865480/"
+}
+],
+"au": [
+"li|s",
+"zhang|j",
+"huang|l",
+"wu|h",
+"ye|y",
+"liu|a",
+"chen|j",
+"lai|s"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"amyloid-related imaging abnormalit",
+"lecanemab",
+"placebo"
+],
+"relevance": 5,
+"why": "Lecanemab is a novel therapy for Alzheimer's disease (AD), but comprehensive evidence is lacking. This systematic review and meta-analysis evaluated the efficacy and safety in AD. Registered in PROSPERO (CRD420251146867). PubMed, Embase, Cochrane Library, Web of Science, and Scopus were searched for English-language…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14",
+"oa": {
+"url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1947129/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
 {
 "id": "pmid-42865191",
 "pmid": "42865191",
@@ -64,6 +209,298 @@
 "addedAt": "2026-10-13",
 "source": "auto",
 "oaChecked": "2026-10-13"
+},
+{
+"id": "pmid-42869902",
+"pmid": "42869902",
+"doi": "10.1038/s41467-026-77474-4",
+"title": "Huntington's disease vasculopathy is barrier-type-selective and arteriolar-dominant with spatially-coupled astrogliosis and reversible by S1pr1 stimulation.",
+"authors": "Kucharz K, Soylu-Kucharz R, Saint-Pierre M, … Lauritzen MJ",
+"journal": "Nature communications",
+"journal_iso": "Nat Commun",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41467-026-77474-4"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42869902/"
+}
+],
+"au": [
+"kucharz|k",
+"soylu-kucharz|r",
+"saint-pierre|m",
+"alpaugh|m",
+"qvist|f",
+"bjorkqvist|m",
+"skotte|n",
+"cicchetti|f",
+"lauritzen|m"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"arteriol",
+"blood-brain barrier",
+"huntington",
+"transcytosis"
+],
+"relevance": 4,
+"why": "Brain vascular barriers are dysfunctional in many neurological disorders, including Huntington's disease (HD), but which vessels are affected and how remains unclear. Using in vivo two-photon microscopy in R6/2 HD-model mice, we reveal a striking divergence in barrier dysfunction. Surface vessels of the…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14",
+"oa": {
+"url": "https://doi.org/10.1038/s41467-026-77474-4",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42869316",
+"pmid": "42869316",
+"doi": "10.1016/j.neubiorev.2026.107034",
+"title": "Transdiagnostic Reductions in Glymphatic-Related Perivascular Diffusion Across Psychiatric Disorders: A Systematic Review and Meta-analysis.",
+"authors": "Pascucci A, Saccaro LF, Forrer S, … Eliez S",
+"journal": "Neuroscience and biobehavioral reviews",
+"journal_iso": "Neurosci Biobehav Rev",
+"date": "2026-10-13",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.neubiorev.2026.107034"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42869316/"
+}
+],
+"au": [
+"pascucci|a",
+"saccaro|l",
+"forrer|s",
+"marenco|g",
+"merola|p",
+"linares|a",
+"gracia|i",
+"sandini|c",
+"delavari|f",
+"piguet|c",
+"van de ville|d",
+"eliez|s"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"interstitial fluid",
+"perivascular space"
+],
+"relevance": 4,
+"why": "The glymphatic system, a perivascular pathway supporting cerebrospinal and interstitial fluid exchange and clearance, has been implicated in neurodegenerative and psychiatric disorders. Diffusion tensor imaging along the perivascular space (DTI-ALPS) provides a non-invasive proxy for glymphatic-related processes, yet…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "pmid-42869157",
+"pmid": "42869157",
+"doi": "10.1016/j.brainres.2026.150602",
+"title": "Distinctive patterns of right-hemisphere vulnerability in cerebral small vessel disease: a gray matter asymmetry study.",
+"authors": "Lu J, Wu Y, Gao L",
+"journal": "Brain research",
+"journal_iso": "Brain Res",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.brainres.2026.150602"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42869157/"
+}
+],
+"au": [
+"lu|j",
+"wu|y",
+"gao|l"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"perivascular spaces",
+"small vessel disease",
+"vascular cognitive impairment"
+],
+"relevance": 4,
+"why": "Cerebral small vessel disease (CSVD) is a leading cause of vascular cognitive impairment (VCI), characteristically associated with gray matter (GM) loss. However, it remains unclear whether this GM loss exhibits regional interhemispheric asymmetry and how it relates to cognitive function. In this study, 56 CSVD…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "pmid-42865955",
+"pmid": "42865955",
+"doi": "10.3389/fimmu.2026.1965598",
+"title": "Mesenchymal stromal cells in age-related neurodegenerative disorders: mechanisms, translational barriers, and precision strategies.",
+"authors": "Long Z, Guo H, Sun L",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-13",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1965598"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42865955/"
+}
+],
+"au": [
+"long|z",
+"guo|h",
+"sun|l"
+],
+"topics": [
+"csvd",
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"neurovascular unit",
+"parkinson",
+"vascular dementia"
+],
+"relevance": 4,
+"why": "Ageing remodels the neuroimmune, metabolic, and vascular environment in ways that accelerate neuronal vulnerability and constrain tissue repair. Mesenchymal stromal cells (MSCs) and MSC-derived extracellular vesicles (MSC-EVs) are therefore attractive candidates for neurodegenerative disorders because their effects…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14",
+"oa": {
+"url": "https://doi.org/10.3389/fimmu.2026.1965598",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.08.757401",
+"doi": "10.64898/2026.10.08.757401",
+"title": "Integration of Neuroimaging and Histopathology in a Squirrel Monkey Model of Spontaneous Cerebral Amyloid Angiopathy and Amyloid-Related Imaging Abnormalities",
+"authors": "Wadghiri, Y. Z., Khan, S., Soliman, M. T., … Scholtzova, H.",
+"journal": "bioRxiv",
+"date": "2026-10-13",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"wadghiri|y",
+"khan|s",
+"soliman|m",
+"szabo|j",
+"murray|a",
+"patel|a",
+"kingsley|c",
+"swain|j",
+"nehete|p",
+"veraart|j",
+"mulholland|m",
+"hopkins|w",
+"wisniewski|t",
+"scholtzova|h"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757401v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757401v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd",
+"bbb",
+"adtx"
+],
+"keywords": [
+"amyloid-related imaging abnormalit",
+"bbb",
+"cerebral amyloid angiopathy"
+],
+"relevance": 4,
+"why": "Cerebral amyloid angiopathy (CAA) is a prevalent cerebrovascular pathology in AD and contributes to amyloid-related imaging abnormalities (ARIA), a major complication of current anti-amyloid immunotherapy. Despite its growing clinical importance, critical gaps remain in the development of reliable biomarkers for…",
+"addedAt": "2026-10-14",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.12.26365339",
+"doi": "10.64898/2026.10.12.26365339",
+"title": "Location-specific Longitudinal Patterns of Subcortical and Lobar Cerebral Microhemorrhages in Preclinical Alzheimer Disease",
+"authors": "Hill, C., Michopoulou, S., Niranjan, M., Kipps, C.",
+"journal": "medRxiv",
+"date": "2026-10-13",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"hill|c",
+"michopoulou|s",
+"niranjan|m",
+"kipps|c"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.12.26365339v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.12.26365339v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"apoe4",
+"white matter hyperintensit"
+],
+"relevance": 4,
+"why": "Abstract Background and Objectives Cerebral microhaemorrhages influence eligibility and monitoring for anti-amyloid therapies. Emerging evidence and expert opinion suggest that subcortical microhaemorrhages may be less closely related to cerebral amyloidosis than lobar lesions and may therefore warrant separate…",
+"addedAt": "2026-10-14",
+"source": "auto"
 },
 {
 "id": "pmid-42865133",
@@ -152,6 +589,282 @@
 "addedAt": "2026-10-13",
 "source": "auto",
 "oaChecked": "2026-10-13"
+},
+{
+"id": "pmid-42869338",
+"pmid": "42869338",
+"doi": "10.1016/j.bbi.2026.107067",
+"title": "Parsing the relationships among gut microbiome, neurotransmitter metabolome, glymphatic function, and cognition across healthy elderly, mild cognitive impairment, and probable Alzheimer's disease.",
+"authors": "Tao C, Wan K, Song Y, … Yu Y",
+"journal": "Brain, behavior, and immunity",
+"journal_iso": "Brain Behav Immun",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bbi.2026.107067"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42869338/"
+}
+],
+"au": [
+"tao|c",
+"wan|k",
+"song|y",
+"xu|x",
+"she|m",
+"sun|z",
+"zhu|j",
+"yu|y"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glymphatic"
+],
+"relevance": 3,
+"why": "Evidence has suggested brain glymphatic dysfunction and gut microbial metabolic disturbance in Alzheimer's disease (AD), yet the relationships among gut microbiota, neurotransmitter metabolites, glymphatic function, and cognition across clinically defined groups of healthy elderly, mild cognitive impairment (MCI), and…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "pmid-42868046",
+"pmid": "42868046",
+"doi": "10.1177/13872877261497235",
+"title": "Intermittent hypoxia training alleviates cerebral hypoperfusion and amyloid-β deposition in a mixed dementia model established by bilateral common carotid artery stenosis in early-stage 5xFAD mice.",
+"authors": "Lv C, Luo Q, Jin F, … Quan Z",
+"journal": "Journal of Alzheimer's disease",
+"journal_iso": "J Alzheimers Dis",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/13872877261497235"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42868046/"
+}
+],
+"au": [
+"lv|c",
+"luo|q",
+"jin|f",
+"shao|q",
+"qiu|y",
+"ni|j",
+"liu|j",
+"qing|h",
+"quan|z"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"aqp4"
+],
+"relevance": 3,
+"why": "BackgroundAlzheimer's disease (AD) is the most common form of dementia and often coexists with vascular pathology in clinical settings, resulting in mixed dementia with more severe symptoms and more rapid progression.ObjectiveTo investigate whether chronic cerebral hypoperfusion aggravates early AD-related pathology,…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "pmid-42868022",
+"pmid": "42868022",
+"doi": "10.1177/14690667261497248",
+"title": "GC-MS-guided phytochemical profiling of Morus alba leaves identifies 5-O-methylnaringenin as a promising antidiabetic agent.",
+"authors": "Maqsood Q, Tehreem S, Wajid A, … Rehman AU",
+"journal": "European journal of mass spectrometry (Chichester, England)",
+"journal_iso": "Eur J Mass Spectrom (Chichester)",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/14690667261497248"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42868022/"
+}
+],
+"au": [
+"maqsood|q",
+"tehreem|s",
+"wajid|a",
+"ch|n",
+"shaukat|a",
+"khan|t",
+"rehman|a"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Objective: Type 2 diabetes mellitus (T2DM) is a rapidly increasing metabolic disorder linked with cardiovascular, renal, and neurological complications. This study investigated the phytochemical composition, antioxidant, antimicrobial, and antidiabetic potential of methanolic leaf extract of Morus alba using in vitro…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "pmid-42868018",
+"pmid": "42868018",
+"doi": "10.1177/03331024261470368",
+"title": "Alterations in the interstitial microenvironment across headache phases and clinical phenotypes in migraine: A multimodal diffusion MRI study.",
+"authors": "Messina R, Cetta I, Pagani E, … Filippi M",
+"journal": "Cephalalgia",
+"journal_iso": "Cephalalgia",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/03331024261470368"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42868018/"
+}
+],
+"au": [
+"messina|r",
+"cetta|i",
+"pagani|e",
+"ratto|e",
+"genovese|f",
+"visentini|a",
+"colombo|b",
+"rocca|m",
+"filippi|m"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "AimProcesses related to glymphatic function and fluid exchange may contribute to migraine pathophysiology. We used multimodal diffusion MRI to investigate perivascular diffusivity and the interstitial microenvironment in migraine and to assess differences across migraine phases and clinical phenotypes.MethodsWe…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "pmid-42865997",
+"pmid": "42865997",
+"doi": "10.1021/acsmedchemlett.6c00324",
+"title": "How Subtle Molecular Differences in the Morphinan Opioid Antagonists Affect Their Physicochemical and In Vitro ADME Properties.",
+"authors": "Saphier S, Wenger A, Pevzner A, … Zafrani Y",
+"journal": "ACS medicinal chemistry letters",
+"journal_iso": "ACS Med Chem Lett",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acsmedchemlett.6c00324"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42865997/"
+}
+],
+"au": [
+"saphier|s",
+"wenger|a",
+"pevzner|a",
+"yeffet|d",
+"smolkin|b",
+"lifshin-karton|n",
+"elias|s",
+"eichen|y",
+"parvari|g",
+"katalan|s",
+"zafrani|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"bbb",
+"permeability"
+],
+"relevance": 3,
+"why": "Naloxone, naltrexone and nalmefene are closely related morphinan antagonists with comparable affinities to the μ-opioid receptor (MOR) but markedly different pharmacokinetics (PK) and metabolic fate. In this study, we evaluated their pharmacologically-relevant molecular/physicochemical properties, PAMPA-BBB (Parallel…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "medrxiv-10.64898_2026.10.09.26365181",
+"doi": "10.64898/2026.10.09.26365181",
+"title": "Population-based Ethnoracial Disparity in Life's Essential 8 Vascular Health, Cerebral Small Vessel Disease & Cognition",
+"authors": "Husein, N. K., Ho, M. P., Lin, K., … Wen, W.",
+"journal": "medRxiv",
+"date": "2026-10-13",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"husein|n",
+"ho|m",
+"lin|k",
+"chan|d",
+"hayashi|s",
+"sachdev|s",
+"hassanzadeh|t",
+"jiang|j",
+"sachdev|p",
+"wen|w"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.09.26365181v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.09.26365181v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd"
+],
+"keywords": [
+"lacune",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Background: Whether ethnoracial differences in cerebral small vessel disease (cSVD) appear in multimarker burden, particular MRI manifestations, or both, and how they relate to Life's Essential 8 (LE8) cardiovascular health and cognition, remain unclear. Methods: This cross-sectional study included 44,982 participants…",
+"addedAt": "2026-10-14",
+"source": "auto"
 },
 {
 "id": "biorxiv-10.64898_2026.10.09.758041",
@@ -243,6 +956,245 @@
 "why": "The human ileal epithelium forms a critical interface governing interactions with luminal microorganisms and nanomaterials, yet physiologically relevant in vitro models with accessible apical surfaces remain limited. Here, human apical-out ileoids derived from healthy ileal biopsies are established as a platform that…",
 "addedAt": "2026-10-13",
 "source": "auto"
+},
+{
+"id": "pmid-42867995",
+"pmid": "42867995",
+"doi": "10.1016/j.celrep.2026.118134",
+"title": "Spatial distribution of blood-brain barrier membrane proteins is controlled by sorting motifs and physiological signals in vivo.",
+"authors": "Amick J, Bhandarkar S, Wilcox DR, … Gu C",
+"journal": "Cell reports",
+"journal_iso": "Cell Rep",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.celrep.2026.118134"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42867995/"
+}
+],
+"au": [
+"amick|j",
+"bhandarkar|s",
+"wilcox|d",
+"boloker|s",
+"lu|y",
+"gu|c"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "The blood-brain barrier (BBB), formed by brain endothelial cells (BECs), creates a safe and homeostatic environment for proper brain function. While BECs are extraordinarily thin, their luminal and abluminal plasma membranes face markedly different environments: the blood and brain parenchyma, respectively. How BBB…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "pmid-42867547",
+"pmid": "42867547",
+"doi": "10.1007/s00401-026-03093-4",
+"title": "CHCHD2 mitigates age-associated proteostatic collapse by maintaining homeostasis of the mitochondria-lysosome axis.",
+"authors": "Kee TR, Masters BM, Tran KD, … Woo JA",
+"journal": "Acta neuropathologica",
+"journal_iso": "Acta Neuropathol",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00401-026-03093-4"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42867547/"
+}
+],
+"au": [
+"kee|t",
+"masters|b",
+"tran|k",
+"jeon|h",
+"long|m",
+"xu|g",
+"khan|s",
+"vazquez-rosa|e",
+"sridharan|p",
+"koh|y",
+"fujioka|h",
+"chaput|d",
+"wang|x",
+"zhao|x",
+"pieper|a",
+"kang|d",
+"woo|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"parkinson",
+"permeability"
+],
+"relevance": 2,
+"why": "Mutations in coiled-coil-helix-coiled-coil-helix domain containing 2 (CHCHD2), including the Parkinson's disease (PD)-linked CHCHD2T61I mutation, are associated with Lewy body disorders (LBDs) by unknown mechanisms. Here, we demonstrate that CHCHD2T61I exacerbates age-related brain pathologies, including axonal…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
+},
+{
+"id": "pmid-42866370",
+"pmid": "42866370",
+"doi": "10.3389/fimmu.2026.1956600",
+"title": "Remodeling of the brain immune microenvironment in Alzheimer's disease: interactions among microglia, astrocytes, complement, and the neurovascular unit.",
+"authors": "Wang T, Wang L, Cao J, … Lu F",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-13",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1956600"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42866370/"
+}
+],
+"au": [
+"wang|t",
+"wang|l",
+"cao|j",
+"zhao|y",
+"he|z",
+"lu|f"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"neurovascular unit"
+],
+"relevance": 2,
+"why": "Alzheimer's disease is defined by amyloid-β deposition and tau pathology, yet comparable pathological burdens do not necessarily correspond to similar cognitive trajectories, regional patterns of injury, or treatment responses. This discordance suggests that the cellular and tissue microenvironment may materially…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1956600/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.12.758447",
+"doi": "10.64898/2026.10.12.758447",
+"title": "Cyclin E/CDK2 deficiency links cell cycle control to intestinal barrier integrity and tight junction regulation",
+"authors": "Hatten, H., Verwaayen, A. M., Corcini-Berndt, M., … Liedtke, C.",
+"journal": "bioRxiv",
+"date": "2026-10-13",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"hatten|h",
+"verwaayen|a",
+"corcini-berndt|m",
+"van der vorst|e",
+"paffen|d",
+"nevzorova|y",
+"maas|s",
+"penners|c",
+"liedtke|c"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758447v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758447v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"permeability",
+"tight junction"
+],
+"relevance": 2,
+"why": "Background & Aims: The intestinal epithelium renews continuously through cell cycle-dependent turnover, yet it remains unknown whether core cell cycle regulators directly control intestinal barrier function. We investigated how loss of the Cyclin E1/Cyclin E2/CDK2 complex affects intestinal homeostasis. Based on the…",
+"addedAt": "2026-10-14",
+"source": "auto"
+},
+{
+"id": "pmid-42870042",
+"pmid": "42870042",
+"doi": "10.1038/s41587-026-03310-1",
+"title": "In vivo engineering of CAR natural killer cells for immunotherapy using ligand-directed lipid nanoparticles.",
+"authors": "Chen Y, Monkovic J, Mughal H, … Anderson DG",
+"journal": "Nature biotechnology",
+"journal_iso": "Nat Biotechnol",
+"date": "2026-10-13",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41587-026-03310-1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42870042/"
+}
+],
+"au": [
+"chen|y",
+"monkovic|j",
+"mughal|h",
+"chen|b",
+"thadhani|e",
+"mcmullen|p",
+"self|a",
+"hu|y",
+"detmer|s",
+"chen|m",
+"lapteva|a",
+"kamat|r",
+"vernon|a",
+"langer|r",
+"anderson|d"
+],
+"topics": [],
+"keywords": [
+"nanoparticle"
+],
+"relevance": 1,
+"why": "Targeted lipid nanoparticles (LNPs) offer a nonviral approach for in vivo cell engineering but efficient programming of natural killer (NK) cells remains underexplored. Here we develop NK cell-targeted LNPs (NtLNPs) using engineered biparatopic NK cell ligands to drive receptor-specific uptake and mRNA delivery. Lead…",
+"addedAt": "2026-10-14",
+"source": "auto",
+"oaChecked": "2026-10-14"
 },
 {
 "id": "pmid-42861415",
