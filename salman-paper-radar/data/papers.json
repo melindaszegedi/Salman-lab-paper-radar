@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-14",
-"lastRunAdded": 20,
-"total": 967,
+"lastCurated": "2026-10-15",
+"lastRunAdded": 26,
+"total": 993,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,854 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42872652",
+"pmid": "42872652",
+"doi": "10.2174/0115672050525938260923072703",
+"title": "Transitioning from Clinical Trial to Clinical Practice for Long-Term Lecanemab Treatment in Early Alzheimer's Disease: Perspectives from a Cohort Study from the Alzheimer's Research and Treatment Center.",
+"authors": "Watson D, Neam MG, Stafford M, … Werner S",
+"journal": "Current Alzheimer research",
+"journal_iso": "Curr Alzheimer Res",
+"date": "2026-10-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0115672050525938260923072703"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42872652/"
+}
+],
+"au": [
+"watson|d",
+"neam|m",
+"stafford|m",
+"bouchard|c",
+"ranney|v",
+"werner|s"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"lecanemab",
+"randomized"
+],
+"relevance": 5,
+"why": "Lecanemab, an anti-amyloid monoclonal antibody, significantly reduces amyloid markers and slows clinical decline in early Alzheimer's disease (AD) clinical trials. We assessed our single-center experience with lecanemab, including evaluating efficacy and safety data as well as patient-reported outcomes of individuals…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42871576",
+"pmid": "42871576",
+"doi": "10.3389/fpsyt.2026.1873300",
+"title": "Patient-derived stem cell models of brain endothelial-neuron interactions in early course psychosis.",
+"authors": "Altunsu D, Demirlek C, Nicholson J, … Lizano P",
+"journal": "Frontiers in psychiatry",
+"journal_iso": "Front Psychiatry",
+"date": "2026-10-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fpsyt.2026.1873300"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42871576/"
+}
+],
+"au": [
+"altunsu|d",
+"demirlek|c",
+"nicholson|j",
+"stiltner|b",
+"trotti|r",
+"raymond|n",
+"lee|y",
+"rahman|r",
+"stone|w",
+"karmacharya|r",
+"lizano|p"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"induced pluripotent",
+"neurovascular unit",
+"tight junction",
+"trans-endothelial electrical resistance"
+],
+"relevance": 5,
+"why": "Early-course psychosis (ECP) exhibits marked heterogeneity in illness trajectories, with a substantial subset of individuals developing progressive symptomatic, cognitive, and functional decline. Although growing evidence implicates blood-brain barrier (BBB) and neurovascular unit (NVU) dysfunction in psychosis…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15",
+"oa": {
+"url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1873300/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42871078",
+"pmid": "42871078",
+"doi": "10.3389/fragi.2026.1921485",
+"title": "New insight into Alzheimer's disease: small molecule-Aβ in the brain transport and peripheral organ clearance.",
+"authors": "Ma T, Li Y, Ding Y, … Lv Y",
+"journal": "Frontiers in aging",
+"journal_iso": "Front Aging",
+"date": "2026-10-14",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fragi.2026.1921485"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42871078/"
+}
+],
+"au": [
+"ma|t",
+"li|y",
+"ding|y",
+"liu|s",
+"gao|c",
+"li|x",
+"tong|z",
+"lv|y"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"glymphatic",
+"meningeal lymphatic"
+],
+"relevance": 5,
+"why": "Alzheimer's disease (AD) represents one of the most prevalent neurodegenerative disorders without approved disease-modifying therapies. A major contributing factor is that, for decades, drug development has focused almost exclusively on repairing or removing lesions within the brain itself. Yet a growing body of work…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15",
+"oa": {
+"url": "https://doi.org/10.3389/fragi.2026.1921485",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42874425",
+"pmid": "42874425",
+"doi": "10.1016/j.tjpad.2026.100683",
+"title": "Estimating the eligible population for amyloid-targeting monoclonal antibody therapy in memory clinics: Application to lecanemab in France.",
+"authors": "Le Scouarnec L, Bouteloup V, Grasset L, … MEMENTO Study Group",
+"journal": "The journal of prevention of Alzheimer's disease",
+"journal_iso": "J Prev Alzheimers Dis",
+"date": "2026-10-14",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.tjpad.2026.100683"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42874425/"
+}
+],
+"au": [
+"le scouarnec|l",
+"bouteloup|v",
+"grasset|l",
+"planche|v",
+"chene|g",
+"dufouil|c",
+"group|m"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"apoeε4",
+"aria",
+"lecanemab"
+],
+"relevance": 4,
+"why": "Lecanemab was the first amyloid-targeting monoclonal antibody approved by the European Commission for treating patients with mild cognitive impairment (MCI) and mild dementia due to Alzheimer's disease (AD). While this marketing authorization led to heterogeneous situations across European countries, France declined…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42873892",
+"pmid": "42873892",
+"doi": "10.1126/scitranslmed.aec5740",
+"title": "Preclinical and first-in-human evaluation of VG-3927/SAR448851, an oral small-molecule TREM2 agonist for Alzheimer's disease.",
+"authors": "Dejanovic B, Figley MD, Weisman E, … Mirescu C",
+"journal": "Science translational medicine",
+"journal_iso": "Sci Transl Med",
+"date": "2026-10-14",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1126/scitranslmed.aec5740"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42873892/"
+}
+],
+"au": [
+"dejanovic|b",
+"figley|m",
+"weisman|e",
+"kiragasi|b",
+"gergits|f",
+"larson|k",
+"renoux|a",
+"rajagovindan|r",
+"pandya|b",
+"houze|j",
+"huang|l",
+"gaudreault|f",
+"o'mara|r",
+"clarkson|j",
+"turnbull|m",
+"meier|a",
+"colonna|m",
+"stromme|j",
+"gray|d",
+"thackaberry|e",
+"kaufmann|p",
+"mirescu|c"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"ipsc",
+"randomized",
+"trem2"
+],
+"relevance": 4,
+"why": "Microglial dysfunction is increasingly implicated in Alzheimer's disease (AD) pathogenesis, with loss-of-function variants in the microglial receptor TREM2 as major risk factors for late-onset AD. We report VG-3927, an oral, CNS-penetrant small-molecule TREM2 agonist that engages the transmembrane domains of TREM2 and…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42872646",
+"pmid": "42872646",
+"doi": "10.2174/0118715273531307261012100737",
+"title": "From Hypothesis to Clinical Validation: A Bibliometric Mapping of Immunotherapy for Neurodegenerative Proteinopathies (2000-2025).",
+"authors": "Budak Savaş A, Yeşilyurt F, Hacimuftuoglu A",
+"journal": "CNS & neurological disorders drug targets",
+"journal_iso": "CNS Neurol Disord Drug Targets",
+"date": "2026-10-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0118715273531307261012100737"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42872646/"
+}
+],
+"au": [
+"budak savas|a",
+"yesilyurt|f",
+"hacimuftuoglu|a"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"aria",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 4,
+"why": "For twenty-five years, despite persistent challenges, the field of neurodegenerative disease has remained committed to a single hypothesis: targeting the immune system directly against misfolded proteins accumulating in the brain. Today, this approach has produced a clinical counterpart, with three monoclonal…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42874882",
+"pmid": "42874882",
+"doi": "10.1016/j.bbi.2026.107062",
+"title": "Early post-sepsis innate behavioral changes in aged mice occur independently of detectable neuroinflammation.",
+"authors": "Ri Lee HN, Lin J, Baer B, … Bastarache JA",
+"journal": "Brain, behavior, and immunity",
+"journal_iso": "Brain Behav Immun",
+"date": "2026-10-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bbi.2026.107062"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42874882/"
+}
+],
+"au": [
+"ri lee|h",
+"lin|j",
+"baer|b",
+"haffizulla|a",
+"ware|l",
+"harrison|f",
+"bastarache|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Sepsis disproportionately causes long-term cognitive and functional impairments in elderly survivors, including deficits in activities of daily living and functional independence. The neurobiological mechanisms driving this vulnerability in the aged brain remain poorly understood. We tested whether the aged brain…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42873723",
+"pmid": "42873723",
+"doi": "10.1159/che/aceag001",
+"title": "Cerebrospinal fluid penetration of new antibiotics in the treatment of central nervous system infections.",
+"authors": "Williams J, Boyd SE, Hitchings AW, … Lonsdale D",
+"journal": "Chemotherapy",
+"journal_iso": "Chemotherapy",
+"date": "2026-10-14",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1159/che/aceag001"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42873723/"
+}
+],
+"au": [
+"williams|j",
+"boyd|s",
+"hitchings|a",
+"zoumprouli|a",
+"lipman|j",
+"lonsdale|d"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Multidrug-resistant (MDR) bacterial infections present significant challenges to the management of central nervous system (CNS) infections, particularly in neurosurgical patients and those with cerebrospinal fluid (CSF) diversion devices. Achieving adequate CNS exposure is complicated by variable blood-brain barrier…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42873676",
+"pmid": "42873676",
+"doi": "10.1177/13872877261494579",
+"title": "The role of matrix metalloproteinases in Alzheimer's disease and small vessel disease.",
+"authors": "Nguyen N, Huynh S, Mroczko B, Glodzik L",
+"journal": "Journal of Alzheimer's disease",
+"journal_iso": "J Alzheimers Dis",
+"date": "2026-10-14",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/13872877261494579"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42873676/"
+}
+],
+"au": [
+"nguyen|n",
+"huynh|s",
+"mroczko|b",
+"glodzik|l"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Matrix metalloproteinases (MMPs) are a family of enzymes participating in maintenance and remodeling of the extracellular matrix. Their many types are involved in diverse, sometimes contrasting physiological processes, and they are ubiquitously present throughout the CNS. In this mini-review we focused on MMP-2,…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42873408",
+"pmid": "42873408",
+"doi": "10.1007/s12031-026-02610-0",
+"title": "\"Morphological, Functional, and Molecular Progression of Blood-Brain Barrier Dysfunction in Alzheimer's Disease\".",
+"authors": "León-Arcia K, Martínez-Orozco H, Guerra-Crespo M, … Soto-Rojas LO",
+"journal": "Journal of molecular neuroscience",
+"journal_iso": "J Mol Neurosci",
+"date": "2026-10-14",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s12031-026-02610-0"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42873408/"
+}
+],
+"au": [
+"leon-arcia|k",
+"martinez-orozco|h",
+"guerra-crespo|m",
+"diaz-miranda|s",
+"soto-rojas|l"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"pericyte"
+],
+"relevance": 3,
+"why": "Blood-brain barrier (BBB) dysfunction is increasingly recognized as an early pathological event in sporadic Alzheimer's disease (AD), which represents over 95% of cases. Vascular risk factors and cerebral insulin resistance are considered potential contributors to its initiation. This review synthesizes evidence…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42872643",
+"pmid": "42872643",
+"doi": "10.2174/0113895575482030261005073306",
+"title": "Therapeutic Significance of Natural vs. Synthetic Coumarins in Alzheimer's Disease.",
+"authors": "Patel R, Sinha S, Shukla KS, … Singh V",
+"journal": "Mini reviews in medicinal chemistry",
+"journal_iso": "Mini Rev Med Chem",
+"date": "2026-10-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0113895575482030261005073306"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42872643/"
+}
+],
+"au": [
+"patel|r",
+"sinha|s",
+"shukla|k",
+"singh|b",
+"ved|a",
+"kumar|a",
+"yadav|n",
+"singh|v"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Coumarin, a naturally occurring aromatic compound bearing a benzopyrone scaffold, represents a versatile motif in synthetic drug design. Recent therapeutic developments have highlighted its potential as a privileged pharmacophore for neurodegenerative disorders (NDs), with particular efficacy targeting Alzheimer's…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42872444",
+"pmid": "42872444",
+"doi": "10.2174/0113894501509464261006043242",
+"title": "Sulfamethoxazole Attenuates Aluminum-induced Cognitive Impairment: In silico Evidence for BACE1 Interaction and In vivo Behavioral Assessment.",
+"authors": "Altaf A, Arif M, Inam W, … Mahmood W",
+"journal": "Current drug targets",
+"journal_iso": "Curr Drug Targets",
+"date": "2026-10-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0113894501509464261006043242"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42872444/"
+}
+],
+"au": [
+"altaf|a",
+"arif|m",
+"inam|w",
+"abbas|g",
+"mahmood|w"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "BACE1 (Beta-Site Amyloid precursor protein-cleaving enzyme is a rate-limiting aspartic protease responsible for beginning Amyloid-β (Aβ) peptide synthesis, the major neurotoxic characteristic of Alzheimer's Disease (AD). Repurposing drugs with known safety profiles and Blood-Brain Barrier (BBB) permeability is a…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42872207",
+"pmid": "42872207",
+"doi": "10.1016/j.celbio.2026.100575",
+"title": "Reverse the progression of Alzheimer's disease through Nano-ERASER-based adult neuroregeneration.",
+"authors": "Wang M, VanderVeen B, Xu ZA, … Xu P",
+"journal": "Cell biomaterials",
+"journal_iso": "Cell Biomater",
+"date": "2026-10-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.celbio.2026.100575"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42872207/"
+}
+],
+"au": [
+"wang|m",
+"vanderveen|b",
+"xu|z",
+"xu|y",
+"mintzer|j",
+"murphy|a",
+"zhang|q",
+"xu|p"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"organoid"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) remains irreversible largely because the adult brain cannot replace lost neurons. Here, we present a Nano-ERASER-based Trim-Away system (TN-PTBP1) that enables adult neuroregeneration in the AD brain, offering a new strategy to counteract AD progression. TN-PTBP1 penetrates the blood-brain…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15",
+"oa": {
+"url": "https://doi.org/10.1016/j.celbio.2026.100575",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42872064",
+"pmid": "42872064",
+"doi": "10.3389/fimmu.2026.1928641",
+"title": "HMGB1 functional plasticity in neurodegenerative diseases and its translational implications.",
+"authors": "Cai W, Yi Y, Zeng R, … Xu H",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-14",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1928641"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42872064/"
+}
+],
+"au": [
+"cai|w",
+"yi|y",
+"zeng|r",
+"yin|y",
+"zhao|j",
+"zhang|j",
+"fu|g",
+"xu|h"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "High mobility group box 1 (HMGB1) is a chromatin-associated protein that can be redistributed and released during cellular stress, when it acts as an extracellular alarmin within the broader family of damage-associated molecular patterns (DAMPs). Its functions depend on subcellular localization, redox and…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1928641/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42871799",
+"pmid": "42871799",
+"doi": "10.1155/jt/3248563",
+"title": "Chronic Lead Exposure and Tauopathies: Molecular Mechanisms of Neurotoxicity and Emerging Nanotherapeutic Strategies.",
+"authors": "Ebrahimi M, Javan M, Alijanianzadeh M",
+"journal": "Journal of toxicology",
+"journal_iso": "J Toxicol",
+"date": "2026-10-14",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1155/jt/3248563"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42871799/"
+}
+],
+"au": [
+"ebrahimi|m",
+"javan|m",
+"alijanianzadeh|m"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain delivery",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "Chronic exposure to lead (Pb) remains a critical global public health challenge, extending beyond its established neurotoxic effects to its emerging role in the pathogenesis of neurodegenerative disorders, particularly tauopathies. Accumulating evidence indicates that prolonged Pb exposure disrupts neuronal…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15",
+"oa": {
+"url": "https://doi.org/10.1155/jt/3248563",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42871641",
+"pmid": "42871641",
+"doi": "10.1021/acsptsci.6c00440",
+"title": "Diabetes-Associated Cognitive Dysfunction: Pathophysiology, Molecular Mechanisms, and Emerging Therapeutic Strategies.",
+"authors": "Sarkar R, Kabra A, S Saeedan A, Ansari MN",
+"journal": "ACS pharmacology & translational science",
+"journal_iso": "ACS Pharmacol Transl Sci",
+"date": "2026-10-14",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acsptsci.6c00440"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42871641/"
+}
+],
+"au": [
+"sarkar|r",
+"kabra|a",
+"s saeedan|a",
+"ansari|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"glp-1",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "Diabetes-associated cognitive dysfunction (DACD), which includes memory loss, executive dysfunction, attention, processing speed, and an increased risk of dementia, is a growing problem associated with diabetes mellitus (DM), especially type 2 diabetes mellitus. Due to a significant increase in the global burden of…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "biorxiv-10.1101_2025.06.03.657596",
+"doi": "10.1101/2025.06.03.657596",
+"title": "One night of sleep deprivation reduces spatially patterned human brain clearance: implications for simulated tau propagation",
+"authors": "Brennan, G. S., Thompson, T. B., Oliveri, H., … Rognes, M. E.",
+"journal": "bioRxiv",
+"date": "2026-10-14",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "2",
+"au": [
+"brennan|g",
+"thompson|t",
+"oliveri|h",
+"vinje|v",
+"ringstad|g",
+"eide|p",
+"goriely|a",
+"rognes|m"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657596v2"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657596v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glymphatic"
+],
+"relevance": 3,
+"why": "Neurotoxic protein fragments such as amyloid-beta and tau accumulate in characteristic staging patterns in Alzheimer's disease. The brain clears such substances via multiple systems, including the extracellular-extravascular route known as glymphatic clearance, but how such clearance is distributed across the brain,…",
+"addedAt": "2026-10-15",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.13.26365306",
+"doi": "10.64898/2026.10.13.26365306",
+"title": "Individual Angiotensin Receptor Blockers and Risk of Dementia: A Target Trial Emulation Study",
+"authors": "Hampilos, N. H., Campion, T. R., Sholle, E., … Ndhlovu, L. C.",
+"journal": "medRxiv",
+"date": "2026-10-14",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"hampilos|n",
+"campion|t",
+"sholle|e",
+"zang|c",
+"glodzik|l",
+"butler|t",
+"ndhlovu|l"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.13.26365306v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.13.26365306v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"randomized",
+"vascular dementia"
+],
+"relevance": 3,
+"why": "INTRODUCTION: Observational studies suggest that angiotensin receptor blockers (ARBs) are associated with lower dementia risk than angiotensin-converting enzyme inhibitors (ACEIs). Whether dementia risk differs across individual ARBs remains uncertain and was investigated in this study. METHODS: This retrospective…",
+"addedAt": "2026-10-15",
+"source": "auto"
+},
 {
 "id": "biorxiv-10.64898_2026.01.08.698435",
 "doi": "10.64898/2026.01.08.698435",
@@ -58,6 +906,395 @@
 "relevance": 2,
 "why": "Tissue homeostasis relies on the exchange of interstitial fluid between blood and tissues, as well as lymphatic drainage. In regions lacking conventional lymphatic vasculature, such as the central nervous system, the mechanisms governing interstitial fluid clearance remain debated, with vascular pulsatility proposed…",
 "addedAt": "2026-10-14",
+"source": "auto"
+},
+{
+"id": "pmid-42874606",
+"pmid": "42874606",
+"doi": "10.1016/s1474-4422(26)00290-5",
+"title": "Antibody-mediated encephalitides: distinct diseases with transdisciplinary implications.",
+"authors": "Dalmau J, Guasp M, Muñoz-Lopetegi A, … Graus F",
+"journal": "The Lancet. Neurology",
+"journal_iso": "Lancet Neurol",
+"date": "2026-10-14",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/s1474-4422(26)00290-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42874606/"
+}
+],
+"au": [
+"dalmau|j",
+"guasp|m",
+"munoz-lopetegi|a",
+"spatola|m",
+"martinez-hernandez|e",
+"planaguma|j",
+"armangue|t",
+"gaig|c",
+"sabater|l",
+"saiz|a",
+"graus|f"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aquaporin-4"
+],
+"relevance": 2,
+"why": "The discovery of antibody-mediated glial and neuronal disorders has transformed the diagnosis and treatment of neurological diseases previously considered idiopathic or not recognised as immune-mediated. Antibody-mediated disorders targeting glial aquaporin-4 and myelin oligodendrocyte glycoprotein are distinct…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15"
+},
+{
+"id": "pmid-42872052",
+"pmid": "42872052",
+"doi": "10.3389/fimmu.2026.1889927",
+"title": "Why repair fails in AQP4-IgG-positive neuromyelitis optica spectrum disease: an astrocyte-centered framework for remyelination and neuroaxonal preservation.",
+"authors": "Luo W, Peng N, Wei S, … Du Y",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-14",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1889927"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42872052/"
+}
+],
+"au": [
+"luo|w",
+"peng|n",
+"wei|s",
+"huang|s",
+"miao|y",
+"du|y"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4"
+],
+"relevance": 2,
+"why": "Aquaporin-4 immunoglobulin G (AQP4-IgG)-positive neuromyelitis optica spectrum disease (NMOSD) is an autoimmune astrocytopathy in which a single attack may cause permanent visual or neurological disability. Although targeted immunotherapies reduce relapse risk, they do not establish repair of previously injured…",
+"addedAt": "2026-10-15",
+"source": "auto",
+"oaChecked": "2026-10-15",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1889927/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.12.758524",
+"doi": "10.64898/2026.10.12.758524",
+"title": "In Vivo Transcriptomics-Based Framework for Systematic Indication Expansion",
+"authors": "Palmer, Z., Koirala, S., Talukdar, N., … Chen, B.",
+"journal": "bioRxiv",
+"date": "2026-10-14",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "systems biology",
+"version": "1",
+"au": [
+"palmer|z",
+"koirala|s",
+"talukdar|n",
+"zhang|x",
+"garver|h",
+"mahlmeister|m",
+"huang|l",
+"joseph|d",
+"leshchiner|d",
+"shankar|r",
+"watts|s",
+"li|x",
+"glicksberg|b",
+"lauver|a",
+"chen|b"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758524v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758524v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"drug repurposing"
+],
+"relevance": 2,
+"why": "Capturing the systemic effects of drugs in vivo remains a fundamental challenge for drug repurposing strategies. Here, we present an in vivo transcriptomics-based drug repurposing framework that profiles multi-organ RNA-seq from drug-treated rodents to model systemic drug responses and match tissue-specific drug…",
+"addedAt": "2026-10-15",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.13.755334",
+"doi": "10.64898/2026.10.13.755334",
+"title": "Temporal RNA splicing dysregulation in a human multicellular model of C9orf72 ALS",
+"authors": "Aliya, B., Liu, S., Mansfield, A., … Andersen, J.",
+"journal": "bioRxiv",
+"date": "2026-10-14",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"aliya|b",
+"liu|s",
+"mansfield|a",
+"yao|s",
+"mouhi|s",
+"wariyar|s",
+"tenkorang|j",
+"smith|n",
+"chung|m",
+"yu|a",
+"pio|t",
+"zhu|s",
+"trautwig|a",
+"parameswaran|j",
+"yin|l",
+"watson|c",
+"brain organoid hub|",
+"jiang|j",
+"seyfried|n",
+"mceachin|z",
+"yao|b",
+"andersen|j"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.13.755334v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.13.755334v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"als",
+"organoid"
+],
+"relevance": 2,
+"why": "Amyotrophic lateral sclerosis (ALS) is a complex and heterogenous disease, comprising of familial and sporadic forms, numerous genetic mutations, and a wide range of affected cell types and proposed dysregulated processes. While the usage of in vitro cell cultures, mouse models, and postmortem patient tissue have…",
+"addedAt": "2026-10-15",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.13.758947",
+"doi": "10.64898/2026.10.13.758947",
+"title": "Endothelial CD36 links arteriolar remodeling to metabolic and immune alterations in Alzheimer's disease",
+"authors": "Kumar, A., Zhang, J., Harvey, J., … Ren, B.",
+"journal": "bioRxiv",
+"date": "2026-10-14",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"kumar|a",
+"zhang|j",
+"harvey|j",
+"guenter|r",
+"chkheidze|r",
+"sethu|p",
+"beck|a",
+"ren|b"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758947v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758947v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"arteriol",
+"ipsc"
+],
+"relevance": 2,
+"why": "Alzheimer's disease (AD) is accompanied by profound cerebrovascular dysfunction, yet it remains unclear whether endothelial abnormalities reflect only vascular injury or altered regulatory states connecting vascular remodeling with metabolic and immune function. We integrated human brain transcriptomic and…",
+"addedAt": "2026-10-15",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.09.758066",
+"doi": "10.64898/2026.10.09.758066",
+"title": "Progerin disrupts intestinal epithelial homeostasis by impairing mitochondrial metabolism and absorptive enterocyte maturation",
+"authors": "Reisacher, C., Singh, M., Arbibe, L.",
+"journal": "bioRxiv",
+"date": "2026-10-14",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "pathology",
+"version": "1",
+"au": [
+"reisacher|c",
+"singh|m",
+"arbibe|l"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758066v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758066v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"organoid",
+"permeability"
+],
+"relevance": 2,
+"why": "Hutchinson-Gilford progeria syndrome (HGPS) is a segmental premature ageing disease that predominantly affects tissues with high regenerative capacity. Although the intestine is the most rapidly self-renewing tissue of adult mammals, it has so far been considered only as a source of microbiota-derived disturbances in…",
+"addedAt": "2026-10-15",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.13.758778",
+"doi": "10.64898/2026.10.13.758778",
+"title": "Transcriptomic and phenotypic characterization of Alzheimer's disease risk genes in neurons and astrocytes highlights shared and cell type specific cellular mechanisms",
+"authors": "Dominicus, C., Peretti, D., Rodschinka, G., … Bassett, A. R.",
+"journal": "bioRxiv",
+"date": "2026-10-14",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "genomics",
+"version": "1",
+"au": [
+"dominicus|c",
+"peretti|d",
+"rodschinka|g",
+"ogden|s",
+"steer|j",
+"leija-salazar|m",
+"miraki feriz|a",
+"feng|c",
+"kataria|s",
+"su|j",
+"gontarczyk|a",
+"evans|l",
+"lotfollahi|m",
+"parts|l",
+"merkle|f",
+"cooper|s",
+"bassett|a"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758778v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758778v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"induced pluripotent"
+],
+"relevance": 2,
+"why": "Genome-wide association studies have identified nearly 100 genetic loci that affect Alzheimer's disease risk. However, there is still a major challenge in linking genetic associations to genes and understanding their downstream cellular mechanisms of action. To address this gap, we performed single-cell…",
+"addedAt": "2026-10-15",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.13.26365377",
+"doi": "10.64898/2026.10.13.26365377",
+"title": "Do drugs proposed to protect or harm joints change serious osteoarthritis events? A meta-analysis of adverse event tables from 881 randomized trials",
+"authors": "Xu, Z., Pan, M., Cheng, J., … Zhu, X.",
+"journal": "medRxiv",
+"date": "2026-10-14",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "rheumatology",
+"version": "1",
+"au": [
+"xu|z",
+"pan|m",
+"cheng|j",
+"chen|x",
+"luo|j",
+"guo|x",
+"zhu|x"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.13.26365377v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.13.26365377v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"glp-1",
+"randomized"
+],
+"relevance": 2,
+"why": "Objectives. Observational studies report large, conflicting associations between common drugs and hip or knee replacement. We tested them in the serious adverse event (SAE) tables of randomized trials on ClinicalTrials.gov. Methods. We included randomized drug trials with at least 500 participants. A language model…",
+"addedAt": "2026-10-15",
 "source": "auto"
 },
 {
