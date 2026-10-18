@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-10-17",
-"lastRunAdded": 40,
-"total": 1066,
+"lastCurated": "2026-10-18",
+"lastRunAdded": 12,
+"total": 1078,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,534 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-42890315",
+"pmid": "42890315",
+"doi": "10.1177/87551225261492568",
+"title": "Lecanemab-Monoclonal Antibodies for the Treatment of Early Alzheimer's Disease.",
+"authors": "Cutler J, Tran BA, Bullers K, Fox C",
+"journal": "The Journal of pharmacy technology",
+"journal_iso": "J Pharm Technol",
+"date": "2026-10-17",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/87551225261492568"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42890315/"
+}
+],
+"au": [
+"cutler|j",
+"tran|b",
+"bullers|k",
+"fox|c"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"amyloid-related imaging abnormalit",
+"lecanemab",
+"phase i"
+],
+"relevance": 5,
+"why": "Review the pharmacology, efficacy, and safety of lecanemab, a humanized immunoglobulin gamma 1 (IgG1) monoclonal antibody, for the treatment of early Alzheimer's disease (AD). Comprehensive search of Embase, PubMed, International Pharmaceutical Abstracts, Cochrane CENTRAL, Scopus, Web of Science, and Google Scholar…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18",
+"oa": {
+"url": "https://journals.sagepub.com/doi/pdf/10.1177/87551225261492568?download=true",
+"pdf": true,
+"status": "bronze"
+}
+},
+{
+"id": "pmid-42891034",
+"pmid": "42891034",
+"doi": "10.1016/j.mtbio.2026.103721",
+"title": "In situ delivery of cannabidiol-loaded GelMA sponge attenuates cerebral edema and neuroinflammation in traumatic brain injury.",
+"authors": "Li H, Luo X, Cao Y, … Li P",
+"journal": "Materials today. Bio",
+"journal_iso": "Mater Today Bio",
+"date": "2026-10-17",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.mtbio.2026.103721"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42891034/"
+}
+],
+"au": [
+"li|h",
+"luo|x",
+"cao|y",
+"jiang|h",
+"guo|z",
+"zhu|y",
+"zhang|l",
+"li|z",
+"li|j",
+"wu|h",
+"li|p"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"aqp4",
+"blood-brain barrier",
+"tight junction"
+],
+"relevance": 4,
+"why": "Traumatic brain injury (TBI) remains a major cause of severe disability, and its secondary injury remains a key focus of interventional research. Cannabidiol (CBD) has neuroprotective potential, but conventional systemic administration still has limitations. In this study, we fabricated an in situ-implantable…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S259000642600966X/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42890205",
+"pmid": "42890205",
+"doi": "10.3389/fninf.2026.1977226",
+"title": "Safety of lecanemab in real-world patients with Alzheimer's disease: a prospective, observational case series supported by FAERS signal analysis.",
+"authors": "Ji H, Yang Y, Wu X, Bao E",
+"journal": "Frontiers in neuroinformatics",
+"journal_iso": "Front Neuroinform",
+"date": "2026-10-17",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fninf.2026.1977226"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42890205/"
+}
+],
+"au": [
+"ji|h",
+"yang|y",
+"wu|x",
+"bao|e"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"amyloid-related imaging abnormalit",
+"lecanemab"
+],
+"relevance": 4,
+"why": "Lecanemab, a humanized immunoglobulin monoclonal antibody, has been approved for the treatment of Alzheimer's disease (AD). Although clinical trials have demonstrated its favorable safety profile, real-world studies are crucial for identifying rare adverse events (AEs) and evaluating post-marketing safety. This study…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2026.1977226/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42889611",
+"pmid": "42889611",
+"doi": "10.3389/fimmu.2026.1929822",
+"title": "Cerebrospinal fluid outflow pathways in neurodegeneration: nasopharyngeal lymphatics and the ocular glymphatic-like axis.",
+"authors": "Liu J, Chen J, Yuan S, … Xie M",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-17",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1929822"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42889611/"
+}
+],
+"au": [
+"liu|j",
+"chen|j",
+"yuan|s",
+"chen|y",
+"luo|z",
+"xie|m"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4",
+"glymphatic",
+"interstitial fluid"
+],
+"relevance": 4,
+"why": "The glymphatic system supports cerebrospinal fluid (CSF)-interstitial fluid (ISF) exchange and has been implicated, to different extents, in the transport or clearance of amyloid-β (Aβ), tau, lactate and other solutes. Although most studies have focused on CSF influx, astrocytic aquaporin 4 (AQP4) expression,…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1929822/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42889587",
+"pmid": "42889587",
+"doi": "10.22038/ijbms.2026.93677.20210",
+"title": "Nose-to-brain drug delivery: A new frontier in targeted therapeutics.",
+"authors": "Sampath KSS, Korni RD",
+"journal": "Iranian journal of basic medical sciences",
+"journal_iso": "Iran J Basic Med Sci",
+"date": "2026-10-17",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.22038/ijbms.2026.93677.20210"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42889587/"
+}
+],
+"au": [
+"sampath|k",
+"korni|r"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain delivery",
+"permeability"
+],
+"relevance": 4,
+"why": "Delivering therapeutics to the Central Nervous System (CNS) remains a major challenge in drug development, largely because the blood-brain barrier (BBB) limits brain exposure for most systemically administered agents. Among alternative delivery routes, intranasal administration has attracted significant interest…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18"
+},
+{
+"id": "pmid-42889496",
+"pmid": "42889496",
+"doi": "10.3389/fphar.2026.1969384",
+"title": "Targeting glial modulation: molecular mechanisms of Polygonatum in neurological disorders.",
+"authors": "Liu Z, Luo Y, Zheng C, … Sun J",
+"journal": "Frontiers in pharmacology",
+"journal_iso": "Front Pharmacol",
+"date": "2026-10-17",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fphar.2026.1969384"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42889496/"
+}
+],
+"au": [
+"liu|z",
+"luo|y",
+"zheng|c",
+"long|x",
+"zhao|y",
+"pan|z",
+"xu|b",
+"sun|j"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood brain barrier",
+"neurovascular unit",
+"parkinson"
+],
+"relevance": 4,
+"why": "Neurological disorders arise from interconnected pathological processes, including oxidative stress, neuroinflammation, mitochondrial dysfunction, impaired proteostasis, synaptic injury and blood brain barrier disruption. Increasing evidence indicates that glial cells are not passive bystanders in these diseases, but…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18",
+"oa": {
+"url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1969384/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42891393",
+"pmid": "42891393",
+"doi": "10.2147/ijn.s634264",
+"title": "Lipid Nanoparticle-Mediated Antifungal and Immunomodulatory Therapy for Neuromycoses.",
+"authors": "Naomi R, Bahari H, Lokanathan Y, … David P",
+"journal": "International journal of nanomedicine",
+"journal_iso": "Int J Nanomedicine",
+"date": "2026-10-17",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijn.s634264"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42891393/"
+}
+],
+"au": [
+"naomi|r",
+"bahari|h",
+"lokanathan|y",
+"huri|h",
+"chong|w",
+"alias|s",
+"balan|s",
+"david|p"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"nanoparticle",
+"randomized"
+],
+"relevance": 3,
+"why": "Neuromycoses, fungal infections affecting the central nervous system (CNS), cause approximately 112,000 deaths annually, representing 19% of AIDS-related deaths globally. Conventional antifungal drugs are limited by poor blood-brain barrier (BBB) penetration, systemic toxicity, and increasing drug resistance. Lipid…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18",
+"oa": {
+"url": "https://www.dovepress.com/article/download/120830",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42890239",
+"pmid": "42890239",
+"doi": "10.1162/imag.a.1399",
+"title": "Anatomical determinants of DTI-ALPS: Effects of ROI definition, ventricular morphology, and periventricular deformation.",
+"authors": "Wright DK",
+"journal": "Imaging neuroscience (Cambridge, Mass.)",
+"journal_iso": "Imaging Neurosci (Camb)",
+"date": "2026-10-17",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1162/imag.a.1399"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42890239/"
+}
+],
+"au": [
+"wright|d"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "The diffusion tensor image analysis along the perivascular space (DTI-ALPS) index is increasingly used as a non-invasive MRI biomarker proposed to reflect glymphatic and perivascular function, yet the anatomical validity and measurement stability of the metric remain incompletely characterised. Using diffusion MRI…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18",
+"oa": {
+"url": "https://direct.mit.edu/imag/article-pdf/doi/10.1162/IMAG.a.1399/2629761/imag.a.1399.pdf",
+"pdf": true,
+"status": "diamond"
+}
+},
+{
+"id": "pmid-42889921",
+"pmid": "42889921",
+"doi": "10.1021/acsomega.6c05944",
+"title": "4‑O‑Allyl Derivative of Natural Licarin A Exhibits Selective In Vitro Activity against Toxoplasma gondii Tachyzoites.",
+"authors": "Moura GC, Alves SO, de Oliveira Dias I, … Reimão JQ",
+"journal": "ACS omega",
+"journal_iso": "ACS Omega",
+"date": "2026-10-17",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acsomega.6c05944"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42889921/"
+}
+],
+"au": [
+"moura|g",
+"alves|s",
+"de oliveira dias|i",
+"dos santos fernandes|j",
+"da costa tristao|d",
+"lago|j",
+"reimao|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Toxoplasma gondii is an obligate intracellular protozoan responsible for toxoplasmosis, a widespread parasitic disease that poses a serious health threat, especially to immunocompromised patients and pregnant women. Current therapeutic options remain unsatisfactory because they are associated with adverse effects and…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18",
+"oa": {
+"url": "https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c05944/68721558/acsomega.6c05944.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42888514",
+"pmid": "42888514",
+"doi": "10.1111/pcn.70139",
+"title": "Altered glymphatic system measures and functional network connectivity in autism spectrum disorder: A longitudinal study examining associations with prognosis.",
+"authors": "Zhang M, Luo T, Zhao S, … Huang Y",
+"journal": "Psychiatry and clinical neurosciences",
+"journal_iso": "Psychiatry Clin Neurosci",
+"date": "2026-10-17",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/pcn.70139"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42888514/"
+}
+],
+"au": [
+"zhang|m",
+"luo|t",
+"zhao|s",
+"li|l",
+"jiang|y",
+"duan|x",
+"situ|m",
+"huang|y"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "Autism spectrum disorder (ASD) is a neurodevelopmental condition characterized by social deficits and repetitive behaviors, yet prognostic biomarkers remain elusive. This study investigated the interplay between glymphatic function and functional network connectivity (FNC) in ASD and their longitudinal associations…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18"
+},
+{
+"id": "pmid-42890972",
+"pmid": "42890972",
+"doi": "10.3389/fimmu.2026.1863910",
+"title": "An exploratory simulation of the optimization of leukocyte transmigration, indicating that barrier routing is governed by context-dependent biochemical cues rather than hardwired programs.",
+"authors": "Religa P, Mickael ME, Kubick N, … Sacharczuk M",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-17",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1863910"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42890972/"
+}
+],
+"au": [
+"religa|p",
+"mickael|m",
+"kubick|n",
+"horbanczuk|j",
+"sacharczuk|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Leukocyte infiltration across the blood-brain barrier contributes to many neuroinflammatory disorders, yet the physical mechanisms that determine how immune cells cross the barrier remain incompletely understood. In particular, it is unclear how leukocytes choose between paracellular migration through endothelial…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1863910/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
 {
 "id": "pmid-42887030",
 "pmid": "42887030",
@@ -1953,6 +2481,52 @@ window.PAPER_RADAR_DATA = {
 "why": "The increasing size of single-cell RNA sequencing (scRNA-seq) datasets poses major computational challenges. This work benchmarks the scalability, efficiency, and accuracy of five widely used analysis frameworks (Seurat, OSCA, scrapper, Scanpy, and rapids_singlecell), focusing on the impact of algorithmic and…",
 "addedAt": "2026-10-17",
 "source": "auto"
+},
+{
+"id": "pmid-42888351",
+"pmid": "42888351",
+"doi": "10.1208/s12249-026-03566-5",
+"title": "Vilazodone Hydrochloride-Loaded Nanostructured Lipid Carrier In Situ Gel for Intranasal Nose-to-Brain Antidepressant Delivery.",
+"authors": "Shah K, Palva RS, Patel M, … Detholia K",
+"journal": "AAPS PharmSciTech",
+"journal_iso": "AAPS PharmSciTech",
+"date": "2026-10-16",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1208/s12249-026-03566-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42888351/"
+}
+],
+"au": [
+"shah|k",
+"palva|r",
+"patel|m",
+"saiyed|m",
+"singh|n",
+"zala|h",
+"suthar|r",
+"detholia|k"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain delivery"
+],
+"relevance": 3,
+"why": "The Oral delivery of vilazodone hydrochloride (VLZ), a serotonin partial agonist-reuptake inhibitor for major depressive disorder, suffers from extensive hepatic first-pass metabolism, food-dependent absorption, and poor blood-brain barrier (BBB) penetration, limiting its central therapeutic impact. Here, VLZ-loaded…",
+"addedAt": "2026-10-18",
+"source": "auto",
+"oaChecked": "2026-10-18"
 },
 {
 "id": "pmid-42885602",
