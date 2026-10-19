@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-18",
+"lastCurated": "2026-10-19",
 "lastRunAdded": 12,
-"total": 1078,
+"total": 1090,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,603 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42894468",
+"pmid": "42894468",
+"doi": "10.1177/17474930261492876",
+"title": "Vascular dementia and vascular cognitive impairment-current treatments and future prospects.",
+"authors": "Markus HS",
+"journal": "International journal of stroke",
+"journal_iso": "Int J Stroke",
+"date": "2026-10-19",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/17474930261492876"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42894468/"
+}
+],
+"au": [
+"markus|h"
+],
+"topics": [
+"csvd",
+"bbb",
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"glymphatic",
+"permeability",
+"small vessel disease",
+"vascular dementia"
+],
+"relevance": 5,
+"why": "Vascular cognitive impairment (VCI) and vascular dementia (VaD) represent a substantial and growing global health burden, yet remain under-recognized and comparatively under-researched. Two broad categories are post-stroke cognitive impairment, and VCI secondary to chronic cerebrovascular disease of which the most…",
+"addedAt": "2026-10-19",
+"source": "auto",
+"oaChecked": "2026-10-19"
+},
+{
+"id": "pmid-42894634",
+"pmid": "42894634",
+"doi": "10.2147/ijn.s627692",
+"title": "Thymoquinone-Loaded Hexosomal Nanoparticles Attenuate Neuroinflammation and Improve Cognitive Function in an Alzheimer's Disease Mouse Model.",
+"authors": "Eissa N, Alwattar JK, Jayaprakash P, … Sadek B",
+"journal": "International journal of nanomedicine",
+"journal_iso": "Int J Nanomedicine",
+"date": "2026-10-19",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijn.s627692"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42894634/"
+}
+],
+"au": [
+"eissa|n",
+"alwattar|j",
+"jayaprakash|p",
+"al assaly|h",
+"kharnoub|r",
+"altaleb|a",
+"atif|k",
+"rahal|m",
+"sadek|b"
+],
+"topics": [
+"delivery"
+],
+"keywords": [
+"alzheimer",
+"brain delivery",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) involves neuroinflammation that worsens cognitive decline. Thymoquinone (TQ) has potent anti-inflammatory activity, but its therapeutic application is limited by poor solubility, stability, and systemic bioavailability, which may restrict effective brain exposure. This study developed…",
+"addedAt": "2026-10-19",
+"source": "auto",
+"oaChecked": "2026-10-19",
+"oa": {
+"url": "https://www.dovepress.com/article/download/120900",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42894448",
+"pmid": "42894448",
+"doi": "10.5853/jos.2026.02747",
+"title": "Precision Oxygen Modulation in the Reperfusion Era: Conditioning and Therapeutic Strategies in Ischemic Stroke.",
+"authors": "Liu W, Li Z, Sun Z, … Ji X",
+"journal": "Journal of stroke",
+"journal_iso": "J Stroke",
+"date": "2026-10-19",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.5853/jos.2026.02747"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42894448/"
+}
+],
+"au": [
+"liu|w",
+"li|z",
+"sun|z",
+"liu|j",
+"ji|x"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"randomized"
+],
+"relevance": 3,
+"why": "Endovascular thrombectomy (EVT) and advanced perfusion imaging have transformed acute ischemic stroke (AIS) treatment, yet tissue hypoxia may persist because of delayed presentation, incomplete reperfusion, microvascular no-reflow, and secondary injury. Oxygen is an essential substrate for cerebral metabolism and a…",
+"addedAt": "2026-10-19",
+"source": "auto",
+"oaChecked": "2026-10-19",
+"oa": {
+"url": "https://www.j-stroke.org/upload/pdf/jos-2026-02747.pdf",
+"pdf": true,
+"status": "diamond"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.16.759681",
+"doi": "10.64898/2026.10.16.759681",
+"title": "The Alzheimer's disease risk gene ABCA7 regulates microglial lysosomal and lipid homeostasis and promotes phagocytosis to maintain neuronal health",
+"authors": "Heuer, S. E., Ahsan, F. M., Terzioglu, G., … Young-Pearse, T. L.",
+"journal": "bioRxiv",
+"date": "2026-10-19",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"heuer|s",
+"ahsan|f",
+"terzioglu|g",
+"misra|a",
+"duong|d",
+"katkar|c",
+"giera|m",
+"van der kant|r",
+"seyfried|n",
+"young-pearse|t"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759681v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759681v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"induced pluripotent"
+],
+"relevance": 2,
+"why": "Background: Loss of function mutations in the lipid transporter ABCA7 have been linked to increased risk for late onset Alzheimer's disease (AD). Although rare and common variants in ABCA7 associated with AD alter the coding sequence and are predicted to impair protein function, the precise cell-type consequences of…",
+"addedAt": "2026-10-19",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.16.757427",
+"doi": "10.64898/2026.10.16.757427",
+"title": "Innate Immune Dysregulation Precedes Clinical Onset in Neuromyelitis Optica",
+"authors": "Muller-Jensen, L., Chakravarty, D., Bellucci, G., … Smith, T. L.",
+"journal": "bioRxiv",
+"date": "2026-10-19",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "immunology",
+"version": "1",
+"au": [
+"muller-jensen|l",
+"chakravarty|d",
+"bellucci|g",
+"ding|y",
+"hughes|m",
+"garcia|a",
+"moseley|c",
+"dandekar|r",
+"rose|j",
+"peterson|l",
+"wong|k",
+"demarest|b",
+"carlson|n",
+"horvat|d",
+"groshans|k",
+"tagg|n",
+"osbourn|s",
+"mabila|s",
+"bou-chahine|r",
+"wang|v",
+"paz soldan|m",
+"pittock|s",
+"cree|b",
+"zamvil|s",
+"green|a",
+"harroud|a",
+"baranzini|s",
+"wilson|m",
+"clardy|s",
+"abdelhak|a",
+"smith|t"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.757427v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.757427v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4"
+],
+"relevance": 2,
+"why": "Neuromyelitis optica spectrum disorder (NMOSD) is a disabling inflammatory central nervous system (CNS) disease characterized by pathogenic aquaporin 4 (AQP4) autoantibodies. The biological events that precede clinical onset remain unknown. In a unique longitudinal NMOSD cohort from the U.S. Department of Defense…",
+"addedAt": "2026-10-19",
+"source": "auto"
+},
+{
+"id": "pmid-42893777",
+"pmid": "42893777",
+"doi": "10.1016/j.expneurol.2026.116065",
+"title": "Novel acylation modifications in cerebrovascular disease: Molecular mechanisms, crosstalk and therapeutic potential.",
+"authors": "Yong Y, Liu T, Si M, … Hua J",
+"journal": "Experimental neurology",
+"journal_iso": "Exp Neurol",
+"date": "2026-10-18",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.expneurol.2026.116065"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42893777/"
+}
+],
+"au": [
+"yong|y",
+"liu|t",
+"si|m",
+"yang|l",
+"bao|x",
+"luo|h",
+"chai|c",
+"hua|j"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"neurovascular unit",
+"vascular cognitive impairment",
+"zo-1"
+],
+"relevance": 4,
+"why": "Secondary injury in cerebrovascular disease involves energy failure, oxidative stress, neuroinflammation, blood-brain barrier disruption and neurovascular unit dysfunction. Novel lysine acylations, including lactylation, succinylation, beta-hydroxybutyrylation and crotonylation, have emerged as interfaces through…",
+"addedAt": "2026-10-19",
+"source": "auto",
+"oaChecked": "2026-10-19"
+},
+{
+"id": "pmid-42892388",
+"pmid": "42892388",
+"doi": "10.1016/j.actbio.2026.10.024",
+"title": "A natural neuronal receptor-derived MRI probe targets β-amyloid oligomers for the diagnosis of Alzheimer's disease.",
+"authors": "Zheng H, Meng W, Han J, … Xue X",
+"journal": "Acta biomaterialia",
+"journal_iso": "Acta Biomater",
+"date": "2026-10-18",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.actbio.2026.10.024"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42892388/"
+}
+],
+"au": [
+"zheng|h",
+"meng|w",
+"han|j",
+"muhetaer|m",
+"cao|q",
+"xue|x"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"brain delivery"
+],
+"relevance": 4,
+"why": "Early-to-mid detection of Alzheimer's disease (AD) remains challenging because clinically used amyloid positron emission tomography (PET) probes primarily visualize fibrillar β-amyloid (Aβ) deposits and require radioactive isotopes. Magnetic resonance imaging (MRI) offers a radiation-free alternative, but its…",
+"addedAt": "2026-10-19",
+"source": "auto",
+"oaChecked": "2026-10-19"
+},
+{
+"id": "pmid-42892705",
+"pmid": "42892705",
+"doi": "10.1002/mrm.70637",
+"title": "Accelerated Motion-Compensated Diffusion-Weighted pCASL Using Subspace Low-Rank Reconstruction for Quantification of BBB Water Exchange and Permeability.",
+"authors": "Liu Z, Zhao C, Huang Z, … Shao X",
+"journal": "Magnetic resonance in medicine",
+"journal_iso": "Magn Reson Med",
+"date": "2026-10-18",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/mrm.70637"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42892705/"
+}
+],
+"au": [
+"liu|z",
+"zhao|c",
+"huang|z",
+"guo|f",
+"wang|d",
+"shao|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"bbb",
+"cerebral blood flow",
+"permeability"
+],
+"relevance": 3,
+"why": "To develop an accelerated motion-compensated diffusion-weighted pseudo-continuous arterial spin labeling (MCDW-pCASL) method using a spatial subspace low-rank reconstruction method for efficient quantification of blood-brain barrier (BBB) water exchange (kw) and permeability (PSw). An accelerated multidelay MCDW-pCASL…",
+"addedAt": "2026-10-19",
+"source": "auto",
+"oaChecked": "2026-10-19",
+"oa": {
+"url": "https://doi.org/10.1002/mrm.70637",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42892493",
+"pmid": "42892493",
+"doi": "10.1016/j.brainresbull.2026.112169",
+"title": "Potential Mechanisms of N-Methyltyramine in Multitarget Regulation of Mental Disorders via the GPCR-cAMP Pathway.",
+"authors": "Zijian W",
+"journal": "Brain research bulletin",
+"journal_iso": "Brain Res Bull",
+"date": "2026-10-18",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.brainresbull.2026.112169"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42892493/"
+}
+],
+"au": [
+"zijian|w"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "N-Methyltyramine (NMT) is a tyramine derivative widely distributed in citrus plants and the traditional Chinese medicine Zhishi. Pharmacological studies have confirmed that NMT directly binds to the dopamine D₂ receptor (DRD2; Ki = 31.3µM), inhibits forskolin-induced cAMP accumulation (EC₅₀ ≈ 4µM, Emax = 89%), and…",
+"addedAt": "2026-10-19",
+"source": "auto",
+"oaChecked": "2026-10-19",
+"oa": {
+"url": "https://doi.org/10.1016/j.brainresbull.2026.112169",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42893501",
+"pmid": "42893501",
+"doi": "10.1002/advs.78317",
+"title": "A Chiral Virus-Like Nanoplatform That Broadly Mediates Antibiotic Delivery to the Brain for Bacterial Meningitis Therapy.",
+"authors": "Xu Q, Zheng X, Tong H, … Liu G",
+"journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+"journal_iso": "Adv Sci (Weinh)",
+"date": "2026-10-18",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/advs.78317"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42893501/"
+}
+],
+"au": [
+"xu|q",
+"zheng|x",
+"tong|h",
+"liu|y",
+"fan|x",
+"xu|m",
+"zhang|z",
+"zhang|l",
+"liu|m",
+"du|t",
+"li|h",
+"liu|g"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Blood-brain barrier (BBB) preserves brain homeostasis yet restricts therapeutics; in bacterial meningitis, antibiotics' limited penetration impairs delivery to the parenchyma and cerebrospinal fluid, constraining efficacy and motivating strategies to overcome the barrier. To address this, we developed a chiral…",
+"addedAt": "2026-10-19",
+"source": "auto",
+"oaChecked": "2026-10-19",
+"oa": {
+"url": "https://doi.org/10.1002/advs.78317",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.12.758423",
+"doi": "10.64898/2026.10.12.758423",
+"title": "DNA-Encoded Library-Guided Discovery of a First-in-Class Molecular Glue of the NOS1AP-SCRIB Complex in Alzheimer's Disease Patient-Derived Neurons",
+"authors": "Kaur, B., Abdo, A., Cho, S., Gabr, M.",
+"journal": "bioRxiv",
+"date": "2026-10-18",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "pharmacology and toxicology",
+"version": "1",
+"au": [
+"kaur|b",
+"abdo|a",
+"cho|s",
+"gabr|m"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758423v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758423v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"ipsc"
+],
+"relevance": 2,
+"why": "NOS1AP is an adaptor for neuronal nitric oxide synthase that engages several partner proteins and is implicated in Alzheimer's disease. Efforts to drug NOS1AP have sought to disrupt these; we instead report pharmacological stabilization of one interaction. Affinity selection of a 1.4-billion-member DNA-encoded library…",
+"addedAt": "2026-10-19",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.12.758495",
+"doi": "10.64898/2026.10.12.758495",
+"title": "Sex shapes capillary flows and oxygen extraction in the middle-aged mouse brain",
+"authors": "Gutierrez-Jimenez, E., Wied, B., Lindhardt, T. B., … Ostergaard, L.",
+"journal": "bioRxiv",
+"date": "2026-10-18",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"gutierrez-jimenez|e",
+"wied|b",
+"lindhardt|t",
+"mikkelsen|s",
+"knopper|r",
+"skoven|c",
+"christensen|o",
+"dashkovskyi|v",
+"mrotek|f",
+"rasmussen|p",
+"andresen|m",
+"krmpot|a",
+"khatib|m",
+"vinogradov|s",
+"sakadzic|s",
+"jensen|m",
+"pedroza-pacheco|i",
+"postnov|d",
+"lin|l",
+"just|j",
+"hansen|b",
+"ostergaard|l"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758495v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758495v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"capillary"
+],
+"relevance": 2,
+"why": "Sex differences in brain aging are well documented, but their origin within the cerebrovascular hierarchy remains unclear. Here we show that cortical blood flow is higher in female than male mice at 15 months of age, at a point when an earlier sex difference in pulsatility and resistance indices has already converged,…",
+"addedAt": "2026-10-19",
+"source": "auto"
+},
 {
 "id": "pmid-42890315",
 "pmid": "42890315",
