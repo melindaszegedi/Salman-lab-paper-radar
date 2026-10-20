@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-10-19",
+"lastCurated": "2026-10-20",
 "lastRunAdded": 12,
-"total": 1090,
+"total": 1102,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,234 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-42897836",
+"pmid": "42897836",
+"doi": "10.2174/0113816128447768260915075822",
+"title": "Design, In Silico Targeting, and Characterization of Curcumin-Ibuprofen Prodrug Microspheres for Brain-Specific Delivery in Alzheimer's Therapy.",
+"authors": "Kumari P, Sathyanarayanan A, Pimpalkar K, … Chopade S",
+"journal": "Current pharmaceutical design",
+"journal_iso": "Curr Pharm Des",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0113816128447768260915075822"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42897836/"
+}
+],
+"au": [
+"kumari|p",
+"sathyanarayanan|a",
+"pimpalkar|k",
+"kumar|a",
+"kumar|d",
+"chopade|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Alzheimer's Disease (AD) is a complex neurodegenerative condition characterized by limited treatment effectiveness, attributed to inadequate Blood-Brain Barrier (BBB) permeability and low medication absorption. Curcumin and ibuprofen possess anti-inflammatory and neuroprotective properties but are limited by…",
+"addedAt": "2026-10-20",
+"source": "auto",
+"oaChecked": "2026-10-20"
+},
+{
+"id": "pmid-42897776",
+"pmid": "42897776",
+"doi": "10.1111/bjh.70894",
+"title": "Association of enlarged perivascular space burden with silent cerebral infarcts in children with sickle cell disease.",
+"authors": "Karkoska KA, Gollamudi J, Williamson BJ, … Hyacinth HI",
+"journal": "British journal of haematology",
+"journal_iso": "Br J Haematol",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/bjh.70894"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42897776/"
+}
+],
+"au": [
+"karkoska|k",
+"gollamudi|j",
+"williamson|b",
+"sawyer|r",
+"woo|d",
+"vagal|a",
+"hyacinth|h"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"arteriol",
+"perivascular space",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Children with sickle cell disease (SCD) have enlarged perivascular spaces (ePVS) in their basal ganglia (BG) and centrum semiovale (CSO) visible on magnetic resonance imaging (MRI). ePVS are dilated fluid-filled spaces around penetrating arterioles and venules of the brain parenchyma and are a marker of cerebral small…",
+"addedAt": "2026-10-20",
+"source": "auto",
+"oaChecked": "2026-10-20"
+},
+{
+"id": "pmid-42897704",
+"pmid": "42897704",
+"doi": "10.1186/s42466-026-00538-9",
+"title": "Atrial fibrillation in stroke patients: facts, numbers and current challenges.",
+"authors": "Wasser K, Bochert D, Leyhe JR, … Wachter R",
+"journal": "Neurological research and practice",
+"journal_iso": "Neurol Res Pract",
+"date": "2026-10-20",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s42466-026-00538-9"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42897704/"
+}
+],
+"au": [
+"wasser|k",
+"bochert|d",
+"leyhe|j",
+"hahn|m",
+"groschel|s",
+"groschel|k",
+"wachter|r"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"cerebral amyloid angiopathy",
+"randomised"
+],
+"relevance": 3,
+"why": "Atrial fibrillation (AF) is a leading, modifiable risk factor for ischaemic stroke, with 20-30% of stroke patients harbouring underlying AF. Management of AF, however, differs substantially depending on clinical context. In ischaemic stroke patients with pre-known AF, direct oral anticoagulants (DOACs) are the…",
+"addedAt": "2026-10-20",
+"source": "auto",
+"oaChecked": "2026-10-20"
+},
+{
+"id": "pmid-42898123",
+"pmid": "42898123",
+"doi": "10.3389/fimmu.2026.1923404",
+"title": "Soluble TIM-3 and galectin-9 in cerebrospinal fluid are associated with disability at 6 months in aquaporin-4 IgG-positive neuromyelitis optica spectrum disorder.",
+"authors": "Nishii S, Akatani R, Shiroma K, … Chihara N",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1923404"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42898123/"
+}
+],
+"au": [
+"nishii|s",
+"akatani|r",
+"shiroma|k",
+"takeda|r",
+"tsuji|a",
+"katanazaka|k",
+"koto|s",
+"chihara|n"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aquaporin-4"
+],
+"relevance": 2,
+"why": "Neuromyelitis optica spectrum disorders (NMOSD) are severe autoimmune diseases of the central nervous system characterized by autoantibodies against aquaporin 4 (AQP4-IgG). Despite the availability of several molecular targeted therapies, biomarkers capable of predicting subsequent disability early during the acute…",
+"addedAt": "2026-10-20",
+"source": "auto",
+"oaChecked": "2026-10-20",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1923404/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.16.759679",
+"doi": "10.64898/2026.10.16.759679",
+"title": "Astrocytic sEH-EET signaling regulates microglial lysosomal function and suppresses the STING-Type I interferon pathway in Alzheimer's disease",
+"authors": "Ghosh, B., Wang, S., Qi, C., … Zheng, H.",
+"journal": "bioRxiv",
+"date": "2026-10-20",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"ghosh|b",
+"wang|s",
+"qi|c",
+"ghosh|a",
+"comerota|m",
+"rajpurohit|c",
+"zeldin|d",
+"zheng|h"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759679v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759679v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"induced pluripotent"
+],
+"relevance": 2,
+"why": "Background: The development of {beta}-amyloid (A{beta}) pathology in Alzheimer's disease (AD) is accompanied by profound changes in astrocytes and microglia and associated neuroinflammation. Soluble epoxide hydrolase (sEH), which degrades anti-inflammatory epoxyeicosatrienoic acids (EETs), is elevated in the AD brain,…",
+"addedAt": "2026-10-20",
+"source": "auto"
+},
 {
 "id": "pmid-42894468",
 "pmid": "42894468",
@@ -59,6 +287,94 @@ window.PAPER_RADAR_DATA = {
 "addedAt": "2026-10-19",
 "source": "auto",
 "oaChecked": "2026-10-19"
+},
+{
+"id": "pmid-42895289",
+"pmid": "42895289",
+"doi": "10.1097/wco.0000000000001519",
+"title": "Novel therapies for glioblastoma.",
+"authors": "Gupta SR, Schreck KC",
+"journal": "Current opinion in neurology",
+"journal_iso": "Curr Opin Neurol",
+"date": "2026-10-19",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1097/wco.0000000000001519"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42895289/"
+}
+],
+"au": [
+"gupta|s",
+"schreck|k"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"drug repurposing",
+"focused ultrasound",
+"permeability"
+],
+"relevance": 4,
+"why": "Glioblastoma is the most aggressive and treatment-resistant primary brain tumor in adults. Given its clinical severity and biological complexity, research efforts are focused on understanding and targeting intratumoral heterogeneity, adaptive resistance, drug delivery barriers, and the immunosuppressive tumor…",
+"addedAt": "2026-10-20",
+"source": "auto",
+"oaChecked": "2026-10-20"
+},
+{
+"id": "pmid-42895153",
+"pmid": "42895153",
+"doi": "10.2174/011570159x487175260910112046",
+"title": "Mechanistic Disruption of the Blood-Brain Barrier and Neurovascular Unit by Lead, Manganese, and Cadmium: A WHO-WHY-WHAT-WHEN-WHERE-HOW Structured Review.",
+"authors": "Lara-Estrada R, Molina-Gonzalez M, González-Santoyo I, … Roldan-Valadez E",
+"journal": "Current neuropharmacology",
+"journal_iso": "Curr Neuropharmacol",
+"date": "2026-10-19",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/011570159x487175260910112046"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42895153/"
+}
+],
+"au": [
+"lara-estrada|r",
+"molina-gonzalez|m",
+"gonzalez-santoyo|i",
+"diaz-ruiz|a",
+"rios|c",
+"horton|m",
+"roldan-valadez|e"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"capillary",
+"neurovascular unit",
+"pericyte"
+],
+"relevance": 4,
+"why": "Environmental exposure to lead (Pb), manganese (Mn), and cadmium (Cd) damages the Blood-Brain Barrier (BBB) and the Neurovascular Unit (NVU) through a combination of pathways, including endothelial and astrocyte remodeling, transport dysregulation, oxidative and inflammatory signaling, and altered astrocyte-pericyte…",
+"addedAt": "2026-10-20",
+"source": "auto",
+"oaChecked": "2026-10-20"
 },
 {
 "id": "pmid-42894634",
@@ -159,6 +475,185 @@ window.PAPER_RADAR_DATA = {
 "pdf": true,
 "status": "diamond"
 }
+},
+{
+"id": "pmid-42896913",
+"pmid": "42896913",
+"doi": "10.3174/ajnr.a9685",
+"title": "Transcranial Focused Ultrasound: Established and Emerging Applications in Neurosciences.",
+"authors": "Nguyen P, Kaufmann TJ, Shah LM, … Tanabe J",
+"journal": "AJNR. American journal of neuroradiology",
+"journal_iso": "AJNR Am J Neuroradiol",
+"date": "2026-10-19",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3174/ajnr.a9685"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42896913/"
+}
+],
+"au": [
+"nguyen|p",
+"kaufmann|t",
+"shah|l",
+"shah|b",
+"sugrue|l",
+"tanabe|j"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound"
+],
+"relevance": 3,
+"why": "Transcranial MR-guided high-intensity focused ultrasound (HIFU) thermoablation is an established incisionless image-guided treatment for movement disorders; however, neuroradiologist involvement in clinical decision-making and procedural workflows is highly variable and site-specific. Transcranial low-intensity…",
+"addedAt": "2026-10-20",
+"source": "auto",
+"oaChecked": "2026-10-20"
+},
+{
+"id": "pmid-42896342",
+"pmid": "42896342",
+"doi": "10.1016/j.msard.2026.107958",
+"title": "Reduced perivascular diffusion in multiple sclerosis is associated with aging, disease duration, and mobility impairment.",
+"authors": "Sato SD, Richmond SB, Fling BW, Seidler RD",
+"journal": "Multiple sclerosis and related disorders",
+"journal_iso": "Mult Scler Relat Disord",
+"date": "2026-10-19",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.msard.2026.107958"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42896342/"
+}
+],
+"au": [
+"sato|s",
+"richmond|s",
+"fling|b",
+"seidler|r"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "The glymphatic system supports brain homeostasis by facilitating perivascular fluid transport and metabolic waste clearance. Diffusion-tensor imaging along the perivascular space (ALPS-index) provides a non-invasive surrogate marker of glymphatic activity. The objectives of this study were to: (1) compare the…",
+"addedAt": "2026-10-20",
+"source": "auto",
+"oaChecked": "2026-10-20"
+},
+{
+"id": "pmid-42895058",
+"pmid": "42895058",
+"doi": "10.1039/d6ay01336h",
+"title": "Lab-on-a-chip microfluidic devices for the analysis of trace metals: foundational principles, technological evolution, and translational prospects.",
+"authors": "O AlSuhaimi A",
+"journal": "Analytical methods",
+"journal_iso": "Anal Methods",
+"date": "2026-10-19",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1039/d6ay01336h"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42895058/"
+}
+],
+"au": [
+"o alsuhaimi|a"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Microfluidic lab-on-a-chip (LOC) technologies provide a versatile framework for integrating sample handling, chemical recognition, separation, and detection within miniaturized analytical systems. Among their diverse applications, trace-metal analysis provides a particularly instructive model for evaluating the…",
+"addedAt": "2026-10-20",
+"source": "auto",
+"oaChecked": "2026-10-20"
+},
+{
+"id": "biorxiv-10.64898_2026.10.16.758050",
+"doi": "10.64898/2026.10.16.758050",
+"title": "Preclinical Evaluation of Itareparib, a brain penetrant PARP1-selective radioligand, in Glioma Rat Model and Nonhuman Primate",
+"authors": "Tan, P. W., Hernandez Martin, N., Esposito-Zapero, C., … Cai, Z.",
+"journal": "bioRxiv",
+"date": "2026-10-19",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cancer biology",
+"version": "1",
+"au": [
+"tan|p",
+"hernandez martin|n",
+"esposito-zapero|c",
+"sun|c",
+"toyonaga|t",
+"zheng|m",
+"kapinos|m",
+"thomas|m",
+"nejati|s",
+"korsah|c",
+"holden|d",
+"chen|b",
+"sepulcre|j",
+"carson|r",
+"huang|y",
+"de feyter|h",
+"cai|z"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.758050v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.758050v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain uptake"
+],
+"relevance": 3,
+"why": "Rationale: Poly(ADP-ribose) polymerase-1 (PARP1) is a central mediator of DNA damage response and is upregulated in glioma, supporting it as a molecular imaging biomarker. However, quantitative PET assessment of PARP1 in infiltrative tumors with a preserved blood-brain barrier remains an unmet need. In this study, we…",
+"addedAt": "2026-10-20",
+"source": "auto"
 },
 {
 "id": "biorxiv-10.64898_2026.10.16.759681",
@@ -272,6 +767,49 @@ window.PAPER_RADAR_DATA = {
 "relevance": 2,
 "why": "Neuromyelitis optica spectrum disorder (NMOSD) is a disabling inflammatory central nervous system (CNS) disease characterized by pathogenic aquaporin 4 (AQP4) autoantibodies. The biological events that precede clinical onset remain unknown. In a unique longitudinal NMOSD cohort from the U.S. Department of Defense…",
 "addedAt": "2026-10-19",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.12.758603",
+"doi": "10.64898/2026.10.12.758603",
+"title": "CCTP-Atlas: Compartment-Resolved Ciliary Transcriptional Dysregulation in Tetralogy of Fallot, A Six-Dataset Integrative Meta-Analysis",
+"authors": "Tahir, R., Javed, T., Rasheed, M. B., … Afsheen, N.",
+"journal": "bioRxiv",
+"date": "2026-10-19",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioinformatics",
+"version": "1",
+"au": [
+"tahir|r",
+"javed|t",
+"rasheed|m",
+"aslam|q",
+"afsheen|n"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758603v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758603v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"organoid",
+"phase i"
+],
+"relevance": 2,
+"why": "Background. Primary cilia coordinate Hedgehog-dependent outflow tract morphogenesis. Concurrent human genetics implicates ciliary loss-of-function in nonsyndromic tetralogy of Fallot (TOF) risk, yet compartment-resolved ciliary transcriptional programmes in public TOF snRNA-seq remain unmapped at module resolution.…",
+"addedAt": "2026-10-20",
 "source": "auto"
 },
 {
