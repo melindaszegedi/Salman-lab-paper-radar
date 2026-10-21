@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-20",
-"lastRunAdded": 12,
-"total": 1102,
+"lastCurated": "2026-10-21",
+"lastRunAdded": 24,
+"total": 1126,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,305 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42902481",
+"pmid": "42902481",
+"doi": "10.1177/0271678x261501635",
+"title": "EXPRESS: Cardio‑Glymphatic Association: Left‑Heart Dysfunction in CSVD and Its Association With Glymphatic‑Related Cognitive Impairment.",
+"authors": "Zhan C, Wang W, Lu X, … Huang CC",
+"journal": "Journal of cerebral blood flow and metabolism",
+"journal_iso": "J Cereb Blood Flow Metab",
+"date": "2026-10-21",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/0271678x261501635"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42902481/"
+}
+],
+"au": [
+"zhan|c",
+"wang|w",
+"lu|x",
+"xie|x",
+"li|y",
+"huang|c"
+],
+"topics": [
+"csvd",
+"glymph"
+],
+"keywords": [
+"csvd",
+"glymphatic",
+"vascular cognitive impairment"
+],
+"relevance": 4,
+"why": "Cerebral small vessel disease (CSVD) is a leading cause of vascular cognitive impairment. The glymphatic system, a brain-wide waste clearance pathway, may be impaired in CSVD, but its upstream drivers and role linking systemic factors to cognitive impairment remain unclear. This study explored whether glymphatic…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42901331",
+"pmid": "42901331",
+"doi": "10.1016/j.jstrokecerebrovasdis.2026.108771",
+"title": "White Matter Hyperintensities of Presumed Vascular Origin: Current Understanding of Development and Progression.",
+"authors": "Shang T",
+"journal": "Journal of stroke and cerebrovascular diseases",
+"journal_iso": "J Stroke Cerebrovasc Dis",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jstrokecerebrovasdis.2026.108771"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42901331/"
+}
+],
+"au": [
+"shang|t"
+],
+"topics": [
+"csvd",
+"bbb",
+"glymph"
+],
+"keywords": [
+"blood-brain barrier",
+"interstitial fluid",
+"permeability",
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 5,
+"why": "White matter hyperintensities (WMH) of presumed vascular origin are among the most common MRI manifestations of cerebral small vessel disease and are a major contributor to vascular contributions to cognitive impairment and dementia. Although WMH have traditionally been attributed to chronic ischemia resulting from…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "medrxiv-10.64898_2026.10.15.26365689",
+"doi": "10.64898/2026.10.15.26365689",
+"title": "Renovascular hypertension drives ischemic white matter injury via brain endothelial AT1R signaling",
+"authors": "Jin, X., Kim, H., Jung, H., … Kim, B. G.",
+"journal": "medRxiv",
+"date": "2026-10-20",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"jin|x",
+"kim|h",
+"jung|h",
+"cui|y",
+"singh|s",
+"seo|h",
+"kim|s",
+"lee|h",
+"farr|t",
+"wardlaw|j",
+"cox|s",
+"choi|s",
+"valdes hernandez|m",
+"choi|j",
+"kim|b"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365689v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365689v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"small vessel disease",
+"transendothelial electrical resistance",
+"white matter hyperintensit"
+],
+"relevance": 5,
+"why": "BACKGROUND: White matter hyperintensities (WMHs), the principal imaging manifestation of cerebral small vessel disease, lack an animal model that produces pathology of sufficient magnitude to validate potential therapeutics. We characterized white matter (WM) degeneration in a renovascular hypertension (RVH) rat…",
+"addedAt": "2026-10-21",
+"source": "auto"
+},
+{
+"id": "pmid-42900246",
+"pmid": "42900246",
+"doi": "10.1007/s11064-026-04916-2",
+"title": "Bidirectional Regulatory Mechanisms of T cell-microglia Interactions in Cerebral Ischemic Disease: Molecular Crosstalk, Experimental Techniques and Therapeutic Implications.",
+"authors": "Zheng Y, Cheng J, Li F, … Wang X",
+"journal": "Neurochemical research",
+"journal_iso": "Neurochem Res",
+"date": "2026-10-20",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s11064-026-04916-2"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42900246/"
+}
+],
+"au": [
+"zheng|y",
+"cheng|j",
+"li|f",
+"ren|z",
+"chen|c",
+"zhang|z",
+"lan|x",
+"zhang|c",
+"zhao|y",
+"han|j",
+"li|j",
+"cheng|f",
+"wang|q",
+"li|c",
+"wang|x"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"microfluidic",
+"permeability",
+"vascular dementia"
+],
+"relevance": 4,
+"why": "Cerebral ischemic diseases, such as ischemic stroke (IS) and vascular dementia (VaD), are major causes of neurological disability and mortality. Neuroinflammation acts as a pivotal driver of secondary brain injury, mediated by intricate bidirectional interactions between peripheral T cells and central nervous system…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42899834",
+"pmid": "42899834",
+"doi": "10.4103/nrr.nrronline-d-26-00938",
+"title": "Intracranial lymphatic dysfunction after traumatic brain injury: Imaging biomarkers, neural repair, and non-invasive modulation.",
+"authors": "Cui Y, Liu Y, Jiang W, … Liu T",
+"journal": "Neural regeneration research",
+"journal_iso": "Neural Regen Res",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.4103/nrr.nrronline-d-26-00938"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42899834/"
+}
+],
+"au": [
+"cui|y",
+"liu|y",
+"jiang|w",
+"chen|b",
+"ji|m",
+"jiang|r",
+"liu|t"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"aquaporin-4",
+"blood-brain barrier",
+"interstitial fluid"
+],
+"relevance": 4,
+"why": "Traumatic brain injury initiates secondary processes that may persist long after the initial mechanical insult. These processes may be amplified when tissue fluid, cellular debris, inflammatory mediators, metabolites, and abnormal proteins accumulate faster than the brain can redistribute or eliminate them. The…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42898191",
+"pmid": "42898191",
+"doi": "10.1016/j.cccb.2026.100565",
+"title": "Air pollution, neighbourhood walkability and cerebrovascular small vessel disease in patients with cardiovascular disorders along the heart-brain axis.",
+"authors": "Rissanen I, Timmermans EJ, de Bresser J, … Heart-Brain Connection Consortium",
+"journal": "Cerebral circulation - cognition and behavior",
+"journal_iso": "Cereb Circ Cogn Behav",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.cccb.2026.100565"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42898191/"
+}
+],
+"au": [
+"rissanen|i",
+"timmermans|e",
+"de bresser|j",
+"bron|e",
+"leeuwis|a",
+"muller|m",
+"van osch|m",
+"tijms|b",
+"biessels|g",
+"vaartjes|i",
+"consortium|h"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"cerebral blood flow",
+"small vessel disease",
+"vascular cognitive impairment",
+"white matter hyperintensit"
+],
+"relevance": 4,
+"why": "We investigated if ambient air pollution and neighbourhood walkability associate with presence and progression of cerebral small vessel disease (CSVD) in patients with cardiovascular disorders along the heart-brain axis. Data from patients with heart failure, carotid occlusive disease, or vascular cognitive impairment…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21",
+"oa": {
+"url": "https://doi.org/10.1016/j.cccb.2026.100565",
+"pdf": false,
+"status": "gold"
+}
+},
 {
 "id": "pmid-42897836",
 "pmid": "42897836",
@@ -151,6 +450,384 @@
 "oaChecked": "2026-10-20"
 },
 {
+"id": "pmid-42901474",
+"pmid": "42901474",
+"doi": "10.1016/j.jprot.2026.105751",
+"title": "Proteomic analysis identifies proteins involved in increased vascular permeability in vestibular schwannoma patients.",
+"authors": "Maiorov V, Soloveva N, Novikova S, … Zgoda V",
+"journal": "Journal of proteomics",
+"journal_iso": "J Proteomics",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jprot.2026.105751"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42901474/"
+}
+],
+"au": [
+"maiorov|v",
+"soloveva|n",
+"novikova|s",
+"farafonova|t",
+"shimansky|v",
+"kugushev|i",
+"poshataev|v",
+"tikhonova|o",
+"zgoda|v"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Vestibular schwannomas (VS) are benign neoplasms of the VIII cranial nerve; they account for 6-8% of all intracranial tumors and about 80% of tumors of the cerebellopontine angle. Cystic forms of VS may be particularly dangerous, as they demonstrate faster growth and worse postoperative outcomes. In this study, we…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42901000",
+"pmid": "42901000",
+"doi": "10.1016/j.bioorg.2026.110668",
+"title": "Design, synthesis, and pharmacological evaluation of 7-substituted 1,2,4-triazolo[1,5-a]pyrimidine derivatives as novel antiepileptic lead candidates targeting Nav1.2 channels.",
+"authors": "He L, Zhang Q, Ma W, … Huang L",
+"journal": "Bioorganic chemistry",
+"journal_iso": "Bioorg Chem",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bioorg.2026.110668"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42901000/"
+}
+],
+"au": [
+"he|l",
+"zhang|q",
+"ma|w",
+"qian|m",
+"dong|y",
+"xin|f",
+"guo|c",
+"cao|g",
+"tuo|f",
+"huang|l"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "The limitations of current antiepileptic drugs, including drug resistance and adverse effects, necessitate the development of novel therapeutic agents with improved efficacy and safety. Herein, we describe the design, synthesis, and pharmacological evaluation of a series of novel 1,2,4-triazolo[1,5-a]pyrimidine…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42900781",
+"pmid": "42900781",
+"doi": "10.1002/cbic.70549",
+"title": "Affinity Engineering Modulates Soluble Antigen Degrader Activity.",
+"authors": "Algov I, Shue L, Zhou X",
+"journal": "Chembiochem",
+"journal_iso": "Chembiochem",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/cbic.70549"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42900781/"
+}
+],
+"au": [
+"algov|i",
+"shue|l",
+"zhou|x"
+],
+"topics": [
+"delivery"
+],
+"keywords": [
+"bispecific",
+"transferrin receptor"
+],
+"relevance": 3,
+"why": "Soluble extracellular proteins drive many physiological and pathological signaling pathways, and targeted degradation offers a potential strategy for their therapeutic modulation. Here, we engineered bispecific targeting chimeras (TACs) that couple soluble proteins to constitutively internalizing cell-surface…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42899207",
+"pmid": "42899207",
+"doi": "10.3389/fimmu.2026.1987139",
+"title": "Correction: Astrocyte-derived HMGB1 compromises the integrity of the blood-brain barrier through the CaM/CaMKII/AQP4 pathway and the protective function of trifluoperazine.",
+"authors": "Zou SS, Chen LL, Cui M",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1987139"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42899207/"
+}
+],
+"au": [
+"zou|s",
+"chen|l",
+"cui|m"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"aqp4",
+"blood-brain barrier"
+],
+"relevance": 3,
+"why": "[This corrects the article DOI: 10.3389/fimmu.2026.1852083.].",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1987139/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42899041",
+"pmid": "42899041",
+"doi": "10.1039/d6md00748a",
+"title": "Design to neuroprotection: a blood brain barrier permeable selective HDAC3 inhibitor active against chemical and viral insults.",
+"authors": "Begum D, Regula S, Sengar S, … Ghosh B",
+"journal": "RSC medicinal chemistry",
+"journal_iso": "RSC Med Chem",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1039/d6md00748a"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42899041/"
+}
+],
+"au": [
+"begum|d",
+"regula|s",
+"sengar|s",
+"amin|s",
+"sen|d",
+"biswas|s",
+"gayen|s",
+"sharma|v",
+"ghosh|b"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood brain barrier",
+"brain penetration"
+],
+"relevance": 3,
+"why": "Neuronal loss in neurodegenerative diseases is mediated by oxidative stress, neuroinflammation, and epigenetic dysregulation, with histone deacetylase 3 (HDAC3) playing a central role in inflammatory signaling and neuronal damage. We synthesized 12 compounds and identified the lead compound 9c as a potent and…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42898978",
+"pmid": "42898978",
+"doi": "10.1002/mco2.71069",
+"title": "The Role of Astrocytes in the Inflammatory Response in Neurodiseases.",
+"authors": "Peng S, Wang L, Ouyang J, Liu R",
+"journal": "MedComm",
+"journal_iso": "MedComm (2020)",
+"date": "2026-10-20",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/mco2.71069"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42898978/"
+}
+],
+"au": [
+"peng|s",
+"wang|l",
+"ouyang|j",
+"liu|r"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "Astrocytes have emerged as central regulators of neuroinflammation, extending far beyond their traditional roles as structural and metabolic support cells. In neurological disorders, astrocytes undergo reactive remodeling that encompasses morphological, transcriptional, metabolic, and functional changes. Rather than…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21",
+"oa": {
+"url": "https://doi.org/10.1002/mco2.71069",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42898245",
+"pmid": "42898245",
+"doi": "10.1016/j.bbrep.2026.102825",
+"title": "Targeting ferroptosis in cancer: molecular mechanisms and emerging therapeutic strategies.",
+"authors": "Khaledi M, Ahani H, Rezaei Tohid F, … Yazdansetad S",
+"journal": "Biochemistry and biophysics reports",
+"journal_iso": "Biochem Biophys Rep",
+"date": "2026-10-20",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bbrep.2026.102825"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42898245/"
+}
+],
+"au": [
+"khaledi|m",
+"ahani|h",
+"rezaei tohid|f",
+"kazemi|f",
+"amirkhani|e",
+"daliri|z",
+"yadegari|s",
+"moarefvand|k",
+"poureslamfar|b",
+"sameni|f",
+"yazdansetad|s"
+],
+"topics": [
+"delivery"
+],
+"keywords": [
+"nanoparticle",
+"transferrin receptor"
+],
+"relevance": 3,
+"why": "Ferroptosis, an iron-dependent form of regulated cell death characterized by the lethal accumulation of lipid peroxides, has emerged as a pivotal pathway in cancer biology and a promising therapeutic target. This review synthesizes the core molecular machinery governing ferroptosis, detailing the critical roles of…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S2405580826003857/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42898175",
+"pmid": "42898175",
+"doi": "10.3389/fneur.2026.1855460",
+"title": "A simplified Fazekas scale for efficient assessment of white matter hyperintensities.",
+"authors": "Liu P, Liu S, Xu C, … Han G",
+"journal": "Frontiers in neurology",
+"journal_iso": "Front Neurol",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fneur.2026.1855460"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42898175/"
+}
+],
+"au": [
+"liu|p",
+"liu|s",
+"xu|c",
+"zhu|m",
+"liu|x",
+"zhao|x",
+"wei|b",
+"li|q",
+"han|g"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "White matter hyperintensities (WMH) are key neuroimaging markers of cerebral small vessel disease (CSVD) and are associated with neuropsychiatric symptoms in older adults. Although the Fazekas visual rating scale is widely used in research, its clinical adoption remains limited. Therefore, we developed a simplified…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1855460/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
 "id": "pmid-42898123",
 "pmid": "42898123",
 "doi": "10.3389/fimmu.2026.1923404",
@@ -242,6 +919,535 @@
 "relevance": 2,
 "why": "Background: The development of {beta}-amyloid (A{beta}) pathology in Alzheimer's disease (AD) is accompanied by profound changes in astrocytes and microglia and associated neuroinflammation. Soluble epoxide hydrolase (sEH), which degrades anti-inflammatory epoxyeicosatrienoic acids (EETs), is elevated in the AD brain,…",
 "addedAt": "2026-10-20",
+"source": "auto"
+},
+{
+"id": "pmid-42900856",
+"pmid": "42900856",
+"doi": "10.1212/wnl.0000000000218673",
+"title": "Differential Trajectories of Brain Atrophy in Multiple Sclerosis, MOGAD, and AQP4 + NMOSD: The Role of Disease Activity in MOGAD.",
+"authors": "Cortese R, Bianchi A, de Mauro A, … MAGNIMS Study Group",
+"journal": "Neurology",
+"journal_iso": "Neurology",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1212/wnl.0000000000218673"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42900856/"
+}
+],
+"au": [
+"cortese|r",
+"bianchi|a",
+"de mauro|a",
+"luchetti|l",
+"gentile|g",
+"amato|m",
+"apostolos-pereira|s",
+"arrambide|g",
+"bisecco|a",
+"bodini|b",
+"calabrese|m",
+"camera|v",
+"de medeiros rimkus|c",
+"durand-dubief|f",
+"filippi|m",
+"gallo|a",
+"gasperini|c",
+"granziera|c",
+"huda|s",
+"inglese|m",
+"lapucci|c",
+"lazzarotto|a",
+"liu|y",
+"margoni|m",
+"marignier|r",
+"messina|s",
+"muller|j",
+"palace|j",
+"portaccio|e",
+"rocca|m",
+"rocchi|c",
+"a|r",
+"ruggieri|s",
+"santana de araujo|r",
+"sastre-garriga|j",
+"stankoff|b",
+"toosy|a",
+"tortorella|c",
+"barkhof|f",
+"ciccarelli|o",
+"battaglini|m",
+"de stefano|n",
+"group|m"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4"
+],
+"relevance": 2,
+"why": "Multiple sclerosis (MS), myelin oligodendrocyte glycoprotein antibody-associated disease (MOGAD), and aquaporin-4 antibody-positive neuromyelitis optica spectrum disorder (AQP4 + NMOSD) are inflammatory demyelinating disorders with distinct mechanisms of tissue injury. MS is characterized by diffuse neurodegeneration,…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42900736",
+"pmid": "42900736",
+"doi": "10.1073/pnas.2532484123",
+"title": "PLD1-driven oncogenic secretion creates a therapeutic vulnerability in chromosome 3q-amplified NSCLC.",
+"authors": "Tan X, Wang S, Lee S, … Du G",
+"journal": "Proceedings of the National Academy of Sciences of the United States of America",
+"journal_iso": "Proc Natl Acad Sci U S A",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1073/pnas.2532484123"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42900736/"
+}
+],
+"au": [
+"tan|x",
+"wang|s",
+"lee|s",
+"xiao|g",
+"cardin|d",
+"zhang|d",
+"xu|y",
+"wu|c",
+"zhou|b",
+"russell|w",
+"du|g"
+],
+"topics": [
+"delivery"
+],
+"keywords": [
+"transferrin receptor"
+],
+"relevance": 2,
+"why": "Chromosome 3q (3q) amplification is a frequent event in non-small cell lung cancer (NSCLC) and other cancer types, yet therapeutic strategies targeting oncogenic drivers within this amplicon have been unsuccessful. Our study revealed that the 3q amplicon encodes multiple Golgi-related proteins, including Phospholipase…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42900555",
+"pmid": "42900555",
+"doi": "10.1172/jci205723",
+"title": "Endothelial neo-antigen expression initiates CD8⁺ T cell-driven CNS vasculitis amplified by peripheral immune challenge.",
+"authors": "Schädlich IS, Nguyen DH, Thiem MW, … Magnus T",
+"journal": "The Journal of clinical investigation",
+"journal_iso": "J Clin Invest",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1172/jci205723"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42900555/"
+}
+],
+"au": [
+"schadlich|i",
+"nguyen|d",
+"thiem|m",
+"franzelin|a",
+"woo|m",
+"hadjilaou|a",
+"borggrewe|m",
+"jiang|j",
+"panda|m",
+"costanzo|e",
+"fischer|t",
+"er-lukowiak|m",
+"duan|y",
+"rissiek|a",
+"veltkamp|a",
+"raczkowski|f",
+"ludewig|p",
+"schwaninger|m",
+"wirth|d",
+"tiegs|g",
+"oertner|t",
+"schreier|d",
+"frye|m",
+"sivayoganathan|a",
+"krebs|c",
+"johann|s",
+"braunger|b",
+"renne|t",
+"puig|b",
+"wiesner|a",
+"glatzel|m",
+"mittrucker|h",
+"rissiek|b",
+"magnus|t"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Primary central nervous system (CNS) vasculitis is a rare and devastating inflammatory cerebrovascular disease for which pathogenic mechanisms remain poorly defined, largely due to limited access to human tissue and the absence of validated experimental models. Here, we present a mouse model of CNS-restricted…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21"
+},
+{
+"id": "pmid-42899469",
+"pmid": "42899469",
+"doi": "10.7554/elife.111730",
+"title": "An integrated human forebrain organoid reveals microglia-mediated CD8+ T cell recruitment and neuroimmune dysfunction in Alzheimer's disease pathology.",
+"authors": "Feng Y, Yu F, Tang J, … Ma S",
+"journal": "eLife",
+"journal_iso": "Elife",
+"date": "2026-10-20",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.7554/elife.111730"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42899469/"
+}
+],
+"au": [
+"feng|y",
+"yu|f",
+"tang|j",
+"zheng|h",
+"wang|z",
+"ma|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"organoid"
+],
+"relevance": 2,
+"why": "Genetic evidence implicates immune dysfunction in Alzheimer's disease (AD), yet the neuroimmune mechanisms operating in human tissue remain poorly defined. Here, we establish a modular human forebrain organoid platform that systematically integrates human induced pluripotent stem cell-derived microglia and CD8+ T…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21",
+"oa": {
+"url": "https://elifesciences.org/reviewed-preprints/111730.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42898795",
+"pmid": "42898795",
+"doi": "10.3389/fimmu.2026.1957858",
+"title": "The blood-brain tumor barrier as a spatial immune checkpoint in glioblastoma: leukocyte entry, perivascular retention, and therapeutic implications.",
+"authors": "Lin F",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-20",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1957858"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42898795/"
+}
+],
+"au": [
+"lin|f"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"focused ultrasound",
+"permeability"
+],
+"relevance": 2,
+"why": "Glioblastoma (GBM) combines heterogeneous vascular dysfunction with a predominantly myeloid immune landscape. This Mini Review focuses on a specific problem: vascular permeability is not equivalent to productive leukocyte access. Entry requires endothelial capture, chemokine-guided arrest, transendothelial migration,…",
+"addedAt": "2026-10-21",
+"source": "auto",
+"oaChecked": "2026-10-21",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1957858/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.14.758497",
+"doi": "10.64898/2026.10.14.758497",
+"title": "Early-life PFAS exposure induces systemic metabolic alterations in plasma and brain in mice",
+"authors": "Hyotylainen, T., Duberg, D., Evstafev, I., … Oresic, M.",
+"journal": "bioRxiv",
+"date": "2026-10-20",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "pharmacology and toxicology",
+"version": "1",
+"au": [
+"hyotylainen|t",
+"duberg|d",
+"evstafev|i",
+"dickens|a",
+"savontaus|e",
+"oresic|m"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.14.758497v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.14.758497v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental contaminants associated with adverse health effects, including emerging neurodevelopmental and neurological outcomes. Although PFAS can cross the placental and blood-brain barriers, the metabolic mechanisms underlying their neurotoxicity and…",
+"addedAt": "2026-10-21",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.19.760310",
+"doi": "10.64898/2026.10.19.760310",
+"title": "Optogenetic and sonogenetic pacing of unmodified cardiac tissue upon quick integration with specialized biological actuators",
+"authors": "Pettebone, M. E., Han, J. L., Forouzandehmehr, A., … Entcheva, E.",
+"journal": "bioRxiv",
+"date": "2026-10-20",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "1",
+"au": [
+"pettebone|m",
+"han|j",
+"forouzandehmehr|a",
+"chesla|o",
+"chua|c",
+"pozo|m",
+"heinson|y",
+"liu|w",
+"entcheva|e"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760310v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760310v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"induced pluripotent",
+"nanoparticle"
+],
+"relevance": 2,
+"why": "Electrical stimulation for cardiac pacing has been in clinical use for 100 years and it is the current standard. Alternative scalable pacing methods that are contactless, with good spatial precision and can also be cell-selective are of interest for both in vitro and in vivo applications. Cardiac pacing by light or by…",
+"addedAt": "2026-10-21",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.19.760129",
+"doi": "10.64898/2026.10.19.760129",
+"title": "StoichRNA: A Scalable Framework to Map and Optimize Combinatorial RNA Systems at Single-Cell Resolution",
+"authors": "Liu, Q., Wang, L.",
+"journal": "bioRxiv",
+"date": "2026-10-20",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "synthetic biology",
+"version": "1",
+"au": [
+"liu|q",
+"wang|l"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760129v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760129v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"gene therapy",
+"induced pluripotent"
+],
+"relevance": 2,
+"why": "RNA-based genetic cargos have emerged as versatile tools in both fundamental research and translational medicine, with growing applications in regenerative medicine, gene therapy, cell therapy, and vaccination. As the field advances beyond single-RNA delivery, coordinated engineering of multiple RNA species is…",
+"addedAt": "2026-10-21",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.14.759257",
+"doi": "10.64898/2026.10.14.759257",
+"title": "Pharmacologic inhibition of OLIG2 by CT-179 disrupts mitotic progression and enhances standard-of-care chemoradiotherapy in glioblastoma",
+"authors": "Greenall, S. A., Chen, S. C., Alton, G., … Johns, T. G.",
+"journal": "bioRxiv",
+"date": "2026-10-20",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cancer biology",
+"version": "1",
+"au": [
+"greenall|s",
+"chen|s",
+"alton|g",
+"beaton|g",
+"boelter|r",
+"casey|m",
+"babic|i",
+"bruce|z",
+"garama|d",
+"mukthavaram|r",
+"tucci|f",
+"ravula|s",
+"lopez|a",
+"knowles|s",
+"stein|g",
+"li|y",
+"stork|b",
+"dsouza|r",
+"kumar|a",
+"kittler|r",
+"tuma|a",
+"sarkaria|j",
+"gough|d",
+"stewart|r",
+"kesari|s",
+"day|b",
+"johns|t"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759257v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759257v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Background: Glioblastoma (GBM) remains uniformly fatal. The basic helix-loop-helix transcription factor OLIG2 is universally expressed in diffuse glioma, sustains the tumor-propagating stem-like fraction, and opposes p53-mediated genotoxic responses, but has historically been considered undruggable. We characterized…",
+"addedAt": "2026-10-21",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.14.759149",
+"doi": "10.64898/2026.10.14.759149",
+"title": "Stimulating microglial neuroinflammation with amyloid-beta oligomers compatible with solid-state NMR structural characterization",
+"authors": "Dinakarapandian, D. M., Rao Sudarshan, T., Griffin, M. N., … Paravastu, A. K.",
+"journal": "bioRxiv",
+"date": "2026-10-20",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"dinakarapandian|d",
+"rao sudarshan|t",
+"griffin|m",
+"ramaswamy|p",
+"nguyen|p",
+"chiu|t",
+"li|c",
+"kamalaldinezabadi|s",
+"watzlawik|j",
+"rosenberry|t",
+"stagg|s",
+"wen|z",
+"wood|l",
+"paravastu|a"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759149v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759149v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"ipsc"
+],
+"relevance": 2,
+"why": "Soluble amyloid-{beta} (A{beta}) oligomers are considered the primary neurotoxic species in Alzheimer's disease, yet the relationship between oligomer structure and biological activity remains poorly understood. Oligomer sample preparations amenable to high-resolution structural characterization have not been tested…",
+"addedAt": "2026-10-21",
 "source": "auto"
 },
 {
