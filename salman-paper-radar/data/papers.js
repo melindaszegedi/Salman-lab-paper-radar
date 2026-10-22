@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-10-21",
-"lastRunAdded": 24,
-"total": 1126,
+"lastCurated": "2026-10-22",
+"lastRunAdded": 7,
+"total": 1133,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,56 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "biorxiv-10.64898_2026.10.15.759034",
+"doi": "10.64898/2026.10.15.759034",
+"title": "Glymphatic System Is Enhanced in Anti-NMDAR Encephalitis and Facilitates Antibody Influx and Clearance in the Brain",
+"authors": "Wang, D., Liu, J., He, F., … XU, K.",
+"journal": "bioRxiv",
+"date": "2026-10-21",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"wang|d",
+"liu|j",
+"he|f",
+"liang|y",
+"guo|y",
+"zhang|y",
+"chen|d",
+"xu|z",
+"wu|y",
+"xu|k"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759034v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759034v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"aquaporin-4",
+"blood-brain barrier",
+"glymphatic",
+"interstitial fluid"
+],
+"relevance": 5,
+"why": "ABSTRACT Background: Anti-N-methyl-D-aspartate receptor (anti-NMDAR) encephalitis is an antibody-mediated neuroinflammatory disease. How pathogenic autoantibodies enter and are cleared from the brain parenchyma remains poorly understood. The glymphatic system (GS) mediates cerebrospinal fluid (CSF)-interstitial fluid…",
+"addedAt": "2026-10-22",
+"source": "auto"
+},
 {
 "id": "pmid-42902481",
 "pmid": "42902481",
@@ -60,6 +110,324 @@ window.PAPER_RADAR_DATA = {
 "addedAt": "2026-10-21",
 "source": "auto",
 "oaChecked": "2026-10-21"
+},
+{
+"id": "biorxiv-10.1101_2024.11.11.622979",
+"doi": "10.1101/2024.11.11.622979",
+"title": "High-throughput glioblastoma-neurovascular assembloids model blood-tumor barrier disruption, tumor reprogramming and therapeutic efficacy",
+"authors": "Zhuang, P., Gao, S., Scott, B., … Cho, C.-F.",
+"journal": "bioRxiv",
+"date": "2026-10-21",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "4",
+"au": [
+"zhuang|p",
+"gao|s",
+"scott|b",
+"jia|y",
+"meng|w",
+"yin|r",
+"nie|x",
+"tamhankar|s",
+"palecek|s",
+"gaiaschi|l",
+"macias|j",
+"mizuno|s",
+"lawler|s",
+"shusta|e",
+"lamfers|m",
+"bei|f",
+"cho|c"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622979v4"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622979v4.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"bbb",
+"ipsc",
+"pericytes",
+"permeability"
+],
+"relevance": 4,
+"why": "The blood-tumor barrier (BTB) in glioblastoma is an abnormal neurovascular interface that can be focally leaky yet still restrict effective therapy. We present a rapid human BTB model in which patient derived glioblastoma stem cells (GSCs), human brain endothelial cells, pericytes and astrocytes selfassemble within 72…",
+"addedAt": "2026-10-22",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.15.759470",
+"doi": "10.64898/2026.10.15.759470",
+"title": "PODXL regulates the neuronal entry of α-synuclein aggregates",
+"authors": "Neupane, S., Sustic, L., Maraio, L., … Aguzzi, A.",
+"journal": "bioRxiv",
+"date": "2026-10-21",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"neupane|s",
+"sustic|l",
+"maraio|l",
+"bouris|v",
+"mariutti|g",
+"ribeiro|r",
+"yin|j",
+"melki|r",
+"legname|g",
+"de cecco|e",
+"aguzzi|a"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759470v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759470v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"ipsc",
+"parkinson"
+],
+"relevance": 2,
+"why": "Cell-to-cell transmission of -synuclein (-Syn) aggregates is a key event in Parkinson's disease (PD) pathogenesis, yet the neuronal surface factors that govern uptake of pathogenic -Syn fibrils remain undefined. We developed a flow cytometry-based CRISPR activation screen for modifiers of -Syn preformed fibril (PFF)…",
+"addedAt": "2026-10-22",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.20.760352",
+"doi": "10.64898/2026.10.20.760352",
+"title": "The DGKK mRNA is a primary target of the Prader-Willi syndrome-associated snoRNA SNORD116",
+"authors": "Louis, S., Cakil, O., Thevenin, A., … Labialle, S.",
+"journal": "bioRxiv",
+"date": "2026-10-21",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "molecular biology",
+"version": "1",
+"au": [
+"louis|s",
+"cakil|o",
+"thevenin|a",
+"marty-capelle|h",
+"maachi|a",
+"marty|v",
+"robert|a",
+"chagot|m",
+"charpentier|b",
+"manival|x",
+"lebars|i",
+"moine|h",
+"labialle|s"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760352v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760352v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"antisense",
+"ipsc"
+],
+"relevance": 2,
+"why": "Box C/D small nucleolar RNAs (SNORDs) classically guide site-specific modification of ribosomal RNAs through antisense elements located upstream of their D[prime] and D boxes, termed ASE1 and ASE2. Yet many orphan SNORDs have no established primary targets, including the paternally expressed multicopy SNORD116 family…",
+"addedAt": "2026-10-22",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.18.26365821",
+"doi": "10.64898/2026.10.18.26365821",
+"title": "Linafexor, a Pulsatile FXR Agonist, Augments Low-Dose Semaglutide for Weight Loss in Adults with Obesity, MASH, and Type 2 Diabetes",
+"authors": "Zhang, Y., Chen, Y., Huang, S., … Wang, W.",
+"journal": "medRxiv",
+"date": "2026-10-21",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "endocrinology",
+"version": "1",
+"au": [
+"zhang|y",
+"chen|y",
+"huang|s",
+"jiang|l",
+"wang|y",
+"ma|j",
+"deng|r",
+"du|j",
+"xia|l",
+"ma|y",
+"wu|p",
+"zhang|w",
+"liu|c",
+"zhao|g",
+"wang|g",
+"qian|m",
+"lin|h",
+"yan|f",
+"ning|g",
+"xu|h",
+"wang|w"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.18.26365821v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.18.26365821v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"randomized",
+"semaglutide"
+],
+"relevance": 2,
+"why": "Glucagon-like peptide-1 (GLP-1) receptor agonists produce less weight loss in people with type 2 diabetes than without, and higher compensatory doses are limited by gastrointestinal adverse events and lean-mass loss--leaving patients with obesity, type 2 diabetes, and metabolic dysfunction-associated steatohepatitis…",
+"addedAt": "2026-10-22",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.16.26365393",
+"doi": "10.64898/2026.10.16.26365393",
+"title": "A coding CAG repeat expansion in EP400 causes Spinocerebellar Ataxia",
+"authors": "Weckesser, S. V., Dragasevic-Miskovic, N., Thomsen, M., … Lohmann, K.",
+"journal": "medRxiv",
+"date": "2026-10-21",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "genetic and genomic medicine",
+"version": "1",
+"au": [
+"weckesser|s",
+"dragasevic-miskovic|n",
+"thomsen|m",
+"moller|m",
+"milovanovic|a",
+"hinrichs|f",
+"borsche|m",
+"dalski|a",
+"de almeida marcelino|a",
+"franzenburg|s",
+"kostic|v",
+"kresojevic|n",
+"lim|s",
+"loens|s",
+"marjanovic|a",
+"maver|a",
+"mazalica|n",
+"munchau|a",
+"pauly|m",
+"salamon|a",
+"stankovic|i",
+"tan|a",
+"bruggemann|n",
+"klein|c",
+"busch|h",
+"westenberger|a",
+"lohmann|k"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.16.26365393v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.16.26365393v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd"
+],
+"keywords": [
+"caa"
+],
+"relevance": 2,
+"why": "Several polyglutamine-encoding repeat expansions cause spinocerebellar ataxias (SCAs) and other movement disorders. SCAs are genetically heterogeneous with a substantial diagnostic gap. We used genome sequencing data from 266 individuals of European and Asian ancestry and screened genome-wide for repeat expansions…",
+"addedAt": "2026-10-22",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.19.26365884",
+"doi": "10.64898/2026.10.19.26365884",
+"title": "Quantifying statistical power gains from prognostic modeling in Huntington's Disease",
+"authors": "Noguerol Puente, C., Brizzi, F., Soubret, A., … Boareto, M.",
+"journal": "medRxiv",
+"date": "2026-10-21",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"noguerol puente|c",
+"brizzi|f",
+"soubret|a",
+"mccolgan|p",
+"long|j",
+"boareto|m"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.19.26365884v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.19.26365884v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"huntington",
+"placebo"
+],
+"relevance": 2,
+"why": "Background and Objectives Huntington's disease is a rare neurodegenerative disease in which optimizing clinical trial design is essential. Although baseline characteristics are known to predict disease progression, the statistical efficiency gains achievable by formally integrating prognostic predictions into trial…",
+"addedAt": "2026-10-22",
+"source": "auto"
 },
 {
 "id": "pmid-42901331",
