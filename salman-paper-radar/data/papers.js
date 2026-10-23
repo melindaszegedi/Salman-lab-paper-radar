@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-10-22",
-"lastRunAdded": 7,
-"total": 1133,
+"lastCurated": "2026-10-23",
+"lastRunAdded": 20,
+"total": 1153,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,948 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-42908732",
+"pmid": "42908732",
+"doi": "10.62347/vmyd7831",
+"title": "Breast cancer brain metastasis: mechanisms, emerging biomarkers, and therapeutic opportunities.",
+"authors": "He A, Pu Y, Liu F, … Xie Y",
+"journal": "American journal of cancer research",
+"journal_iso": "Am J Cancer Res",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.62347/vmyd7831"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42908732/"
+}
+],
+"au": [
+"he|a",
+"pu|y",
+"liu|f",
+"xia|y",
+"zhang|y",
+"xu|f",
+"liu|s",
+"xie|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"organoid"
+],
+"relevance": 3,
+"why": "Breast cancer brain metastasis (BCBM) is a clinically distinct form of metastatic breast cancer that causes substantial neurological morbidity and mortality. This review examines the biological bottlenecks that precede a detectable brain lesion: survival in the circulation, interaction with the cerebral endothelium,…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23"
+},
+{
+"id": "pmid-42907679",
+"pmid": "42907679",
+"doi": "10.1007/s00415-026-14224-y",
+"title": "Real-world safety and efficacy of lecanemab in the treatment of Alzheimer's disease: a systematic review and meta-analysis.",
+"authors": "Wu Y, Zhu L, Chen J, … Yang X",
+"journal": "Journal of neurology",
+"journal_iso": "J Neurol",
+"date": "2026-10-22",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00415-026-14224-y"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42907679/"
+}
+],
+"au": [
+"wu|y",
+"zhu|l",
+"chen|j",
+"liu|j",
+"yin|k",
+"yang|x"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"apoe ε4",
+"aria",
+"lecanemab",
+"white matter hyperintensit"
+],
+"relevance": 5,
+"why": "Despite the approval of lecanemab for Alzheimer's disease (AD), evidence regarding its performance outside controlled trial settings remains scarce, leaving its real-world safety and clinical utility largely unknown. We searched PubMed, Embase, and Web of Science (through October 1, 2026) for real-world studies of…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23"
+},
+{
+"id": "pmid-42907303",
+"pmid": "42907303",
+"doi": "10.1016/j.jfma.2026.10.026",
+"title": "Neuropsychiatric symptoms in vascular cognitive impairment: A comparative study between CADASIL and sporadic small vessel disease.",
+"authors": "Kuo MJ, Sung KL, Chen CH, … Tang SC",
+"journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+"journal_iso": "J Formos Med Assoc",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jfma.2026.10.026"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42907303/"
+}
+],
+"au": [
+"kuo|m",
+"sung|k",
+"chen|c",
+"shen|y",
+"chen|p",
+"cheng|y",
+"tang|s"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"cadasil",
+"small vessel disease",
+"vascular cognitive impairment"
+],
+"relevance": 4,
+"why": "Neuropsychiatric symptoms (NPS) are common in cerebral small vessel disease (SVD), but their patterns across genetic and sporadic forms remain incompletely characterized. We compared NPS prevalence, correlates, and caregiver distress in vascular cognitive impairment (VCI) due to cerebral autosomal dominant…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://doi.org/10.1016/j.jfma.2026.10.026",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42904435",
+"pmid": "42904435",
+"doi": "10.1515/revneuro-2026-0161",
+"title": "Glymphatic system dysfunction in stroke: the relationship between clearance failure and neuroinflammation.",
+"authors": "Chen R, Zhang X, Song E, … Wan S",
+"journal": "Reviews in the neurosciences",
+"journal_iso": "Rev Neurosci",
+"date": "2026-10-22",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1515/revneuro-2026-0161"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42904435/"
+}
+],
+"au": [
+"chen|r",
+"zhang|x",
+"song|e",
+"chen|x",
+"wang|m",
+"xu|s",
+"fu|f",
+"he|j",
+"wan|s"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aquaporin-4",
+"glymphatic",
+"perivascular clearance"
+],
+"relevance": 4,
+"why": "Stroke triggers a complex secondary injury cascade, in which neuroinflammation plays a central role. The glymphatic system is a perivascular clearance network that facilitates cerebrospinal fluid (CSF) and interstitial fluid (ISF) exchange and removes metabolic waste from the brain. Recent studies suggest that…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://doi.org/10.1515/revneuro-2026-0161",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42908397",
+"pmid": "42908397",
+"doi": "10.1002/cbdv.71866",
+"title": "Design, Synthesis of 3-n-Butylphthalide-Hydrazine/Hydrazide Derivatives as Potential Anti-Ischemic Stroke Agents.",
+"authors": "Li Y, Wang M, Zhang Q, … Fan L",
+"journal": "Chemistry & biodiversity",
+"journal_iso": "Chem Biodivers",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/cbdv.71866"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42908397/"
+}
+],
+"au": [
+"li|y",
+"wang|m",
+"zhang|q",
+"zhou|p",
+"yang|y",
+"tang|l",
+"fan|j",
+"fan|l"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "To identify novel therapeutic candidates for ischemic stroke, a series of hydrazine- and hydrazide-derived analogs based on 3-n-butylphthalide (NBP) were designed and synthesized in this study, and their anti-ischemic stroke activities were systematically assessed. Among all synthesized derivatives, the compound…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://doi.org/10.1002/cbdv.71866",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42907737",
+"pmid": "42907737",
+"doi": "10.1186/s12868-026-01031-4",
+"title": "A latent genetic factor underlies multiple component phenotypes of cerebral small vessel disease.",
+"authors": "Zeng Y, Huang X, Yang Y, Guo C",
+"journal": "BMC neuroscience",
+"journal_iso": "BMC Neurosci",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12868-026-01031-4"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42907737/"
+}
+],
+"au": [
+"zeng|y",
+"huang|x",
+"yang|y",
+"guo|c"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"pericytes",
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Cerebral small vessel disease (cSVD) encompasses white matter hyperintensities (WMH), enlarged perivascular spaces (PVS), intracerebral hemorrhage (ICH), small vessel stroke (SVS), and cognitive impairment-phenotypes that frequently co-occur yet have been studied as independent genetic endpoints. Whether a shared…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://doi.org/10.1186/s12868-026-01031-4",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42906579",
+"pmid": "42906579",
+"doi": "10.1055/a-2969-6239",
+"title": "Pharmacological Activities of Centella asiatica: A Systematic Review of Preclinical and Clinical Evidence on Cardiovascular, Neurological, Antioxidant, and Anti-inflammatory Effects.",
+"authors": "Yuwadee A, Boonprasert K, Na-Bangchang K",
+"journal": "Planta medica",
+"journal_iso": "Planta Med",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1055/a-2969-6239"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42906579/"
+}
+],
+"au": [
+"yuwadee|a",
+"boonprasert|k",
+"na-bangchang|k"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"parkinson",
+"phase 1",
+"vascular cognitive impairment"
+],
+"relevance": 3,
+"why": "Centella asiatica (L.) (Gotu Kola) is a medicinal herb traditionally used in Asia for cognitive enhancement, wound healing, and systemic disorders. This systematic review appraises preclinical and clinical evidence on its cardiovascular and neurological effects. Following PRISMA 2020, we searched PubMed,…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://doi.org/10.1055/a-2969-6239",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42906388",
+"pmid": "42906388",
+"doi": "10.1016/j.ejmech.2026.119448",
+"title": "Discovery of benzoxazole derivatives as novel α-synuclein aggregate ligands with potential for PET tracer development.",
+"authors": "Wang Y, Qin J, Zhang Y, … Chu Y",
+"journal": "European journal of medicinal chemistry",
+"journal_iso": "Eur J Med Chem",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ejmech.2026.119448"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42906388/"
+}
+],
+"au": [
+"wang|y",
+"qin|j",
+"zhang|y",
+"ji|b",
+"chu|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"parkinson",
+"permeability"
+],
+"relevance": 3,
+"why": "Parkinson's disease (PD) is the second most prevalent neurodegenerative disorder worldwide, and the abnormal aggregation of α-synuclein (α-Syn) constitutes its core pathological hallmark. Positron emission tomography (PET) imaging of cerebral α-Syn aggregates holds great promise for the early diagnosis of PD. However,…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23"
+},
+{
+"id": "pmid-42906363",
+"pmid": "42906363",
+"doi": "10.1016/j.ecoenv.2026.120946",
+"title": "Benzene metabolite catechol promotes microglia-mediated neuroinflammation in Alzheimer's disease via regulating NF-κB signaling.",
+"authors": "Xu Z, Zhuo L, Lin X, … Sun J",
+"journal": "Ecotoxicology and environmental safety",
+"journal_iso": "Ecotoxicol Environ Saf",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ecoenv.2026.120946"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42906363/"
+}
+],
+"au": [
+"xu|z",
+"zhuo|l",
+"lin|x",
+"xiang|k",
+"yang|y",
+"dai|c",
+"liu|j",
+"sun|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Benzene is an occupational and environmental toxicant, and its exposure is associated with increased risk of Alzheimer's disease (AD), yet its underlying mechanisms, particularly the roles of benzene metabolites, have not been elucidated. Here, benzene and its major metabolites were systematically evaluated through…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://doi.org/10.1016/j.ecoenv.2026.120946",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42905315",
+"pmid": "42905315",
+"doi": "10.1007/s11011-026-02011-7",
+"title": "Linking protein misfolding and heat stress: a common role for the kynurenine pathway.",
+"authors": "Wasike D, Majerova P, Jankech T, Kovac A",
+"journal": "Metabolic brain disease",
+"journal_iso": "Metab Brain Dis",
+"date": "2026-10-22",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s11011-026-02011-7"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42905315/"
+}
+],
+"au": [
+"wasike|d",
+"majerova|p",
+"jankech|t",
+"kovac|a"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "The kynurenine pathway (KP) of tryptophan metabolism is emerging as a key regulator of immune response, neuroinflammation, and neurodegeneration. Tryptophan-derived metabolites influence multiple processes, including excitotoxicity, oxidative stress, mitochondrial dysfunction, and protein aggregation, which are…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1007/s11011-026-02011-7.pdf",
+"pdf": true,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42904869",
+"pmid": "42904869",
+"doi": "10.1002/cns.71216",
+"title": "Cerebral Artery Stenosis, Glymphatic Dysfunction, and Cognitive Trajectories: A Longitudinal Cohort Study of Community-Dwelling Older Adults.",
+"authors": "Yuan W, Niu X, Lan L, Chen X",
+"journal": "CNS neuroscience & therapeutics",
+"journal_iso": "CNS Neurosci Ther",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/cns.71216"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42904869/"
+}
+],
+"au": [
+"yuan|w",
+"niu|x",
+"lan|l",
+"chen|x"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "We aimed to investigate the role of glymphatic dysfunction in the association between stenosis and cognition. Older adults from a longitudinal cohort underwent magnetic resonance angiography to quantify cerebral artery stenosis burden. Glymphatic function was evaluated using diffusion tensor imaging-analysis along the…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://doi.org/10.1002/cns.71216",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42904547",
+"pmid": "42904547",
+"doi": "10.1111/micc.70091",
+"title": "Tiny Travelers, Big Impact: Physiological Effects of Extracellular Vesicles on the Blood-Brain Barrier.",
+"authors": "Lin L, Patil M, Hawke S, … Grau GE",
+"journal": "Microcirculation (New York, N.Y.",
+"journal_iso": "Microcirculation",
+"date": "2026-10-22",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/micc.70091"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42904547/"
+}
+],
+"au": [
+"lin|l",
+"patil|m",
+"hawke|s",
+"marsh-wakefield|f",
+"grau|g"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability",
+"tight junction"
+],
+"relevance": 3,
+"why": "The blood-brain barrier [BBB] is a highly specialized structure that regulates the influx and efflux of nutrients and metabolic waste to maintain homeostasis of the central nervous system. This selective permeability of the BBB is sustained by tight junctions that are supported by pericytes and astrocytes. Recently,…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23"
+},
+{
+"id": "pmid-42902892",
+"pmid": "42902892",
+"doi": "10.4014/jmb.2609.09057",
+"title": "Live and Heat-Killed Lactiplantibacillus plantarum HY7715 Attenuate D-Galactose-Induced Aging-Related Brain Changes and Blood-Brain Barrier Disruption with Gut Microbiota Modulation in Mice.",
+"authors": "Baik J, Gwon H, Kim JY, … Lee JH",
+"journal": "Journal of microbiology and biotechnology",
+"journal_iso": "J Microbiol Biotechnol",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.4014/jmb.2609.09057"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42902892/"
+}
+],
+"au": [
+"baik|j",
+"gwon|h",
+"kim|j",
+"shim|j",
+"lee|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability",
+"tight junction"
+],
+"relevance": 3,
+"why": "Aging is associated with changes in systemic homeostasis, intestinal barrier integrity, and brain function. This study investigated the effects of Lactiplantibacillus plantarum HY7715 on aging-related alterations in a D-galactose-induced accelerated aging mouse model. Male C57BL/6J mice were administered D-galactose…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23"
+},
+{
+"id": "medrxiv-10.64898_2026.10.20.26366043",
+"doi": "10.64898/2026.10.20.26366043",
+"title": "Glymphatic Dysfunction Across Sleep Disorders and Its Cognitive Implications",
+"authors": "Whitehouse, R. M., Farr, T. D., Li, S., … Boltze, J.",
+"journal": "medRxiv",
+"date": "2026-10-22",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"whitehouse|r",
+"farr|t",
+"li|s",
+"huckstepp|r",
+"boltze|j"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.20.26366043v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.20.26366043v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "Sleep disorders such as obstructive sleep apnea (OSA), sleep deprivation (SD), and narcolepsy type 1 (NT1), are associated with cognitive dysfunction and an increased risk of neurodegenerative disease. Glymphatic transport disruption has been suggested as one potential mechanistic link. However, evidence across sleep…",
+"addedAt": "2026-10-23",
+"source": "auto"
+},
+{
+"id": "pmid-42905476",
+"pmid": "42905476",
+"doi": "10.1002/glia.70225",
+"title": "Single-Cell Integration of Mouse Models of Autism Reveals Conserved Transcriptomic Signatures of Excitatory-Inhibitory Imbalance and Glial Dysfunction.",
+"authors": "Nani JV, Duque VJ, Muotri AR, Mecawi AS",
+"journal": "Glia",
+"journal_iso": "Glia",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/glia.70225"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42905476/"
+}
+],
+"au": [
+"nani|j",
+"duque|v",
+"muotri|a",
+"mecawi|a"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4"
+],
+"relevance": 2,
+"why": "The etiological heterogeneity of autism spectrum disorder (ASD) complicates identifying core molecular mechanisms. We systematically integrated scRNA-seq data from 11 diverse genetic and environmental mouse (Mus musculus) models, encompassing > 300,000 cells across multiple brain regions and developmental stages.…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://doi.org/10.1002/glia.70225",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42903195",
+"pmid": "42903195",
+"doi": "10.3389/fimmu.2026.1932448",
+"title": "Ravulizumab in neuromyelitis optica spectrum disorder: first clinical experience in Chile.",
+"authors": "Santibáñez T, Valdés JM, Romero C, … Galleguillos L",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1932448"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42903195/"
+}
+],
+"au": [
+"santibanez|t",
+"valdes|j",
+"romero|c",
+"fruns|m",
+"galleguillos|l"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aquaporin-4"
+],
+"relevance": 2,
+"why": "Neuromyelitis optica spectrum disorder (NMOSD) is a neuroimmunological astrocytopathy mediated by anti-aquaporin-4 (AQP4-IgG) antibodies that trigger complement-dependent cytotoxicity and activation of the terminal complement cascade in the central nervous system. Ravulizumab, a long-acting terminal complement C5…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1932448/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.16.758452",
+"doi": "10.64898/2026.10.16.758452",
+"title": "VO659, a CAG repeat-targeting antisense oligonucleotide, lowers multiple neurotoxic mutant huntingtin proteins in Huntington's disease",
+"authors": "Röttgering, B., Weij, R., Bijl, S., … Datson, N.",
+"journal": "bioRxiv",
+"date": "2026-10-22",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"rottgering|b",
+"weij|r",
+"bijl|s",
+"verheul|r",
+"testerink|j",
+"toonen|l",
+"bragg|r",
+"carroll|j",
+"beekman|c",
+"datson|n"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.758452v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.758452v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"antisense",
+"huntington",
+"phase 1"
+],
+"relevance": 2,
+"why": "Huntington's disease (HD) is caused by a CAG repeat expansion in the huntingtin (HTT) gene, encoding an elongated polyglutamine stretch in the corresponding mutant HTT (mHTT) protein. HD pathogenesis is driven by multiple neurotoxic mHTT protein species, including HTT1a and repeat-associated non-AUG translation (RAN)…",
+"addedAt": "2026-10-23",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.16.759442",
+"doi": "10.64898/2026.10.16.759442",
+"title": "Deletion of LRP1 in Smooth Muscle Cells Induces Infrarenal Aortic Aneurysms in Mice",
+"authors": "Franklin, M., Fan, G., Li, B., … Lu, H. S.",
+"journal": "bioRxiv",
+"date": "2026-10-22",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "pathology",
+"version": "1",
+"au": [
+"franklin|m",
+"fan|g",
+"li|b",
+"wang|p",
+"howatt|d",
+"moorleghen|j",
+"mullick|a",
+"daugherty|a",
+"lu|h"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759442v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759442v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"delivery"
+],
+"keywords": [
+"antisense",
+"lrp1"
+],
+"relevance": 2,
+"why": "Background: Low-density lipoprotein receptor-related protein 1 (LRP1) in smooth muscle cells (SMCs) is essential for maintaining aortic wall integrity. This study investigated whether deletion of LRP1 in SMCs induces region-specific aortic pathology and evaluated a potential therapeutic strategy. Methods: Lrp1-floxed…",
+"addedAt": "2026-10-23",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.20.26365945",
+"doi": "10.64898/2026.10.20.26365945",
+"title": "Amyloid and Tau Neuropathologic Stage, Coexisting Brain Disease, and Cognitive Status in a Population-Based Autopsy Cohort",
+"authors": "Pereira, F. L., Leite, R. E. P., Paes, V., … Grinberg, L. T.",
+"journal": "medRxiv",
+"date": "2026-10-22",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"pereira|f",
+"leite|r",
+"paes|v",
+"silva|c",
+"ururahy|r",
+"moraes|f",
+"padrao|i",
+"pasqualucci|c",
+"rodrigues|r",
+"naslavsky|m",
+"ferretti-rebustini|r",
+"nitrini|r",
+"ferrioli|e",
+"yaffe|k",
+"suemoto|c",
+"grinberg|l"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.20.26365945v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.20.26365945v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"phase 3"
+],
+"relevance": 2,
+"why": "Importance: Interpreting an amyloid or tau biomarker result requires knowing how often the target pathology is present in the tested population, whether a single marker characterizes the joint amyloid-tau state, and whether the detected pathology explains the patient symptoms. Population-based autopsy data addressing…",
+"addedAt": "2026-10-23",
+"source": "auto"
+},
+{
+"id": "pmid-42906694",
+"pmid": "42906694",
+"doi": "10.1016/j.jconrel.2026.115467",
+"title": "Ionizable lipid impact on mRNA vaccine formulation properties and immunogenicity.",
+"authors": "Alsaiari SK, Dyett B, Daristotle J, … Jaklenec A",
+"journal": "Journal of controlled release",
+"journal_iso": "J Control Release",
+"date": "2026-10-22",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jconrel.2026.115467"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42906694/"
+}
+],
+"au": [
+"alsaiari|s",
+"dyett|b",
+"daristotle|j",
+"tostanoski|l",
+"yu|h",
+"zhai|j",
+"nadeef|s",
+"forster|t",
+"mursalova|s",
+"drummond|c",
+"conn|c",
+"almohanna|f",
+"barouch|d",
+"ying|j",
+"langer|r",
+"jaklenec|a"
+],
+"topics": [],
+"keywords": [
+"nanoparticle"
+],
+"relevance": 1,
+"why": "The COVID-19 pandemic disrupted global supply chains, causing shortages of critical lipid-based raw materials for mRNA vaccine production. To enhance formulation resilience, we systematically evaluated the impact of five ionizable lipids (ILs) on lipid nanoparticle (LNP) organization, mRNA delivery and immunogenicity.…",
+"addedAt": "2026-10-23",
+"source": "auto",
+"oaChecked": "2026-10-23"
+},
 {
 "id": "biorxiv-10.64898_2026.10.15.759034",
 "doi": "10.64898/2026.10.15.759034",
