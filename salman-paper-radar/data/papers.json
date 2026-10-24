@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-23",
-"lastRunAdded": 20,
-"total": 1153,
+"lastCurated": "2026-10-24",
+"lastRunAdded": 38,
+"total": 1191,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,388 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42910085",
+"pmid": "42910085",
+"doi": "10.1159/bmh/aboag004",
+"title": "Aquaporins in Brain Tumor-Related Edema: A Narrative Review.",
+"authors": "Al-Nuaimy Y, Baloi D, Rawson C, … Pahlevani M",
+"journal": "Biomedicine hub",
+"journal_iso": "Biomed Hub",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1159/bmh/aboag004"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42910085/"
+}
+],
+"au": [
+"al-nuaimy|y",
+"baloi|d",
+"rawson|c",
+"kim|j",
+"karsy|m",
+"pahlevani|m"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"aqp4",
+"astrocytic end-feet",
+"blood-brain barrier",
+"glymphatic",
+"perivascular clearance",
+"perivascular space"
+],
+"relevance": 5,
+"why": "Brain tumor-related edema is a major contributor to morbidity in patients with intracranial neoplasms, arising from interactions between blood-brain barrier (BBB) dysfunction, tumor biology, and dysregulated water transport. Aquaporins (AQPs), and particularly AQP4, are central to cerebral water homeostasis, and…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.1159/bmh/aboag004",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42918974",
+"pmid": "42918974",
+"doi": "10.1007/s10787-026-02433-w",
+"title": "Gut-brain axis in Alzheimer's disease: neuroinflammatory mechanisms and immunopharmacological interventions.",
+"authors": "Sharma R, Kumar G, Thakur A",
+"journal": "Inflammopharmacology",
+"journal_iso": "Inflammopharmacology",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s10787-026-02433-w"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42918974/"
+}
+],
+"au": [
+"sharma|r",
+"kumar|g",
+"thakur|a"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"glp-1",
+"lecanemab"
+],
+"relevance": 4,
+"why": "Despite being defined pathologically by amyloid-β plaques, chronic neuroinflammation and neurofibrillary tangles, the drugs that target these processes directly (lecanemab and donanemab) have only modest effects on the clinical course of Alzheimer's disease (AD) and significant safety concerns have been identified, so…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42916726",
+"pmid": "42916726",
+"doi": "10.1021/acs.jpcb.6c04328",
+"title": "AQP4 Extended Region Binds to α-Syntrophin with a Novel Binding Motif.",
+"authors": "Jacobo EP, Martinez MJ, Barile B, … Brozik JA",
+"journal": "The journal of physical chemistry. B",
+"journal_iso": "J Phys Chem B",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.jpcb.6c04328"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42916726/"
+}
+],
+"au": [
+"jacobo|e",
+"martinez|m",
+"barile|b",
+"memeo|a",
+"nicchia|g",
+"brozik|j"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"aqp4",
+"astrocyte endfeet",
+"blood-brain barrier"
+],
+"relevance": 4,
+"why": "Aquaporin-4 (AQP4) is an integral membrane protein channel specific for water molecules. It is highly polarized in the endfeet of astrocytes in the central nervous system where it allows water-ion homeostasis. AQP4 has two N-terminal isoforms: M1 (long) and M23 (short). Both isoforms retain their function but differ…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42913965",
+"pmid": "42913965",
+"doi": "10.1016/j.jep.2026.122561",
+"title": "Pharmacological basis of Suhexiang Wan in ischemic stroke: identification and functional characterization of piperlongumine as a brain-distributed bioactive constituent associated with STAT3-mediated blood-brain barrier protection.",
+"authors": "Wang J, Ma S, Yu D, … Wu W",
+"journal": "Journal of ethnopharmacology",
+"journal_iso": "J Ethnopharmacol",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jep.2026.122561"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42913965/"
+}
+],
+"au": [
+"wang|j",
+"ma|s",
+"yu|d",
+"wang|y",
+"ma|c",
+"ma|d",
+"chang|x",
+"yang|y",
+"jin|m",
+"wang|z",
+"wu|w"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"permeability",
+"tight junction"
+],
+"relevance": 4,
+"why": "Suhexiang Wan (SHXW) is a classical traditional Chinese medicine (TCM) formula that has been traditionally used for stroke-related disorders, including sudden loss of consciousness, neurological dysfunction, and hemiplegia. Although modern pharmacological studies have suggested its neuroprotective and…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42910846",
+"pmid": "42910846",
+"doi": "10.3791/73693",
+"title": "A Cell Culture Insert-Based Protocol for Constructing a Simplified Multicellular In Vitro Blood-Tumor Barrier Model of Breast Cancer Brain Metastasis.",
+"authors": "Du B, Zhang Q, Li B, … Li X",
+"journal": "Journal of visualized experiments",
+"journal_iso": "J Vis Exp",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3791/73693"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42910846/"
+}
+],
+"au": [
+"du|b",
+"zhang|q",
+"li|b",
+"qiu|y",
+"bai|x",
+"cheng|m",
+"gu|n",
+"zhu|s",
+"li|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"permeability"
+],
+"relevance": 4,
+"why": "Effective treatments for breast cancer brain metastases (BCBM) remain limited, largely because the blood-tumor barrier (BTB) restricts the entry of many chemotherapeutic and targeted agents into metastatic lesions within the central nervous system. To model selected features of this complex microenvironment in vitro,…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42909969",
+"pmid": "42909969",
+"doi": "10.7150/thno.131051",
+"title": "Early micro- and nanoscale microglial responses to blood-brain barrier modulation by transcranial focused ultrasound.",
+"authors": "de Andrade EG, VanderZwaag J, Kofoed RH, … Tremblay MÈ",
+"journal": "Theranostics",
+"journal_iso": "Theranostics",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.7150/thno.131051"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42909969/"
+}
+],
+"au": [
+"de andrade|e",
+"vanderzwaag|j",
+"kofoed|r",
+"picard|k",
+"pekarik|k",
+"carrier|m",
+"ibanez|f",
+"khakpour|m",
+"hynynen|k",
+"aubert|i",
+"me|t"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"astrocytic endfeet",
+"blood-brain barrier",
+"focused ultrasound",
+"permeability"
+],
+"relevance": 4,
+"why": "Modulation of the blood-brain barrier (BBB) using transcranial focused ultrasound with intravenous microbubbles (FUS) has progressed to clinical trials. Guided by magnetic resonance imaging (MRI), FUS significantly increases local BBB permeability for approximately 6-24 h in mice, with an ensuing mild inflammation.…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.7150/thno.131051",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42909551",
+"pmid": "42909551",
+"doi": "10.1007/s11011-026-02004-6",
+"title": "Metabolic Dyshomeostasis, neuroinflammation, and glymphatic clearance deficits as convergent drivers of Alzheimer's disease: an exposome-based conceptual framework for prevention.",
+"authors": "Abdelaziz AM, Eladawy RM",
+"journal": "Metabolic brain disease",
+"journal_iso": "Metab Brain Dis",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s11011-026-02004-6"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42909551/"
+}
+],
+"au": [
+"abdelaziz|a",
+"eladawy|r"
+],
+"topics": [
+"adtx",
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"glymphatic"
+],
+"relevance": 4,
+"why": "The repeated failures of anti-amyloid therapies in Alzheimer's disease (AD) have exposed critical limitations of the linear amyloid cascade hypothesis and underscored the need for a broader etiological framework. The objective of this review is to synthesise mechanistic evidence for an exposome‑based model of sporadic…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42909160",
+"pmid": "42909160",
+"doi": "10.1016/j.namjnl.2026.100142",
+"title": "Static or microfluidic? A comparative pilot study of an in vivo-in vitro validated human iPSC-derived blood-brain barrier model for neurotoxicity hazard assessment.",
+"authors": "Kurtenbach P, Hahn M, Thevis M, Lamshöft M",
+"journal": "NAM journal",
+"journal_iso": "NAM J",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.namjnl.2026.100142"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42909160/"
+}
+],
+"au": [
+"kurtenbach|p",
+"hahn|m",
+"thevis|m",
+"lamshoft|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"microfluidic",
+"permeability"
+],
+"relevance": 4,
+"why": "Blood-brain barrier (BBB) permeation determines human brain exposure to chemicals and is therefore a prerequisite for neurotoxicity. However, the lack of toxicokinetic BBB models remains a critical uncertainty in regulatory in vitro risk assessment, which was highlighted in the new EU roadmap towards phasing out…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S3050620426000679/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
 {
 "id": "pmid-42908732",
 "pmid": "42908732",
@@ -60,6 +442,1452 @@
 "addedAt": "2026-10-23",
 "source": "auto",
 "oaChecked": "2026-10-23"
+},
+{
+"id": "pmid-42919388",
+"pmid": "42919388",
+"doi": "10.1186/s12987-026-00850-1",
+"title": "Blood-brain barrier and blood-tumoral barrier formation in glioblastoma: endothelial cells and glioblastoma stem cells at the immune-brain crossroad.",
+"authors": "Rosito M, Lyck R, Engelhardt B, Limatola C",
+"journal": "Fluids and barriers of the CNS",
+"journal_iso": "Fluids Barriers CNS",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12987-026-00850-1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42919388/"
+}
+],
+"au": [
+"rosito|m",
+"lyck|r",
+"engelhardt|b",
+"limatola|c"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"organoid"
+],
+"relevance": 3,
+"why": "Glioblastoma (GBM) is the most aggressive primary brain tumor characterized by significant cellular and molecular complexity. Central to this complexity are glioma stem cells (GSCs) and the perivascular niche, a specialized microenvironment that integrates signals from the systemic circulation with cues arising from…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.1186/s12987-026-00850-1",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42916679",
+"pmid": "42916679",
+"doi": "10.1021/acschemneuro.6c00496",
+"title": "Targeting the Zinc Metalloproteinase Superfamily in the CNS: Medicinal Chemistry Strategies To Optimize Selectivity, Pharmacokinetics, and Blood-Brain Barrier Permeability.",
+"authors": "Nagashima Y",
+"journal": "ACS chemical neuroscience",
+"journal_iso": "ACS Chem Neurosci",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acschemneuro.6c00496"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42916679/"
+}
+],
+"au": [
+"nagashima|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "The zinc metalloproteinase superfamily [matrix metalloproteinases (MMPs), a disintegrin and metalloproteinases (ADAMs), and ADAMs with thrombospondin motifs (ADAMTSs)] represents a high-value yet elusive therapeutic target for peripheral disorders and central nervous system (CNS) pathologies. Historically,…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42915759",
+"pmid": "42915759",
+"doi": "10.1021/acsnano.6c13168",
+"title": "Oral Insulin Enhanced by Dual-Ligand-Modified Nanoparticles via Trans-Golgi Network-Mediated Transport.",
+"authors": "Wang M, Chen Y, Li L, … Wang JC",
+"journal": "ACS nano",
+"journal_iso": "ACS Nano",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acsnano.6c13168"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42915759/"
+}
+],
+"au": [
+"wang|m",
+"chen|y",
+"li|l",
+"zhu|z",
+"lei|l",
+"chen|x",
+"yan|y",
+"liu|x",
+"he|b",
+"zhu|y",
+"shi|y",
+"wang|j"
+],
+"topics": [
+"delivery"
+],
+"keywords": [
+"nanoparticle",
+"transferrin receptor"
+],
+"relevance": 3,
+"why": "Oral insulin delivery is challenged by a cascade of gastrointestinal barriers, including mucus entrapment, poor apical endocytosis, extensive lysosomal degradation, and insufficient basolateral exocytosis. To overcome these obstacles in a coordinated fashion, we engineered a dual-ligand PLGA nanoparticle…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42915642",
+"pmid": "42915642",
+"doi": "10.1021/acsnano.6c12207",
+"title": "Overcoming Biological Barriers with Sononanomedicine: New Horizons in Oncology and Neurology.",
+"authors": "Guo R, Zhao H, Feng Z, … Qiu L",
+"journal": "ACS nano",
+"journal_iso": "ACS Nano",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acsnano.6c12207"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42915642/"
+}
+],
+"au": [
+"guo|r",
+"zhao|h",
+"feng|z",
+"wang|z",
+"tang|y",
+"qiu|l"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound"
+],
+"relevance": 3,
+"why": "Biological barriers, including the tumor microenvironment and the blood-brain barrier, represent the primary bottleneck for the clinical translation of nanomedicines in oncology and neurology. Ultrasound, characterized by noninvasiveness, deep tissue penetration, and high spatiotemporal precision, provides a…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42915309",
+"pmid": "42915309",
+"doi": "10.1021/acs.analchem.6c04296",
+"title": "Electrophile-Free, Self-Immolative Linker-Enabled Near-Infrared Ratiometric Fluorescent Probe for High-Fidelity, Nonperturbative Imaging of Acetylcholinesterase (AChE) Dynamics in Epileptic Mice.",
+"authors": "Tan J, Kong Y, Feng H, … Huang B",
+"journal": "Analytical chemistry",
+"journal_iso": "Anal Chem",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.analchem.6c04296"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42915309/"
+}
+],
+"au": [
+"tan|j",
+"kong|y",
+"feng|h",
+"yin|s",
+"yang|x",
+"sun|z",
+"li|z",
+"chen|l",
+"huang|b"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Fluorescence monitoring of acetylcholinesterase (AChE) levels is critical for evaluating neurotransmitter regulation; however, nonspecific background hydrolysis, poor targeting fidelity, and single-channel readout severely compromise quantitative accuracy. Conventional electrophilic leaving groups (quinone methides…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42914897",
+"pmid": "42914897",
+"doi": "10.1016/j.redox.2026.104446",
+"title": "Itaconate protects the blood-brain barrier by preserving microvascular bioenergetics after traumatic brain injury.",
+"authors": "Liu N, Zhou D, Shi M, … Wang X",
+"journal": "Redox biology",
+"journal_iso": "Redox Biol",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.redox.2026.104446"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42914897/"
+}
+],
+"au": [
+"liu|n",
+"zhou|d",
+"shi|m",
+"xiu|y",
+"jiang|y",
+"wang|y",
+"moyano|g",
+"mcguire|j",
+"iskender|a",
+"kilgore|m",
+"chen|l",
+"vidoudez|c",
+"li|y",
+"sein|t",
+"fan|j",
+"katakam|p",
+"dumont|a",
+"wang|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"tight junction"
+],
+"relevance": 3,
+"why": "Traumatic brain injury (TBI) is a leading cause of mortality and long-term disability, yet effective pharmacological therapies remain unavailable. Early blood-brain barrier (BBB) disruption accelerates neuroinflammation and secondary brain injury. It has been well recognized that brain microvascular endothelial cells…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.1016/j.redox.2026.104446",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42914825",
+"pmid": "42914825",
+"doi": "10.1016/j.intimp.2026.117575",
+"title": "Engineered hUC-MSC exosomes loaded with pterostilbene induce Nrf2/SKN-1-dependent microglial M2 polarization and neuroprotection in Alzheimer's disease in vitro and in Caenorhabditis elegans.",
+"authors": "Zhang Y, Su Y, Huang L, … Zou C",
+"journal": "International immunopharmacology",
+"journal_iso": "Int Immunopharmacol",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.intimp.2026.117575"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42914825/"
+}
+],
+"au": [
+"zhang|y",
+"su|y",
+"huang|l",
+"guan|h",
+"qiu|z",
+"zou|c"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) is aggravated by overactivated pro-inflammatory M1 microglia. Although pterostilbene (PTE) possesses anti-oxidative and anti-neuroinflammatory activity, its therapeutic application in AD is limited by poor aqueous solubility and weak blood-brain barrier (BBB) penetration. Here, we fabricated…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42914657",
+"pmid": "42914657",
+"doi": "10.1016/j.neurobiolaging.2026.10.004",
+"title": "Mechanistic insights into age- and vascular-related microstructure differences in the corpus callosum using biophysical modeling of diffusion MRI.",
+"authors": "Karimi H, Exell T, Peltier S, … Mishra S",
+"journal": "Neurobiology of aging",
+"journal_iso": "Neurobiol Aging",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.neurobiolaging.2026.10.004"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42914657/"
+}
+],
+"au": [
+"karimi|h",
+"exell|t",
+"peltier|s",
+"noll|d",
+"hampstead|b",
+"iordan|a",
+"damoiseaux|j",
+"daugherty|a",
+"mishra|s"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Corpus callosum microstructure is a proposed risk biomarker for vascular contributions to cognitive impairment. This study compared corpus callosum microstructure measures from the \"Standard Model\" biophysical diffusion model with diffusion tensor and kurtosis imaging (DTI, DKI) measures for differences related to age…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42914582",
+"pmid": "42914582",
+"doi": "10.1016/j.ctarc.2026.101498",
+"title": "Nanosensitizer-based energy therapies for glioblastoma: A systematic review of a four-generation paradigm in evolving strategies (2020-2025).",
+"authors": "Abbasi S, Zahraie N, Manaseri AH, … Sattarahmady N",
+"journal": "Cancer treatment and research communications",
+"journal_iso": "Cancer Treat Res Commun",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ctarc.2026.101498"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42914582/"
+}
+],
+"au": [
+"abbasi|s",
+"zahraie|n",
+"manaseri|a",
+"fathabadi|a",
+"perota|g",
+"afzali-joibari|s",
+"tondro|g",
+"haghighi|h",
+"ketabi|a",
+"sattarahmady|n"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "In oncology, glioblastoma multiforme (GBM) is considered a crucial challenge due to rapid drug resistance and the protective effects of the blood-brain barrier (BBB). Photodynamic therapy (PDT), photothermal therapy (PTT), and sonodynamic therapy (SDT) have emerged as promising approaches for GBM treatment, while…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.1016/j.ctarc.2026.101498",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42914317",
+"pmid": "42914317",
+"doi": "10.1016/j.foodres.2026.120507",
+"title": "Sequence type-associated variation in blood brain barrier invasion capacity among predominant Listeria monocytogenes strains in China.",
+"authors": "Huang J, Li Z, Chen X, … Xia X",
+"journal": "Food research international (Ottawa, Ont.)",
+"journal_iso": "Food Res Int",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.foodres.2026.120507"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42914317/"
+}
+],
+"au": [
+"huang|j",
+"li|z",
+"chen|x",
+"gao|b",
+"leng|q",
+"lu|j",
+"ye|k",
+"yu|j",
+"ma|y",
+"qin|x",
+"wang|x",
+"liu|y",
+"dong|q",
+"xia|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood brain barrier",
+"teer",
+"tight junction"
+],
+"relevance": 3,
+"why": "Listeria monocytogenes (LM) can cause severe central nervous system infections; however, current understanding of its neuroinvasion is largely based on studies using a limited number of reference strains, leaving differences among sequence types (STs) in their capacity to invade across the blood-brain barrier (BBB)…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42913823",
+"pmid": "42913823",
+"doi": "10.1016/j.biocel.2026.107053",
+"title": "The functional anatomy of caveolae across cell types.",
+"authors": "Rusu MC, Zamfir IŞ, Varga I, Vintilă B",
+"journal": "The international journal of biochemistry & cell biology",
+"journal_iso": "Int J Biochem Cell Biol",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.biocel.2026.107053"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42913823/"
+}
+],
+"au": [
+"rusu|m",
+"is|z",
+"varga|i",
+"vintila|b"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"transcytosis"
+],
+"relevance": 3,
+"why": "Caveolae are 50-100nm, cholesterol- and sphingolipid-enriched invaginations of the plasma membrane, assembled from caveolin and cavin proteins. They are not generic vesicles distributed equally across mammalian tissues, but cell-type-specific membrane organelles whose abundance, molecular composition and physiological…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.1016/j.biocel.2026.107053",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42911745",
+"pmid": "42911745",
+"doi": "10.1021/acs.jmedchem.6c01848",
+"title": "Design, Synthesis and Evaluation Donepezil-Based Dual BuChE/FAAH Inhibitors for Alzheimer's Disease Therapy.",
+"authors": "Liu X, Wu Y, Ding Y, … Tang W",
+"journal": "Journal of medicinal chemistry",
+"journal_iso": "J Med Chem",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.jmedchem.6c01848"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42911745/"
+}
+],
+"au": [
+"liu|x",
+"wu|y",
+"ding|y",
+"hu|s",
+"hou|h",
+"zong|y",
+"zhang|z",
+"tang|w"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"bbb",
+"permeability"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) is multifactorial, prompting multi-target therapy. A series of donepezil-based derivatives were designed, synthesized, and evaluated as dual inhibitors of human butyrylcholinesterase (hBuChE) and fatty acid amide hydrolase (hFAAH). Among them, lead G15 displayed potent and balanced inhibition…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42911232",
+"pmid": "42911232",
+"doi": "10.1007/s00787-026-03228-8",
+"title": "Glymphatic dysfunction in early-onset schizophrenia: DTI-ALPS index reduction tracks illness burden and is independently associated with cognitive performance in treatment-resistant patients.",
+"authors": "Oz A, Saglam Y, Turan K, … Yesilkaya UH",
+"journal": "European child & adolescent psychiatry",
+"journal_iso": "Eur Child Adolesc Psychiatry",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00787-026-03228-8"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42911232/"
+}
+],
+"au": [
+"oz|a",
+"saglam|y",
+"turan|k",
+"ficicioglu|i",
+"karacetin|g",
+"yesilkaya|u"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "Early-onset schizophrenia (EOS) is associated with greater cognitive impairment than adult-onset disease, and many patients also develop treatment resistance. Glymphatic dysfunction has been described in adult schizophrenia but not in EOS or in relation to treatment resistance. We used diffusion tensor imaging along…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42909898",
+"pmid": "42909898",
+"doi": "10.1093/braincomms/fcag342",
+"title": "Regional blood-brain barrier dysfunction maps to lower performance in cognitive ageing.",
+"authors": "Mirloo S, Shpilberg S, Druker N, … Shalev H",
+"journal": "Brain communications",
+"journal_iso": "Brain Commun",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1093/braincomms/fcag342"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42909898/"
+}
+],
+"au": [
+"mirloo|s",
+"shpilberg|s",
+"druker|n",
+"saar-ashkenazy|r",
+"prager|o",
+"neustaedter|s",
+"ben-arie|g",
+"shelef|i",
+"kamintsky|l",
+"serlin|y",
+"sandsmark|d",
+"friedman|a",
+"shalev|h"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Age-related cognitive decline is a common and growing public health challenge, associated with loss of independence, reduced quality of life, increased caregiver burden and substantial healthcare and societal costs. Yet cognitive decline in ageing is heterogeneous, and current clinical constructs do not reliably…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.1093/braincomms/fcag342",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42909784",
+"pmid": "42909784",
+"doi": "10.1186/s41747-026-00799-8",
+"title": "Reassessment of the DTI-ALPS index in focal epilepsy.",
+"authors": "Chambers S, Hofer L, Tranfa M, … Haider L",
+"journal": "European radiology experimental",
+"journal_iso": "Eur Radiol Exp",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s41747-026-00799-8"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42909784/"
+}
+],
+"au": [
+"chambers|s",
+"hofer|l",
+"tranfa|m",
+"kienast|p",
+"shawarba|j",
+"stepponat|r",
+"jud|j",
+"aull-watschinger|s",
+"pataraia|e",
+"fischmeister|f",
+"barkhof|f",
+"hangel|g",
+"rossler|k",
+"pontillo|g",
+"kasprian|g",
+"haider|l"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular spaces"
+],
+"relevance": 3,
+"why": "Recent evidence highlights the limited specificity of diffusion tensor imaging (DTI) along perivascular spaces (ALPS) as a noninvasive glymphatic biomarker because microstructural tract degeneration and crossing-fiber geometry confound it. We aimed to reassess the interpretation of the DTI-ALPS index in people with…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42909250",
+"pmid": "42909250",
+"doi": "10.34133/research.1467",
+"title": "From Physiological Spaces to Cognitive Health: A New Perspective on Combined Acupuncture and Chinese Herbal Medicine for Alzheimer's Disease.",
+"authors": "Zhang K",
+"journal": "Research (Washington, D.C.)",
+"journal_iso": "Research (Wash D C)",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.34133/research.1467"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42909250/"
+}
+],
+"au": [
+"zhang|k"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glymphatic",
+"perivascular spaces"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) is an escalating global health challenge. Although the target-centric paradigm focusing on targets such as β-amyloid (Aβ) deposition, tau hyperphosphorylation, and neuroinflammation has advanced our understanding of AD, translated therapies remain limited in reversing disease progression.…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.34133/research.1467",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42908994",
+"pmid": "42908994",
+"doi": "10.3389/fnsyn.2026.1970578",
+"title": "Multi-cohort meta-analysis, single-cell and Mendelian randomization analyses with experimental validation identify RHBDF2 as a shared mediator of ulcerative colitis and blood-brain barrier disruption.",
+"authors": "Cheng J, Xu A",
+"journal": "Frontiers in synaptic neuroscience",
+"journal_iso": "Front Synaptic Neurosci",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fnsyn.2026.1970578"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42908994/"
+}
+],
+"au": [
+"cheng|j",
+"xu|a"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Ulcerative colitis (UC) is increasingly associated with central nervous system comorbidities, including cognitive decline and dementia, yet the molecular mechanisms linking intestinal inflammation to brain dysfunction remain unclear. Blood-brain barrier (BBB) disruption is a plausible convergence point, but the…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://www.frontiersin.org/journals/synaptic-neuroscience/articles/10.3389/fnsyn.2026.1970578/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42918191",
+"pmid": "42918191",
+"doi": "10.1021/acs.langmuir.6c04580",
+"title": "Electroosmotic Dispersion in Convergent-Divergent Flow Pathways: The Role of Rheology-Dependent Analyte Diffusion.",
+"authors": "Gadad B, Mehta SK, Choudhari R, Mondal PK",
+"journal": "Langmuir",
+"journal_iso": "Langmuir",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.langmuir.6c04580"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42918191/"
+}
+],
+"au": [
+"gadad|b",
+"mehta|s",
+"choudhari|r",
+"mondal|p"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "This study investigates rheology-dependent analyte transport under electroosmotic flow in a converging-diverging narrow fluidic channel. The analysis employs the Carreau constitutive model to describe the fluid rheology, while the Stokes-Einstein relation is used to account for viscosity-dependent molecular diffusion.…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42916112",
+"pmid": "42916112",
+"doi": "10.1021/acs.chemrev.5c01119",
+"title": "Micro/Nanoliter Sample Separation: From Lab Bench to Marketplace.",
+"authors": "Luo Y, Wang J, Xu T, … Zhang X",
+"journal": "Chemical reviews",
+"journal_iso": "Chem Rev",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.chemrev.5c01119"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42916112/"
+}
+],
+"au": [
+"luo|y",
+"wang|j",
+"xu|t",
+"liu|c",
+"zhang|x"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Microsample separation in lab-on-a-chip systems is a rapidly evolving research area addressing challenges across biomedical, chemical, and environmental sciences. Enabled by advances in micro- and nanofabrication, microfluidic platforms allow high-throughput separation and purification of complex microsamples through…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "biorxiv-10.64898_2026.10.18.760006",
+"doi": "10.64898/2026.10.18.760006",
+"title": "Brain microvascular endothelial cell dysfunction during Plasmodium infection does not result from astrocyte-derived wingless-related integration site (Wnt)7a deficiency",
+"authors": "Roedel, M., Brooks, N., Andersen, J. N., … Lamb, T.",
+"journal": "bioRxiv",
+"date": "2026-10-23",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "immunology",
+"version": "1",
+"au": [
+"roedel|m",
+"brooks|n",
+"andersen|j",
+"cornwall|d",
+"doddavaram|r",
+"chastang|k",
+"rubner|l",
+"liu|t",
+"lamb|t"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.18.760006v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.18.760006v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood brain barrier",
+"brain microvascular endothelial"
+],
+"relevance": 3,
+"why": "Breakdown of the blood brain barrier is a key event leading to vasogenic edema that underpins pediatric cerebral malaria. Brain microvascular endothelial cells (BMECs) downregulate junction proteins in response to Plasmodium-infected red blood cells (iRBCs). Very little is known about how glial cell activation in…",
+"addedAt": "2026-10-24",
+"source": "auto"
+},
+{
+"id": "pmid-42918811",
+"pmid": "42918811",
+"doi": "10.1038/s41467-026-77923-0",
+"title": "Chronic stress activates a hypothalamic vagal circuit to promote hepatocellular carcinoma progression in male mice.",
+"authors": "Zhang K, Zhang J, Chi D, … Bai X",
+"journal": "Nature communications",
+"journal_iso": "Nat Commun",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41467-026-77923-0"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42918811/"
+}
+],
+"au": [
+"zhang|k",
+"zhang|j",
+"chi|d",
+"he|z",
+"wang|s",
+"zheng|x",
+"guo|r",
+"zeng|w",
+"ouyang|h",
+"ou|c",
+"bai|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Hepatocellular carcinoma and depression frequently co-occur, yet the mechanisms linking them remain unclear. Here, we show that chronic stress, systemic inflammation, or neuropathic pain are associated with hepatocellular carcinoma progression in male mice. Chronic stress hyperactivates a glutamatergic paraventricular…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://www.nature.com/articles/s41467-026-77923-0_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42914978",
+"pmid": "42914978",
+"doi": "10.1016/j.cell.2026.09.062",
+"title": "Perforin triggers iron-induced mitochondrial damage to drive ferroptosis and anti-tumor immunity.",
+"authors": "Bell HN, Nair K, Tison K, … Zou W",
+"journal": "Cell",
+"journal_iso": "Cell",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.cell.2026.09.062"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42914978/"
+}
+],
+"au": [
+"bell|h",
+"nair|k",
+"tison|k",
+"liao|p",
+"lei|h",
+"el-derany|m",
+"yisimayi|a",
+"zhang|h",
+"rebernick|r",
+"wang|w",
+"adachi|y",
+"castillo|c",
+"das|n",
+"an|j",
+"sutton|v",
+"lin|x",
+"lin|h",
+"wang|x",
+"li|y",
+"vatan|l",
+"aboud|a",
+"wei|s",
+"gijon|m",
+"goodwin|s",
+"shah|y",
+"kryczek|i",
+"trapani|j",
+"barroso|m",
+"lieberman|j",
+"zou|w"
+],
+"topics": [
+"delivery"
+],
+"keywords": [
+"transferrin receptor"
+],
+"relevance": 2,
+"why": "Cytotoxic CD8+ T cells and natural killer cells are critical effectors of anti-tumor immunity. Cytotoxic lymphocytes eliminate tumor cells by releasing perforin (Prf1), a pore-forming protein that enables granzymes (Gzms) to enter target cells and trigger both caspase-dependent and -independent cell death. Here, we…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24"
+},
+{
+"id": "pmid-42910644",
+"pmid": "42910644",
+"doi": "10.1093/brain/awag367",
+"title": "TMEM106B risk converges on C-terminal fragment homeostasis: genetics, mechanisms and therapy.",
+"authors": "Lastra Osua M, Perneel J, Vicente CT, Rademakers R",
+"journal": "Brain",
+"journal_iso": "Brain",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1093/brain/awag367"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42910644/"
+}
+],
+"au": [
+"lastra osua|m",
+"perneel|j",
+"vicente|c",
+"rademakers|r"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"frontotemporal",
+"induced pluripotent"
+],
+"relevance": 2,
+"why": "TMEM106B is a genetic modifier influencing susceptibility to multiple neurodegenerative disorders, including frontotemporal lobar degeneration with TDP-43 pathology (FTLD-TDP), Alzheimer's disease, Parkinson's disease, and limbic-predominant age-related TDP-43 encephalopathy, as well as contributing to healthy brain…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.1093/brain/awag367",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42910642",
+"pmid": "42910642",
+"doi": "10.1093/brain/awag364",
+"title": "Progenitor transcriptional alterations link fetal and adult pathology in Huntington's disease.",
+"authors": "Battistella M, Damaggio G, Conforti P, … Cattaneo E",
+"journal": "Brain",
+"journal_iso": "Brain",
+"date": "2026-10-23",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1093/brain/awag364"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42910642/"
+}
+],
+"au": [
+"battistella|m",
+"damaggio|g",
+"conforti|p",
+"scolz|a",
+"maestri|s",
+"bocchi|v",
+"iafolla|d",
+"galimberti|m",
+"morrocchi|m",
+"cordiglieri|c",
+"vezzoli|e",
+"lodato|s",
+"ranzani|v",
+"viale|s",
+"thompson|l",
+"vogt|t",
+"felsenfeld|d",
+"chen|j",
+"besusso|d",
+"cattaneo|e"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"huntington",
+"organoid"
+],
+"relevance": 2,
+"why": "Huntington's disease (HD) is an autosomal dominant neurodegenerative disorder caused by a CAG repeat expansion in the HTT gene. Although the mutant huntingtin protein is expressed from conception, clinical symptoms typically emerge in mid-adulthood. Imaging and molecular studies have raised the possibility that HD may…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://doi.org/10.1093/brain/awag364",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42909311",
+"pmid": "42909311",
+"doi": "10.3389/fimmu.2026.1940474",
+"title": "Deep brain stimulation as neuroimmune-metabolic modulation in Parkinson's disease and beyond: tissue response, glial remodeling, and disease modification.",
+"authors": "Deng H, Li X, Wang D, … Yin S",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1940474"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42909311/"
+}
+],
+"au": [
+"deng|h",
+"li|x",
+"wang|d",
+"peng|y",
+"wang|m",
+"liang|h",
+"wu|y",
+"xiao|l",
+"pan|w",
+"wang|w",
+"yin|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 2,
+"why": "Deep brain stimulation (DBS) is an established symptomatic therapy for Parkinson's disease (PD), yet its biological effects extend beyond modulation of abnormal basal ganglia circuitry. This review conceptualizes DBS in PD as a neuroimmune-metabolic intervention acting across the electrode-tissue interface, glial…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1940474/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42909205",
+"pmid": "42909205",
+"doi": "10.3389/fimmu.2026.1953192",
+"title": "Cholesterol dysregulation and microglial NLRP3 inflammasome activation after ischemic stroke: implications for neuroinflammation and functional recovery.",
+"authors": "Wang J, An P, Fu C, … Hong X",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-23",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1953192"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42909205/"
+}
+],
+"au": [
+"wang|j",
+"an|p",
+"fu|c",
+"su|x",
+"sun|y",
+"ma|d",
+"shi|x",
+"hong|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"trem2"
+],
+"relevance": 2,
+"why": "Secondary neuroinflammation is an important determinant of tissue injury, repair, and neurological recovery after ischemic stroke, yet the lipid-metabolic environment in which this response develops remains incompletely integrated into current mechanistic models. This narrative review synthesizes PubMed-indexed,…",
+"addedAt": "2026-10-24",
+"source": "auto",
+"oaChecked": "2026-10-24",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1953192/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.20.760406",
+"doi": "10.64898/2026.10.20.760406",
+"title": "Generation of an induced pluripotent stem cell line, LCSBi021-A, from a Parkinson's disease patient harboring the missense mutation c.213C>G (p.Ser71Arg) in the RAB32 gene",
+"authors": "Boumpoureka, I., Gorgogietas, V., Petkovski, E., … Krueger, R.",
+"journal": "bioRxiv",
+"date": "2026-10-23",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"boumpoureka|i",
+"gorgogietas|v",
+"petkovski|e",
+"halder|r",
+"massart|f",
+"ncer-pd consortium|",
+"krueger|r"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760406v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760406v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"induced pluripotent",
+"parkinson"
+],
+"relevance": 2,
+"why": "Dermal fibroblasts were obtained from a 40-year-old male patient with Parkinson's disease (PD), harboring the c.213C>G (p.Ser71Arg) variant in the RAB32 gene. Induced pluripotent stem cells (iPSCs) were generated using the CytoTune-iPS 2.0 Sendai Reprogramming Kit (Thermo Fisher Scientific). The presence of the…",
+"addedAt": "2026-10-24",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.19.760035",
+"doi": "10.64898/2026.10.19.760035",
+"title": "The anger-insula-body link in heart arrhythmias",
+"authors": "Mazzola, V., Martins-Dominati, E., Bondolfi, G., Arciero, G.",
+"journal": "bioRxiv",
+"date": "2026-10-23",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"mazzola|v",
+"martins-dominati|e",
+"bondolfi|g",
+"arciero|g"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760035v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760035v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic"
+],
+"relevance": 2,
+"why": "Anger is a well-known risk factor in cardiovascular diseases (CVDs) since it triggers a sympathetic hyperactivity of peripheral autonomic nervous system (ANS). As our previous findings showed, facing an angry situation instead of a joyful one elicits in healthy participants an affective engagement that involved mainly…",
+"addedAt": "2026-10-24",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.22.761119",
+"doi": "10.64898/2026.10.22.761119",
+"title": "Functional and acid-stability constraints on the Junin virus glycoprotein complex",
+"authors": "Carr, C. R., Mann, C. J., Abraham, J., Bloom, J. D.",
+"journal": "bioRxiv",
+"date": "2026-10-23",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "microbiology",
+"version": "1",
+"au": [
+"carr|c",
+"mann|c",
+"abraham|j",
+"bloom|j"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761119v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761119v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"delivery"
+],
+"keywords": [
+"transferrin receptor"
+],
+"relevance": 2,
+"why": "Junin virus is a New World arenavirus that naturally circulates in vesper mice, and causes occasional zoonotic infections of humans that lead to Argentine hemorrhagic fever. The virus's sole surface protein, the glycoprotein complex (GPC), mediates host receptor attachment and pH-triggered membrane fusion. Here, we…",
+"addedAt": "2026-10-24",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.21.26366084",
+"doi": "10.64898/2026.10.21.26366084",
+"title": "GLP-1 Receptor Agonists (GLP-1RAs) for treatment of tobacco and alcohol dependence: a systematic review and meta-analysis of randomised controlled trials",
+"authors": "Taylor, G., Burke, C., Titheradge, D., … Thomas, K.",
+"journal": "medRxiv",
+"date": "2026-10-23",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "addiction medicine",
+"version": "1",
+"au": [
+"taylor|g",
+"burke|c",
+"titheradge|d",
+"jia|s",
+"cihan|b",
+"faulkner|i",
+"williams|g",
+"abeysekera|k",
+"hickman|m",
+"thomas|k"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.21.26366084v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.21.26366084v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"glp-1",
+"randomised"
+],
+"relevance": 2,
+"why": "Background Glucagon-like peptide-1 receptor agonists (GLP-1RAs) might reduce tobacco and alcohol use. We synthesised evidence from randomised controlled trials (RCTs) on smoking and alcohol outcomes, including secondary outcomes reported in trials conducted for other clinical purposes. Methods We searched MEDLINE,…",
+"addedAt": "2026-10-24",
+"source": "auto"
 },
 {
 "id": "pmid-42907679",
