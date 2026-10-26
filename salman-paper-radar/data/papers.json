@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-10-25",
-"lastRunAdded": 42,
-"total": 1233,
+"lastCurated": "2026-10-26",
+"lastRunAdded": 11,
+"total": 1244,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,174 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42928413",
+"pmid": "42928413",
+"doi": "10.1002/alz.71927",
+"title": "Vascular drivers of cerebrospinal fluid movement and enlarged perivascular spaces.",
+"authors": "LeFevre JD, Vyas Y, Jefferson AL",
+"journal": "Alzheimer's & dementia",
+"journal_iso": "Alzheimers Dement",
+"date": "2026-10-26",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/alz.71927"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42928413/"
+}
+],
+"au": [
+"lefevre|j",
+"vyas|y",
+"jefferson|a"
+],
+"topics": [
+"csvd",
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"cerebrospinal fluid flow",
+"perivascular spaces",
+"small vessel disease"
+],
+"relevance": 4,
+"why": "Perivascular spaces (PVSs) facilitate cerebrospinal fluid flow and waste clearance, which are critical for maintaining brain homeostasis. Enlarged PVSs (ePVSs) are an emerging marker of cerebral small vessel disease and are implicated in protein accumulation, neurodegeneration, and cognitive decline. While prior…",
+"addedAt": "2026-10-26",
+"source": "auto",
+"oaChecked": "2026-10-26"
+},
+{
+"id": "pmid-42928899",
+"pmid": "42928899",
+"doi": "10.2147/jir.s635848",
+"title": "The A-FABP Nexus in the Neurovascular Unit: Bridging Endothelial Barrier Breakdown and Microglial Lipotoxicity in Ischemic Stroke.",
+"authors": "Ma WY, Yao L, Lan W",
+"journal": "Journal of inflammation research",
+"journal_iso": "J Inflamm Res",
+"date": "2026-10-26",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/jir.s635848"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42928899/"
+}
+],
+"au": [
+"ma|w",
+"yao|l",
+"lan|w"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"neurovascular unit"
+],
+"relevance": 3,
+"why": "Ischemic stroke is a neurological cerebrovascular event characterized by highly complex, spatiotemporally dynamic pathophysiological processes. In recent years, stroke research has shifted from early isolated neuroprotection to the systematic investigation of the multidimensional homeostasis of the entire…",
+"addedAt": "2026-10-26",
+"source": "auto",
+"oaChecked": "2026-10-26",
+"oa": {
+"url": "https://www.dovepress.com/article/download/121166",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42928090",
+"pmid": "42928090",
+"doi": "10.1007/s00203-026-05250-5",
+"title": "Microbial serotonin signalling axes in irritable bowel syndrome: integrative molecular crosstalk among enterochromaffin cells, gut microbiota, neuroimmune circuits, and precision therapeutic engineering.",
+"authors": "Mehra RK, Singh BP, Siddiqui S, … Anwer MK",
+"journal": "Archives of microbiology",
+"journal_iso": "Arch Microbiol",
+"date": "2026-10-26",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00203-026-05250-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42928090/"
+}
+],
+"au": [
+"mehra|r",
+"singh|b",
+"siddiqui|s",
+"aldawsari|m",
+"kamal|m",
+"anwer|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Irritable bowel syndrome (IBS) is a common, often disabling disorder of gut-brain interaction whose molecular basis remains incompletely defined, leaving diagnosis largely symptom-based and treatment largely non-mechanistic. We argue that the serotonin (5-hydroxytryptamine; hereafter 5-HT, the primary term used…",
+"addedAt": "2026-10-26",
+"source": "auto",
+"oaChecked": "2026-10-26"
+},
+{
+"id": "pmid-42928100",
+"pmid": "42928100",
+"doi": "10.1177/0271678x261503504",
+"title": "EXPRESS: Brain on fire: Why intracerebral hemorrhage requires a firefighting strategy beyond single therapeutic targets.",
+"authors": "Zille M",
+"journal": "Journal of cerebral blood flow and metabolism",
+"journal_iso": "J Cereb Blood Flow Metab",
+"date": "2026-10-26",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/0271678x261503504"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42928100/"
+}
+],
+"au": [
+"zille|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Intracerebral hemorrhage (ICH) remains the most lethal form of stroke and lacks an established neuroprotective therapy. Secondary injury after ICH reflects interacting processes, including hematoma expansion, hemolysis-derived toxicity, neuroinflammation, blood-brain barrier dysfunction, perihematomal edema, oxidative…",
+"addedAt": "2026-10-26",
+"source": "auto",
+"oaChecked": "2026-10-26"
+},
 {
 "id": "pmid-42926851",
 "pmid": "42926851",
@@ -65,6 +233,299 @@
 }
 },
 {
+"id": "pmid-42927339",
+"pmid": "42927339",
+"doi": "10.1016/j.omtn.2026.103105",
+"title": "Systemic and local delivery of siRNA to the CNS and periphery via anti-IGF1R antibody conjugation.",
+"authors": "Tian M, Nikan M, Yoo M, … An S",
+"journal": "Molecular therapy. Nucleic acids",
+"journal_iso": "Mol Ther Nucleic Acids",
+"date": "2026-10-25",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.omtn.2026.103105"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42927339/"
+}
+],
+"au": [
+"tian|m",
+"nikan|m",
+"yoo|m",
+"klein|s",
+"kwon|s",
+"matson|j",
+"kim|d",
+"jung|j",
+"hyeon|s",
+"yoo|b",
+"park|h",
+"tanowitz|m",
+"wahlander|a",
+"you|w",
+"kwon|h",
+"huffman|j",
+"prakash|t",
+"lee|s",
+"zhao|h",
+"an|s"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"transferrin receptor"
+],
+"relevance": 4,
+"why": "siRNA delivery platforms capable of accessing both central and peripheral tissues are critically needed to expand the therapeutic potential of oligonucleotides. To address this, we developed an siRNA-antibody conjugate by attaching an Hprt-targeting siRNA to an engineered antibody shuttle. This shuttle targets the…",
+"addedAt": "2026-10-26",
+"source": "auto",
+"oaChecked": "2026-10-26",
+"oa": {
+"url": "https://doi.org/10.1016/j.omtn.2026.103105",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42928044",
+"pmid": "42928044",
+"doi": "10.1111/dom.71475",
+"title": "Association of CT-Derived Skeletal Muscle Radiodensity and Index With Cerebral Small Vessel Disease: A Community-Based Study.",
+"authors": "Yuan Y, Cai X, Wang L, … Wang Y",
+"journal": "Diabetes, obesity & metabolism",
+"journal_iso": "Diabetes Obes Metab",
+"date": "2026-10-25",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/dom.71475"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42928044/"
+}
+],
+"au": [
+"yuan|y",
+"cai|x",
+"wang|l",
+"yang|y",
+"ren|l",
+"wang|m",
+"zhang|d",
+"pan|y",
+"wang|y"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"lacune",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Skeletal muscle composition is linked to metabolic health, but its association with cerebral small vessel disease (CSVD) remains unclear. We examined associations of CT-derived skeletal muscle radiodensity (SMD) and skeletal muscle index (SMI) with CSVD. This cross-sectional analysis included 2395 adults from the…",
+"addedAt": "2026-10-26",
+"source": "auto",
+"oaChecked": "2026-10-26"
+},
+{
+"id": "pmid-42927744",
+"pmid": "42927744",
+"doi": "10.1134/s0006297926601565",
+"title": "When the Brain Signals Danger: Roles of Calreticulin and HMGB1 in Cell Death Mechanisms in Neurooncology and Neurodegeneration.",
+"authors": "Mishchenko TA, Grechukhina AA, Kulikov SS, … Vedunova MV",
+"journal": "Biochemistry. Biokhimiia",
+"journal_iso": "Biochemistry (Mosc)",
+"date": "2026-10-25",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1134/s0006297926601565"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42927744/"
+}
+],
+"au": [
+"mishchenko|t",
+"grechukhina|a",
+"kulikov|s",
+"olajide|o",
+"mitroshina|e",
+"krysko|d",
+"vedunova|m"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "Contrary to the classical paradigm of brain immune privilege, damage-associated molecular patterns (DAMPs) act as key mediators in the dialogue between CNS cells and the immune system, determining pathways of immune response development. This review examines the role of key DAMPs - calreticulin (CRT) and high-mobility…",
+"addedAt": "2026-10-26",
+"source": "auto",
+"oaChecked": "2026-10-26"
+},
+{
+"id": "pmid-42927575",
+"pmid": "42927575",
+"doi": "10.1007/s11033-026-13010-3",
+"title": "miR-21a-5p targets DDX58 to suppress TLR2/NF-κB signaling and protect the blood-brain barrier after injury.",
+"authors": "Yang J, Tang N, Dai R, … Meng Q",
+"journal": "Molecular biology reports",
+"journal_iso": "Mol Biol Rep",
+"date": "2026-10-25",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s11033-026-13010-3"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42927575/"
+}
+],
+"au": [
+"yang|j",
+"tang|n",
+"dai|r",
+"fu|h",
+"li|s",
+"meng|q"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"tight junction"
+],
+"relevance": 3,
+"why": "Damage to the blood-brain barrier (BBB) plays a pivotal role in the pathogenesis of various neurological disorders. miR-21a-5p has been implicated in the modulation of BBB injury. Understanding the molecular targets of miR-21a-5p is crucial for developing targeted interventions in BBB repair. The target gene of…",
+"addedAt": "2026-10-26",
+"source": "auto",
+"oaChecked": "2026-10-26"
+},
+{
+"id": "pmid-42927341",
+"pmid": "42927341",
+"doi": "10.7759/cureus.116830",
+"title": "Not All Brain Bleeds Are Equal: An Etiology-First Framework for Stroke Prevention After Intracerebral Hemorrhage.",
+"authors": "Abdul Rehman F, Zeeshan M, Siddique MU, Brohi I",
+"journal": "Cureus",
+"journal_iso": "Cureus",
+"date": "2026-10-25",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.7759/cureus.116830"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42927341/"
+}
+],
+"au": [
+"abdul rehman|f",
+"zeeshan|m",
+"siddique|m",
+"brohi|i"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"cerebral amyloid angiopathy",
+"microbleed",
+"randomized"
+],
+"relevance": 3,
+"why": "Stroke prevention after intracerebral hemorrhage (ICH) in patients with atrial fibrillation (AF) requires balancing cardioembolic protection against recurrent cerebral bleeding. Randomized evidence indicates that direct oral anticoagulants (DOACs) substantially reduce ischemic stroke compared with no anticoagulation…",
+"addedAt": "2026-10-26",
+"source": "auto",
+"oaChecked": "2026-10-26",
+"oa": {
+"url": "https://www.cureus.com/articles/537353-not-all-brain-bleeds-are-equal-an-etiology-first-framework-for-stroke-prevention-after-intracerebral-hemorrhage.pdf",
+"pdf": true,
+"status": "diamond"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.23.761329",
+"doi": "10.64898/2026.10.23.761329",
+"title": "Host brain infection induces RNAi epimutation in Mucor circinelloides and enhances blood-brain barrier invasion",
+"authors": "Navarro-Mendoza, M. I., Perez-Arques, C., Choi, Y., … Heitman, J.",
+"journal": "bioRxiv",
+"date": "2026-10-25",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "genetics",
+"version": "1",
+"au": [
+"navarro-mendoza|m",
+"perez-arques|c",
+"choi|y",
+"cao|e",
+"chang|z",
+"xu|z",
+"bahn|y",
+"moseman|e",
+"heitman|j"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761329v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761329v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"transwell"
+],
+"relevance": 3,
+"why": "Mucorales fungi cause mucormycosis, a rapidly progressive invasive fungal disease with high mortality, particularly in immunocompromised patients and in severe disseminated infections. Central nervous system involvement is among the most devastating manifestations of mucormycosis, yet the mechanisms that enable…",
+"addedAt": "2026-10-26",
+"source": "auto"
+},
+{
 "id": "pmid-42926663",
 "pmid": "42926663",
 "doi": "10.21203/rs.3.rs-11166891/v1",
@@ -109,6 +570,53 @@
 "relevance": 2,
 "why": "Background Late-onset Alzheimer's disease (LOAD) comprises more than 95% of all AD cases. Transgenic, overexpression animal models have off-target side effects, do not effectively produce the heterogeneity observed clinically in LOAD patients, and are therefore not best suited for preclinical therapeutic development.…",
 "addedAt": "2026-10-25",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.07.23.740401",
+"doi": "10.64898/2026.07.23.740401",
+"title": "Krüppel-like factors KLF5 & KLF8 emerge as potential master transcriptional regulators of Alzheimer's disease, as revealed on cell fate regulomes in human brain organoids",
+"authors": "Aubert, A., Comby, A.-C., Bramoulle, A., … Mendoza-Parra, M. A.",
+"journal": "bioRxiv",
+"date": "2026-10-25",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "systems biology",
+"version": "2",
+"au": [
+"aubert|a",
+"comby|a",
+"bramoulle|a",
+"mendoza-ferri|m",
+"azzolin|p",
+"li|h",
+"moussy|a",
+"das|s",
+"colombo|b",
+"mendoza-parra|m"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.07.23.740401v2"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.07.23.740401v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"organoid"
+],
+"relevance": 2,
+"why": "In addition to the well described beta-amyloid plates accumulation and tau hyper-phosphorylation, Alzheimers disease (AD) is accompanied by major changes in gene expression. Herein, we aimed at revealing master transcription factors (TFs) responsible for gene expression changes during AD progression. For this, we have…",
+"addedAt": "2026-10-26",
 "source": "auto"
 },
 {
