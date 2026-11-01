@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-10-31",
-"lastRunAdded": 27,
-"total": 1405,
+"lastCurated": "2026-11-01",
+"lastRunAdded": 9,
+"total": 1414,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,61 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-42964764",
+"pmid": "42964764",
+"doi": "10.1016/j.ijpx.2026.100691",
+"title": "Precision engineering of nanocarriers for transport across complex biological barriers.",
+"authors": "Acharya R, Komedchikova E, Choi Y, … Choi J",
+"journal": "International journal of pharmaceutics: X",
+"journal_iso": "Int J Pharm X",
+"date": "2026-10-31",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ijpx.2026.100691"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42964764/"
+}
+],
+"au": [
+"acharya|r",
+"komedchikova|e",
+"choi|y",
+"yang|j",
+"kim|j",
+"son|j",
+"jang|j",
+"lee|h",
+"kadonosono|t",
+"choi|j"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound",
+"permeability",
+"receptor-mediated transcytosis"
+],
+"relevance": 5,
+"why": "Biological barriers are essential for maintaining tissue homeostasis and protecting organs from harmful external agents; however, they also represent major obstacles to the efficient delivery of therapeutic agents. The blood-brain barrier, ocular barriers, mucosal barriers, and vascular endothelial barriers exhibit…",
+"addedAt": "2026-11-01",
+"source": "auto",
+"oaChecked": "2026-11-01",
+"oa": {
+"url": "https://doi.org/10.1016/j.ijpx.2026.100691",
+"pdf": false,
+"status": "gold"
+}
+},
 {
 "id": "pmid-42963801",
 "pmid": "42963801",
@@ -68,6 +123,98 @@ window.PAPER_RADAR_DATA = {
 "pdf": false,
 "status": "gold"
 }
+},
+{
+"id": "pmid-42966482",
+"pmid": "42966482",
+"doi": "10.1016/j.phrs.2026.109709",
+"title": "Nanomedicine for Alzheimer's Disease: A Stage-Matched Framework Integrating Pathological Network Modulation, Blood-Brain Barrier Delivery, and Clinical Translation.",
+"authors": "Li J, Wang Y, Liu Y, … Zhang S",
+"journal": "Pharmacological research",
+"journal_iso": "Pharmacol Res",
+"date": "2026-10-31",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.phrs.2026.109709"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42966482/"
+}
+],
+"au": [
+"li|j",
+"wang|y",
+"liu|y",
+"ji|y",
+"lu|p",
+"yang|w",
+"zhang|s"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"brain delivery",
+"focused ultrasound"
+],
+"relevance": 4,
+"why": "Alzheimer's disease (AD) remains one of the most difficult neurodegenerative disorders to treat. Therapeutic failure is driven mainly by two barriers: the multifactorial pathological network of AD and the limited access of most therapeutics to the brain imposed by the blood-brain barrier (BBB). Conventional…",
+"addedAt": "2026-11-01",
+"source": "auto",
+"oaChecked": "2026-11-01"
+},
+{
+"id": "pmid-42965692",
+"pmid": "42965692",
+"doi": "10.1007/s00330-026-12988-5",
+"title": "ESR Essentials: susceptibility-weighted imaging-practice recommendations by the European Society for Magnetic Resonance in Medicine and Biology.",
+"authors": "Parillo M, Deistung A, Vaccarino F, … Rovira À",
+"journal": "European radiology",
+"journal_iso": "Eur Radiol",
+"date": "2026-10-31",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00330-026-12988-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42965692/"
+}
+],
+"au": [
+"parillo|m",
+"deistung|a",
+"vaccarino|f",
+"shmueli|k",
+"quattrocchi|c",
+"a|r"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"amyloid-related imaging abnormalit",
+"cerebral amyloid angiopathy",
+"phase i"
+],
+"relevance": 4,
+"why": "Susceptibility-weighted imaging (SWI) is a high-resolution 3D gradient-echo (GRE) magnetic resonance imaging (MRI) technique that combines magnitude and phase information to increase sensitivity to blood products, iron, calcification, thrombus, and venous structures. In routine practice, SWI should be interpreted…",
+"addedAt": "2026-11-01",
+"source": "auto",
+"oaChecked": "2026-11-01"
 },
 {
 "id": "pmid-42964121",
@@ -157,6 +304,332 @@ window.PAPER_RADAR_DATA = {
 "addedAt": "2026-10-31",
 "source": "auto",
 "oaChecked": "2026-10-31"
+},
+{
+"id": "pmid-42965085",
+"pmid": "42965085",
+"doi": "10.1021/acsomega.6c07565",
+"title": "Discovery of a Peripherally Directed CB1 Receptor Antagonist That Restores Insulin Signaling in Adipocytes.",
+"authors": "Azuaje J, Prieto-Díaz R, Gioé-Gallo C, … Sotelo E",
+"journal": "ACS omega",
+"journal_iso": "ACS Omega",
+"date": "2026-10-31",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acsomega.6c07565"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42965085/"
+}
+],
+"au": [
+"azuaje|j",
+"prieto-diaz|r",
+"gioe-gallo|c",
+"ortigueira|s",
+"soilan|j",
+"trinanes|d",
+"fojo|h",
+"loza|m",
+"contino|m",
+"perrone|m",
+"mangiatordi|g",
+"delre|p",
+"lago-baameiro|n",
+"estevez-lopez|a",
+"pardo|m",
+"stefanachi|a",
+"graziano|g",
+"brea|j",
+"majellaro|m",
+"sotelo|e"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "The antagonism of cannabinoid 1 receptor (CB1R) signaling has demonstrated clinical efficacy in treating obesity, improving insulin resistance, enhancing cardiovascular health, and mitigating metabolic risk factors in humans. Despite these positive outcomes, the clinical use of rimonabant was limited by severe central…",
+"addedAt": "2026-11-01",
+"source": "auto",
+"oaChecked": "2026-11-01",
+"oa": {
+"url": "https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c07565/68842192/acsomega.6c07565.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42965047",
+"pmid": "42965047",
+"doi": "10.1016/j.cccb.2026.100569",
+"title": "Cortical microinfarcts are associated with thalamic subregional volume and cognitive impairment in small vessel disease.",
+"authors": "Liao M, Zhou W, Wang M, … Fan Y",
+"journal": "Cerebral circulation - cognition and behavior",
+"journal_iso": "Cereb Circ Cogn Behav",
+"date": "2026-10-31",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.cccb.2026.100569"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42965047/"
+}
+],
+"au": [
+"liao|m",
+"zhou|w",
+"wang|m",
+"huang|x",
+"lao|y",
+"xie|z",
+"zhang|y",
+"sole-guardia|g",
+"tuladhar|a",
+"li|h",
+"fan|y"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"lacune",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Cortical cerebral microinfarcts (CMIs) are small but could induce tissue injury extending beyond the lesion core. The thalamus, as a central cortico-subcortical hub, may be particularly vulnerable to CMI-related remote injury, potentially linking focal cortical lesions to cognitive impairment in cerebral small vessel…",
+"addedAt": "2026-11-01",
+"source": "auto",
+"oaChecked": "2026-11-01",
+"oa": {
+"url": "https://doi.org/10.1016/j.cccb.2026.100569",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42965038",
+"pmid": "42965038",
+"doi": "10.5114/aic.2026.164688",
+"title": "Non-inferiority of a paclitaxel-coated balloon versus a rapamycin-eluting metal stent for de novo non-complex small coronary vessel disease: a prospective randomized controlled trial.",
+"authors": "Xu X, Xiang Y, Ge K, … Zheng J",
+"journal": "Postepy w kardiologii interwencyjnej = Advances in interventional cardiology",
+"journal_iso": "Postepy Kardiol Interwencyjnej",
+"date": "2026-10-31",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.5114/aic.2026.164688"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42965038/"
+}
+],
+"au": [
+"xu|x",
+"xiang|y",
+"ge|k",
+"shi|h",
+"zhang|z",
+"zheng|j"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"randomized",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "While drug-coated balloons (DCB) have demonstrated efficacy for coronary small vessel disease, comparative data between DCB and drug-eluting stents (DES) in de novo coronary lesions remain limited. This study hypothesized that a DCB-only strategy would be non-inferior to DES for angiographic outcomes in de novo small…",
+"addedAt": "2026-11-01",
+"source": "auto",
+"oaChecked": "2026-11-01",
+"oa": {
+"url": "https://www.termedia.pl/Journal/-35/pdf-58593-10?filename=Non-inferiority.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42964993",
+"pmid": "42964993",
+"doi": "10.3389/fneur.2026.1902491",
+"title": "Photobiomodulation as a regulator of neuroinflammation: mechanistic insights and therapeutic potential in brain disorders.",
+"authors": "Blivet G, Bertrand C, Brauge D, … Touchon J",
+"journal": "Frontiers in neurology",
+"journal_iso": "Front Neurol",
+"date": "2026-10-31",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fneur.2026.1902491"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42964993/"
+}
+],
+"au": [
+"blivet|g",
+"bertrand|c",
+"brauge|d",
+"delrieu|j",
+"touchon|j"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "Brain disorders, including neurodegenerative, neuropsychiatric, and cerebrovascular diseases, represent a growing global health challenge contributing to disability and mortality worldwide. Although these conditions differ in etiology and clinical presentation, accumulating evidence identifies neuroinflammation as a…",
+"addedAt": "2026-11-01",
+"source": "auto",
+"oaChecked": "2026-11-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1902491/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42964415",
+"pmid": "42964415",
+"doi": "10.3389/fphys.2026.1954752",
+"title": "Water homeostasis gene expression in intestines of male and female broilers divergently selected and individually phenotyped for low and high water conversion ratio.",
+"authors": "Lassiter K, Greene ES, Maqaeda M, … Bottje WG",
+"journal": "Frontiers in physiology",
+"journal_iso": "Front Physiol",
+"date": "2026-10-31",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fphys.2026.1954752"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42964415/"
+}
+],
+"au": [
+"lassiter|k",
+"greene|e",
+"maqaeda|m",
+"tabler|t",
+"shafer|k",
+"roach|b",
+"wideman|r",
+"dridi|s",
+"orlowski-workman|s",
+"bottje|w"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4",
+"tight junction"
+],
+"relevance": 3,
+"why": "The goal of this study was to evaluate gene expression of water homeostasis-related genes in the intestines of male and female broilers individually phenotyped for low and high water conversion ratio (LWCR and HWCR, respectively). A 2x2 factorial experiment was conducted with male and female broilers from fourth…",
+"addedAt": "2026-11-01",
+"source": "auto",
+"oaChecked": "2026-11-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1954752/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42964403",
+"pmid": "42964403",
+"doi": "10.3389/fimmu.2026.1883263",
+"title": "Spatial multiomics identifies rheumatoid arthritis synovial niches and de-novo laminar histological patterns of fibroblasts subtypes.",
+"authors": "Sisó S, Iyer A, Raghuram V, … Schwartz-Sterman A",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-10-31",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1883263"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42964403/"
+}
+],
+"au": [
+"siso|s",
+"iyer|a",
+"raghuram|v",
+"chaudhary|n",
+"knight|h",
+"wang|f",
+"filip|i",
+"duggan|l",
+"wang|x",
+"naughton|k",
+"melim|t",
+"yarilina|a",
+"yang|y",
+"rivas|j",
+"mccarthy|a",
+"tian|y",
+"chang|d",
+"trdj|r",
+"ruzek|m",
+"schwartz-sterman|a"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"notch3"
+],
+"relevance": 2,
+"why": "Spatial omic technologies provide insight into molecular architecture and spatial cellular organization within tissue. In rheumatoid arthritis (RA), single-cell RNA sequencing and low-resolution spatial transcriptomics have advanced the understanding of synovial biology. However, single-cell spatial resolution using…",
+"addedAt": "2026-11-01",
+"source": "auto",
+"oaChecked": "2026-11-01",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1883263/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42957838",
