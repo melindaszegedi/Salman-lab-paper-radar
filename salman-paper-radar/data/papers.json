@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-01",
-"lastRunAdded": 9,
-"total": 1414,
+"lastCurated": "2026-11-02",
+"lastRunAdded": 10,
+"total": 1424,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,434 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42968820",
+"pmid": "42968820",
+"doi": "10.2147/cia.s633855",
+"title": "Language Impairment in Alzheimer's Disease: An Updated Narrative Review of Digital Assessment, Social Interventions, and Medical Treatment, 2016-2026.",
+"authors": "Klimova B",
+"journal": "Clinical interventions in aging",
+"journal_iso": "Clin Interv Aging",
+"date": "2026-11-02",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/cia.s633855"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42968820/"
+}
+],
+"au": [
+"klimova|b"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"randomized"
+],
+"relevance": 3,
+"why": "Language impairment is a core clinical manifestation of Alzheimer's disease (AD) that profoundly affects autonomy, decision-making, and social participation. Building upon the 2015 review by Kuca et al., this narrative review synthesizes empirical evidence from 2016 through 2026. A structured Web of Science Core…",
+"addedAt": "2026-11-02",
+"source": "auto",
+"oaChecked": "2026-11-02",
+"oa": {
+"url": "https://www.dovepress.com/article/download/121491",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42968523",
+"pmid": "42968523",
+"doi": "10.1111/ejn.70748",
+"title": "Beyond the Microbial Hypothesis: Shared Genetic, Osteoimmune and Vascular Mechanisms in the Oral-Brain Axis Linking Periodontitis and Alzheimer's Disease.",
+"authors": "Kabbashi S, Ahmed M, Chetty M",
+"journal": "The European journal of neuroscience",
+"journal_iso": "Eur J Neurosci",
+"date": "2026-11-02",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/ejn.70748"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42968523/"
+}
+],
+"au": [
+"kabbashi|s",
+"ahmed|m",
+"chetty|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"apoe ε4",
+"blood-brain barrier"
+],
+"relevance": 3,
+"why": "Periodontitis, a chronic inflammatory disease of the tooth-supporting tissues, is increasingly linked to Alzheimer's disease (AD), yet mechanistic accounts of this 'oral-brain axis' have been dominated by microbial translocation and the gingipain hypothesis. This review argues that the convergence between…",
+"addedAt": "2026-11-02",
+"source": "auto",
+"oaChecked": "2026-11-02"
+},
+{
+"id": "pmid-42967054",
+"pmid": "42967054",
+"doi": "10.2147/ijn.s650851",
+"title": "Beyond Blood-Brain Barrier Crossing in Reperfusion-Era Ischemic Stroke: Interface-Matched Active-Entity Delivery and Translational Product Design.",
+"authors": "Bu F, Cao Y, Chen F, … Xiong L",
+"journal": "International journal of nanomedicine",
+"journal_iso": "Int J Nanomedicine",
+"date": "2026-11-01",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijn.s650851"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42967054/"
+}
+],
+"au": [
+"bu|f",
+"cao|y",
+"chen|f",
+"wen|y",
+"xiong|l"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"capillary",
+"neurovascular unit",
+"transcytosis"
+],
+"relevance": 4,
+"why": "Reperfusion therapy has transformed acute ischemic stroke care, yet large-vessel recanalization does not ensure capillary reperfusion, preservation of the blood-brain barrier and neurovascular unit (BBB/NVU), or durable neurological recovery. Nanomedicine is still commonly judged by BBB crossing or ischemic-hemisphere…",
+"addedAt": "2026-11-02",
+"source": "auto",
+"oaChecked": "2026-11-02",
+"oa": {
+"url": "https://www.dovepress.com/article/download/121399",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42968158",
+"pmid": "42968158",
+"doi": "10.1186/s12967-026-08693-y",
+"title": "Endothelial-specific Tie2 knockout mouse model - Tie2fl/fl;Cdh5-creERT2(+/-): a potent tool for inducible Tie2 deletion in vasculature across multiple organs.",
+"authors": "Keane C, Trivedi A, Miyazawa B, … Pati S",
+"journal": "Journal of translational medicine",
+"journal_iso": "J Transl Med",
+"date": "2026-11-01",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12967-026-08693-y"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42968158/"
+}
+],
+"au": [
+"keane|c",
+"trivedi|a",
+"miyazawa|b",
+"zwiers|p",
+"molema|g",
+"pati|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "TEK receptor tyrosine kinase (Tie2) is predominantly expressed on endothelial cells and is known to play a critical role in vascular development and stability. Due to its role in vascular development, germline knockout of Tie2 is embryonically lethal. In this study we aimed to generate an inducible Tie2 knockout mouse…",
+"addedAt": "2026-11-02",
+"source": "auto",
+"oaChecked": "2026-11-02",
+"oa": {
+"url": "https://doi.org/10.1186/s12967-026-08693-y",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42967579",
+"pmid": "42967579",
+"doi": "10.1002/alz.71961",
+"title": "MRI-derived glymphatic-related composite captures brain and cognitive vulnerability associated with cardiovascular risk in older adults.",
+"authors": "Wang Z, Lin G, Fang F, Yu J",
+"journal": "Alzheimer's & dementia",
+"journal_iso": "Alzheimers Dement",
+"date": "2026-11-01",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/alz.71961"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42967579/"
+}
+],
+"au": [
+"wang|z",
+"lin|g",
+"fang|f",
+"yu|j"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "We evaluated a multimodal magnetic resonance imaging (MRI)-derived glymphatic-related composite and examined its associations with cardiovascular risk, brain structural integrity, and cognition in older adults. Ninety-two participants were included in the baseline analyses and 68 in the 6-month reassessment analyses.…",
+"addedAt": "2026-11-02",
+"source": "auto",
+"oaChecked": "2026-11-02",
+"oa": {
+"url": "https://doi.org/10.1002/alz.71961",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.27.761977",
+"doi": "10.64898/2026.10.27.761977",
+"title": "Phenotypic screening in Parkinson's iPSC-dopamine neurons identifies the FASN-SREBP1 axis as a potential therapeutic target",
+"authors": "Caiazza, M. C., Brandes, J., Barrow, E. R., … Wade-Martins, R.",
+"journal": "bioRxiv",
+"date": "2026-11-01",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"caiazza|m",
+"brandes|j",
+"barrow|e",
+"marquez-gomez|r",
+"brown|d",
+"jenkins|b",
+"chughtai|u",
+"mcguinness|w",
+"humble|s",
+"sharifi|p",
+"hoffmann|j",
+"trigano|m",
+"koulman|a",
+"gurrell|i",
+"davis|a",
+"smith|d",
+"ryan|b",
+"wade-martins|r"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.27.761977v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.27.761977v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"ipsc",
+"parkinson"
+],
+"relevance": 2,
+"why": "Parkinson's disease (PD) remains highly challenging to model in vitro, particularly when seeking robust functional phenotypes for target discovery. Patient-derived induced pluripotent stem cell dopaminergic neurons (iPSC-DANs) offer a promising platform to address this challenge. Because calcium dyshomeostasis is…",
+"addedAt": "2026-11-02",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.06.25.734354",
+"doi": "10.64898/2026.06.25.734354",
+"title": "Modeling and validation of parallel co-flows layer widths of viscous liquids in open-capillary trigger valve systems",
+"authors": "Tokihiro, J., Caira, T., Lin, A., … Theberge, A. B.",
+"journal": "bioRxiv",
+"date": "2026-11-01",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "2",
+"au": [
+"tokihiro|j",
+"caira|t",
+"lin|a",
+"shaposhnikov|a",
+"whitten|j",
+"castaneda-lopez|c",
+"su|x",
+"shin|a",
+"robertson|i",
+"nicholson|t",
+"olanrewaju|a",
+"berthier|e",
+"berthier|j",
+"theberge|a"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.06.25.734354v2"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.06.25.734354v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"capillary",
+"microfluidic"
+],
+"relevance": 2,
+"why": "Control of fluids is a hallmark of microfluidic systems and fundamental for the successful application of microfluidic devices. Trigger valves use geometric features to autonomously control the release of fluids in microfluidic devices. Our previous work has adapted geometries used in closed trigger valve systems to…",
+"addedAt": "2026-11-02",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.29.26366737",
+"doi": "10.64898/2026.10.29.26366737",
+"title": "Multimodal Analysis of Transcriptional Regulation in the Dorsolateral Prefrontal Cortex Enhances Alzheimer's Disease Risk Gene Discovery",
+"authors": "Kim, K., Liu, Q., Buchman, A. S., … Epstein, M.",
+"journal": "medRxiv",
+"date": "2026-11-01",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "genetic and genomic medicine",
+"version": "1",
+"au": [
+"kim|k",
+"liu|q",
+"buchman|a",
+"tasaki|s",
+"bennett|d",
+"wang|y",
+"de jager|p",
+"hu|j",
+"yang|j",
+"epstein|m"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366737v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366737v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"trem2"
+],
+"relevance": 2,
+"why": "Recent transcriptome-wide association studies (TWASs) of Alzheimer's disease (AD) dementia have identified risk genes whose effects are potentially mediated through gene expression, but most do not consider other transcriptomic regulatory modalities that may contribute to AD genetic risk. To address this gap, we…",
+"addedAt": "2026-11-02",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.30.26366916",
+"doi": "10.64898/2026.10.30.26366916",
+"title": "CagriSema 2.4/2.4 mg versus CagriSema 1.0/1.0 mg in adults with type 2 diabetes: a dose-comparison systematic review and meta-analysis of randomized controlled trials",
+"authors": "Diefenthaeler, B. M., Canto, L. E. d., Pretto, G. M., … Gerchman, F.",
+"journal": "medRxiv",
+"date": "2026-11-01",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "endocrinology",
+"version": "1",
+"au": [
+"diefenthaeler|b",
+"canto|l",
+"pretto|g",
+"malta|h",
+"noll|g",
+"magalhaes|l",
+"santos|g",
+"gerchman|f"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366916v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366916v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"randomized",
+"semaglutide"
+],
+"relevance": 2,
+"why": "Background: Once-weekly cagrilintide-semaglutide (CagriSema) has been evaluated at two maintenance doses, 2.4/2.4 mg and 1.0/1.0 mg, in type 2 diabetes (T2DM), but they have not been directly compared. We compared their efficacy and safety. Methods: We searched PubMed, Embase, and Cochrane CENTRAL for randomized…",
+"addedAt": "2026-11-02",
+"source": "auto"
+},
 {
 "id": "pmid-42964764",
 "pmid": "42964764",
@@ -568,6 +996,52 @@
 "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1954752/pdf",
 "pdf": true,
 "status": "gold"
+}
+},
+{
+"id": "pmid-42966702",
+"pmid": "42966702",
+"doi": "10.1016/j.ultrasmedbio.2026.10.006",
+"title": "Numerical Optimisation of Photoacoustic Imaging of Mouse Brain Vasculature in Transcranial Ultrasound Applications.",
+"authors": "Liu T, Xia W, Pouliopoulos AN",
+"journal": "Ultrasound in medicine & biology",
+"journal_iso": "Ultrasound Med Biol",
+"date": "2026-10-31",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ultrasmedbio.2026.10.006"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42966702/"
+}
+],
+"au": [
+"liu|t",
+"xia|w",
+"pouliopoulos|a"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound"
+],
+"relevance": 3,
+"why": "Focused ultrasound (FUS) combined with microbubbles can locally and transiently open the blood-brain barrier (BBB), allowing enhanced drug delivery into the brain. During treatment, monitoring techniques are required to identify BBB disruption and downstream effects. Photoacoustic imaging (PAI), as a high contrast and…",
+"addedAt": "2026-11-02",
+"source": "auto",
+"oaChecked": "2026-11-02",
+"oa": {
+"url": "https://www.umbjournal.org/article/S0301-5629(26)00421-7/pdf",
+"pdf": true,
+"status": "hybrid"
 }
 },
 {
