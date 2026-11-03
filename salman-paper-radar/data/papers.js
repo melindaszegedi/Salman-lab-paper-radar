@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-11-02",
-"lastRunAdded": 10,
-"total": 1424,
+"lastCurated": "2026-11-03",
+"lastRunAdded": 22,
+"total": 1446,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,373 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-42973355",
+"pmid": "42973355",
+"doi": "10.2174/0115672018512037261016051934",
+"title": "Doxorubicin Nanocarriers in Glioblastoma Therapy: Advances and Limitations.",
+"authors": "Colpan RD",
+"journal": "Current drug delivery",
+"journal_iso": "Curr Drug Deliv",
+"date": "2026-11-03",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0115672018512037261016051934"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42973355/"
+}
+],
+"au": [
+"colpan|r"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain delivery",
+"nanoparticle",
+"permeability"
+],
+"relevance": 4,
+"why": "Glioblastoma (GBM) remains one of the most aggressive brain malignancies, with limited therapeutic success largely due to the restrictive nature of the Blood-Brain Barrier (BBB) and intrinsic drug resistance mechanisms. Despite standard treatment strategies, the median survival remains approximately 16 months,…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03"
+},
+{
+"id": "pmid-42973348",
+"pmid": "42973348",
+"doi": "10.2174/0113894501504715261014100550",
+"title": "AI-integrated Approaches in Alzheimer's Disease: Linking Molecular Pathways, Biomarkers, and Emerging Therapies.",
+"authors": "Aziz N, Sachan K, Singh A, … Gasmi A",
+"journal": "Current drug targets",
+"journal_iso": "Curr Drug Targets",
+"date": "2026-11-03",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0113894501504715261014100550"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42973348/"
+}
+],
+"au": [
+"aziz|n",
+"sachan|k",
+"singh|a",
+"srivastava|s",
+"wal|p",
+"gupta|r",
+"sharma|k",
+"gasmi|a"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"lecanemab"
+],
+"relevance": 4,
+"why": "Alzheimer's disease (AD) continues to be the leading cause of dementia worldwide, due to its complicated, multifactorial pathophysiology. To shift the AD paradigm from reactive to proactive, from a specific time to a precision medicine intervention strategy, this study examines the role of artificial intelligence (AI)…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03"
+},
+{
+"id": "pmid-42973071",
+"pmid": "42973071",
+"doi": "10.1002/adma.75598",
+"title": "A Retinal Matrix Stiffening Model Reveals FAK-Dependent Mechanotransduction in Pericytes Underlies Vascular Destabilization.",
+"authors": "Warren E, Wu A, Ramirez L, … Gerecht S",
+"journal": "Advanced materials (Deerfield Beach, Fla.)",
+"journal_iso": "Adv Mater",
+"date": "2026-11-03",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/adma.75598"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42973071/"
+}
+],
+"au": [
+"warren|e",
+"wu|a",
+"ramirez|l",
+"huang|y",
+"amelung|c",
+"saxonhouse|s",
+"gerecht|s"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"capillary",
+"ipsc",
+"notch3",
+"pericytes"
+],
+"relevance": 4,
+"why": "Pericyte loss, an early hallmark of diabetic retinopathy (DR), is linked to hyperglycemia and inflammation, whereas the contribution of mechanical changes in the retina remains unclear. We define design parameters for an iPSC-derived microphysiological system (MPS) comprising pericyte-endothelial capillary networks…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03"
+},
+{
+"id": "pmid-42973307",
+"pmid": "42973307",
+"doi": "10.2174/0113816128498395261019115044",
+"title": "Rivastigmine and Emerging Nanotechnological Strategies for Targeted Delivery: A Comprehensive Review.",
+"authors": "Babar E, Ur Rehman A, Gul P, … Ahmed N",
+"journal": "Current pharmaceutical design",
+"journal_iso": "Curr Pharm Des",
+"date": "2026-11-03",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0113816128498395261019115044"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42973307/"
+}
+],
+"au": [
+"babar|e",
+"ur rehman|a",
+"gul|p",
+"arshad|m",
+"shah|b",
+"ahmed|n"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"bbb",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "Alzheimer's disease affects millions of people globally; it is an irreversible and incurable disease, characterized by gradual cognitive decline as well as pathophysiological changes including the presence of senile plaques and neurofibrillary tangles. There are several risk factors associated with Alzheimer's…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03"
+},
+{
+"id": "pmid-42972888",
+"pmid": "42972888",
+"doi": "10.1111/dom.71462",
+"title": "Association of Cumulative Metabolic Burden With Brain Perfusion, Volume and Cerebral Small Vessel Disease: A Brain Magnetic Resonance Imaging-Based Study.",
+"authors": "Li Z, Hui Y, Chen J, … Wang Z",
+"journal": "Diabetes, obesity & metabolism",
+"journal_iso": "Diabetes Obes Metab",
+"date": "2026-11-03",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/dom.71462"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42972888/"
+}
+],
+"au": [
+"li|z",
+"hui|y",
+"chen|j",
+"shi|h",
+"zhu|x",
+"shi|x",
+"li|r",
+"li|j",
+"zhao|p",
+"lv|h",
+"chen|s",
+"wu|y",
+"wu|s",
+"li|x",
+"wang|z"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"cerebral blood flow",
+"lacune",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "To investigate the association of cumulative metabolic burden with cerebral blood flow (CBF), brain volume and cerebral small vessel disease (CSVD) markers. A total of 1233 participants (579 males; mean age, 57.31 ± 9.97 years) were included from the Kailuan Study. Cumulative systolic blood pressure, fasting blood…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03"
+},
+{
+"id": "pmid-42973313",
+"pmid": "42973313",
+"doi": "10.2174/0118722105511004261011123713",
+"title": "Nanorobotic Analytical Systems in Pharmaceutical Sciences: Translational Advances, Patents and Next-Generation Sensing Platforms.",
+"authors": "Dhiman P, Sharma A, Kumar I, … Ashawat MS",
+"journal": "Recent patents on nanotechnology",
+"journal_iso": "Recent Pat Nanotechnol",
+"date": "2026-11-03",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0118722105511004261011123713"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42973313/"
+}
+],
+"au": [
+"dhiman|p",
+"sharma|a",
+"kumar|i",
+"kumar|p",
+"ankalgi|a",
+"ashawat|m"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "The growing molecular complexity of pharmaceuticals and biological systems poses challenges for conventional analytical methods, especially in obtaining real-time, ultrasensitive, spatially resolved, and decentralized measurements. This review examines the emerging role of nanorobotic analytical systems in…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03"
+},
+{
+"id": "biorxiv-10.64898_2026.10.30.763204",
+"doi": "10.64898/2026.10.30.763204",
+"title": "Cigarette smoke extract and palmitic acid exposed patient-derived iPS- RPE cells as a model for AMD",
+"authors": "Kumpakha, R., Bhat, M. A., Satyanarayana, G., … Datta, S.",
+"journal": "bioRxiv",
+"date": "2026-11-03",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"kumpakha|r",
+"bhat|m",
+"satyanarayana|g",
+"golestaneh|n",
+"datta|s"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763204v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763204v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"induced pluripotent",
+"teer",
+"zo-1"
+],
+"relevance": 3,
+"why": "Purpose: Age-related macular degeneration (AMD) is a multifactorial disease in which dysfunction and loss of retinal pigment epithelial (RPE) cells contribute to disease progression. Besides genetics, cigarette smoking and high fat diet are important environmental and metabolic risk factors for AMD and are associated…",
+"addedAt": "2026-11-03",
+"source": "auto"
+},
+{
+"id": "pmid-42969459",
+"pmid": "42969459",
+"doi": "10.1111/ene.70800",
+"title": "Navigating the Challenges of Shared Decision-Making in Amyloid Immunotherapy for Alzheimer's Disease.",
+"authors": "François G, Michalon R, Tannou T, … Lebouvier T",
+"journal": "European journal of neurology",
+"journal_iso": "Eur J Neurol",
+"date": "2026-11-02",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/ene.70800"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42969459/"
+}
+],
+"au": [
+"francois|g",
+"michalon|r",
+"tannou|t",
+"damier|p",
+"desmoulin|s",
+"lebouvier|t"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"lecanemab"
+],
+"relevance": 4,
+"why": "Anti-amyloid therapies (AATs), such as lecanemab and donanemab, represent a major therapeutic development for early Alzheimer's disease (AD). However, safety risks and uncertainties regarding long-term effects make treatment decisions complex. These decisions arise when patients remain legally capable of providing…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03",
+"oa": {
+"url": "https://doi.org/10.1111/ene.70800",
+"pdf": false,
+"status": "gold"
+}
+},
 {
 "id": "pmid-42968820",
 "pmid": "42968820",
@@ -100,6 +467,724 @@ window.PAPER_RADAR_DATA = {
 "addedAt": "2026-11-02",
 "source": "auto",
 "oaChecked": "2026-11-02"
+},
+{
+"id": "pmid-42971925",
+"pmid": "42971925",
+"doi": "10.1002/adhm.71891",
+"title": "Nanobody-Modified Outer Membrane Vesicles Attenuate Alzheimer's Disease-Like Neurodegeneration by Modulating Mitophagy-Associated Phenotypes and cGAS-STING-Related Inflammatory Signaling.",
+"authors": "Xiao J, Yang Z, Li J, … Wu H",
+"journal": "Advanced healthcare materials",
+"journal_iso": "Adv Healthc Mater",
+"date": "2026-11-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/adhm.71891"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42971925/"
+}
+],
+"au": [
+"xiao|j",
+"yang|z",
+"li|j",
+"xiong|q",
+"xia|x",
+"hao|l",
+"ling|z",
+"pang|k",
+"zhou|c",
+"wu|h"
+],
+"topics": [
+"delivery"
+],
+"keywords": [
+"alzheimer",
+"transferrin receptor"
+],
+"relevance": 3,
+"why": "This study examined anti-transferrin receptor (TfR) nanobody-functionalized bacterial outer membrane vesicles (OMVs) as an engineered platform for improving Alzheimer's disease (AD)-like neuronal injury. Escherichia coli-derived OMVs were characterized for morphology, size distribution, surface charge, protein…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03"
+},
+{
+"id": "pmid-42971862",
+"pmid": "42971862",
+"doi": "10.1016/j.ultrasmedbio.2026.10.001",
+"title": "Focused Ultrasound in Parkinson's Disease: From Mechanisms to Precision Therapy.",
+"authors": "Tong J, Chen Z, Lyu W, Li T",
+"journal": "Ultrasound in medicine & biology",
+"journal_iso": "Ultrasound Med Biol",
+"date": "2026-11-02",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ultrasmedbio.2026.10.001"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42971862/"
+}
+],
+"au": [
+"tong|j",
+"chen|z",
+"lyu|w",
+"li|t"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"bbb",
+"focused ultrasound",
+"parkinson"
+],
+"relevance": 3,
+"why": "Parkinson's disease (PD) is a progressive neurodegenerative disorder that markedly impairs motor function and quality of life. As conventional pharmacotherapy and deep brain stimulation are increasingly limited by waning efficacy, treatment-related complications or surgical ineligibility, focused ultrasound (FUS) has…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03"
+},
+{
+"id": "pmid-42971501",
+"pmid": "42971501",
+"doi": "10.1016/j.neuroscience.2026.11.002",
+"title": "Aquaporin channels in cytotoxic brain edema following severe head trauma: Systematic review of molecular mechanisms and therapy.",
+"authors": "Rawson C, Ashraf M, Chirasani S, … Pehlevani M",
+"journal": "Neuroscience",
+"journal_iso": "Neuroscience",
+"date": "2026-11-02",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.neuroscience.2026.11.002"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42971501/"
+}
+],
+"au": [
+"rawson|c",
+"ashraf|m",
+"chirasani|s",
+"farahnak|d",
+"karsy|m",
+"pehlevani|m"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"antisense",
+"aquaporin-4"
+],
+"relevance": 3,
+"why": "Cytotoxic brain edema significantly worsens outcomes in severe traumatic brain injury (TBI), but the molecular pathways involved aren't fully characterized. This review draws on studies published since 2015 to assess how aquaporin-4 (AQP4), the only AQP isoform evaluated across the included studies, contributes to…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03"
+},
+{
+"id": "pmid-42969846",
+"pmid": "42969846",
+"doi": "10.1093/esj/aakag133",
+"title": "Serum brain-derived tau in lacunar stroke and cerebral small vessel disease.",
+"authors": "Gattringer T, Haidegger M, Tafrali C, … Khalil M",
+"journal": "European stroke journal",
+"journal_iso": "Eur Stroke J",
+"date": "2026-11-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1093/esj/aakag133"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42969846/"
+}
+],
+"au": [
+"gattringer|t",
+"haidegger|m",
+"tafrali|c",
+"martinez-serrat|m",
+"pinter|d",
+"fandler-hofler|s",
+"kneihsl|m",
+"seiler|s",
+"eppinger|s",
+"kiss|c",
+"bichler|r",
+"haindl|m",
+"ropele|s",
+"enzinger|c",
+"khalil|m"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"lacunar",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Brain-derived tau (BD-tau) selectively quantifies tau of central nervous system origin in blood and has demonstrated strong correlations with infarct volume and functional outcome in general ischaemic stroke, but data in lacunar stroke and cerebral small vessel disease (CSVD) are lacking. In a prospectively collected…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03",
+"oa": {
+"url": "https://doi.org/10.1093/esj/aakag133",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42969705",
+"pmid": "42969705",
+"doi": "10.1021/acs.molpharmaceut.6c00935",
+"title": "Proteomics Reveals Blood-Brain Barrier Membrane Protein Remodeling in Amyloid-β Pathology.",
+"authors": "Hyvärinen J, Todorovska R, Palacios MDP, … Puris E",
+"journal": "Molecular pharmaceutics",
+"journal_iso": "Mol Pharm",
+"date": "2026-11-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.molpharmaceut.6c00935"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42969705/"
+}
+],
+"au": [
+"hyvarinen|j",
+"todorovska|r",
+"palacios|m",
+"gynther|m",
+"afonin|a",
+"lehtonen|m",
+"auriola|s",
+"saveleva|l",
+"kanninen|k",
+"fricker|g",
+"puris|e"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"tight junction"
+],
+"relevance": 3,
+"why": "The protective function of the blood-brain barrier (BBB) is achieved by membrane proteins expressed in the endothelial cells of brain microvessels, such as tight junction proteins, receptors, and transporters, which regulate the passage of solutes, including nutrients, drugs, and metabolites. In Alzheimer's disease…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03",
+"oa": {
+"url": "https://doi.org/10.1021/acs.molpharmaceut.6c00935",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-42971952",
+"pmid": "42971952",
+"doi": "10.1038/s41378-026-01484-x",
+"title": "Microwell-based nDEP multifunctional microfluidic system for single-cell capture and analysis.",
+"authors": "Jiang T, Tian Z, Shaheen M, … Chen J",
+"journal": "Microsystems & nanoengineering",
+"journal_iso": "Microsyst Nanoeng",
+"date": "2026-11-02",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41378-026-01484-x"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42971952/"
+}
+],
+"au": [
+"jiang|t",
+"tian|z",
+"shaheen|m",
+"ye|x",
+"a khorshed|a",
+"li|b",
+"feng|y",
+"to|d",
+"wang|x",
+"chen|j"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Microfluidic systems have revolutionized biological and clinical analyses, offering precise control over fluid manipulation at a microscale. In recent years, significant advancements have been made by integrating these systems with lab-on-a-chip technologies and expanding their applicability in various…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03",
+"oa": {
+"url": "https://www.nature.com/articles/s41378-026-01484-x.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42971998",
+"pmid": "42971998",
+"doi": "10.1038/s41467-026-78432-w",
+"title": "Large-scale proteomics identifies circulating markers of pulmonary pressure and pulmonary hypertension risk.",
+"authors": "Giugni FR, Santos M, Yang Y, … Shah AM",
+"journal": "Nature communications",
+"journal_iso": "Nat Commun",
+"date": "2026-11-02",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41467-026-78432-w"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42971998/"
+}
+],
+"au": [
+"giugni|f",
+"santos|m",
+"yang|y",
+"lamberson|v",
+"claggett|b",
+"hoogeveen|r",
+"ballantyne|c",
+"systrom|d",
+"waxman|a",
+"buckley|l",
+"yu|b",
+"san jose estepar|r",
+"hegde|s",
+"shah|a"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"notch3"
+],
+"relevance": 2,
+"why": "Pulmonary hypertension, defined by elevated pressure in the pulmonary circulation, is morbid and diagnosing is challenging as no early-stage blood markers are currently available. Here we show that large-scale proteomic profiling across several independent observational cohorts identifies 22 proteins associated with…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03",
+"oa": {
+"url": "https://www.nature.com/articles/s41467-026-78432-w_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42969231",
+"pmid": "42969231",
+"doi": "10.1172/jci206733",
+"title": "A rare TMEM175 mutation drives Parkinson's disease pathology by disrupting proton gating and lysosomal acidification.",
+"authors": "Yang X, Li P, Lv M, … Xu H",
+"journal": "The Journal of clinical investigation",
+"journal_iso": "J Clin Invest",
+"date": "2026-11-02",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1172/jci206733"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42969231/"
+}
+],
+"au": [
+"yang|x",
+"li|p",
+"lv|m",
+"wang|l",
+"shan|r",
+"jiang|z",
+"chen|d",
+"huang|f",
+"cai|w",
+"zhao|l",
+"guo|z",
+"chen|x",
+"cen|z",
+"wang|y",
+"yang|w",
+"li|x",
+"luo|w",
+"yang|l",
+"hu|m",
+"xu|h"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"induced pluripotent",
+"parkinson"
+],
+"relevance": 2,
+"why": "Transmembrane protein 175 (TMEM175), implicated in Parkinson's disease (PD) risk, has been variably proposed to function as a background K+ \"leak\" channel or a proton-activated proton channel in lysosomes. Here, we identified the rare TMEM175 variant p.L275R in a patient with early onset PD. Electrophysiological…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03",
+"oa": {
+"url": "https://doi.org/10.1172/jci206733",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42969196",
+"pmid": "42969196",
+"doi": "10.1002/glia.70256",
+"title": "A Glial Interplay Regulates Junctional Architecture at the Blood-Brain Barrier of Drosophila.",
+"authors": "Contreras EG, Naffin E, Collins-Ramírez M, … Klämbt C",
+"journal": "Glia",
+"journal_iso": "Glia",
+"date": "2026-11-02",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/glia.70256"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42969196/"
+}
+],
+"au": [
+"contreras|e",
+"naffin|e",
+"collins-ramirez|m",
+"surina|n",
+"rothermel|m",
+"salazar-tirado|j",
+"schirmeier|s",
+"klambt|c"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Neurons require a tightly controlled ion and metabolite homeostasis, which is maintained by an effective blood-brain barrier (BBB). Since the integrity of the BBB is essential for brain function, its maintenance during development represents a significant challenge. The Drosophila BBB is formed by two glial layers.…",
+"addedAt": "2026-11-03",
+"source": "auto",
+"oaChecked": "2026-11-03",
+"oa": {
+"url": "https://doi.org/10.1002/glia.70256",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.10.30.763206",
+"doi": "10.64898/2026.10.30.763206",
+"title": "Investigating the therapeutic potential of soluble TREM2 interactions with Transgelin-2 in Alzheimer's disease",
+"authors": "Saeb, D., Lietzke, E. E., Wood, E. A., … Sprenger, K. G.",
+"journal": "bioRxiv",
+"date": "2026-11-02",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "1",
+"au": [
+"saeb|d",
+"lietzke|e",
+"wood|e",
+"costa|a",
+"aldrich|e",
+"fuchs|d",
+"chaghajerdi|a",
+"bruce|k",
+"sprenger|k"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763206v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763206v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"trem2"
+],
+"relevance": 2,
+"why": "Triggering receptor expressed on myeloid cells 2 (TREM2) is a regulator of microglial function in Alzheimer's disease (AD), and its soluble ectodomain (sTREM2) has emerged as a potential neuroprotective factor. Recent work shows that sTREM2 exerts protective effects through direct interaction with neuronal…",
+"addedAt": "2026-11-03",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.30.760220",
+"doi": "10.64898/2026.10.30.760220",
+"title": "Autophagy activator AA-20 engages CDK5 to promote lipophagy and improve neurodegeneration-associated phenotypes",
+"authors": "Tan, E. P., Ambaye, L., Mahul-Mellier, A.-L., … Kelly, J. W.",
+"journal": "bioRxiv",
+"date": "2026-11-02",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "molecular biology",
+"version": "1",
+"au": [
+"tan|e",
+"ambaye|l",
+"mahul-mellier|a",
+"zhang|y",
+"martinez-botia|p",
+"labra|s",
+"massey|l",
+"gao|z",
+"ahmed|z",
+"nugroho|k",
+"ash|c",
+"ren|w",
+"cole|c",
+"wu|y",
+"ly|s",
+"compher|j",
+"almaraz|m",
+"lederberg|o",
+"matthewson|a",
+"rhoades|d",
+"cuoco|c",
+"garza|d",
+"powers|e",
+"paulo|j",
+"finley|d",
+"gygi|s",
+"petrascheck|m",
+"lipton|s",
+"hansen|m",
+"forli|s",
+"prado|m",
+"lashuel|h",
+"kelly|j"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.760220v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.760220v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"organoid",
+"parkinson"
+],
+"relevance": 2,
+"why": "Lipophagy, the selective degradation of lipid droplets (LDs) by autophagy, has the potential to ameliorate neurodegenerative diseases such as Parkinson's (PD) and Alzheimer's (AD), wherein LD accumulation has been linked to the exacerbation of the proteinopathy component of neurodegeneration. Pharmacological lipophagy…",
+"addedAt": "2026-11-03",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.29.762809",
+"doi": "10.64898/2026.10.29.762809",
+"title": "Pathological levels of α-synuclein increase basal mitophagy in Parkinson's dopamine neurons",
+"authors": "Mock, E. D., Vallin, B., McGuinness, W., … Wade-Martins, R.",
+"journal": "bioRxiv",
+"date": "2026-11-02",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"mock|e",
+"vallin|b",
+"mcguinness|w",
+"caiazza|m",
+"lavelle|m",
+"jenkins|b",
+"rokicki|m",
+"koulman|a",
+"monzon sandoval|j",
+"webber|c",
+"ryan|b",
+"wade-martins|r"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762809v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762809v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"induced pluripotent",
+"parkinson"
+],
+"relevance": 2,
+"why": "Elevated -synuclein results in mitochondrial dysfunction, however the exact mechanism is poorly understood. -Synuclein localises to multiple subcellular sites including mitochondria, where it binds anionic lipids which regulate mitochondrial dynamics through DRP1. We hypothesised that pathogenic levels of -synuclein…",
+"addedAt": "2026-11-03",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.06.14.732109",
+"doi": "10.64898/2026.06.14.732109",
+"title": "Microfluidic generation of alginate microbeads containing in situ-formed apical papilla stem cell spheroids and NecroX-5-loaded nanoparticles",
+"authors": "Debuisson, F., Ucakar, B., Vanvarenberg, K., … des Rieux, A.",
+"journal": "bioRxiv",
+"date": "2026-11-02",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "2",
+"au": [
+"debuisson|f",
+"ucakar|b",
+"vanvarenberg|k",
+"loll|f",
+"le visage|c",
+"santos|a",
+"mwema|a",
+"des rieux|a"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.06.14.732109v2"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.06.14.732109v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"microfluidic",
+"nanoparticle"
+],
+"relevance": 2,
+"why": "Mesenchymal stem/stromal cells (MSC) are key players in regenerative medicine due to their immunomodulatory properties and ability to promote tissue repair. However, their therapeutic efficacy is often limited by rapid clearance following transplantation. MSC spheroids have shown enhanced functional properties, and we…",
+"addedAt": "2026-11-03",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.31.763276",
+"doi": "10.64898/2026.10.31.763276",
+"title": "Prefrontal cortex transcriptomes distinguish Alzheimers disease from asymptomatic amyloid pathology, neuropeptide loss, immune-complement activation and glial remodelling",
+"authors": "Munir, Y. A., Sagir, U., Sajjad, F., … Sani, I. M.",
+"journal": "bioRxiv",
+"date": "2026-11-02",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioinformatics",
+"version": "1",
+"au": [
+"munir|y",
+"sagir|u",
+"sajjad|f",
+"khurshid|s",
+"tarique|f",
+"sani|i"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763276v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763276v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"trem2"
+],
+"relevance": 2,
+"why": "Alzheimer's disease (AD) is now defined biologically by cortical amyloid-{beta} (A) and tau (T) pathology, yet the transcriptional programmes that separate symptomatic AD (A+T+) from amyloid-positive, tau-negative pathology ageing (A+T-) and from pathology-free controls (A-T-) remain incompletely resolved in the…",
+"addedAt": "2026-11-03",
+"source": "auto"
 },
 {
 "id": "pmid-42967054",
