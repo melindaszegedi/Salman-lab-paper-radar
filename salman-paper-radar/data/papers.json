@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-04",
-"lastRunAdded": 34,
-"total": 1480,
+"lastCurated": "2026-11-05",
+"lastRunAdded": 6,
+"total": 1486,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,59 @@
 ]
 },
 "papers": [
+{
+"id": "biorxiv-10.64898_2026.11.03.764065",
+"doi": "10.64898/2026.11.03.764065",
+"title": "Ferroptosis of selective progenitor cell types during embryogenesis ensures proper organ morphogenesis",
+"authors": "Elahi, M., Song, S., Shen, W.-B., … Yang, P.",
+"journal": "bioRxiv",
+"date": "2026-11-05",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "developmental biology",
+"version": "1",
+"au": [
+"elahi|m",
+"song|s",
+"shen|w",
+"chen|a",
+"hassan|m",
+"islam|m",
+"reece|e",
+"roychaudhuri|r",
+"wang|g",
+"zeng|l",
+"lee|j",
+"burd|i",
+"lee|h",
+"ran|q",
+"li|l",
+"zhao|s",
+"yang|p"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764065v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764065v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"delivery"
+],
+"keywords": [
+"tfr1"
+],
+"relevance": 2,
+"why": "Ferroptosis, a form of non-apoptotic cell death, is induced by lipid peroxidation resulting from an intracellular accumulation of labile iron (1). While apoptosis is involved in embryonic development (2), the role of ferroptosis in embryogenesis is unknown. Here, we report that the ferroptosis process occurs in the…",
+"addedAt": "2026-11-05",
+"source": "auto"
+},
 {
 "id": "biorxiv-10.64898_2026.11.02.763770",
 "doi": "10.64898/2026.11.02.763770",
@@ -498,6 +551,227 @@
 "relevance": 2,
 "why": "Intestinal enteroendocrine L-cells play a central role in metabolic homeostasis by secreting the gut hormones GLP-1 and PYY, but whether and how neural signals regulate human L-cell function remains poorly understood. This gap reflects the limited availability of human model systems enriched for mature L-cells. Here,…",
 "addedAt": "2026-11-04",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.03.763624",
+"doi": "10.64898/2026.11.03.763624",
+"title": "Integrative Transcriptomic Meta-Analysis Reveals SIRT1-SNCA Correlation in Parkinson's Disease",
+"authors": "Cimen, H., Sonmez, E., Hotaslier, F.",
+"journal": "bioRxiv",
+"date": "2026-11-04",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"cimen|h",
+"sonmez|e",
+"hotaslier|f"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763624v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763624v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"induced pluripotent",
+"parkinson"
+],
+"relevance": 2,
+"why": "Parkinson's disease (PD) is a progressive neurodegenerative disorder that affects midbrain dopaminergic neurons without any approved therapy. Candidate molecular targets identified in one model are not always traceable across the postmortem, induced pluripotent stem cell (iPSC), and cell-based systems used to study…",
+"addedAt": "2026-11-05",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.10.30.763135",
+"doi": "10.64898/2026.10.30.763135",
+"title": "Disrupted mannosidase enzymes in C9orf72 ALS/FTD",
+"authors": "Ondatje, B. N., Gittings, L. M., Preller, K. R., … Sattler, R.",
+"journal": "bioRxiv",
+"date": "2026-11-04",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"ondatje|b",
+"gittings|l",
+"preller|k",
+"alsop|e",
+"garcia-mansfield|k",
+"hansen|n",
+"lovell|b",
+"sharma|r",
+"piras|i",
+"martinez|m",
+"meechoovet|b",
+"bonfitto|a",
+"song|s",
+"levy|j",
+"huentelman|m",
+"pirrotte|p",
+"van keuren-jensen|k",
+"sattler|r"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763135v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763135v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"als",
+"induced pluripotent"
+],
+"relevance": 2,
+"why": "Amyotrophic lateral sclerosis (ALS) is an age-related neurodegenerative disorder resulting from the loss of motor neurons in the brain and spinal cord. Neuroinflammation, induced by glial cells including microglia (MG) and astrocytes, is an acknowledged aspect of this neurodegeneration. Generating induced pluripotent…",
+"addedAt": "2026-11-05",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.02.763789",
+"doi": "10.64898/2026.11.02.763789",
+"title": "Disentangling Context-Specific Alzheimer's Disease Progression Signatures through an Explainable AI Framework",
+"authors": "Li, A. W., Qiu, W., Arian, C., … Lee, S.-I.",
+"journal": "bioRxiv",
+"date": "2026-11-04",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioinformatics",
+"version": "1",
+"au": [
+"li|a",
+"qiu|w",
+"arian|c",
+"young|j",
+"lee|s"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763789v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763789v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"ipsc"
+],
+"relevance": 2,
+"why": "Alzheimer's disease (AD) progression involves stage-dependent transcriptional changes that are often masked by dominant cellular and biological variation. Here, we present ADVISE (Alzheimer's Disease Variational Isolation of Signal Embeddings), an interpretable deep generative framework designed to disentangle Braak…",
+"addedAt": "2026-11-05",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.1101_2025.11.03.686233",
+"doi": "10.1101/2025.11.03.686233",
+"title": "Administration of short-chain fatty acids reduces bacterial translocation to peripheral organs and the brain, preserves gut barrier integrity, and mitigates brain injury following stroke.",
+"authors": "Castillo Gonzalez, J., Mousavi, M., Ruiz, J. L., … Hirt, L.",
+"journal": "bioRxiv",
+"date": "2026-11-04",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "physiology",
+"version": "2",
+"au": [
+"castillo gonzalez|j",
+"mousavi|m",
+"ruiz|j",
+"carre|r",
+"bressoud|v",
+"buscemi|l",
+"price|m",
+"vigne|s",
+"pot|c",
+"hirt|l"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.1101/2025.11.03.686233v2"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.1101/2025.11.03.686233v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Abstract Background: Stroke remains a leading cause of death globally, with post-stroke infections (PSIs) representing its main life-threatening complication. While traditionally attributed to nosocomial infections or medical procedures, emerging research has revealed that PSIs primarily originate from bacterial…",
+"addedAt": "2026-11-05",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.11.04.26366951",
+"doi": "10.64898/2026.11.04.26366951",
+"title": "Functional Heritability Partitioning, Multi-Tissue Transcriptomic Colocalization, and Pharmacogenomic Target Deconvolution Across 127 Alzheimer's Disease Susceptibility Loci",
+"authors": "Menendez-Gonzalez, M.",
+"journal": "medRxiv",
+"date": "2026-11-04",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"menendez-gonzalez|m"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.04.26366951v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.04.26366951v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"trem2"
+],
+"relevance": 2,
+"why": "Background: The landmark genome-wide association meta-analysis of Alzheimer's disease (AD) and AD-by-proxy across N = 2,815,127 individuals (Uffelmann et al., Nature, 2026) expanded the known susceptibility landscape to 127 independent genomic risk loci (160 association signals) and established an autosomal…",
+"addedAt": "2026-11-05",
 "source": "auto"
 },
 {
