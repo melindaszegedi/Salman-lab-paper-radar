@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-07",
-"lastRunAdded": 25,
-"total": 1558,
+"lastCurated": "2026-11-08",
+"lastRunAdded": 15,
+"total": 1573,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,653 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-42995676",
+"pmid": "42995676",
+"doi": "10.1002/cns.71259",
+"title": "Pan-Adrenergic Inhibition Alleviates Post-Hemorrhagic Hydrocephalus by Attenuating Neutrophil Extracellular Traps-Mediated Glymphatic Dysfunction.",
+"authors": "Yang Y, Zhou Y, Ouyang Q, … Xiao G",
+"journal": "CNS neuroscience & therapeutics",
+"journal_iso": "CNS Neurosci Ther",
+"date": "2026-11-07",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/cns.71259"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42995676/"
+}
+],
+"au": [
+"yang|y",
+"zhou|y",
+"ouyang|q",
+"nuerlanbieke|h",
+"yuan|y",
+"wang|j",
+"wang|k",
+"long|p",
+"chen|y",
+"liu|z",
+"huang|j",
+"zhang|z",
+"su|z",
+"wang|x",
+"xiao|g"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aquaporin-4",
+"astrocytic endfeet",
+"glymphatic",
+"perivascular spaces"
+],
+"relevance": 5,
+"why": "Post-hemorrhagic hydrocephalus (PHH) is a devastating complication. This study aims to elucidate how the acute post-hemorrhagic adrenergic storm drives neutrophil extracellular traps (NETs) formation, blocks the glymphatic system (GS), and causes an imbalance in intracranial fluid homeostasis, leading to PHH. It is…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08"
+},
+{
+"id": "pmid-42998805",
+"pmid": "42998805",
+"doi": "10.1016/j.mcn.2026.104132",
+"title": "Single-cell and spatial transcriptomic insights into neural substrates of Behavioural dysfunction in Alzheimer's disease.",
+"authors": "Mondal S, Sharma N, Mishra N",
+"journal": "Molecular and cellular neurosciences",
+"journal_iso": "Mol Cell Neurosci",
+"date": "2026-11-07",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.mcn.2026.104132"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42998805/"
+}
+],
+"au": [
+"mondal|s",
+"sharma|n",
+"mishra|n"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"capillary",
+"neurovascular unit",
+"tight junction"
+],
+"relevance": 4,
+"why": "The transition from bulk-tissue profiling to single-cell and spatially resolved transcriptomics has reshaped our understanding of Alzheimer's disease (AD) from a passive proteinopathy to a coordinated multicellular process spanning the neurovascular unit. However, translating these molecular catalogues into…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08"
+},
+{
+"id": "pmid-42997476",
+"pmid": "42997476",
+"doi": "10.2147/dmso.s628886",
+"title": "SGLT-2 Inhibitors versus GLP-1 Receptor Agonists for Dementia and Depression in Type 2 Diabetes Mellitus: A Meta-Analysis.",
+"authors": "Pan R, Wang B, Li Y, … Zhao Y",
+"journal": "Diabetes, metabolic syndrome and obesity",
+"journal_iso": "Diabetes Metab Syndr Obes",
+"date": "2026-11-07",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/dmso.s628886"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42997476/"
+}
+],
+"au": [
+"pan|r",
+"wang|b",
+"li|y",
+"li|h",
+"liang|x",
+"zhang|y",
+"liu|x",
+"huang|x",
+"wang|r",
+"ji|h",
+"zhao|y"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"glp-1",
+"randomized",
+"vascular dementia"
+],
+"relevance": 4,
+"why": "The comparative effects of sodium-glucose cotransporter-2 inhibitors (SGLT-2i) and glucagon-like peptide-1 receptor agonists (GLP-1RA) on dementia and depression risk in patients with type 2 diabetes mellitus (T2DM) remain unclear. We conducted a meta-analysis to directly compare the incidence of dementia and…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08",
+"oa": {
+"url": "https://www.dovepress.com/article/download/121744",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42997320",
+"pmid": "42997320",
+"doi": "10.3389/fnagi.2026.1969490",
+"title": "GLP-1 receptor agonists as potential disease-modifying agents in Parkinson's and Alzheimer's disease: mechanisms, clinical trial evidence, and the neuroprotection horizon.",
+"authors": "Alsharif M, Shrebaty O, Aloudah MA, … El Bana A",
+"journal": "Frontiers in aging neuroscience",
+"journal_iso": "Front Aging Neurosci",
+"date": "2026-11-07",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fnagi.2026.1969490"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42997320/"
+}
+],
+"au": [
+"alsharif|m",
+"shrebaty|o",
+"aloudah|m",
+"alqahtani|m",
+"aloubili|r",
+"ahmed|m",
+"albani|b",
+"el bana|a"
+],
+"topics": [
+"adtx",
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glp-1",
+"glymphatic",
+"parkinson",
+"phase ii"
+],
+"relevance": 4,
+"why": "Glucagon-like peptide-1 receptor agonists (GLP-1 RAs), originally developed as antidiabetic agents, have emerged as candidate disease-modifying therapies for Parkinson's disease (PD) and Alzheimer's disease (AD), reflecting the widespread expression of GLP-1 receptors across neurons, glia, and the cerebral…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08",
+"oa": {
+"url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1969490/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42995500",
+"pmid": "42995500",
+"doi": "10.1016/j.ymthe.2026.10.033",
+"title": "Focused ultrasound-mediated AAV gene therapy: Unlocking a new space in the CNS delivery landscape.",
+"authors": "Todd N, Owusu-Yaw B, Hines E, … Bei F",
+"journal": "Molecular therapy",
+"journal_iso": "Mol Ther",
+"date": "2026-11-07",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ymthe.2026.10.033"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42995500/"
+}
+],
+"au": [
+"todd|n",
+"owusu-yaw|b",
+"hines|e",
+"li|z",
+"mcdannold|n",
+"maguire|c",
+"richardson|r",
+"bei|f"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound",
+"gene therapy",
+"permeability"
+],
+"relevance": 4,
+"why": "Adeno-associated viruses (AAVs) have emerged as the most clinically advanced platform for in vivo gene delivery, enabling durable therapeutic gene expression across a growing number of neurological disorders. However, successful delivery of AAVs to the brain requires navigating trade-offs among three interdependent…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08"
+},
+{
+"id": "pmid-42998702",
+"pmid": "42998702",
+"doi": "10.1016/j.jep.2026.122612",
+"title": "Astragalus membranaceus-derived exosomes deliver calycosin to orchestrate the Nrf2/SLC7A11/GPX4 axis against ferroptosis in Parkinson's disease.",
+"authors": "Huang H, Xu X, Huo X, … Yang L",
+"journal": "Journal of ethnopharmacology",
+"journal_iso": "J Ethnopharmacol",
+"date": "2026-11-07",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jep.2026.122612"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42998702/"
+}
+],
+"au": [
+"huang|h",
+"xu|x",
+"huo|x",
+"bo|y",
+"fan|h",
+"xu|l",
+"chai|z",
+"yang|l"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain delivery",
+"parkinson"
+],
+"relevance": 3,
+"why": "Astragalus membranaceus (Fisch.) Bunge (Fabaceae) is documented in Shennong's Classic of Materia Medica to treat Qi deficiency-induced cerebral blood stasis and limb tremor resembling Parkinson's disease (PD). Its primary bioactive component, calycosin (CA), exerts anti-ferroptosis effects; however, its ability to…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08"
+},
+{
+"id": "pmid-42998661",
+"pmid": "42998661",
+"doi": "10.1016/j.tjpad.2026.100693",
+"title": "Efficacy and safety of anti-tau drugs for Alzheimer's disease: A systematic review and network meta-analysis.",
+"authors": "Hu Y, Cheng Y, Su Y, … Zhang N",
+"journal": "The journal of prevention of Alzheimer's disease",
+"journal_iso": "J Prev Alzheimers Dis",
+"date": "2026-11-07",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.tjpad.2026.100693"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42998661/"
+}
+],
+"au": [
+"hu|y",
+"cheng|y",
+"su|y",
+"han|z",
+"shen|x",
+"hu|h",
+"wang|q",
+"wan|s",
+"li|h",
+"zhang|n"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-tau",
+"randomized"
+],
+"relevance": 3,
+"why": "To evaluate and compare the effects of different anti-tau drugs on clinical and biological outcomes in patients with Alzheimer's disease (AD). PubMed, Cochrane Library, and Embase databases were searched for identifying randomized, controlled clinical trials from inception to December 2025. Twelve high-quality studies…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08"
+},
+{
+"id": "pmid-42998545",
+"pmid": "42998545",
+"doi": "10.1016/j.jns.2026.126234",
+"title": "The prognostic role of echocardiographic parameters in ischemic stroke patients with atrial fibrillation.",
+"authors": "Zietz A, Polymeris AA, Kaufmann BA, … Peters N",
+"journal": "Journal of the neurological sciences",
+"journal_iso": "J Neurol Sci",
+"date": "2026-11-07",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jns.2026.126234"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42998545/"
+}
+],
+"au": [
+"zietz|a",
+"polymeris|a",
+"kaufmann|b",
+"schaedelin|s",
+"hert|l",
+"lieb|j",
+"seiffge|d",
+"wagner|b",
+"traenka|c",
+"altersberger|v",
+"dittrich|t",
+"kaufmann|j",
+"fladt|j",
+"frenger|j",
+"thilemann|s",
+"de marchis|g",
+"gensicke|h",
+"bonati|l",
+"katan|m",
+"fischer|u",
+"lyrer|p",
+"engelter|s",
+"peters|n"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Concomitant cerebral small vessel disease (cSVD) in stroke patients with atrial fibrillation (AF) is associated with an unfavourable outcome, but the additional prognostic value of echocardiographic parameters remains unclear. We included consecutive patients with recent AF-associated ischemic stroke (IS) or transient…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08"
+},
+{
+"id": "pmid-42997955",
+"pmid": "42997955",
+"doi": "10.21037/qims-2026-1010",
+"title": "Association of intracranial plaque characteristics and cerebral small vessel disease burden with acute ischemic stroke in patients with intracranial atherosclerotic disease.",
+"authors": "Miao J, Cui Z, Chen Y, … Zhang J",
+"journal": "Quantitative imaging in medicine and surgery",
+"journal_iso": "Quant Imaging Med Surg",
+"date": "2026-11-07",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.21037/qims-2026-1010"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42997955/"
+}
+],
+"au": [
+"miao|j",
+"cui|z",
+"chen|y",
+"zheng|z",
+"xu|c",
+"cao|x",
+"zhang|j"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"lacune",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Both intracranial atherosclerotic disease (ICAD) and cerebral small-vessel disease (CSVD) contribute to ischemic stroke and have shared underlying pathophysiological mechanisms. Thus, the aim of this study was to investigate the value of intracranial plaque and CSVD imaging characteristics in diagnosing ischemic…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08",
+"oa": {
+"url": "https://doi.org/10.21037/qims-2026-1010",
+"pdf": false,
+"status": "diamond"
+}
+},
+{
+"id": "pmid-42996347",
+"pmid": "42996347",
+"doi": "10.21203/rs.3.rs-11011631/v1",
+"title": "Tissue clearing and quantitative confocal microscopy reveal significant impairment of cerebrovascular structure and function following moderate prenatal alcohol exposure.",
+"authors": "Perales G, Westenskow MR, Oliver RJ, Gardiner AS",
+"journal": "Research square",
+"journal_iso": "Res Sq",
+"date": "2026-11-07",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Preprint",
+"url": "https://doi.org/10.21203/rs.3.rs-11011631/v1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42996347/"
+}
+],
+"au": [
+"perales|g",
+"westenskow|m",
+"oliver|r",
+"gardiner|a"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial"
+],
+"relevance": 3,
+"why": "Fetal alcohol spectrum disorders (FASD) occur after prenatal alcohol exposure (PAE) and include a wide range of neurocognitive deficits potentially resulting from abnormal cerebrovascular development and the expression of factors regulating vessel formation and function. We previously determined that upregulation of…",
+"addedAt": "2026-11-08",
+"source": "auto"
+},
+{
+"id": "pmid-42995608",
+"pmid": "42995608",
+"doi": "10.1186/s13567-026-01860-5",
+"title": "Streptococcus suis-induced mitophagy via Eno-HSP90AA1 interaction disrupts the blood-brain barrier.",
+"authors": "Xiao X, Zhou Y, Fang Y, … Gao S",
+"journal": "Veterinary research",
+"journal_iso": "Vet Res",
+"date": "2026-11-07",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s13567-026-01860-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42995608/"
+}
+],
+"au": [
+"xiao|x",
+"zhou|y",
+"fang|y",
+"van der veen|s",
+"lin|x",
+"lou|y",
+"gao|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"tight junction"
+],
+"relevance": 3,
+"why": "Streptococcus suis serotype 2 (SS2), a zoonotic pathogen associated with meningitis in humans and pigs, disrupts the blood-brain barrier (BBB) during infection, but underlying mechanisms remain inadequately elucidated. This study demonstrated that SS2 infection induced mitophagy in human brain microvascular…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08"
+},
+{
+"id": "pmid-42995462",
+"pmid": "42995462",
+"doi": "10.1111/ejn.70741",
+"title": "Glycogen Synthase Kinase-3β as a Central Regulator of Alzheimer's Disease: Mechanistic Insights and Therapeutic Perspectives.",
+"authors": "Kifayat S, Kifayat W, Chauhan SK, … Akhtar M",
+"journal": "The European journal of neuroscience",
+"journal_iso": "Eur J Neurosci",
+"date": "2026-11-07",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/ejn.70741"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42995462/"
+}
+],
+"au": [
+"kifayat|s",
+"kifayat|w",
+"chauhan|s",
+"zehra|a",
+"kaushik|r",
+"najmi|a",
+"parvez|s",
+"ali|j",
+"akhtar|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) is a progressive neurological condition marked by cognitive decline, memory impairment, extracellular amyloid-β (Aβ) accumulation, and intracellular neurofibrillary tangles (NFTs). Among the multiple molecular pathways involved in AD pathogenesis, glycogen synthase kinase-3β (GSK-3β) has…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08"
+},
+{
+"id": "pmid-42996718",
+"pmid": "42996718",
+"doi": "10.3389/fimmu.2026.1979527",
+"title": "Neutrophil-microglia communication through the C3-C3aR1 axis contributes to secondary neuroinflammation after traumatic brain injury.",
+"authors": "Ma T, Zhang Y, Wang X, … Zhao Z",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-11-07",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1979527"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42996718/"
+}
+],
+"au": [
+"ma|t",
+"zhang|y",
+"wang|x",
+"ren|x",
+"jiao|l",
+"pang|k",
+"liu|c",
+"zhou|z",
+"zhao|p",
+"zhang|h",
+"fu|y",
+"li|l",
+"li|y",
+"zhao|z"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"claudin-5"
+],
+"relevance": 2,
+"why": "Traumatic brain injury (TBI) triggers a rapidly evolving neuroinflammatory response that contributes to secondary brain injury. Although infiltrating leukocytes and resident microglia are both prominent components of this response, the cellular signals that connect peripheral immune-cell recruitment to microglial…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1979527/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
 {
 "id": "pmid-42995156",
 "pmid": "42995156",
@@ -739,6 +1386,45 @@
 }
 },
 {
+"id": "pmid-42995315",
+"pmid": "42995315",
+"doi": "10.1002/bcp.70904",
+"title": "Drug-toxin interactions in the brain: An overlooked dimension of psychopharmacology.",
+"authors": "Murthy MK",
+"journal": "British journal of clinical pharmacology",
+"journal_iso": "Br J Clin Pharmacol",
+"date": "2026-11-06",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/bcp.70904"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42995315/"
+}
+],
+"au": [
+"murthy|m"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"blood-brain barrier",
+"glymphatic"
+],
+"relevance": 3,
+"why": "This study aimed to suggest a new research field called 'environmental psychopharmacology' that will investigate the role of environmental chemical stressors in interfering with psychiatric drugs and in treatment resistance. This narrative review synthesizes knowledge on pharmacological, toxicological and…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08"
+},
+{
 "id": "biorxiv-10.64898_2026.11.04.764045",
 "doi": "10.64898/2026.11.04.764045",
 "title": "Extensional Flow Microfluidics Reveal Size-Dependent Core-Shell Mechanical Heterogeneity in Pancreatic Tumor Spheroids",
@@ -1288,6 +1974,71 @@
 "why": "Noninvasive clinical innovations for restoring gamma activity via sound and light stimulation have the potential to improve memory and cognitive abilities in Alzheimer's disease. We assessed whether pairing music with theta- and gamma-band light changes memory-supporting neural dynamics, and whether those changes…",
 "addedAt": "2026-11-07",
 "source": "auto"
+},
+{
+"id": "pmid-42995172",
+"pmid": "42995172",
+"doi": "10.1038/s41467-026-78980-1",
+"title": "[18F]FET PET enables histopathology-validated detection of non-contrast-enhancing glioblastoma.",
+"authors": "Stürzl R, Kirchleitner SV, Lorenz J, … Albert NL",
+"journal": "Nature communications",
+"journal_iso": "Nat Commun",
+"date": "2026-11-06",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41467-026-78980-1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42995172/"
+}
+],
+"au": [
+"sturzl|r",
+"kirchleitner|s",
+"lorenz|j",
+"schmidbauer|k",
+"stocklein|v",
+"quach|s",
+"kaiser|l",
+"stocklein|s",
+"zounek|a",
+"barci|e",
+"von polenz|i",
+"blobner|j",
+"greve|t",
+"brendel|m",
+"harter|p",
+"ruf|v",
+"rupprecht|r",
+"ringel|f",
+"kalasauskas|d",
+"riemenschneider|m",
+"thon|n",
+"von baumgarten|l",
+"tonn|j",
+"albert|n"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Accurate visualization of glioblastoma is essential for guiding biopsy, resection and radiotherapy. Contrast-enhanced MRI is routine in clinical practice, yet it can miss metabolically active tumor outside areas of blood-brain barrier disruption. In a histopathology-validated cohort with 472 tissue samples of 61…",
+"addedAt": "2026-11-08",
+"source": "auto",
+"oaChecked": "2026-11-08",
+"oa": {
+"url": "https://doi.org/10.1038/s41467-026-78980-1",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42989040",
