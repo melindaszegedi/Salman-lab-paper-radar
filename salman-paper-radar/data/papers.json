@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-08",
-"lastRunAdded": 15,
-"total": 1573,
+"lastCurated": "2026-11-09",
+"lastRunAdded": 11,
+"total": 1584,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,592 @@
 ]
 },
 "papers": [
+{
+"id": "biorxiv-10.64898_2026.11.05.764625",
+"doi": "10.64898/2026.11.05.764625",
+"title": "Engineered microvessel networks -- Longitudinal transcriptomic profiling validates chip-grown tissues as a robust model for studying vasculature",
+"authors": "Osorio, L. A., Hansen, B., Suba, K., … Salem, V.",
+"journal": "bioRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "1",
+"au": [
+"osorio|l",
+"hansen|b",
+"suba|k",
+"yuan|y",
+"witowska|m",
+"xu|x",
+"noman|m",
+"au|s",
+"pantazis|p",
+"van batenburg-sherwood|j",
+"ahmetaj-shala|b",
+"akerman|i",
+"salem|v"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764625v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764625v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"organ-on-chip",
+"pericyte"
+],
+"relevance": 2,
+"why": "Vascularised Organ-on-Chip (OoC) models are promising New Approach Methodologies (NAMs), but their translation requires validation for defined Contexts of Use (CoU). Here, we combine microfluidic microvessel networks (MVNs) with longitudinal bulk and single-cell RNA sequencing to determine how cell provenance…",
+"addedAt": "2026-11-09",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.04.764298",
+"doi": "10.64898/2026.11.04.764298",
+"title": "Psychoneuroimmunology of Viral Hepatitis and Hepatocellular Carcinoma: A Systematic Review and Meta-Analysis",
+"authors": "Leal Nobile, A., Nava, R. G., Santos, R. S., … Cabral-Marques, O.",
+"journal": "bioRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cancer biology",
+"version": "1",
+"au": [
+"leal nobile|a",
+"nava|r",
+"santos|r",
+"vale|f",
+"usuda|j",
+"adri|a",
+"correa|y",
+"valera|a",
+"gianasi|l",
+"cabral-miranda|g",
+"marques|l",
+"dalmolin|r",
+"sharma|r",
+"ochs|h",
+"filgueiras|i",
+"dias|h",
+"cabral-marques|o"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764298v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764298v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Hepatocellular carcinoma (HCC) and viral hepatitis (VH) are recognized primarily as hepatic diseases, yet they impose a substantial neuropsychiatric disorders (NPDs) encompassing depression, anxiety, cognitive impairment, and fatigue. Whether these manifestations reflect psychological reactions or biologically…",
+"addedAt": "2026-11-09",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.06.764832",
+"doi": "10.64898/2026.11.06.764832",
+"title": "Junction-level imaging and modeling of transient leaks in epithelia predicts a dynamic tight junction strand network",
+"authors": "Pörsti, A., Tervonen, A., Tran, H., … Ihalainen, T. O.",
+"journal": "bioRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"porsti|a",
+"tervonen|a",
+"tran|h",
+"nymark|s",
+"ihalainen|t"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764832v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764832v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"permeability",
+"tight junction"
+],
+"relevance": 2,
+"why": "Epithelial tight junctions restrict paracellular permeability, but how small solutes leak through the barrier is not fully understood, because permeability is usually measured globally. Here, we combined fast zinc-based barrier imaging (ZnUMBA) with computational modelling of the dynamic tight junction strand network…",
+"addedAt": "2026-11-09",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.06.757988",
+"doi": "10.64898/2026.11.06.757988",
+"title": "An Accessible and Scalable Pipette-Driven Microfluidic Platform for Lipid Nanoparticle Formulation",
+"authors": "Takeda, Y. S., Wang, F., Gu, X., … Dehghani, M.",
+"journal": "bioRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "1",
+"au": [
+"takeda|y",
+"wang|f",
+"gu|x",
+"forster|j",
+"hou|h",
+"hemmati|p",
+"partopour|b",
+"maugeri|l",
+"kim|y",
+"apel|s",
+"norton|r",
+"finelli|j",
+"molaei|p",
+"shafiee|s",
+"li|s",
+"lin|j",
+"chiang|c",
+"mayo|m",
+"ayehunie|s",
+"akbari|s",
+"mao|h",
+"wang|t",
+"dehghani|m"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.757988v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.757988v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"microfluidic",
+"nanoparticle"
+],
+"relevance": 2,
+"why": "Advances in lipid nanoparticle (LNP) technology have increased the need for accessible and scalable methods that accelerate low-volume formulation screening. Here, we describe a disposable microfluidic mixer actuated by a positive-displacement pipette equipped with dual-chamber pipette tip, providing volumetric…",
+"addedAt": "2026-11-09",
+"source": "auto"
+},
+{
+"id": "pmid-42999587",
+"pmid": "42999587",
+"doi": "10.2147/ijn.s636377",
+"title": "Pomegranate Seed Oil Biologically Engineered Lactobacillus Extracellular Vesicles with Enhanced Yield and Brain Delivery via ApoE-Enriched Protein Corona.",
+"authors": "Duan D, Xu S, Wu K, … Yao Q",
+"journal": "International journal of nanomedicine",
+"journal_iso": "Int J Nanomedicine",
+"date": "2026-11-08",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijn.s636377"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42999587/"
+}
+],
+"au": [
+"duan|d",
+"xu|s",
+"wu|k",
+"xu|m",
+"zhou|s",
+"yang|x",
+"guo|x",
+"yan|s",
+"yan|j",
+"yao|q"
+],
+"topics": [
+"bbb",
+"delivery",
+"adtx"
+],
+"keywords": [
+"anti-amyloid",
+"blood-brain barrier",
+"brain delivery",
+"permeability"
+],
+"relevance": 5,
+"why": "The blood-brain barrier (BBB) is a major bottleneck for nanomedicine-based treatment of central nervous system (CNS) disorders. Lactobacillus-derived extracellular vesicles (LEV) are promising biocompatible nanocarriers, but their low production yield and limited BBB permeability hinder their development. We…",
+"addedAt": "2026-11-09",
+"source": "auto",
+"oaChecked": "2026-11-09",
+"oa": {
+"url": "https://www.dovepress.com/article/download/121768",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42999661",
+"pmid": "42999661",
+"doi": "10.2147/ijgm.s651981",
+"title": "Cerebral Small Vessel Disease and Its Associations with Cognitive Impairment, Gait Disturbance, and Europsychiatric Symptoms: A Narrative Review.",
+"authors": "Wang S, Zhu J, Sun J, Liu G",
+"journal": "International journal of general medicine",
+"journal_iso": "Int J Gen Med",
+"date": "2026-11-08",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijgm.s651981"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42999661/"
+}
+],
+"au": [
+"wang|s",
+"zhu|j",
+"sun|j",
+"liu|g"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"arteriol",
+"blood-brain barrier",
+"lacunar",
+"small vessel disease"
+],
+"relevance": 4,
+"why": "Cerebral small vessel disease (CSVD) encompasses a heterogeneous group of pathological processes affecting the small arteries, arterioles, capillaries, and venules of the brain. Beyond its well-recognized role in lacunar stroke and intracerebral hemorrhage, CSVD is increasingly understood as a major contributor to…",
+"addedAt": "2026-11-09",
+"source": "auto",
+"oaChecked": "2026-11-09",
+"oa": {
+"url": "https://www.dovepress.com/article/download/121764",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42999351",
+"pmid": "42999351",
+"doi": "10.21203/rs.3.rs-10769225/v1",
+"title": "Mapping post-translational modifications across amyloid-β deposits in Alzheimer's disease: A neuropathologic survey with in vitro functional analysis of nitration.",
+"authors": "Basile S, Schipper F, Zimbone S, … Boon BDC",
+"journal": "Research square",
+"journal_iso": "Res Sq",
+"date": "2026-11-08",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Preprint",
+"url": "https://doi.org/10.21203/rs.3.rs-10769225/v1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42999351/"
+}
+],
+"au": [
+"basile|s",
+"schipper|f",
+"zimbone|s",
+"vermorgen|s",
+"bellia|f",
+"parisi|c",
+"sortino|s",
+"walter|j",
+"giuffrida|m",
+"rozemuller|a",
+"hoozemans|j",
+"copani|a",
+"boon|b"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"amyloid-related imaging abnormalit",
+"capillary",
+"cerebral amyloid angiopathy"
+],
+"relevance": 4,
+"why": "Background Amyloid-β (Aβ) pathology in Alzheimer's disease (AD) includes distinct types of plaques and cerebral amyloid angiopathy (CAA). Post-translational modifications (PTMs) may define Aβ deposit-specific signatures. Among them, nitration of tyrosine-10 (3'-nitrotyrosine, 3-NT) links oxidative stress to Aβ…",
+"addedAt": "2026-11-09",
+"source": "auto"
+},
+{
+"id": "pmid-42999601",
+"pmid": "42999601",
+"doi": "10.2147/ijn.s633910",
+"title": "Hybrid Liposome-U87MG Membrane Nanovesicles Enhance Brain Delivery and Therapeutic Efficacy of Irinotecan in Orthotopic Glioma.",
+"authors": "Li S, Sun Y, Liu Y, … Yang J",
+"journal": "International journal of nanomedicine",
+"journal_iso": "Int J Nanomedicine",
+"date": "2026-11-08",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijn.s633910"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42999601/"
+}
+],
+"au": [
+"li|s",
+"sun|y",
+"liu|y",
+"an|q",
+"liu|c",
+"cui|h",
+"zhang|z",
+"gao|h",
+"yu|b",
+"xiang|b",
+"yang|j"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain delivery"
+],
+"relevance": 3,
+"why": "The blood-brain barrier (BBB) and hydrolytic inactivation of the lactone form limit the efficacy of irinotecan (CPT-11) against glioma. To address these challenges, we developed a CPT-11-loaded hybrid liposome-U87MG cell membrane nanovesicle formulation (Hybrid/CPT-11), an underexplored biomimetic strategy for glioma…",
+"addedAt": "2026-11-09",
+"source": "auto",
+"oaChecked": "2026-11-09",
+"oa": {
+"url": "https://www.dovepress.com/article/download/121767",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42999477",
+"pmid": "42999477",
+"doi": "10.1155/rrp/6959099",
+"title": "Dilated Virchow-Robin Space and Cognitive Impairment in People With Parkinson's Disease: A Systematic Review.",
+"authors": "Salari M, Mirabedini M, Rezaei K, Etemadifar M",
+"journal": "Radiology research and practice",
+"journal_iso": "Radiol Res Pract",
+"date": "2026-11-08",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1155/rrp/6959099"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42999477/"
+}
+],
+"au": [
+"salari|m",
+"mirabedini|m",
+"rezaei|k",
+"etemadifar|m"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"interstitial fluid",
+"parkinson"
+],
+"relevance": 3,
+"why": "Virchow-Robin space (VRS) is characterized by small cavitary or cystic structures in the brain that represent morphological markers of altered interstitial fluid dynamics within the perivascular (glymphatic) pathway, originating from small vessels in the subarachnoid space and penetrating the brain. Their dilation has…",
+"addedAt": "2026-11-09",
+"source": "auto",
+"oaChecked": "2026-11-09",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/rrp/6959099",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-42999432",
+"pmid": "42999432",
+"doi": "10.21203/rs.3.rs-11379946/v1",
+"title": "Assessing non-invasive glymphatic MRI markers following short-term sleep loss.",
+"authors": "Tahmasian M, Elberse J, Apter D, … Eickhoff S",
+"journal": "Research square",
+"journal_iso": "Res Sq",
+"date": "2026-11-08",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Preprint",
+"url": "https://doi.org/10.21203/rs.3.rs-11379946/v1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42999432/"
+}
+],
+"au": [
+"tahmasian|m",
+"elberse|j",
+"apter|d",
+"aeschbach|d",
+"akerstedt|t",
+"bauer|a",
+"borgetto|f",
+"brendstrup-brix|k",
+"chu|c",
+"cross|n",
+"custer|r",
+"drzezga|a",
+"ghorbani|s",
+"grova|c",
+"hoffstaedter|f",
+"holst|s",
+"jahanshad|n",
+"kim|h",
+"knudsen|g",
+"larsen|s",
+"mohamed|a",
+"ong|j",
+"peigneux|p",
+"smevik|h",
+"spiegelhalder|k",
+"tamm|s",
+"thomopoulos|s",
+"thompson|p",
+"waite|l",
+"zak|n",
+"chee|m",
+"choupan|j",
+"dang-vu|t",
+"elmenhorst|d",
+"elmenhorst|e",
+"elvsashagen|t",
+"von gall|c",
+"landolt|h",
+"nedergaard|m",
+"nilsonne|g",
+"olsen|a",
+"poudel|g",
+"stee|w",
+"iliff|j",
+"eickhoff|s"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "The glymphatic system is a sleep-active pathway involved in clearing metabolic waste from the brain. Several non-invasive MRI indices have been proposed as proxies for assessing glymphatic function in vivo . However, it remains unclear whether these indices capture glymphatic dysregulation under short-term sleep loss.…",
+"addedAt": "2026-11-09",
+"source": "auto"
+},
+{
+"id": "pmid-42999530",
+"pmid": "42999530",
+"doi": "10.21203/rs.3.rs-10818940/v1",
+"title": "The Effect of Noncontingent Monetary Incentives in Recruitment Letters on Research Enrollment of Alzheimer's Disease and Related Dementia Caregiving Dyads: A Study Within a Trial (SWAT) Randomized Controlled Trial.",
+"authors": "Yildiz M, Winstead V, Jacob A, … Pickering C",
+"journal": "Research square",
+"journal_iso": "Res Sq",
+"date": "2026-11-08",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Preprint",
+"url": "https://doi.org/10.21203/rs.3.rs-10818940/v1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42999530/"
+}
+],
+"au": [
+"yildiz|m",
+"winstead|v",
+"jacob|a",
+"nemariam|a",
+"paul|n",
+"pickering|c"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"randomized"
+],
+"relevance": 2,
+"why": "BACKGROUND Recruitment of persons living with Alzheimer's disease and related dementias (ADRD) and their family caregivers remains challenging. Although noncontingent monetary incentives are frequently used to increase research participation, little experimental evidence supports their effectiveness for recruiting…",
+"addedAt": "2026-11-09",
+"source": "auto"
+},
 {
 "id": "pmid-42995676",
 "pmid": "42995676",
