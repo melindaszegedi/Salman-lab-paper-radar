@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-09",
-"lastRunAdded": 11,
-"total": 1584,
+"lastCurated": "2026-11-10",
+"lastRunAdded": 21,
+"total": 1605,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,661 @@
 ]
 },
 "papers": [
+{
+"id": "biorxiv-10.64898_2026.11.05.764692",
+"doi": "10.64898/2026.11.05.764692",
+"title": "Subcellular Spatial Profiling Unveils Links Between Neuritic Plaques with Selective Tau Vulnerability in Alzheimer's Disease",
+"authors": "Li, H., Gross, E. R., Devine, A., … Das, S.",
+"journal": "bioRxiv",
+"date": "2026-11-10",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"li|h",
+"gross|e",
+"devine|a",
+"gundavelli|a",
+"prell|s",
+"woodbury|m",
+"gen|l",
+"doering|a",
+"held|a",
+"hyman|b",
+"serrano-pozo|a",
+"zwang|t",
+"bennett|r",
+"das|s"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764692v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764692v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"delivery"
+],
+"keywords": [
+"alzheimer",
+"lrp1"
+],
+"relevance": 2,
+"why": "Alzheimer's disease (AD) features widespread extracellular amyloid-{beta} plaques but selective intraneuronal tau accumulation in cortical layers II/III and V, while layer IV remains relatively resistant. Here, we combined subcellular spatial transcriptomics with co-registered A{beta} and pTau immunohistochemistry to…",
+"addedAt": "2026-11-10",
+"source": "auto"
+},
+{
+"id": "pmid-43001258",
+"pmid": "43001258",
+"doi": "10.1016/j.nbas.2026.100174",
+"title": "The hypertension-NVU-cognition Axis: Mechanisms and interventions.",
+"authors": "Tao Z",
+"journal": "Aging brain",
+"journal_iso": "Aging Brain",
+"date": "2026-11-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.nbas.2026.100174"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43001258/"
+}
+],
+"au": [
+"tao|z"
+],
+"topics": [
+"csvd",
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"glp-1",
+"neurovascular unit",
+"randomized",
+"small vessel disease",
+"tight junction",
+"vascular cognitive impairment"
+],
+"relevance": 5,
+"why": "Midlife hypertension is a major modifiable risk factor for Alzheimer's disease, but the specific molecular pathways through which it contributes to cognitive decline-pathways that are partially independent of, and interact with, amyloid-β pathology-are not fully elucidated. This review synthesizes and elaborates the…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S2589958926000198/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43001901",
+"pmid": "43001901",
+"doi": "10.1111/acel.70770",
+"title": "Senescence-Associated Loss of α-Synuclein in Brain Microvascular Endothelium Compromises Tight Junctions and Disrupts Blood-Brain Barrier Integrity.",
+"authors": "Wang Z, Takami Y, Wang C, … Yamamoto K",
+"journal": "Aging cell",
+"journal_iso": "Aging Cell",
+"date": "2026-11-09",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/acel.70770"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43001901/"
+}
+],
+"au": [
+"wang|z",
+"takami|y",
+"wang|c",
+"kase|y",
+"koriyama|h",
+"ihara|j",
+"guo|y",
+"liu|w",
+"yin|n",
+"yi|l",
+"nawa|d",
+"takeshita|h",
+"takeda|s",
+"hara|a",
+"takahashi|t",
+"shimamura|m",
+"nakagami|h",
+"kaneda|y",
+"yamamoto|k"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"permeability",
+"tight junction"
+],
+"relevance": 4,
+"why": "Blood-brain barrier (BBB) dysfunction is an early feature of brain aging, but the endothelial mechanisms preserving barrier resilience remain unclear. Although we have reported α-synuclein (SNCA) supports vascular endothelial homeostasis, its role in the brain microvascular endothelium is unknown. Because SNCA loss…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
+},
+{
+"id": "pmid-43001682",
+"pmid": "43001682",
+"doi": "10.1002/hbm.70642",
+"title": "Association of Perivascular Space Volume in Basal Ganglia Subfields With Cognitive Impairment in Cerebral Small Vessel Disease.",
+"authors": "Ai L, Li Z, Huang C, … Sun Z",
+"journal": "Human brain mapping",
+"journal_iso": "Hum Brain Mapp",
+"date": "2026-11-09",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/hbm.70642"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43001682/"
+}
+],
+"au": [
+"ai|l",
+"li|z",
+"huang|c",
+"zhou|x",
+"xu|q",
+"zhu|x",
+"sun|z"
+],
+"topics": [
+"csvd",
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space",
+"small vessel disease"
+],
+"relevance": 4,
+"why": "Perivascular spaces (PVS) serve as essential elements of the glymphatic pathway, facilitating waste clearance and nutrient transport, and their impairment may underlie cognitive deficits in cerebral small vessel disease (CSVD). Here, we investigated associations between PVS characteristics, potential determinants, and…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
+},
+{
+"id": "biorxiv-10.64898_2026.11.06.764940",
+"doi": "10.64898/2026.11.06.764940",
+"title": "First-in-class -PET radiotracers for GPR39: A platform for noninvasive target engagement imaging  in vivo",
+"authors": "Bhoopal, B., Fitzgerald, R. W., Gollapelli, K., … Solingapuram Sai, K. K.",
+"journal": "bioRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"bhoopal|b",
+"fitzgerald|r",
+"gollapelli|k",
+"miller|m",
+"damuka|n",
+"baity|c",
+"roy|p",
+"myburgh|p",
+"zhou|d",
+"jadiya|p",
+"cerevera-juanes|r",
+"solingapuram sai|k"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764940v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764940v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"brain uptake"
+],
+"relevance": 4,
+"why": "Disrupted zinc homeostasis is a hallmark of Alzheimer's disease. As a key zinc-sensing receptor, GPR39, a G protein-coupled receptor implicated in neurodegeneration, vascular regulation, and neuropsychiatric disorders, represents an emerging target for molecular imaging. However, the lack of suitable positron emission…",
+"addedAt": "2026-11-10",
+"source": "auto"
+},
+{
+"id": "pmid-43002903",
+"pmid": "43002903",
+"doi": "10.1016/j.phymed.2026.158907",
+"title": "Salidroside regulates blood-brain barrier integrity via Lcn2-NLRP3 signaling axis inhibition for high-altitude hypoxic brain injury intervention.",
+"authors": "Fan F, Chen M, Yan J, … Wang X",
+"journal": "Phytomedicine",
+"journal_iso": "Phytomedicine",
+"date": "2026-11-09",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.phymed.2026.158907"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43002903/"
+}
+],
+"au": [
+"fan|f",
+"chen|m",
+"yan|j",
+"jiang|h",
+"hou|y",
+"zhang|y",
+"meng|x",
+"cairang|n",
+"wang|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "High-altitude hypoxic brain injury (HHBI) is a central nervous system injury disease induced by high-altitude hypobaric and hypoxic environment, which disrupts normal cerebral metabolism and neurological function and triggers multi-dimensional pathological damage in brain tissues. Among these pathological events,…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10",
+"oa": {
+"url": "https://doi.org/10.2139/ssrn.6863337",
+"pdf": false,
+"status": "green"
+}
+},
+{
+"id": "pmid-43002898",
+"pmid": "43002898",
+"doi": "10.1016/j.jneuroim.2026.579117",
+"title": "Critical advances and translational bottlenecks of gut microbiota-gut-brain axis targeted therapy for neurodegenerative and neurodevelopmental disorders.",
+"authors": "Yu X, He J, Liu M",
+"journal": "Journal of neuroimmunology",
+"journal_iso": "J Neuroimmunol",
+"date": "2026-11-09",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jneuroim.2026.579117"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43002898/"
+}
+],
+"au": [
+"yu|x",
+"he|j",
+"liu|m"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "Neurological diseases have become a major global public health burden. Existing central nervous system-targeted therapies can only alleviate clinical symptoms but fail to halt the progression of neurodegenerative diseases, presenting mechanistic limitations and therapeutic bottlenecks. The gut microbiota participates…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
+},
+{
+"id": "pmid-43001485",
+"pmid": "43001485",
+"doi": "10.1097/wco.0000000000001521",
+"title": "The blood-brain barrier and strategies for drug delivery to brain tumors.",
+"authors": "Nakhate V, Wen PY",
+"journal": "Current opinion in neurology",
+"journal_iso": "Curr Opin Neurol",
+"date": "2026-11-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1097/wco.0000000000001521"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43001485/"
+}
+],
+"au": [
+"nakhate|v",
+"wen|p"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"randomized"
+],
+"relevance": 3,
+"why": "Drug delivery across the blood-brain barrier (BBB) remains an important challenge in the treatment of brain tumors. This review summarizes the physiologic barriers to effective CNS drug exposure and evaluates strategies to improve delivery, with a focus on glioma. Recent advances span three complementary approaches:…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
+},
+{
+"id": "pmid-43001240",
+"pmid": "43001240",
+"doi": "10.1016/j.ijpx.2026.100693",
+"title": "From bench to clinic, are organoids ready for modeling drug delivery in brain disease?",
+"authors": "Xiang Q, Zheng MX, Yuan JR, … Li XH",
+"journal": "International journal of pharmaceutics: X",
+"journal_iso": "Int J Pharm X",
+"date": "2026-11-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ijpx.2026.100693"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43001240/"
+}
+],
+"au": [
+"xiang|q",
+"zheng|m",
+"yuan|j",
+"lin|s",
+"li|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"organoid"
+],
+"relevance": 3,
+"why": "Brain diseases remain a significant challenge in the field of modern medicine. The protective function of the blood-brain barrier (BBB) also complicates drug delivery for neurological disorders. However, under certain pathological conditions, the BBB is compromised during the progression of these pathophysiological…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10",
+"oa": {
+"url": "https://doi.org/10.1016/j.ijpx.2026.100693",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43000907",
+"pmid": "43000907",
+"doi": "10.1039/d6tb02001a",
+"title": "Engineered organoid platforms for drug delivery evaluation.",
+"authors": "Shen J, Tang J, Yao Z, … Zhao R",
+"journal": "Journal of materials chemistry. B",
+"journal_iso": "J Mater Chem B",
+"date": "2026-11-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1039/d6tb02001a"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43000907/"
+}
+],
+"au": [
+"shen|j",
+"tang|j",
+"yao|z",
+"li|y",
+"yang|s",
+"zhang|h",
+"wang|s",
+"kong|x",
+"wang|y",
+"han|q",
+"zhao|r"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"organoid"
+],
+"relevance": 3,
+"why": "Advanced biomaterials and drug delivery systems (DDSs) require human-relevant models that can capture tissue heterogeneity, physiological barriers, and patient-specific therapeutic responses. Conventional two-dimensional cultures and animal models often fail to reproduce these features, contributing to discrepancies…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
+},
+{
+"id": "pmid-43000777",
+"pmid": "43000777",
+"doi": "10.1111/jsr.70480",
+"title": "Absence of Markers of Inflammation in Blood and Cerebrospinal Fluid in Routine Analysis of Adult and Paediatric Narcolepsy Type 1.",
+"authors": "Biscarini F, Vandi S, Gnazzo M, … Pizza F",
+"journal": "Journal of sleep research",
+"journal_iso": "J Sleep Res",
+"date": "2026-11-09",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1111/jsr.70480"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43000777/"
+}
+],
+"au": [
+"biscarini|f",
+"vandi|s",
+"gnazzo|m",
+"riccio|c",
+"moresco|m",
+"morandi|l",
+"mignot|e",
+"plazzi|g",
+"pizza|f"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Narcolepsy Type 1 (NT1) is caused by selective loss of hypocretin-producing hypothalamic neurons, likely mediated by immune mechanisms in genetically predisposed individuals. Evidence of inflammation in routine blood and cerebrospinal fluid (CSF) analyses remains inconsistent. We investigated whether standard plasma…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
+},
+{
+"id": "pmid-43000671",
+"pmid": "43000671",
+"doi": "10.1080/14728222.2026.2760107",
+"title": "SFRP1 as a therapeutic target in Alzheimer's disease: a druggable molecule involved in amyloid, synaptic, and inflammatory pathology.",
+"authors": "Bovolenta P, Miaja P, D'ambra E, … Pereyra G",
+"journal": "Expert opinion on therapeutic targets",
+"journal_iso": "Expert Opin Ther Targets",
+"date": "2026-11-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1080/14728222.2026.2760107"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43000671/"
+}
+],
+"au": [
+"bovolenta|p",
+"miaja|p",
+"d'ambra|e",
+"martinez-banos|m",
+"pereyra|g"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"apoeε4"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD), a leading cause of dementia worldwide, still lacks broadly effective disease-modifying therapies. Recent anti-amyloid monoclonal antibodies highlight both the promise and limitations of amyloid-only strategies. Secreted Frizzled-Related Protein 1 (SFRP1), a Wnt antagonist and endogenous…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
+},
+{
+"id": "medrxiv-10.64898_2026.11.06.26367445",
+"doi": "10.64898/2026.11.06.26367445",
+"title": "Plasma phosphorylated tau species across neurodegenerative and cerebrovascular diseases: An ONDRI study",
+"authors": "Sanchez, E., Connon, P., Pasternak, M., … Masellis, M.",
+"journal": "medRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"sanchez|e",
+"connon|p",
+"pasternak|m",
+"abrahao|a",
+"keith|j",
+"dilliott|a",
+"baril|a",
+"frank|a",
+"lang|a",
+"pollock|b",
+"marras|c",
+"fischer|c",
+"seitz|d",
+"dowlatshahi|d",
+"grimes|d",
+"tang-wai|d",
+"sahlas|d",
+"rogaeva|e",
+"finger|e",
+"tan|k",
+"binns|m",
+"tartaglia|m",
+"borrie|m",
+"freedman|m",
+"goncalves|r",
+"swartz|r",
+"hegele|r",
+"dixon|r",
+"mirza|s",
+"farhan|s",
+"black|s",
+"kumar|s",
+"pasternak|s",
+"rajji|t",
+"steeves|t",
+"swardfager|w",
+"zetterberg|h",
+"kvartsberg|h",
+"munoz|d",
+"zinman|l",
+"strong|m",
+"masellis|m"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367445v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367445v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"amyotrophic",
+"cerebral amyloid angiopathy"
+],
+"relevance": 3,
+"why": "Elevated plasma phosphorylated tau (p-tau) species are proposed as specific biomarkers of Alzheimer's disease (AD) pathology but have also been reported in amyotrophic lateral sclerosis (ALS). Their profile across neurodegenerative and cerebrovascular diseases, as well as their discriminatory value when combined with…",
+"addedAt": "2026-11-10",
+"source": "auto"
+},
 {
 "id": "biorxiv-10.64898_2026.11.05.764625",
 "doi": "10.64898/2026.11.05.764625",
@@ -220,6 +875,268 @@
 "why": "Advances in lipid nanoparticle (LNP) technology have increased the need for accessible and scalable methods that accelerate low-volume formulation screening. Here, we describe a disposable microfluidic mixer actuated by a positive-displacement pipette equipped with dual-chamber pipette tip, providing volumetric…",
 "addedAt": "2026-11-09",
 "source": "auto"
+},
+{
+"id": "pmid-43001678",
+"pmid": "43001678",
+"doi": "10.1002/glia.70257",
+"title": "Reactive Astrocyte-Associated IL-33 Signaling Contributes to a Protective Neuroimmune State During Chronic Toxoplasma gondii-Plasmodium berghei Coinfection.",
+"authors": "Leleu I, Keswani T, Herbert F, … Pied S",
+"journal": "Glia",
+"journal_iso": "Glia",
+"date": "2026-11-09",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/glia.70257"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43001678/"
+}
+],
+"au": [
+"leleu|i",
+"keswani|t",
+"herbert|f",
+"picavet|c",
+"arnaud|m",
+"marion|s",
+"glineur|c",
+"pied|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Cerebral malaria (CM) is a lethal neuroinflammatory syndrome characterized by blood-brain barrier disruption and excessive immune-mediated neuronal damage. Astrocytes are emerging as key regulators of CNS homeostasis, yet their contribution to disease tolerance during polymicrobial infections remains poorly…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
+},
+{
+"id": "biorxiv-10.64898_2026.10.30.763057",
+"doi": "10.64898/2026.10.30.763057",
+"title": "Targeting distinct neuronal populations with AAV vectors reveals neurogenesis-associated anxiolytic effects of JNK inhibition",
+"authors": "Jokela, A., Tiwari, N., Flinkman, D., … Coffey, E.",
+"journal": "bioRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"jokela|a",
+"tiwari|n",
+"flinkman|d",
+"abyari|s",
+"deshpande|p",
+"john|j",
+"coffey|e"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763057v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763057v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "c-Jun N-terminal kinase (JNK) regulates stress responses and affective behaviour, but the neural populations mediating these effects remain unclear. Here, we delivered a nucleus-targeted JNK inhibitor to the mouse brain using blood-brain barrier-crossing adeno-associated virus vectors with distinct cellular tropisms.…",
+"addedAt": "2026-11-10",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.06.764921",
+"doi": "10.64898/2026.11.06.764921",
+"title": "Dual-reporter assay for selective small molecule inhibition of expanded toxic huntingtin",
+"authors": "Kraichely, E. A., Kim, S., Wang, J.-C., … Chung, P.",
+"journal": "bioRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "biophysics",
+"version": "1",
+"au": [
+"kraichely|e",
+"kim|s",
+"wang|j",
+"jung|k",
+"chung|p"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764921v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764921v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"huntington"
+],
+"relevance": 2,
+"why": "Huntington's disease (HD) is a neurodegenerative disorder caused by an expansion of CAG repeats in exon 1 of the human huntingtin gene (HTT). The resultant pathogenic allele (mHTT) produces a mutant huntingtin protein (mHtt) containing an expanded polyglutamine tract. Because mHtt drives neurodegeneration while…",
+"addedAt": "2026-11-10",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.06.764929",
+"doi": "10.64898/2026.11.06.764929",
+"title": "Allele-agnostic KCNH1 suppression rescues gain-of-function developmental epileptic encephalopathy",
+"authors": "Chi, W., Corbett, E. E., Thompson, C. H., … Kiskinis, E.",
+"journal": "bioRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"chi|w",
+"corbett|e",
+"thompson|c",
+"simkin|d",
+"adil|h",
+"hawkins|n",
+"callow|n",
+"barse|l",
+"george|a",
+"kearney|j",
+"kiskinis|e"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764929v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764929v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"antisense",
+"induced pluripotent"
+],
+"relevance": 2,
+"why": "Gain-of-function variants in KCNH1, which encodes the voltage-gated potassium channel Kv10.1, cause developmental and epileptic encephalopathies (DEEs) characterized by seizures, developmental delay and intellectual disability. While pathogenic variants enhance channel activity, loss of KCNH1 is tolerated in humans…",
+"addedAt": "2026-11-10",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.07.764673",
+"doi": "10.64898/2026.11.07.764673",
+"title": "Stathmin-2 regulates microtubule dynamics and axonal resilience in human motor neurons",
+"authors": "Matson, K. J. E., Petruconis, C. R., Hernandez, A., … Holzbaur, E. L. F.",
+"journal": "bioRxiv",
+"date": "2026-11-09",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"matson|k",
+"petruconis|c",
+"hernandez|a",
+"dave|j",
+"das|s",
+"holzbaur|e"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.07.764673v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.07.764673v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"amyotrophic",
+"induced pluripotent"
+],
+"relevance": 2,
+"why": "Amyotrophic lateral sclerosis (ALS) is characterized by the selective degeneration of motor neurons, yet the mechanisms that either induce neurodegeneration or confer neuronal resilience remain poorly understood. Loss of the microtubule-associated protein Stathmin-2 (STMN2) is a downstream consequence of TDP-43…",
+"addedAt": "2026-11-10",
+"source": "auto"
+},
+{
+"id": "pmid-43002229",
+"pmid": "43002229",
+"doi": "10.1007/s00428-026-04766-x",
+"title": "Integrating PCR and sequencing for the identification of pathogenic fungi on formalin-fixed tissues: a systematic review toward a pragmatic histomolecular solution.",
+"authors": "Trecourt A, Gorkiewicz G, Adle-Biassette H, … on behalf the Infectious Diseases Pathology Working Group of the European Society of Pathology (ESP)",
+"journal": "Virchows Archiv",
+"journal_iso": "Virchows Arch",
+"date": "2026-11-09",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00428-026-04766-x"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43002229/"
+}
+],
+"au": [
+"trecourt|a",
+"gorkiewicz|g",
+"adle-biassette|h",
+"rabodonirina|m",
+"cathomas|g",
+"langer|r",
+"devouassoux-shisheboran|m",
+"menotti|j",
+"hofman|p",
+"esp|o"
+],
+"topics": [],
+"keywords": [],
+"relevance": 1,
+"why": "Although histopathology is a gold standard for the diagnosis of invasive fungal infections, the morphological analysis does not provide an accurate genus and/or species identification. Because this specific identification is required for antifungal therapy prescription, the implementation of molecular techniques to…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
 },
 {
 "id": "pmid-42999587",
@@ -559,6 +1476,108 @@
 "why": "The glymphatic system is a sleep-active pathway involved in clearing metabolic waste from the brain. Several non-invasive MRI indices have been proposed as proxies for assessing glymphatic function in vivo . However, it remains unclear whether these indices capture glymphatic dysregulation under short-term sleep loss.…",
 "addedAt": "2026-11-09",
 "source": "auto"
+},
+{
+"id": "pmid-43000556",
+"pmid": "43000556",
+"doi": "10.1007/s00405-026-10781-0",
+"title": "Histobiochemical architecture of the vocal folds and the impact of phonotrauma: a state-of-the-art review.",
+"authors": "Miri M, Lechien JR",
+"journal": "European archives of oto-rhino-laryngology",
+"journal_iso": "Eur Arch Otorhinolaryngol",
+"date": "2026-11-08",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00405-026-10781-0"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43000556/"
+}
+],
+"au": [
+"miri|m",
+"lechien|j"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4",
+"tight junction"
+],
+"relevance": 3,
+"why": "To synthesize the current evidence on the histological architecture and biochemical composition of the healthy human vocal fold, and to critically appraise how phonotrauma alters these structural and molecular components. Two independent investigators conducted a comprehensive narrative literature search of PubMed,…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10"
+},
+{
+"id": "pmid-43000408",
+"pmid": "43000408",
+"doi": "10.1186/s13024-026-00980-y",
+"title": "A randomized, placebo-controlled, double blind Phase 1 trial of the Aβ vaccine, AV-1959R, in non-cognitively impaired participants: prelude for secondary preventive therapy in preclinical AD.",
+"authors": "Hovakimyan A, Madoyan H, Najarzadeh Z, … Agadjanyan MG",
+"journal": "Molecular neurodegeneration",
+"journal_iso": "Mol Neurodegener",
+"date": "2026-11-08",
+"type": "journal",
+"kind": "Clinical trial",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s13024-026-00980-y"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43000408/"
+}
+],
+"au": [
+"hovakimyan|a",
+"madoyan|h",
+"najarzadeh|z",
+"chilingaryan|g",
+"petrushina|i",
+"mamikonyan|g",
+"lebedeva|e",
+"zaitsev|a",
+"mansour|k",
+"o'malley|t",
+"gonen|s",
+"kniazev|r",
+"petrovsky|n",
+"grinberg|a",
+"alexander|r",
+"schneider|l",
+"ataullakhanov|r",
+"glabe|c",
+"ghochikyan|a",
+"agadjanyan|m"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"aria",
+"randomized"
+],
+"relevance": 3,
+"why": "Active immunotherapy targeting amyloid-β (Aβ) represents a promising strategy for preventing Alzheimer's disease (AD) in cognitively normal individuals at risk, referred to as the preclinical AD population. However, all Aβ vaccines tested so far in people with disease have faced significant challenges, primarily due…",
+"addedAt": "2026-11-10",
+"source": "auto",
+"oaChecked": "2026-11-10",
+"oa": {
+"url": "https://doi.org/10.1186/s13024-026-00980-y",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-42999530",
