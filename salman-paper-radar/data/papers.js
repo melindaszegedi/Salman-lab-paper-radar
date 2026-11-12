@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-11-11",
-"lastRunAdded": 24,
-"total": 1629,
+"lastCurated": "2026-11-12",
+"lastRunAdded": 31,
+"total": 1660,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,912 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-43016269",
+"pmid": "43016269",
+"doi": "10.2174/0118746098417839251201152714",
+"title": "Glymphatic Dysfunction in Alzheimer's Disease: Mechanisms, Biomarkers, and Emerging Therapeutic Perspectives.",
+"authors": "Mehrabadi S, Samarghandian S",
+"journal": "Current aging science",
+"journal_iso": "Curr Aging Sci",
+"date": "2026-11-12",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0118746098417839251201152714"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43016269/"
+}
+],
+"au": [
+"mehrabadi|s",
+"samarghandian|s"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glymphatic",
+"interstitial fluid"
+],
+"relevance": 4,
+"why": "Alzheimer's disease (AD) is a neurodegenerative disorder characterized by progressive cognitive decline, with hallmark pathological features including amyloid-beta plaques, tau tangles, and neuronal loss. The glymphatic system, a recently discovered network responsible for brain waste clearance, plays a crucial role…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43015970",
+"pmid": "43015970",
+"doi": "10.1080/13543784.2026.2761879",
+"title": "Are we moving forward from amisulpride? LB-102 (N-methyl amisulpride) in acute schizophrenia.",
+"authors": "Doggrell SA",
+"journal": "Expert opinion on investigational drugs",
+"journal_iso": "Expert Opin Investig Drugs",
+"date": "2026-11-12",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1080/13543784.2026.2761879"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43015970/"
+}
+],
+"au": [
+"doggrell|s"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"phase 2"
+],
+"relevance": 3,
+"why": "Schizophrenia has a low prevalence but a high health burden. Although used in schizophrenia, amisulpride has limited blood-brain barrier penetration. LB-102 (N-methylated amisulpride) maintains the ability to antagonize D2- and 5-HT7-receptors with longer receptor occupancies than amisulpride. A phase 2 clinical trial…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43011777",
+"pmid": "43011777",
+"doi": "10.1039/d6ra08288b",
+"title": "Chemical design principles governing receptor-mediated blood-brain barrier transcytosis: analysis of 563 molecular shuttles.",
+"authors": "Abbrederis N, Petersen MH, Møller CV, … Astakhova K",
+"journal": "RSC advances",
+"journal_iso": "RSC Adv",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1039/d6ra08288b"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43011777/"
+}
+],
+"au": [
+"abbrederis|n",
+"petersen|m",
+"mller|c",
+"dziuba|k",
+"paloglou|d",
+"astakhova|k"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"nanoparticle",
+"transcytosis",
+"transferrin receptor"
+],
+"relevance": 5,
+"why": "The blood-brain barrier (BBB) remains a major obstacle to central nervous system drug delivery. Receptor-mediated transcytosis offers a promising strategy, motivating diverse molecular shuttle designs. Here, we systematically analyse 563 chemically defined BBB shuttles, comprising peptides (229), aptamers (149),…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12",
+"oa": {
+"url": "https://doi.org/10.1039/d6ra08288b",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43014439",
+"pmid": "43014439",
+"doi": "10.1016/j.neuroscience.2026.11.018",
+"title": "From insulin resistance to neurovascular breakdown: mTOR signaling as a convergence point in Alzheimer's disease.",
+"authors": "Sharma C, Basak M, Dhungel A, … Deka T",
+"journal": "Neuroscience",
+"journal_iso": "Neuroscience",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.neuroscience.2026.11.018"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43014439/"
+}
+],
+"au": [
+"sharma|c",
+"basak|m",
+"dhungel|a",
+"hazam|p",
+"deka|t"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"neurovascular unit",
+"tight junction"
+],
+"relevance": 4,
+"why": "Alzheimer's disease (AD), the leading cause of dementia, is increasingly recognized as a metabolic disorder characterized by disrupted insulin and insulin-like growth factor-1 signaling in the brain, a concept now referred to as type 3 diabetes. Central to this perspective is the insulin receptor…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43014119",
+"pmid": "43014119",
+"doi": "10.1016/j.jtemb.2026.127989",
+"title": "Metal dysregulation and neurovascular injury in vascular dementia: A systematic review of clinical evidence and mechanistic synthesis.",
+"authors": "Dev P, Moitra A, Pathak A",
+"journal": "Journal of trace elements in medicine and biology",
+"journal_iso": "J Trace Elem Med Biol",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jtemb.2026.127989"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43014119/"
+}
+],
+"au": [
+"dev|p",
+"moitra|a",
+"pathak|a"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"neurovascular unit",
+"small vessel disease",
+"vascular dementia"
+],
+"relevance": 4,
+"why": "Vascular dementia (VaD) is a major cause of cognitive decline resulting from chronic cerebrovascular insufficiency and neurovascular unit dysfunction. Emerging evidence indicates that dysregulation of transition metals, particularly iron, copper, zinc, and manganese-acts as an active driver of neurovascular injury…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43012707",
+"pmid": "43012707",
+"doi": "10.1021/acs.jafc.6c07801",
+"title": "Sinensetin, a Citrus Polymethoxyflavone, Alleviates High-Fat Diet-Induced Colonic Ferroptosis via the TRPV4/Ca2+ Signaling Pathway.",
+"authors": "Meng Z, Zhang Q, Zhao Z, … Tang J",
+"journal": "Journal of agricultural and food chemistry",
+"journal_iso": "J Agric Food Chem",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.jafc.6c07801"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43012707/"
+}
+],
+"au": [
+"meng|z",
+"zhang|q",
+"zhao|z",
+"zhang|r",
+"liu|g",
+"xiang|w",
+"tang|j"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"permeability",
+"tight junction",
+"transferrin receptor"
+],
+"relevance": 4,
+"why": "Long-term high-fat diet (HFD) strongly induces colon injury and metabolic disorders, with ferroptosis as a key mechanism. Sinensetin, a natural polymethoxyflavone, exhibits exceptional bioactivity; however, its potential to ameliorate HFD-induced colonic ferroptosis and underlying targeted mechanisms remains unclear.…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43013330",
+"pmid": "43013330",
+"doi": "10.1039/d6an00231e",
+"title": "Advancements in biosensor-integrated biomedical devices for early detection of metabolic disorders: a comprehensive review.",
+"authors": "Sangeetha S, Panneerselvam C, Alasmari A, Khasim S",
+"journal": "The Analyst",
+"journal_iso": "Analyst",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1039/d6an00231e"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43013330/"
+}
+],
+"au": [
+"sangeetha|s",
+"panneerselvam|c",
+"alasmari|a",
+"khasim|s"
+],
+"topics": [
+"bbb",
+"glymph",
+"lab-on-a-chip"
+],
+"keywords": [
+"interstitial fluid",
+"lab-on-a-chip",
+"microfluidic",
+"nanoparticle"
+],
+"relevance": 4,
+"why": "Lifestyle, genetic, and environmental influences are implicated in metabolic disorders, an emerging global health concern, including diabetes mellitus, dyslipidaemia, obesity, and hyperuricemia. The success of disease treatment and the prevention of long-term complications depend on the early identification and…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "biorxiv-10.64898_2026.11.09.765491",
+"doi": "10.64898/2026.11.09.765491",
+"title": "SilencioMA: A single compound that targets both MAPT and APP as a potential disease modifying therapeutic for Alzheimer's Disease",
+"authors": "Sgourdou, P., Vrettos, N., Hoxha, K., … Mourelatos, Z.",
+"journal": "bioRxiv",
+"date": "2026-11-11",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "pathology",
+"version": "1",
+"au": [
+"sgourdou|p",
+"vrettos|n",
+"hoxha|k",
+"baffic|t",
+"lee|e",
+"xu|h",
+"lee|v",
+"mourelatos|z"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765491v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765491v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"alzheimer",
+"blood brain barrier",
+"nanoparticle",
+"transcytosis"
+],
+"relevance": 4,
+"why": "Alzheimer's Disease (AD) is the most common age-related neurodegenerative disease and the leading cause of dementia worldwide. AD pathogenesis involves aggregation of amyloid-beta (A{beta}), produced from amyloidogenic proteolytic processing of Amyloid Precursor Protein (APP), and accumulation of misfolded,…",
+"addedAt": "2026-11-12",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.09.765492",
+"doi": "10.64898/2026.11.09.765492",
+"title": "Neuropathological assessment of cerebrovascular integrity in Chronic Traumatic Encephalopathy",
+"authors": "Martinac, A. E., DeLorenzo, A., Dik, D., … Shepherd, C. E.",
+"journal": "bioRxiv",
+"date": "2026-11-11",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"martinac|a",
+"delorenzo|a",
+"dik|d",
+"pasas|l",
+"bilston|l",
+"shepherd|c"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765492v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765492v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd",
+"glymph"
+],
+"keywords": [
+"aquaporin-4",
+"capillary",
+"pericyte",
+"perivascular spaces"
+],
+"relevance": 4,
+"why": "Chronic traumatic encephalopathy neuropathological change (CTE-NC) is defined by perivascular deposits of phosphorylated tau, with lesions preferentially located at sulcal depths. We investigated whether CTE-NC is associated with structural changes to perivascular spaces (PVSs) or microvascular degeneration.…",
+"addedAt": "2026-11-12",
+"source": "auto"
+},
+{
+"id": "pmid-43015247",
+"pmid": "43015247",
+"doi": "10.1002/alz.71994",
+"title": "Targeting peripheral cathepsin E restricts CD8+ T-cell neuroinvasion and ameliorates Alzheimer's disease pathology.",
+"authors": "Xie Z, Yang Q, Liu L, … Ni J",
+"journal": "Alzheimer's & dementia",
+"journal_iso": "Alzheimers Dement",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/alz.71994"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43015247/"
+}
+],
+"au": [
+"xie|z",
+"yang|q",
+"liu|l",
+"chu|m",
+"quan|z",
+"yang|l",
+"bai|z",
+"yang|k",
+"nakanishi|h",
+"wu|l",
+"qing|h",
+"ni|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"microfluidic"
+],
+"relevance": 3,
+"why": "CD8+ T-cell-mediated neuroimmune activation increases with aging and contributes to Alzheimer's disease (AD), yet the molecular cues that drive their recruitment into the brain remain largely undefined. We quantified Cathepsin E (CatE) expression in CD8+ T cells from 5×FAD mice and clinical samples from patients with…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43014653",
+"pmid": "43014653",
+"doi": "10.1053/j.ajkd.2026.07.018",
+"title": "The Burden of Occult Cerebrovascular Disease in CKD: A Scoping Review.",
+"authors": "Vasaghi-Gharamaleki M, Jazayeri SB, Pillai A, … Sabayan B",
+"journal": "American journal of kidney diseases",
+"journal_iso": "Am J Kidney Dis",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1053/j.ajkd.2026.07.018"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43014653/"
+}
+],
+"au": [
+"vasaghi-gharamaleki|m",
+"jazayeri|s",
+"pillai|a",
+"johansen|k",
+"murray|a",
+"sedaghat|s",
+"sabayan|b"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"microbleed",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Occult cerebrovascular diseases (OCCD) including extracranial and intracranial atherosclerotic disease (ECAD and ICAD) and cerebral small vessel disease (CSVD) are asymptomatic cerebrovascular abnormalities associated with future risk of stroke and dementia. Although chronic kidney disease (CKD) is strongly associated…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43014015",
+"pmid": "43014015",
+"doi": "10.1016/j.intimp.2026.117677",
+"title": "Quassin attenuates secondary brain injury following intracerebral hemorrhage.",
+"authors": "Mazhar M, Bizhanova A, Muhammad A, … Xue M",
+"journal": "International immunopharmacology",
+"journal_iso": "Int Immunopharmacol",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.intimp.2026.117677"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43014015/"
+}
+],
+"au": [
+"mazhar|m",
+"bizhanova|a",
+"muhammad|a",
+"siddique|r",
+"zhang|r",
+"qi|l",
+"wee yong|v",
+"xue|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability",
+"tight junction"
+],
+"relevance": 3,
+"why": "Intracerebral hemorrhage (ICH) accounts for only 10-15% of all stroke cases, yet it is responsible for up to 70% of stroke-related mortality and long-term disability globally. Quassin, a white, crystalline molecule, is often used in Chinese herbal medicine. Research has shown quassin's neuroprotective properties…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43013611",
+"pmid": "43013611",
+"doi": "10.1080/17520363.2026.2757734",
+"title": "Immune-inflammatory indices and a serum surrogate composite score of blood-brain barrier injury in acute ischemic stroke.",
+"authors": "Luo B, Yang J, Lu H, … Du J",
+"journal": "Biomarkers in medicine",
+"journal_iso": "Biomark Med",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1080/17520363.2026.2757734"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43013611/"
+}
+],
+"au": [
+"luo|b",
+"yang|j",
+"lu|h",
+"yao|x",
+"wang|p",
+"du|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Systemic inflammation is linked to blood-brain barrier (BBB) breakdown in acute ischemic stroke (AIS), but the association between peripheral immune-inflammatory indices and BBB permeability remains unclear. We enrolled 286 AIS patients within 24 h of onset. Five indices (NLR, PLR, LMR, SII, SIRI) were calculated from…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43013349",
+"pmid": "43013349",
+"doi": "10.1515/revneuro-2026-0165",
+"title": "The skull-meninges-brain axis: a new paradigm for systemic inflammation-driven encephalopathy.",
+"authors": "Yang Y, Duan Y, Han C, … Bao T",
+"journal": "Reviews in the neurosciences",
+"journal_iso": "Rev Neurosci",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1515/revneuro-2026-0165"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43013349/"
+}
+],
+"au": [
+"yang|y",
+"duan|y",
+"han|c",
+"yang|x",
+"yue|j",
+"song|q",
+"meng|j",
+"wan|x",
+"bao|t"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"blood-brain barrier",
+"meningeal lymphatic"
+],
+"relevance": 3,
+"why": "Despite the significant clinical burden of sepsis-associated encephalopathy (SAE), current models centering on blood-brain barrier (BBB) damage as the initiating event fail to fully explain the rapid neurocognitive deterioration. This review proposes a paradigm-shifting meningeal sentinel framework that repositions…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12",
+"oa": {
+"url": "https://doi.org/10.1515/revneuro-2026-0165",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43012927",
+"pmid": "43012927",
+"doi": "10.1007/s10571-026-01804-9",
+"title": "Death-Associated Protein Kinase 1 (DAPK1) Signalling at the Crossroads of Apoptosis, Autophagy, and Post-transcriptional Cascades in Neurodegenerative Diseases.",
+"authors": "Gupta PR, Shahapure P, Sarkar N, … Justin A",
+"journal": "Cellular and molecular neurobiology",
+"journal_iso": "Cell Mol Neurobiol",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s10571-026-01804-9"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43012927/"
+}
+],
+"au": [
+"gupta|p",
+"shahapure|p",
+"sarkar|n",
+"venu|g",
+"krishnan|d",
+"ramasamy|s",
+"justin|a"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "Death-associated Protein Kinase-1 is a Ca2+/calmodulin- dependent serine/threonine protein kinase which controls various cellular processes and functions, including apoptosis, autophagy, and post-transcriptional processes, through multiple microRNAs. Increasing evidence suggests that, aberrant increase in the level of…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12",
+"oa": {
+"url": "https://doi.org/10.1007/s10571-026-01804-9",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43012895",
+"pmid": "43012895",
+"doi": "10.1080/00207454.2026.2762298",
+"title": "Association of metabolic insulin resistance with white matter hyperintensity burden and plasma proteomic signatures in the UK Biobank.",
+"authors": "Si X, Qi X",
+"journal": "The International journal of neuroscience",
+"journal_iso": "Int J Neurosci",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1080/00207454.2026.2762298"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43012895/"
+}
+],
+"au": [
+"si|x",
+"qi|x"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Metabolic insulin resistance is closely related to cardiometabolic dysfunction and vascular injury. Its association with subclinical cerebral small vessel disease, and the circulating molecular signals that may accompany this association, remain incompletely characterised. We analysed 59,826 UK Biobank participants…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43012625",
+"pmid": "43012625",
+"doi": "10.1002/ptr.70521",
+"title": "Natural Glycosides in Neurodegenerative Diseases: Multi-Target Mechanisms via the Gut-Brain Axis.",
+"authors": "Chen L, Wei M, Zhang Q, … Tan R",
+"journal": "Phytotherapy research",
+"journal_iso": "Phytother Res",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/ptr.70521"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43012625/"
+}
+],
+"au": [
+"chen|l",
+"wei|m",
+"zhang|q",
+"jia|l",
+"zheng|z",
+"tan|r"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "The multifactorial complexity of neurodegenerative diseases (NDs), including Alzheimer's and Parkinson's disease, limits the efficacy of single-target therapies. Natural glycosides exhibit promising neuroprotective potential, but their clinical translation is hindered by poor oral bioavailability and limited…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43011830",
+"pmid": "43011830",
+"doi": "10.3389/fimmu.2026.1956619",
+"title": "From intestinal barrier sensing to glial immune programming: a barrier-immune-glia relay in microbiota-associated neurodegeneration.",
+"authors": "Lin J, Zou X",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1956619"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43011830/"
+}
+],
+"au": [
+"lin|j",
+"zou|x"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "The gut microbiota contributes to host homeostasis through metabolic, immunological, neural, and barrier-related pathways, and its role in the onset and progression of neurodegenerative diseases has received increasing attention. Patients with Alzheimer's disease, Parkinson's disease, and amyotrophic lateral sclerosis…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1956619/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43010397",
+"pmid": "43010397",
+"doi": "10.1021/acs.analchem.6c04279",
+"title": "A pKa-Guided BBB-Permeable NIR Fluorescent Probe for Tracking Lipid Droplets in Microglia with Neuroinflammation and Alzheimer's Disease.",
+"authors": "Zhang Z, Ning Y, Wu Z, … Gao F",
+"journal": "Analytical chemistry",
+"journal_iso": "Anal Chem",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.analchem.6c04279"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43010397/"
+}
+],
+"au": [
+"zhang|z",
+"ning|y",
+"wu|z",
+"sun|j",
+"gao|f"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"bbb",
+"permeability"
+],
+"relevance": 3,
+"why": "Abnormal accumulation of lipid droplets (LDs), accompanied by altered microenvironmental polarity within the microglia, is closely associated with neuroinflammation and also has been increasingly recognized as an early and dynamic indicator of Alzheimer's disease (AD). Herein, a LD-targeting polarity-sensitive…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43011417",
+"pmid": "43011417",
+"doi": "10.1155/ijod/8276749",
+"title": "Transforming Diagnostic Precision in Periodontology Through Lab-on-a-Chip Technology: A Scoping Review.",
+"authors": "Manoj M, Jaison J, Varghese J",
+"journal": "International journal of dentistry",
+"journal_iso": "Int J Dent",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1155/ijod/8276749"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43011417/"
+}
+],
+"au": [
+"manoj|m",
+"jaison|j",
+"varghese|j"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "Conventional periodontal diagnostics measures the damage that has already occurred rather than disease that is currently active. This gap has driven interest in point-of-care tools that read the mouth in real time. Lab-on-a-chip (LOC) and microfluidic platforms are leading candidates for such chairside periodontal and…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/ijod/8276749",
+"pdf": true,
+"status": "gold"
+}
+},
 {
 "id": "biorxiv-10.64898_2026.11.08.765147",
 "doi": "10.64898/2026.11.08.765147",
@@ -59,6 +965,385 @@ window.PAPER_RADAR_DATA = {
 "relevance": 2,
 "why": "Native mucus protects epithelial surfaces through viscoelastic networks of disulfide-linked mucins. However, commercially available mucins often fail to reconstitute comparable mechanical and barrier properties, while synthetic and hybrid mucus mimetics require polymeric crosslinkers that may alter mucus-like…",
 "addedAt": "2026-11-11",
+"source": "auto"
+},
+{
+"id": "pmid-43015435",
+"pmid": "43015435",
+"doi": "10.1038/d41586-026-03655-2",
+"title": "New culprit in early Alzheimer's: Blood-brain barrier blocks protective proteins.",
+"authors": "Basu M",
+"journal": "Nature",
+"journal_iso": "Nature",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/d41586-026-03655-2"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43015435/"
+}
+],
+"au": [
+"basu|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43015120",
+"pmid": "43015120",
+"doi": "10.1523/jneurosci.1186-26.2026",
+"title": "Integrating Cytoskeletal Systems in Neurons and Glia: Dynamic Orchestration of Structure and Function.",
+"authors": "Jahan N, York HM, Bailey HM, … Fu MM",
+"journal": "The Journal of neuroscience",
+"journal_iso": "J Neurosci",
+"date": "2026-11-11",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1523/jneurosci.1186-26.2026"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43015120/"
+}
+],
+"au": [
+"jahan|n",
+"york|h",
+"bailey|h",
+"swann|i",
+"leterrier|c",
+"spiliotis|e",
+"aiken|j",
+"tymanskyj|s",
+"brown|a",
+"winckler|b",
+"fu|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Neurons and glia form the circuitry of our nervous system, allowing nerve cells to communicate with each other and other cell types throughout the body in a highly specific manner to integrate sensory, motor, and cognitive functions. The ability of these cells to do this is profoundly dependent on an elaborate and…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43014307",
+"pmid": "43014307",
+"doi": "10.1016/j.cell.2026.10.039",
+"title": "The blood-brain barrier imports diverse neuroprotective proteins through pathways impaired early in Alzheimer's disease models.",
+"authors": "Zhou H, Maynard JC, Pennacchio AJ, … Yang AC",
+"journal": "Cell",
+"journal_iso": "Cell",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.cell.2026.10.039"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43014307/"
+}
+],
+"au": [
+"zhou|h",
+"maynard|j",
+"pennacchio|a",
+"apolonio|a",
+"liu|x",
+"yao|l",
+"negahban|m",
+"zhang|z",
+"ding|b",
+"oberhauser|j",
+"wen|x",
+"yang|m",
+"huang|f",
+"chayama|y",
+"doddipalli|s",
+"bernardi|m",
+"domke|l",
+"lo|i",
+"simms|j",
+"pan|a",
+"du|s",
+"to|n",
+"wong|p",
+"duong|d",
+"fox|e",
+"seyfried|n",
+"cheung|t",
+"tracy|t",
+"burlingame|a",
+"yang|a"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "The blood-brain barrier (BBB) has been defined primarily by what it excludes, yet the scale and function of physiological blood-to-brain protein transport remain largely unknown. Using bioorthogonal proteomics, we find that the healthy BBB samples 191 plasma proteins and permits 92 into the brain parenchyma. Enriched…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12",
+"oa": {
+"url": "https://doi.org/10.1016/j.cell.2026.10.039",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43013648",
+"pmid": "43013648",
+"doi": "10.1126/sciadv.aei6265",
+"title": "Neuromelanin-inspired metal-selenomelanin nanonetworks restore neuronal excitability in radiation-induced brain injury.",
+"authors": "Deng R, Li K, Duan R, … Cao W",
+"journal": "Science advances",
+"journal_iso": "Sci Adv",
+"date": "2026-11-11",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1126/sciadv.aei6265"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43013648/"
+}
+],
+"au": [
+"deng|r",
+"li|k",
+"duan|r",
+"zhang|x",
+"gu|b",
+"mao|l",
+"cao|w"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Radiation-induced brain injury (RIBI) affects up to 30% of patients receiving cranial radiotherapy, representing an irreversible complication lacking effective therapies. Research advances are limited by poor blood-brain barrier drug penetration and overreliance on ex vivo pathology, which cannot resolve dynamic…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12"
+},
+{
+"id": "biorxiv-10.64898_2026.11.10.764216",
+"doi": "10.64898/2026.11.10.764216",
+"title": "Investigating the causal and consequential role of the nuclear encoded mitochondrial genome in Amyotrophic Lateral Sclerosis",
+"authors": "Ali, A. T., Al Kheifat, A., Al-Chalabi, A., … Iacoangeli, A.",
+"journal": "bioRxiv",
+"date": "2026-11-11",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioinformatics",
+"version": "1",
+"au": [
+"ali|a",
+"al kheifat|a",
+"al-chalabi|a",
+"hodgkinson|a",
+"iacoangeli|a"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.10.764216v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.10.764216v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"amyotrophic",
+"ipsc"
+],
+"relevance": 2,
+"why": "Mitochondrial dysfunction is implicated in amyotrophic lateral sclerosis (ALS), but which mitochondrial pathways are involved, and whether their involvement is a cause or a consequence of disease remains unclear. We investigated whether nuclear-encoded mitochondrial gene (NEMG) pathways are enriched for ALS genetic…",
+"addedAt": "2026-11-12",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.09.765403",
+"doi": "10.64898/2026.11.09.765403",
+"title": "Binding mechanisms of therapeutic antibodies to human claudin-18.2",
+"authors": "Wang, X., Fu, C., Ma, H., … Zhou, X.",
+"journal": "bioRxiv",
+"date": "2026-11-11",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "biophysics",
+"version": "1",
+"au": [
+"wang|x",
+"fu|c",
+"ma|h",
+"yang|p",
+"yu|h",
+"sun|z",
+"jin|l",
+"su|z",
+"zhou|x"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765403v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765403v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"phase 3",
+"tight junction"
+],
+"relevance": 2,
+"why": "Claudin-18.2 (CLDN18.2) is a tight junction component with highly restricted expression in the paracellular space of nonmalignant gastric epithelial cells. It becomes accessible on tumor cell surface during malignant transformation, making CLDN18.2 an attractive target for targeted therapies against gastric cancer.…",
+"addedAt": "2026-11-12",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.09.765508",
+"doi": "10.64898/2026.11.09.765508",
+"title": "TREM2-stimulated, PDGF-dependent macrophage-fibroblast crosstalk induces beneficial plaque remodeling in clonal hematopoiesis",
+"authors": "Liu, W., Xue, C., Olszewska, M., … Tall, A. R.",
+"journal": "bioRxiv",
+"date": "2026-11-11",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "pathology",
+"version": "1",
+"au": [
+"liu|w",
+"xue|c",
+"olszewska|m",
+"hsu|c",
+"yalcinkaya|m",
+"xiao|t",
+"schlepckow|k",
+"haass|c",
+"papapetrou|e",
+"monroe|k",
+"wang|n",
+"reilly|m",
+"tall|a"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765508v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765508v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"ipsc",
+"trem2"
+],
+"relevance": 2,
+"why": "Background: In Jak2V617F clonal hematopoiesis, inflammatory signaling suppresses macrophage TREM2 and promotes features of plaque instability, while therapeutic TREM2 agonism reverses plaque instability by increasing fibroblasts and fibrous cap formation. We tested whether macrophage-derived PDGFB and stromal cell…",
+"addedAt": "2026-11-12",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.10.765754",
+"doi": "10.64898/2026.11.10.765754",
+"title": "Heat-killed Latilactobacillus sakei D279 Attenuates Lipopolysaccharide-Induced Intestinal Inflammation and Barrier Disruption",
+"authors": "Chihama, R., Tsunoda, T., Mohamad Ishak, N. S., Hashimoto, K.",
+"journal": "bioRxiv",
+"date": "2026-11-11",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "microbiology",
+"version": "1",
+"au": [
+"chihama|r",
+"tsunoda|t",
+"mohamad ishak|n",
+"hashimoto|k"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765754v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765754v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"teer",
+"tight junction"
+],
+"relevance": 2,
+"why": "Intestinal barrier dysfunction and excessive inflammation contribute to the pathogenesis of various metabolic and gastrointestinal diseases. Lipopolysaccharide (LPS) induces systemic and intestinal inflammation, disrupts epithelial tight junctions, and impairs intestinal barrier integrity. Although heat-killed…",
+"addedAt": "2026-11-12",
 "source": "auto"
 },
 {
@@ -159,6 +1444,57 @@ window.PAPER_RADAR_DATA = {
 "oa": {
 "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1952810/pdf",
 "pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43009962",
+"pmid": "43009962",
+"doi": "10.1186/s12987-026-00854-x",
+"title": "Mitochondria and blood-brain barrier dysfunction: a promising target for cerebrovascular disorders.",
+"authors": "Cicala D, Geldenhuys WJ, Carerra E, … Huber JD",
+"journal": "Fluids and barriers of the CNS",
+"journal_iso": "Fluids Barriers CNS",
+"date": "2026-11-10",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12987-026-00854-x"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43009962/"
+}
+],
+"au": [
+"cicala|d",
+"geldenhuys|w",
+"carerra|e",
+"maghareh|m",
+"s m roknuzzaman|a",
+"sarker|r",
+"huber|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"neurovascular unit",
+"pericytes",
+"permeability"
+],
+"relevance": 4,
+"why": "The blood-brain barrier (BBB) functions as a highly selective regulatory system governing molecular transport between systemic circulation and the central nervous system. The maintenance of this strict permeability relies on the continuous, high-energy interactions of the neurovascular unit (NVU) primarily fueled by…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12",
+"oa": {
+"url": "https://doi.org/10.1186/s12987-026-00854-x",
+"pdf": false,
 "status": "gold"
 }
 },
@@ -1023,6 +2359,110 @@ window.PAPER_RADAR_DATA = {
 "addedAt": "2026-11-11",
 "source": "auto",
 "oaChecked": "2026-11-11"
+},
+{
+"id": "pmid-43009478",
+"pmid": "43009478",
+"doi": "10.1038/s41398-026-04382-y",
+"title": "Aberrant cerebrovascular reactivity presents as an early biomarker of psychosis susceptibility in patients with 22q11.2DS.",
+"authors": "Delavari F, Moia S, Forrer S, … Van De Ville D",
+"journal": "Translational psychiatry",
+"journal_iso": "Transl Psychiatry",
+"date": "2026-11-10",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41398-026-04382-y"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43009478/"
+}
+],
+"au": [
+"delavari|f",
+"moia|s",
+"forrer|s",
+"sandini|c",
+"kojovic|n",
+"pascucci|a",
+"lacour|c",
+"eliez|s",
+"van de ville|d"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"cerebrovascular reactivity",
+"permeability"
+],
+"relevance": 3,
+"why": "The brain's ability to regulate blood flow is fundamental to both its function and development. In the context of neurodevelopmental disorders such as schizophrenia, understanding the complex interactions between cerebrovascular health and brain function is crucial for unraveling the pathophysiology of psychosis. This…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12",
+"oa": {
+"url": "https://www.nature.com/articles/s41398-026-04382-y_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43009471",
+"pmid": "43009471",
+"doi": "10.1038/s41398-026-04381-z",
+"title": "Association of brain glymphatic system with risk of incident mortality and morbidity.",
+"authors": "Zhang YR, Wang ZB, Huang SY, … Yu JT",
+"journal": "Translational psychiatry",
+"journal_iso": "Transl Psychiatry",
+"date": "2026-11-10",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41398-026-04381-z"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43009471/"
+}
+],
+"au": [
+"zhang|y",
+"wang|z",
+"huang|s",
+"du|j",
+"fu|y",
+"gao|p",
+"tan|l",
+"feng|j",
+"cheng|w",
+"yu|j"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"perivascular space"
+],
+"relevance": 3,
+"why": "Brain glymphatic system function as measured by diffusion tensor image analysis along the perivascular space (DTI-ALPS) index has been associated with brain disorders, but its association with mortality and other diseases remains underexplored. This prospective study included 34,268 participants from the UK Biobank…",
+"addedAt": "2026-11-12",
+"source": "auto",
+"oaChecked": "2026-11-12",
+"oa": {
+"url": "https://www.nature.com/articles/s41398-026-04381-z_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "biorxiv-10.64898_2026.11.05.764692",
