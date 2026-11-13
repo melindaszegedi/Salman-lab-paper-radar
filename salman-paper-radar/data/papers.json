@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-12",
-"lastRunAdded": 31,
-"total": 1660,
+"lastCurated": "2026-11-13",
+"lastRunAdded": 25,
+"total": 1685,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,358 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-43021851",
+"pmid": "43021851",
+"doi": "10.3389/fneur.2026.1963894",
+"title": "Transcutaneous auricular vagus nerve stimulation in perioperative neurocognitive disorders: clinical evidence and mechanistic perspectives.",
+"authors": "Xia R, Meng Y, Jiang M, Ma J",
+"journal": "Frontiers in neurology",
+"journal_iso": "Front Neurol",
+"date": "2026-11-13",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fneur.2026.1963894"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43021851/"
+}
+],
+"au": [
+"xia|r",
+"meng|y",
+"jiang|m",
+"ma|j"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"neurovascular unit",
+"randomized"
+],
+"relevance": 4,
+"why": "Perioperative neurocognitive disorders (PND) are common neurological complications in older surgical patients and are associated with impaired recovery, loss of independence, and worse quality of life. Transcutaneous auricular vagus nerve stimulation (taVNS) is a non-invasive neuromodulatory intervention with…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1963894/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43021770",
+"pmid": "43021770",
+"doi": "10.2174/0115672050509968261027101230",
+"title": "Under-recognized Autoimmune Encephalitis in Patients with Alzheimer's Disease: A Case Series Emphasizing EEG Screening.",
+"authors": "Jiang P, Guo X, Wang L, … Gao X",
+"journal": "Current Alzheimer research",
+"journal_iso": "Curr Alzheimer Res",
+"date": "2026-11-13",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0115672050509968261027101230"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43021770/"
+}
+],
+"au": [
+"jiang|p",
+"guo|x",
+"wang|l",
+"huang|w",
+"xie|h",
+"gao|x"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"lecanemab"
+],
+"relevance": 4,
+"why": "AD and AE present overlapping cognitive decline, often causing misdiagnosis and delayed immunotherapy. AD has an insidious onset and slow progression with typical Aβ and tau abnormalities, while AE manifests subacute neuropsychiatric symptoms and inflammatory imaging or CSF changes. Rapid cognitive decline in AD…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13"
+},
+{
+"id": "pmid-43021970",
+"pmid": "43021970",
+"doi": "10.3389/fphar.2026.1942691",
+"title": "PCSK9 inhibitor use and risk of dementia and neurodegenerative diseases in adults aged 50 Years and older: a global electronic health record study.",
+"authors": "Gau SY, Lo SW, Hsu C, … Chang HC",
+"journal": "Frontiers in pharmacology",
+"journal_iso": "Front Pharmacol",
+"date": "2026-11-13",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fphar.2026.1942691"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43021970/"
+}
+],
+"au": [
+"gau|s",
+"lo|s",
+"hsu|c",
+"tu|y",
+"su|y",
+"chen|c",
+"wu|m",
+"mitsukura|y",
+"chang|h"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"parkinson",
+"randomized",
+"vascular dementia"
+],
+"relevance": 3,
+"why": "Proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitors achieve profound lipid lowering, yet their long-term neurocognitive effects remain uncertain. Evidence from randomized trials is limited by short follow-up and lack of dedicated neurodegenerative endpoints. We performed a retrospective target trial…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1942691/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43021850",
+"pmid": "43021850",
+"doi": "10.3389/fimmu.2026.1862109",
+"title": "Establishing a novel sepsis-associated brain dysfunction model in zebrafish larvae.",
+"authors": "Wu S, Zhang T, Guo S, … Jiang M",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-11-13",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1862109"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43021850/"
+}
+],
+"au": [
+"wu|s",
+"zhang|t",
+"guo|s",
+"li|z",
+"pan|x",
+"huang|y",
+"he|l",
+"zhang|y",
+"jiang|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability",
+"tight junction"
+],
+"relevance": 3,
+"why": "As a common complication of sepsis, sepsis-associated encephalopathy (SAE) was observed with high mortality, but there were less effective therapeutic strategies due to disease complexity. This study aimed to establish and characterize a larval zebrafish model of sepsis-associated brain dysfunction (SBD) suitable for…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1862109/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43021547",
+"pmid": "43021547",
+"doi": "10.1016/j.ymthe.2026.11.026",
+"title": "FLT3 Kinase Inhibition Reshapes the Neuronal Transcriptome to Suppress Seizures.",
+"authors": "Cruite K, Moore M, Gallagher MD, … Tang X",
+"journal": "Molecular therapy",
+"journal_iso": "Mol Ther",
+"date": "2026-11-13",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ymthe.2026.11.026"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43021547/"
+}
+],
+"au": [
+"cruite|k",
+"moore|m",
+"gallagher|m",
+"lin|s",
+"yin|y",
+"coleman|e",
+"shahbo|e",
+"lungjangwa|t",
+"ge|x",
+"hovestadt|v",
+"jaenisch|r",
+"maguire|j",
+"tang|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Approximately one-third of individuals with epilepsy are refractory to current anti-seizure medications, highlighting the need for new, mechanism-based therapeutic approaches. Fms-like tyrosine kinase 3 (FLT3), a receptor tyrosine kinase classically studied in hematopoiesis and leukemia, is also expressed in neurons,…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13"
+},
+{
+"id": "pmid-43017560",
+"pmid": "43017560",
+"doi": "10.3389/fneur.2026.1949765",
+"title": "Longitudinal amyloid-beta measurements and blood-brain barrier dysfunction in cerebral amyloid angiopathy as part of the Mechanisms Of DEMentia project: protocol of the MODEM-LAMBDA-C study.",
+"authors": "Stellingwerf A, Schreuder FHBM, Kuiperij HB, … Verbeek MM",
+"journal": "Frontiers in neurology",
+"journal_iso": "Front Neurol",
+"date": "2026-11-12",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fneur.2026.1949765"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43017560/"
+}
+],
+"au": [
+"stellingwerf|a",
+"fhbm|s",
+"kuiperij|h",
+"van der kolk|a",
+"backes|w",
+"jahr|c",
+"verbeek|m"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"cerebral amyloid angiopathy",
+"small vessel disease"
+],
+"relevance": 5,
+"why": "Cerebral amyloid angiopathy (CAA) is characterized by the deposition of amyloid-beta (Aβ) peptides within the cerebral vasculature and is a major cause of lobar intracerebral haemorrhage, cognitive impairment, and dementia. Vascular Aβ aggregates are enriched in shorter peptides (Aβ38 and Aβ40) whereas neuritic…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1949765/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43017368",
+"pmid": "43017368",
+"doi": "10.3389/fnagi.2026.1997082",
+"title": "The role of vascular factors in Alzheimer's disease: from cerebrovascular pathological mechanisms to blood biomarkers.",
+"authors": "Luo D, Lv X, Mu H, … Gao P",
+"journal": "Frontiers in aging neuroscience",
+"journal_iso": "Front Aging Neurosci",
+"date": "2026-11-12",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fnagi.2026.1997082"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43017368/"
+}
+],
+"au": [
+"luo|d",
+"lv|x",
+"mu|h",
+"tao|x",
+"chen|h",
+"cui|z",
+"gao|p"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"neurovascular unit",
+"pericyte",
+"small vessel disease"
+],
+"relevance": 5,
+"why": "Alzheimer's disease (AD) is the most common dementia, and post-mortem and imaging studies consistently demonstrate that vascular pathology coexists with plaques and tangles in most AD brains. Vascular risk factors-hypertension, diabetes, dyslipidaemia, and atrial fibrillation-damage the neurovascular unit, disrupt the…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1997082/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
 {
 "id": "pmid-43016269",
 "pmid": "43016269",
@@ -57,6 +409,160 @@
 "oaChecked": "2026-11-12"
 },
 {
+"id": "pmid-43020534",
+"pmid": "43020534",
+"doi": "10.1016/j.jphs.2026.10.003",
+"title": "In Vivo-In vitro correlation of Blood-Brain barrier permeability using cryopreserved human induced pluripotent stem cell-derived brain microvascular endothelial cells.",
+"authors": "Sato H, Ito H, Nagae K, … Iwao T",
+"journal": "Journal of pharmacological sciences",
+"journal_iso": "J Pharmacol Sci",
+"date": "2026-11-12",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jphs.2026.10.003"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43020534/"
+}
+],
+"au": [
+"sato|h",
+"ito|h",
+"nagae|k",
+"kitamura|k",
+"onozato|d",
+"hashimoto|y",
+"hori|e",
+"matsunaga|t",
+"hashita|t",
+"iwao|t"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"induced pluripotent",
+"permeability"
+],
+"relevance": 4,
+"why": "Predicting drug permeability through the blood-brain barrier (BBB) is important for developing pharmaceuticals for the central nervous system. In this study, we evaluated whether cryopreservation affects the molecular characteristics of human induced pluripotent stem cell-derived brain microvascular endothelial cells…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://doi.org/10.1016/j.jphs.2026.10.003",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43020165",
+"pmid": "43020165",
+"doi": "10.1016/j.nano.2026.103047",
+"title": "Modular nanoplatforms for precision diagnosis and therapy of Alzheimer's disease.",
+"authors": "Yan M, Tian L, Gao W",
+"journal": "Nanomedicine",
+"journal_iso": "Nanomedicine",
+"date": "2026-11-12",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.nano.2026.103047"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43020165/"
+}
+],
+"au": [
+"yan|m",
+"tian|l",
+"gao|w"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"brain delivery"
+],
+"relevance": 4,
+"why": "Alzheimer's disease (AD) is a multifactorial neurodegenerative disorder whose pathological heterogeneity and restrictive blood-brain barrier (BBB) limit conventional diagnosis and therapy. This review presents a pathology- and function-oriented framework for modular AD nanotheranostics, linking key biomarkers and…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13"
+},
+{
+"id": "biorxiv-10.64898_2026.11.09.764683",
+"doi": "10.64898/2026.11.09.764683",
+"title": "SOX7 and ERG reprograms neuroectoderm into microenvironmentally attuned brain endothelial cells that possess forebrain regional bias",
+"authors": "Lu, T. M., Akcan, U., Rhee, A. J., … Lis, R.",
+"journal": "bioRxiv",
+"date": "2026-11-12",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"lu|t",
+"akcan|u",
+"rhee|a",
+"cui|a",
+"wang|j",
+"houghton|s",
+"geng|f",
+"martinez|v",
+"shahriar|s",
+"xiang|j",
+"rozenwaks|z",
+"rafii|s",
+"pedersen|i",
+"gorman|j",
+"wadgaonkar|r",
+"barone|f",
+"galie|p",
+"agalliu|d",
+"lis|r"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.764683v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.09.764683v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood brain barrier",
+"microfluidic",
+"pericytes",
+"permeability"
+],
+"relevance": 4,
+"why": "Reliable human blood brain barrier (BBB) models are limited by a persistent problem of cellular identity: many protocols select cells for barrier or transporter properties rather than authentic, regionally specified brain endothelium. Here we show that constitutive expression of the transcription factors SOX7 and ERG…",
+"addedAt": "2026-11-13",
+"source": "auto"
+},
+{
 "id": "pmid-43015970",
 "pmid": "43015970",
 "doi": "10.1080/13543784.2026.2761879",
@@ -94,6 +600,752 @@
 "addedAt": "2026-11-12",
 "source": "auto",
 "oaChecked": "2026-11-12"
+},
+{
+"id": "pmid-43021118",
+"pmid": "43021118",
+"doi": "10.1186/s12883-026-05215-7",
+"title": "Correlation between recurrence of benign paroxysmal positional vertigo and imaging markers of cerebral small vessel disease in middle‑aged and elderly patients.",
+"authors": "Liu H, Liang J, Li Y, … Jia W",
+"journal": "BMC neurology",
+"journal_iso": "BMC Neurol",
+"date": "2026-11-12",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12883-026-05215-7"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43021118/"
+}
+],
+"au": [
+"liu|h",
+"liang|j",
+"li|y",
+"chen|w",
+"wan|m",
+"gao|y",
+"jia|w"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"lacunar",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Benign paroxysmal positional vertigo (BPPV) is the most common peripheral vestibular disorder in middle‑aged and elderly individuals, with a high recurrence rate that severely impairs quality of life. Cerebral small vessel disease (CSVD) may contribute to BPPV recurrence by impairing vestibular microcirculation, but…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://doi.org/10.1186/s12883-026-05215-7",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43019495",
+"pmid": "43019495",
+"doi": "10.1212/wnl.0000000000218738",
+"title": "Cerebral Amyloid Angiopathy in Alzheimer Disease Continuum: Prevalence and Clinical Relevance in a Biomarker-Defined Memory Clinic Cohort.",
+"authors": "Lalive HM, Ribaldi F, Mendes AJ, … Lathuiliere A",
+"journal": "Neurology",
+"journal_iso": "Neurology",
+"date": "2026-11-12",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1212/wnl.0000000000218738"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43019495/"
+}
+],
+"au": [
+"lalive|h",
+"ribaldi|f",
+"mendes|a",
+"wang|c",
+"chicherio|c",
+"piazza|f",
+"frias|m",
+"kern|i",
+"boccalini|c",
+"harput|e",
+"garibotto|v",
+"scheffler|m",
+"lovblad|k",
+"frisoni|g",
+"lathuiliere|a"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"cerebral amyloid angiopathy",
+"microbleed"
+],
+"relevance": 3,
+"why": "Cerebral amyloid angiopathy (CAA) frequently co-occurs with Alzheimer disease (AD), yet the prevalence and clinical significance of comorbid CAA among cognitively impaired individuals on the AD continuum remain unclear. We aimed to determine the frequency of probable CAA (Boston criteria v2.0) in a memory-clinic…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13"
+},
+{
+"id": "pmid-43018845",
+"pmid": "43018845",
+"doi": "10.1007/s12035-026-06313-w",
+"title": "Precision Neurology in Alzheimer's Disease: Genomics to Drug Optimization for Effective Therapeutic Intervention.",
+"authors": "Chakraborty W, Roy KK",
+"journal": "Molecular neurobiology",
+"journal_iso": "Mol Neurobiol",
+"date": "2026-11-12",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s12035-026-06313-w"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43018845/"
+}
+],
+"au": [
+"chakraborty|w",
+"roy|k"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"apoe ε4",
+"aria"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) exhibits high clinical and biological heterogeneity, which complicates the development of one-size-fits-all therapeutic strategies. Standard trial designs can mask subgroup-specific effects, highlighting the need to move towards precision neurology entailing multisystem genomics, biomarkers,…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13"
+},
+{
+"id": "pmid-43018801",
+"pmid": "43018801",
+"doi": "10.1007/s11064-026-04951-z",
+"title": "Serum Exosomes from Subacute Phase Post-cardiopulmonary Resuscitation Promote Microglial Pro-inflammatory Phenotype Polarization and Exacerbate Blood-Brain Barrier Disruption in Mice.",
+"authors": "Cai L, Lin P, Hong J, … Zhong M",
+"journal": "Neurochemical research",
+"journal_iso": "Neurochem Res",
+"date": "2026-11-12",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s11064-026-04951-z"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43018801/"
+}
+],
+"au": [
+"cai|l",
+"lin|p",
+"hong|j",
+"wang|q",
+"liao|g",
+"li|x",
+"zhong|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Cardiopulmonary resuscitation (CPR) restores circulation but induces cerebral ischemia-reperfusion injury characterized by blood-brain barrier (BBB) disruption and microglial-mediated neuroinflammation. Exosomes circulate systemically following CPR, yet their temporal profiles and specific roles remain poorly…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13"
+},
+{
+"id": "pmid-43017408",
+"pmid": "43017408",
+"doi": "10.3389/fphar.2026.1999276",
+"title": "AI-enabled drug repurposing in Alzheimer's disease: from computational nomination to pharmacological proof.",
+"authors": "Li X, Gozes I",
+"journal": "Frontiers in pharmacology",
+"journal_iso": "Front Pharmacol",
+"date": "2026-11-12",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fphar.2026.1999276"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43017408/"
+}
+],
+"au": [
+"li|x",
+"gozes|i"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"drug repurposing",
+"phase 3"
+],
+"relevance": 3,
+"why": "Artificial intelligence (AI) has expanded the scale and speed of drug repurposing in Alzheimer's disease (AD). Transcriptomic signature matching, network-based systems pharmacology, real-world data pharmacoepidemiology and multi-omics machine learning have generated hundreds of candidate drugs, while repurposed agents…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1999276/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43017372",
+"pmid": "43017372",
+"doi": "10.3389/fonc.2026.1998982",
+"title": "Adult IDH-wildtype glioblastoma in Mexico and Latin America: contemporary standards, emerging strategies, and an evidence-to-implementation roadmap.",
+"authors": "Rodríguez Camacho A, Polito-Salazar E, Blasco X, … Moreno-Jiménez S",
+"journal": "Frontiers in oncology",
+"journal_iso": "Front Oncol",
+"date": "2026-11-12",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fonc.2026.1998982"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43017372/"
+}
+],
+"au": [
+"rodriguez camacho|a",
+"polito-salazar|e",
+"blasco|x",
+"romero-valencia|j",
+"fuentes-calvo|i",
+"cid-sanchez|d",
+"flores-vazquez|j",
+"serrano-murillo|m",
+"cacho-diaz|b",
+"gonzalez vazquez|a",
+"santellan hernandez|j",
+"vega moreno|d",
+"caballe-perez|e",
+"san-juan|d",
+"garcia-gomez|e",
+"ballesteros-herrera|d",
+"wegman-ostrosky|t",
+"chavez martinez|o",
+"camarin sanchez|e",
+"mellado orellana|r",
+"padilla-leal|k",
+"moscardini-martelli|j",
+"garcia-bitar|a",
+"maldonado magos|f",
+"torres-rios|j",
+"ma|c",
+"gutierrez-aceves|g",
+"moreno-jimenez|s"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"randomized"
+],
+"relevance": 3,
+"why": "Glioblastoma remains a major therapeutic challenge, and disparities in diagnostic capacity, treatment access, and continuity of care may further limit outcomes in Mexico and Latin America. This structured narrative review examines contemporary management of glioblastoma in adults, focusing on implementation of…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1998982/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43017364",
+"pmid": "43017364",
+"doi": "10.7759/cureus.119458",
+"title": "Morphological Diversity of Basal Ganglia Enlarged Perivascular Spaces in Cerebral Small Vessel Disease: A Report of Two Cases.",
+"authors": "Hayashi M, Hayashi K, Kobayashi K",
+"journal": "Cureus",
+"journal_iso": "Cureus",
+"date": "2026-11-12",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.7759/cureus.119458"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43017364/"
+}
+],
+"au": [
+"hayashi|m",
+"hayashi|k",
+"kobayashi|k"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"perivascular spaces",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "In cerebral small vessel disease (CSVD), apathy, gait impairment, and executive dysfunction may coexist as the apathy, gait impairment, and executive dysfunction (AGED) triad, particularly in association with hypertensive arteriopathy. Major magnetic resonance imaging (MRI) markers of CSVD include lacunes, white…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://doi.org/10.7759/cureus.119458",
+"pdf": false,
+"status": "diamond"
+}
+},
+{
+"id": "pmid-43017342",
+"pmid": "43017342",
+"doi": "10.3389/fimmu.2026.1998588",
+"title": "Noncoding RNA control of neuroinflammation in Alzheimer's disease: from immune cell states to precision therapeutics.",
+"authors": "Zhou S, Chen Y, Yang X, … Mao G",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-11-12",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1998588"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43017342/"
+}
+],
+"au": [
+"zhou|s",
+"chen|y",
+"yang|x",
+"xiang|l",
+"li|b",
+"qiu|l",
+"liu|z",
+"zhang|t",
+"liu|f",
+"zeng|l",
+"mao|g"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"antisense",
+"induced pluripotent",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "Neuroinflammation is an active and heterogeneous component of Alzheimer's disease, shaped by dynamic interactions among microglia, astrocytes, neurons, and brain-interface compartments. Noncoding RNAs, including microRNAs, long noncoding RNAs, circular RNAs, and emerging small-RNA species, regulate innate immune…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1998588/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43018804",
+"pmid": "43018804",
+"doi": "10.1186/s11671-026-05026-2",
+"title": "Thermodynamic analysis of electroosmotic transport in a williamson ternary nanofluid over a riga surface with coupled heat and reactive mass transfer.",
+"authors": "Islam T, Jewel Rana BM, Sheikh MS, … Afikuzzaman M",
+"journal": "Discover nano",
+"journal_iso": "Discov Nano",
+"date": "2026-11-12",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s11671-026-05026-2"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43018804/"
+}
+],
+"au": [
+"islam|t",
+"jewel rana|b",
+"sheikh|m",
+"ali|m",
+"afikuzzaman|m"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "Accurate prediction of coupled momentum, heat, and mass transport in chemically reactive electrokinetic systems is important for the design of microscale thermal and electrochemical technologies. This study investigates the coupled transport characteristics of a Williamson ternary nanofluid over a Riga surface…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13"
+},
+{
+"id": "biorxiv-10.64898_2026.11.10.765528",
+"doi": "10.64898/2026.11.10.765528",
+"title": "S100A4 Is a Targetable Regulator of Immune Suppression in Glioblastoma",
+"authors": "Wong, T., Leu, J.-S., Faisal, M., … Yun, K.",
+"journal": "bioRxiv",
+"date": "2026-11-12",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cancer biology",
+"version": "1",
+"au": [
+"wong|t",
+"leu|j",
+"faisal|m",
+"abdelfattah|n",
+"xiong|w",
+"leonard|f",
+"ali|y",
+"jimenez|d",
+"tran|h",
+"jung|s",
+"gulnap|s",
+"kang|r",
+"maldonado|j",
+"an|z",
+"zhang|n",
+"yun|k"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765528v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765528v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"delivery"
+],
+"keywords": [
+"bispecific",
+"transferrin receptor"
+],
+"relevance": 3,
+"why": "Glioblastoma (GBM) is a highly aggressive brain tumor that remains largely refractory to immunotherapy owing to a profoundly immunosuppressive tumor microenvironment (TME). Here, we use mouse models of GBM to identify S100A4 as an actionable regulator of immune suppression and demonstrate that its inhibition converts…",
+"addedAt": "2026-11-13",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.11.11.26367656",
+"doi": "10.64898/2026.11.11.26367656",
+"title": "A Multi-Cohort nnU-Net for White Matter Hyperintensity Segmentation Across 2D and 3D FLAIR Acquisitions",
+"authors": "Chen, Y., Khatri, U., Xu, B., … Phuah, C.-L.",
+"journal": "medRxiv",
+"date": "2026-11-12",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"chen|y",
+"khatri|u",
+"xu|b",
+"astafiev|s",
+"ford|a",
+"lee|j",
+"an|h",
+"phuah|c"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367656v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367656v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Background White matter hyperintensities (WMH) are increasingly pooled across aging, cerebral small vessel disease (CSVD), and dementia cohorts that differ in both disease composition and FLAIR acquisition. Most automated segmentation tools were developed within a narrower range of populations or protocols, and few…",
+"addedAt": "2026-11-13",
+"source": "auto"
+},
+{
+"id": "pmid-43020057",
+"pmid": "43020057",
+"doi": "10.1016/j.celrep.2026.118132",
+"title": "Enhancer-based AAV approach for selective AADC delivery reduces motor symptoms and dyskinesia in Parkinson's mouse models.",
+"authors": "Chowdhury A, Fraser A, Quinlan MA, … Daigle TL",
+"journal": "Cell reports",
+"journal_iso": "Cell Rep",
+"date": "2026-11-12",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.celrep.2026.118132"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43020057/"
+}
+],
+"au": [
+"chowdhury|a",
+"fraser|a",
+"quinlan|m",
+"departee|m",
+"taskin|n",
+"mich|j",
+"omstead|v",
+"lerma|n",
+"opitz-araya|x",
+"hughes|a",
+"kussick|e",
+"martinez|r",
+"reding|m",
+"liang|e",
+"shulga|l",
+"rette|d",
+"huang|c",
+"casian|b",
+"leibly|m",
+"helback|o",
+"barcelli|t",
+"wood|t",
+"uribe|n",
+"bacon|c",
+"bowlus|j",
+"newman|d",
+"kutsal|r",
+"khem|s",
+"donadio|n",
+"yao|s",
+"ronellenfitch|k",
+"wright|v",
+"gudsnuk|k",
+"horwitz|g",
+"levi|b",
+"lein|e",
+"ting|j",
+"daigle|t"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 2,
+"why": "Degeneration of dopamine (DA) neurons and reduced DA levels in the brain is recognized as an underlying cause of Parkinson's Disease (PD). Levodopa (L-DOPA) is the standard treatment, but its effectiveness wanes over time and prolonged use can cause L-DOPA-induced dyskinesia (LID). AAV-mediated aromatic L-amino acid…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13"
+},
+{
+"id": "pmid-43019496",
+"pmid": "43019496",
+"doi": "10.1212/wnl.0000000000218815",
+"title": "Cerebral Amyloid Angiopathy Brain MRI Boston Criteria v2.0: Are We Ready to Implement Them in the Study of Patients With Alzheimer Disease?",
+"authors": "Oliveira TG",
+"journal": "Neurology",
+"journal_iso": "Neurology",
+"date": "2026-11-12",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1212/wnl.0000000000218815"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43019496/"
+}
+],
+"au": [
+"oliveira|t"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"cerebral amyloid angiopathy"
+],
+"relevance": 2,
+"why": "",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13"
+},
+{
+"id": "pmid-43017370",
+"pmid": "43017370",
+"doi": "10.3389/fimmu.2026.2002570",
+"title": "Neuroimmune communication: from CNS-resident cell networks to the glioblastoma microenvironment.",
+"authors": "Li Y, Zheng Q, Wang X, … Wang R",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-11-12",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.2002570"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43017370/"
+}
+],
+"au": [
+"li|y",
+"zheng|q",
+"wang|x",
+"fu|h",
+"chen|j",
+"yao|l",
+"lin|j",
+"wang|r"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Neurons, glial cells, and immune cells engage in extensive bidirectional communication within the central nervous system (CNS) through shared receptors, ligands, and secreted mediators. Glial cells - particularly astrocytes and microglia - serve not merely as structural support but as central immunomodulatory hubs…",
+"addedAt": "2026-11-13",
+"source": "auto",
+"oaChecked": "2026-11-13",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.2002570/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "medrxiv-10.64898_2026.11.12.26367732",
+"doi": "10.64898/2026.11.12.26367732",
+"title": "Galantamine for routine neuromuscular block reversal and treatment of emergence delirium in children after ENT surgery: a retrospective observational study",
+"authors": "Neverov, A. A., Kairysh, E. A.",
+"journal": "medRxiv",
+"date": "2026-11-12",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "anesthesia",
+"version": "1",
+"au": [
+"neverov|a",
+"kairysh|e"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367732v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367732v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Background. Emergence delirium is a common complication of general anesthesia in children. Preschool age and ear, nose and throat (ENT) procedures are risk factors [1, 2, 3, 4]. The hypothesis linking delirium to central cholinergic deficiency provides a rationale for studying galantamine, an acetylcholinesterase…",
+"addedAt": "2026-11-13",
+"source": "auto"
 },
 {
 "id": "pmid-43011777",
