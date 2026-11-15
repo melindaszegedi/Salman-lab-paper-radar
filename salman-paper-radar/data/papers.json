@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-14",
-"lastRunAdded": 30,
-"total": 1715,
+"lastCurated": "2026-11-15",
+"lastRunAdded": 9,
+"total": 1724,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,124 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-43034623",
+"pmid": "43034623",
+"doi": "10.2147/ijn.s655635",
+"title": "The Immune-Nanomedicine Axis in Glioblastoma: From Biomimetic Delivery to Immune Reprogramming.",
+"authors": "Shao Y",
+"journal": "International journal of nanomedicine",
+"journal_iso": "Int J Nanomedicine",
+"date": "2026-11-15",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijn.s655635"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43034623/"
+}
+],
+"au": [
+"shao|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"microfluidic"
+],
+"relevance": 3,
+"why": "The therapeutic efficacy against glioblastoma (GBM) remains strictly limited by the blood-brain barrier (BBB) and the profoundly immunosuppressive network of the tumor microenvironment. To overcome these barriers, nanomedicine has shifted from conventional cytotoxin delivery toward the active functional reprogramming…",
+"addedAt": "2026-11-15",
+"source": "auto"
+},
+{
+"id": "pmid-43034514",
+"pmid": "43034514",
+"doi": "10.5812/ijpr-171172",
+"title": "Deciphering the Anticancer Effects of Baicalein in Human Gastric Cancer Cells: Computational Chemistry, Bioinformatics, Network Pharmacology Insights, and in vitro Experimental Validation.",
+"authors": "Jing B, Hui R, Xiao L",
+"journal": "Iranian journal of pharmaceutical research",
+"journal_iso": "Iran J Pharm Res",
+"date": "2026-11-15",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.5812/ijpr-171172"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43034514/"
+}
+],
+"au": [
+"jing|b",
+"hui|r",
+"xiao|l"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Baicalein, a natural flavone, exhibits multifaceted anticancer potential; however, its molecular mechanisms in gastric carcinoma remain unclear. This study aimed to elucidate the molecular mechanisms of baicalein in human gastric cancer (GC) using an integrated approach combining computational chemistry, network…",
+"addedAt": "2026-11-15",
+"source": "auto"
+},
+{
+"id": "pmid-43034268",
+"pmid": "43034268",
+"doi": "10.1007/s13346-026-02241-3",
+"title": "Polypeptide materials for drug delivery in glioblastoma and pediatric high-grade glioma: BBB/BTB transport, tumor heterogeneity, and intrabrain fate.",
+"authors": "Li Y, Zhong J",
+"journal": "Drug delivery and translational research",
+"journal_iso": "Drug Deliv Transl Res",
+"date": "2026-11-14",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s13346-026-02241-3"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43034268/"
+}
+],
+"au": [
+"li|y",
+"zhong|j"
+],
+"topics": [
+"bbb",
+"delivery",
+"glymph"
+],
+"keywords": [
+"bbb",
+"glymphatic",
+"nanoparticle",
+"receptor-mediated transcytosis"
+],
+"relevance": 5,
+"why": "Polypeptide materials offer sequence-level control, biodegradability, multivalent functionalization, and the capacity to assemble into nanoparticles, nanofibers, hydrogels, and peptide-drug conjugates. Their use in glioblastoma (GBM) and pediatric high-grade glioma (pHGG), however, is often discussed as if blood-brain…",
+"addedAt": "2026-11-15",
+"source": "auto"
+},
 {
 "id": "pmid-43029152",
 "pmid": "43029152",
@@ -120,6 +238,52 @@
 "pdf": false,
 "status": "gold"
 }
+},
+{
+"id": "pmid-43034023",
+"pmid": "43034023",
+"doi": "10.1016/j.yfrne.2026.101299",
+"title": "A hypothesis framework linking the menopausal transition, sleep and brain waste clearance: Insights from experimental models.",
+"authors": "Zamani A, Jenkins L, Rodger J, … K Wright D",
+"journal": "Frontiers in neuroendocrinology",
+"journal_iso": "Front Neuroendocrinol",
+"date": "2026-11-14",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.yfrne.2026.101299"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43034023/"
+}
+],
+"au": [
+"zamani|a",
+"jenkins|l",
+"rodger|j",
+"gurvich|c",
+"dpsych|",
+"k wright|d"
+],
+"topics": [
+"bbb",
+"adtx",
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"glymphatic",
+"parkinson"
+],
+"relevance": 4,
+"why": "The menopausal transition is increasingly recognized as a neuroendocrine transition with implications for brain health, sleep, cognition and vulnerability to neurodegenerative disease. Fluctuating and declining ovarian hormones coincide with sleep disruption, vasomotor symptoms, cognitive complaints, neuroinflammation…",
+"addedAt": "2026-11-15",
+"source": "auto"
 },
 {
 "id": "pmid-43031326",
@@ -625,6 +789,232 @@
 "pdf": false,
 "status": "gold"
 }
+},
+{
+"id": "pmid-43034028",
+"pmid": "43034028",
+"doi": "10.1016/j.actbio.2026.11.016",
+"title": "Macrophage Extracellular Vesicle-Camouflaged Framework Nucleic Acid Nanospheres Reprogram Lactate Metabolism-Immune Feedback Loops for Synergistic Chemoimmunotherapy of Glioblastoma.",
+"authors": "Sun F, Yan J, Sun Z, … Wang X",
+"journal": "Acta biomaterialia",
+"journal_iso": "Acta Biomater",
+"date": "2026-11-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.actbio.2026.11.016"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43034028/"
+}
+],
+"au": [
+"sun|f",
+"yan|j",
+"sun|z",
+"zhao|z",
+"dong|x",
+"liu|c",
+"sun|y",
+"wang|x"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"transcytosis"
+],
+"relevance": 3,
+"why": "The blood-brain barrier (BBB) and blood-brain tumor barrier (BBTB) severely limited drug delivery into the brain, while aberrant aerobic glycolysis in the tumor microenvironment caused excessive lactate accumulation and drove immunosuppression. These factors together constituted the core obstacles to glioblastoma…",
+"addedAt": "2026-11-15",
+"source": "auto"
+},
+{
+"id": "pmid-43033936",
+"pmid": "43033936",
+"doi": "10.1016/j.brainresbull.2026.112219",
+"title": "Ketamine Attenuates TNF-α-Induced Blood-Brain Barrier Damage and Neuroinflammation in Association with NF-κB Pathway.",
+"authors": "Wang Q, Qiu M, Gou X, … Bin Deng",
+"journal": "Brain research bulletin",
+"journal_iso": "Brain Res Bull",
+"date": "2026-11-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.brainresbull.2026.112219"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43033936/"
+}
+],
+"au": [
+"wang|q",
+"qiu|m",
+"gou|x",
+"saadoon|b",
+"hao|x",
+"jin|z",
+"chen|y",
+"zhang|y",
+"liu|k",
+"liu|w",
+"qin|s",
+"deng|b"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability",
+"tight junction"
+],
+"relevance": 3,
+"why": "Systemic inflammatory response syndrome is a complex clinical syndrome driven by dysregulated inflammatory cascades, and tumor necrosis factor-α (TNF-α) acts as a core upstream mediator in its pathogenesis. In this study, we established a mouse model of acute TNF-α-induced systemic inflammatory brain injury via a…",
+"addedAt": "2026-11-15",
+"source": "auto"
+},
+{
+"id": "pmid-43033935",
+"pmid": "43033935",
+"doi": "10.1016/j.brainresbull.2026.112220",
+"title": "EEG Microstate Alterations and Their Association with Cognitive Performance in Late-Onset Epilepsy of Unknown Etiology: Comparison with Alzheimer's Disease.",
+"authors": "Huang J, Wan H, Jiang W, … Shao X",
+"journal": "Brain research bulletin",
+"journal_iso": "Brain Res Bull",
+"date": "2026-11-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.brainresbull.2026.112220"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43033935/"
+}
+],
+"au": [
+"huang|j",
+"wan|h",
+"jiang|w",
+"chen|y",
+"jiang|b",
+"bi|m",
+"wang|z",
+"zheng|k",
+"shao|x"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Cognitive impairment is common in late-onset epilepsy of unknown etiology (LOEU), but its electrophysiological correlates and relationship to Alzheimer's disease (AD) remain unclear. We compared resting-state electroencephalogram (EEG) microstate dynamics among LOEU, AD, and cognitively normal (CN) groups and examined…",
+"addedAt": "2026-11-15",
+"source": "auto"
+},
+{
+"id": "pmid-43033318",
+"pmid": "43033318",
+"doi": "10.1007/s12031-026-02627-5",
+"title": "Identification of Key Fatty acid Metabolism-Related Genes in Vascular Dementia.",
+"authors": "Zhu Y, Li M, Shi J, Chen Y",
+"journal": "Journal of molecular neuroscience",
+"journal_iso": "J Mol Neurosci",
+"date": "2026-11-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s12031-026-02627-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43033318/"
+}
+],
+"au": [
+"zhu|y",
+"li|m",
+"shi|j",
+"chen|y"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"drug repurposing",
+"neurovascular unit",
+"vascular dementia"
+],
+"relevance": 3,
+"why": "Vascular dementia (VaD) is a progressive neurodegenerative disorder characterized by chronic cerebral hypoperfusion and cognitive decline, yet the role of fatty acid metabolism in its pathogenesis remains incompletely understood. Integrated transcriptomic profiling was combined with network-based analysis, weighted…",
+"addedAt": "2026-11-15",
+"source": "auto"
+},
+{
+"id": "pmid-43032271",
+"pmid": "43032271",
+"doi": "10.3389/fneur.2026.1805682",
+"title": "The association between body mass index and white matter hyperintensities: a cross-sectional analysis in a Tibetan population.",
+"authors": "Yao S, Bao SM, Xing YY, … Chen X",
+"journal": "Frontiers in neurology",
+"journal_iso": "Front Neurol",
+"date": "2026-11-14",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fneur.2026.1805682"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43032271/"
+}
+],
+"au": [
+"yao|s",
+"bao|s",
+"xing|y",
+"qi|z",
+"feng|h",
+"tan|y",
+"zhang|q",
+"ge|w",
+"chen|x"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "White matter hyperintensities (WMH), an imaging hallmark of cerebral small vessel disease (CSVD), show inconsistent associations with body mass index (BMI) that vary with ethnicity, sex and metabolic factors. We examined the relationship of BMI with WMH severity (Fazekas score) and with the spatial distribution of WMH…",
+"addedAt": "2026-11-15",
+"source": "auto"
 },
 {
 "id": "pmid-43025557",
