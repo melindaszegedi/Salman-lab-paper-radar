@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-15",
-"lastRunAdded": 9,
-"total": 1724,
+"lastCurated": "2026-11-16",
+"lastRunAdded": 14,
+"total": 1738,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,443 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-43036812",
+"pmid": "43036812",
+"doi": "10.1016/j.bbrep.2026.102890",
+"title": "Calpeptin attenuates LPS-induced ventriculomegaly in neonatal mice.",
+"authors": "Castañeyra-Ruiz L, Ledbetter J, Lee S, … Muhonen M",
+"journal": "Biochemistry and biophysics reports",
+"journal_iso": "Biochem Biophys Rep",
+"date": "2026-11-16",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bbrep.2026.102890"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43036812/"
+}
+],
+"au": [
+"castaneyra-ruiz|l",
+"ledbetter|j",
+"lee|s",
+"sato|s",
+"jison|g",
+"milo|s",
+"shahriari|a",
+"tran|c",
+"latini|a",
+"hanak|b",
+"muhonen|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"permeability"
+],
+"relevance": 4,
+"why": "Acute inflammatory insults in the developing brain can produce ventriculomegaly, but underlying mechanisms remain incompletely defined. We tested whether preventive calpeptin treatment modified the phenotype induced by intraventricular lipopolysaccharide (LPS) in neonatal mice. Ventricular-volume analysis included…",
+"addedAt": "2026-11-16",
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://doi.org/10.1016/j.bbrep.2026.102890",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43036600",
+"pmid": "43036600",
+"doi": "10.1155/crnm/9463046",
+"title": "Diagnostic and Therapeutic Nuances in Cerebral Amyloid Angiopathy-Related Inflammation: Case Reports and Literature Review.",
+"authors": "Zusman T, Muñoz M, Diaz MV, … Then R",
+"journal": "Case reports in neurological medicine",
+"journal_iso": "Case Rep Neurol Med",
+"date": "2026-11-16",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1155/crnm/9463046"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43036600/"
+}
+],
+"au": [
+"zusman|t",
+"munoz|m",
+"diaz|m",
+"jose|l",
+"mota|m",
+"frawley|r",
+"dominguez|c",
+"heath|n",
+"hammer|d",
+"prabhu|a",
+"alao|f",
+"then|r"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"antiamyloid",
+"cerebral amyloid angiopathy",
+"white matter hyperintensit"
+],
+"relevance": 4,
+"why": "Cerebral amyloid angiopathy-related inflammation (CAA-ri) is a rare autoimmune response to vascular β-amyloid deposition that poses a significant diagnostic challenge. Its clinicoradiological criteria require evidence of cortical or subcortical microhemorrhage or superficial siderosis markers whose detection depends…",
+"addedAt": "2026-11-16",
+"source": "auto",
+"oaChecked": "2026-11-16"
+},
+{
+"id": "biorxiv-10.64898_2026.11.12.766260",
+"doi": "10.64898/2026.11.12.766260",
+"title": "Nose-to-Brain Delivery of Cocaine in Mice: A Physiologically Based Pharmacokinetic Model Incorporating Olfactory Epithelial Transport, Mucociliary Clearance, and Blood-Brain Barrier Permeability",
+"authors": "Ramirez, M. F., Gour, A., Watson, E. K., … Wesson, D. W.",
+"journal": "bioRxiv",
+"date": "2026-11-16",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "pharmacology and toxicology",
+"version": "1",
+"au": [
+"ramirez|m",
+"gour|a",
+"watson|e",
+"sharma|a",
+"wesson|d"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766260v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766260v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain delivery",
+"permeability"
+],
+"relevance": 4,
+"why": "Intranasal (IN) cocaine produces rapid central nervous system (CNS) effects despite generating substantially lower plasma concentrations than equivalent intravenous (IV) doses, suggesting a direct nose-to-brain pathway. The olfactory epithelium provides anatomical continuity for cocaine to pass between the nasal…",
+"addedAt": "2026-11-16",
+"source": "auto"
+},
+{
+"id": "pmid-43036675",
+"pmid": "43036675",
+"doi": "10.2147/ijn.s651672",
+"title": "Molecular Mechanisms of Nanoparticle-Mediated Targeted Drug Delivery in Neurodegenerative Diseases.",
+"authors": "Hao J, Zhang J, Li Q, Zhou Y",
+"journal": "International journal of nanomedicine",
+"journal_iso": "Int J Nanomedicine",
+"date": "2026-11-16",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/ijn.s651672"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43036675/"
+}
+],
+"au": [
+"hao|j",
+"zhang|j",
+"li|q",
+"zhou|y"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"nanoparticle",
+"parkinson"
+],
+"relevance": 3,
+"why": "With global population aging, the incidence of neurodegenerative diseases continues to rise, and the blood-brain barrier (BBB) excludes approximately 98% of small-molecule drugs and nearly all large-molecule biologics from the central nervous system (CNS), so conventional small-molecule pharmacotherapy is largely…",
+"addedAt": "2026-11-16",
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://www.dovepress.com/article/download/122116",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43036638",
+"pmid": "43036638",
+"doi": "10.2147/dddt.s645071",
+"title": "Linagliptin as a Multi-Target Neuroprotective Agent in Cognitive Disorders: Molecular Mechanisms and Translational Challenges-A Narrative Review.",
+"authors": "Mohammadi L, Roghani M, Baluchnejadmojarad T",
+"journal": "Drug design, development and therapy",
+"journal_iso": "Drug Des Devel Ther",
+"date": "2026-11-16",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2147/dddt.s645071"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43036638/"
+}
+],
+"au": [
+"mohammadi|l",
+"roghani|m",
+"baluchnejadmojarad|t"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "Cognitive disorders, which are characterized by progressive impairment of memory, language, and other cognitive functions, are a growing global health challenge. Currently, there are limited therapeutic options available to prevent or reverse the progression of these disorders. Linagliptin, an approved treatment for…",
+"addedAt": "2026-11-16",
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://www.dovepress.com/article/download/122107",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43036367",
+"pmid": "43036367",
+"doi": "10.1016/j.cccb.2026.100571",
+"title": "Clinical management of CADASIL in Europe: bridging evidence gaps and harmonizing care - a consensus review.",
+"authors": "Rifino N, Rutten J, Gravesteijn G, … Oberstein SL",
+"journal": "Cerebral circulation - cognition and behavior",
+"journal_iso": "Cereb Circ Cogn Behav",
+"date": "2026-11-16",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.cccb.2026.100571"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43036367/"
+}
+],
+"au": [
+"rifino|n",
+"rutten|j",
+"gravesteijn|g",
+"bersano|a",
+"guey|s",
+"herve|d",
+"mayoral|a",
+"aamodt|a",
+"chabriat|h",
+"oberstein|s"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"cadasil",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL) is the most common monogenic cause of cerebral small vessel disease, yet its clinical management remains poorly harmonized across Europe. This consensus review, developed on behalf of the NEUROVASC Working Group,…",
+"addedAt": "2026-11-16",
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S2666245026000449/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.11.12.765488",
+"doi": "10.64898/2026.11.12.765488",
+"title": "Human embryo-informed niche design enables defined bioprinting of undifferentiated hiPSCs",
+"authors": "Ju, G., Kim, B., Kim, J., … Lee, S.",
+"journal": "bioRxiv",
+"date": "2026-11-16",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "bioengineering",
+"version": "1",
+"au": [
+"ju|g",
+"kim|b",
+"kim|j",
+"lee|m",
+"choi|j",
+"youn|h",
+"cho|s",
+"moon|s",
+"lee|s"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.12.765488v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.12.765488v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"col4a1",
+"ipsc"
+],
+"relevance": 3,
+"why": "Bioprinting undifferentiated human induced pluripotent stem cells (hiPSCs) enables post-printing expansion and lineage specification within geometrically defined constructs, yet the biological cues required to sustain pluripotent cells in a printable 3D microenvironment remain poorly defined. To establish a…",
+"addedAt": "2026-11-16",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.13.766189",
+"doi": "10.64898/2026.11.13.766189",
+"title": "Variable penetrance of schizophrenia in 22q11.2 deletion syndrome is associated with impaired, but reversible, neuronal mitophagy.",
+"authors": "Stronati, E., Rossano, A. J., Li, J., … Anderson, S. A.",
+"journal": "bioRxiv",
+"date": "2026-11-16",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"stronati|e",
+"rossano|a",
+"li|j",
+"stoesser|a",
+"wallace|d",
+"giulivi|c",
+"anderson|s"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766189v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766189v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"ipsc",
+"nanoparticle"
+],
+"relevance": 2,
+"why": "The 22q11.2 deletion syndrome (22qDS) is a major genetic risk factor for schizophrenia (Sz). We found that iPSC-derived neurons (iNeurons) from 22qDS +Sz individuals exhibit weaker mitochondrial energetics, whereas iNeurons from individuals with the same deletion but no psychosis (22qDS -Sz) upregulate expression of…",
+"addedAt": "2026-11-16",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.11.766030",
+"doi": "10.64898/2026.11.11.766030",
+"title": "Polarized Canine Liver Organoid Monolayers Capture Features of Western Diet-Induced Hepatic Metabolic Reprogramming Across Transcriptomic, Lipidomic, and Biogenic Amine Signatures",
+"authors": "Giebelhaus, R. T., Zdyrski, C., de la Mata, A. P., … Mochel, J. P.",
+"journal": "bioRxiv",
+"date": "2026-11-16",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "cell biology",
+"version": "1",
+"au": [
+"giebelhaus|r",
+"zdyrski|c",
+"de la mata|a",
+"nam|s",
+"bourgois-mochel|a",
+"corbett|m",
+"cho|h",
+"ward|j",
+"guillot|e",
+"douglass|e",
+"harynuk|j",
+"mochel|j"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.11.766030v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.11.766030v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"organoid",
+"teer"
+],
+"relevance": 2,
+"why": "Liver responses to Western-diet (WD) exposure remain incompletely defined, partly because conventional rodent models and immortalized hepatic cell lines incompletely recapitulate species-specific features of liver biology. Here, we established polarized epithelial monolayers from canine liver organoids derived from…",
+"addedAt": "2026-11-16",
+"source": "auto"
+},
 {
 "id": "pmid-43034623",
 "pmid": "43034623",
@@ -51,7 +488,13 @@
 "relevance": 3,
 "why": "The therapeutic efficacy against glioblastoma (GBM) remains strictly limited by the blood-brain barrier (BBB) and the profoundly immunosuppressive network of the tumor microenvironment. To overcome these barriers, nanomedicine has shifted from conventional cytotoxin delivery toward the active functional reprogramming…",
 "addedAt": "2026-11-15",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://www.dovepress.com/article/download/122093",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-43034514",
@@ -90,6 +533,236 @@
 "relevance": 3,
 "why": "Baicalein, a natural flavone, exhibits multifaceted anticancer potential; however, its molecular mechanisms in gastric carcinoma remain unclear. This study aimed to elucidate the molecular mechanisms of baicalein in human gastric cancer (GC) using an integrated approach combining computational chemistry, network…",
 "addedAt": "2026-11-15",
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://brieflands.com/journals/ijpr/articles/171172.pdf",
+"pdf": true,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43035525",
+"pmid": "43035525",
+"doi": "10.1038/s41531-026-01491-9",
+"title": "Brain penetration of benserazide inversely associates with levodopa response in Parkinson's disease.",
+"authors": "Lu S, Wu L, Huang Q, … Ma S",
+"journal": "NPJ Parkinson's disease",
+"journal_iso": "NPJ Parkinsons Dis",
+"date": "2026-11-15",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41531-026-01491-9"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43035525/"
+}
+],
+"au": [
+"lu|s",
+"wu|l",
+"huang|q",
+"chen|l",
+"li|m",
+"ma|s"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain penetration",
+"parkinson"
+],
+"relevance": 3,
+"why": "Levodopa combined with a peripheral DOPA decarboxylase inhibitor (DDCI) is the first-line treatment for Parkinson's disease (PD), yet interindividual response variability remains poorly understood. Whether DDCIs penetrate the central nervous system (CNS) in the context of potential blood-brain barrier (BBB)…",
+"addedAt": "2026-11-16",
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://www.nature.com/articles/s41531-026-01491-9_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43035782",
+"pmid": "43035782",
+"doi": "10.1186/s12974-026-04010-y",
+"title": "Astrocytic TRIM21 downregulation exacerbates NMOSD via potentiating IRF3/IRF7-mediated type I interferon response.",
+"authors": "Yang L, Chen X, Sun M, … Yan Y",
+"journal": "Journal of neuroinflammation",
+"journal_iso": "J Neuroinflammation",
+"date": "2026-11-15",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12974-026-04010-y"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43035782/"
+}
+],
+"au": [
+"yang|l",
+"chen|x",
+"sun|m",
+"hu|c",
+"zhang|n",
+"jia|d",
+"feng|z",
+"cui|t",
+"zhang|x",
+"dai|l",
+"peng|t",
+"xue|x",
+"zhang|q",
+"zhang|y",
+"yan|y"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aquaporin-4"
+],
+"relevance": 2,
+"why": "Neuromyelitis optica spectrum disorder (NMOSD) is an autoimmune astrocytopathy of the central nervous system (CNS) driven by aquaporin-4 (AQP4) antibody-mediated astrocyte damage, and subsequent microglial activation and demyelination. Accumulating evidence suggests a deleterious role for type I IFNs (IFN-I) and…",
+"addedAt": "2026-11-16",
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://doi.org/10.1186/s12974-026-04010-y",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43035484",
+"pmid": "43035484",
+"doi": "10.1038/s41531-026-01493-7",
+"title": "Advance care planning and care coordination for people with parkinsonism: a randomized controlled trial.",
+"authors": "Dijkstra BW, Muente C, Garon M, … PD_Pal consortium",
+"journal": "NPJ Parkinson's disease",
+"journal_iso": "NPJ Parkinsons Dis",
+"date": "2026-11-15",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41531-026-01493-7"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43035484/"
+}
+],
+"au": [
+"dijkstra|b",
+"muente|c",
+"garon|m",
+"rosqvist|k",
+"scharfenort|m",
+"lex|k",
+"grover|l",
+"nixina|e",
+"taba|p",
+"u|k",
+"sikk|k",
+"schrag|a",
+"poku|p",
+"konitsiotis|s",
+"makrydimas|m",
+"lorenzl|s",
+"odin|p",
+"pedrosa|d",
+"vissers|k",
+"groot|m",
+"bloem|b",
+"meinders|m",
+"antonini|a",
+"consortium|p"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"parkinson",
+"randomized"
+],
+"relevance": 2,
+"why": "Parkinsonism comprises a group of progressive neurodegenerative disorders, including Parkinson's disease and atypical parkinsonism. In advanced stages, advance care planning (ACP) and coordinated care are important to align treatment with patients' values and reduce unwanted interventions and caregiver burden. In this…",
+"addedAt": "2026-11-16",
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://www.nature.com/articles/s41531-026-01493-7_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.11.13.766444",
+"doi": "10.64898/2026.11.13.766444",
+"title": "E2F4 gene therapy reverses established synaptic and cognitive deficits and remodels learning-associated signaling in Alzheimer's disease mice",
+"authors": "Sanchez-Puelles, C., Hernandez-Vivanco, A., Grieco, A., … Frade, J. M.",
+"journal": "bioRxiv",
+"date": "2026-11-15",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"sanchez-puelles|c",
+"hernandez-vivanco|a",
+"grieco|a",
+"camacho-olmos|i",
+"montero-calle|a",
+"lopez-sanchez|n",
+"fraj-cebrian|a",
+"garrido-garcia|a",
+"cano-daganzo|v",
+"lozano-urena|a",
+"valdes-lora|l",
+"barderas|r",
+"perea|g",
+"pascual-leone|a",
+"frade|j"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766444v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766444v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"gene therapy"
+],
+"relevance": 2,
+"why": "Alzheimer's disease (AD) causes progressive synaptic dysfunction, neurodegeneration, and cognitive decline, yet strategies capable of reversing established deficits remain limited. Here, we show that neuronal expression of a p38MAPK phosphorylation-resistant human E2F4 variant (hE2F4DN), delivered by adeno-associated…",
+"addedAt": "2026-11-16",
 "source": "auto"
 },
 {
@@ -132,7 +805,8 @@
 "relevance": 5,
 "why": "Polypeptide materials offer sequence-level control, biodegradability, multivalent functionalization, and the capacity to assemble into nanoparticles, nanofibers, hydrogels, and peptide-drug conjugates. Their use in glioblastoma (GBM) and pediatric high-grade glioma (pHGG), however, is often discussed as if blood-brain…",
 "addedAt": "2026-11-15",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-11-16"
 },
 {
 "id": "pmid-43029152",
@@ -283,7 +957,8 @@
 "relevance": 4,
 "why": "The menopausal transition is increasingly recognized as a neuroendocrine transition with implications for brain health, sleep, cognition and vulnerability to neurodegenerative disease. Fluctuating and declining ovarian hormones coincide with sleep disruption, vasomotor symptoms, cognitive complaints, neuroinflammation…",
 "addedAt": "2026-11-15",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-11-16"
 },
 {
 "id": "pmid-43031326",
@@ -833,7 +1508,8 @@
 "relevance": 3,
 "why": "The blood-brain barrier (BBB) and blood-brain tumor barrier (BBTB) severely limited drug delivery into the brain, while aberrant aerobic glycolysis in the tumor microenvironment caused excessive lactate accumulation and drove immunosuppression. These factors together constituted the core obstacles to glioblastoma…",
 "addedAt": "2026-11-15",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-11-16"
 },
 {
 "id": "pmid-43033936",
@@ -882,7 +1558,13 @@
 "relevance": 3,
 "why": "Systemic inflammatory response syndrome is a complex clinical syndrome driven by dysregulated inflammatory cascades, and tumor necrosis factor-α (TNF-α) acts as a core upstream mediator in its pathogenesis. In this study, we established a mouse model of acute TNF-α-induced systemic inflammatory brain injury via a…",
 "addedAt": "2026-11-15",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://doi.org/10.1016/j.brainresbull.2026.112219",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-43033935",
@@ -927,7 +1609,13 @@
 "relevance": 3,
 "why": "Cognitive impairment is common in late-onset epilepsy of unknown etiology (LOEU), but its electrophysiological correlates and relationship to Alzheimer's disease (AD) remain unclear. We compared resting-state electroencephalogram (EEG) microstate dynamics among LOEU, AD, and cognitively normal (CN) groups and examined…",
 "addedAt": "2026-11-15",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://doi.org/10.1016/j.brainresbull.2026.112220",
+"pdf": false,
+"status": "gold"
+}
 },
 {
 "id": "pmid-43033318",
@@ -969,7 +1657,8 @@
 "relevance": 3,
 "why": "Vascular dementia (VaD) is a progressive neurodegenerative disorder characterized by chronic cerebral hypoperfusion and cognitive decline, yet the role of fatty acid metabolism in its pathogenesis remains incompletely understood. Integrated transcriptomic profiling was combined with network-based analysis, weighted…",
 "addedAt": "2026-11-15",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-11-16"
 },
 {
 "id": "pmid-43032271",
@@ -1014,7 +1703,13 @@
 "relevance": 3,
 "why": "White matter hyperintensities (WMH), an imaging hallmark of cerebral small vessel disease (CSVD), show inconsistent associations with body mass index (BMI) that vary with ethnicity, sex and metabolic factors. We examined the relationship of BMI with WMH severity (Fazekas score) and with the spatial distribution of WMH…",
 "addedAt": "2026-11-15",
-"source": "auto"
+"source": "auto",
+"oaChecked": "2026-11-16",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1805682/pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-43025557",
@@ -2128,6 +2823,48 @@
 "relevance": 2,
 "why": "Background Obesity pharmacotherapy strategies differ in maintenance dose, titration, and lifestyle support, but existing syntheses primarily compare drugs rather than treatment-initiation decisions. We assessed 1-year weight reduction, permanent discontinuation, and incremental dose-related trade-offs while mapping…",
 "addedAt": "2026-11-14",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.10.09.26365158",
+"doi": "10.64898/2026.10.09.26365158",
+"title": "Real-World Twelve-Month Weight Loss Outcomes in a Comprehensive Obesity Care Program Utilizing Individualized Nutrition Therapy and Incretin-Based Obesity Medications",
+"authors": "Athinarayanan, S., Zoller, A. R., Bergethon, K. E., … Gower, B. A.",
+"journal": "medRxiv",
+"date": "2026-11-13",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "nutrition",
+"version": "2",
+"au": [
+"athinarayanan|s",
+"zoller|a",
+"bergethon|k",
+"goss|a",
+"gower|b"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.09.26365158v2"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.10.09.26365158v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"glp-1",
+"randomized"
+],
+"relevance": 2,
+"why": "Background/Objectives: Incretin-based obesity medications (IOMs) produce substantial weight loss, but the added benefit of structured nutritional therapy remains unclear. We compared 12-month weight loss between individualized carbohydrate-reduced nutritional therapy combined with IOMs (VINT+IOM) and IOM-based care…",
+"addedAt": "2026-11-16",
 "source": "auto"
 },
 {
