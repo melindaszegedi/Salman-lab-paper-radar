@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-11-21",
-"lastRunAdded": 29,
-"total": 1870,
+"lastCurated": "2026-11-22",
+"lastRunAdded": 9,
+"total": 1879,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,143 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-43068328",
+"pmid": "43068328",
+"doi": "10.1016/j.mtbio.2026.103831",
+"title": "Cell membrane-coated nanoparticles for brain diseases: Processing, membrane-derived functions and translational challenges.",
+"authors": "Cheng Q, Hao S, Zhu Y, … Ji X",
+"journal": "Materials today. Bio",
+"journal_iso": "Mater Today Bio",
+"date": "2026-11-22",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.mtbio.2026.103831"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43068328/"
+}
+],
+"au": [
+"cheng|q",
+"hao|s",
+"zhu|y",
+"lv|s",
+"zhu|c",
+"ji|x"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"nanoparticle",
+"parkinson"
+],
+"relevance": 3,
+"why": "Brain diseases such as glioblastoma (GBM), Alzheimer's disease, Parkinson's disease, and ischemic stroke remain difficult to treat in part because the blood-brain barrier (BBB) restricts and spatially controls the entry of many therapeutic agents. Cell membrane-coated nanoparticles (CNPs) integrate cell-derived…",
+"addedAt": "2026-11-22",
+"source": "auto",
+"oaChecked": "2026-11-22",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S2590006426010768/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43068213",
+"pmid": "43068213",
+"doi": "10.1016/j.bbrep.2026.102841",
+"title": "A review of glioblastoma 3D cell culture models: Properties and applications in drug screening.",
+"authors": "Sajjad MH, Tian F, Javed B",
+"journal": "Biochemistry and biophysics reports",
+"journal_iso": "Biochem Biophys Rep",
+"date": "2026-11-22",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bbrep.2026.102841"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43068213/"
+}
+],
+"au": [
+"sajjad|m",
+"tian|f",
+"javed|b"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"organoid"
+],
+"relevance": 3,
+"why": "Glioblastoma is classified as the most aggressive brain tumor due to its invasive nature and rapid progression. It is clinically treated using combinations of different chemotherapeutic agents, such as Temozolomide, Carmustine, and Lomustine, along with surgery and/or radiotherapy. GBM cells often develop resistance…",
+"addedAt": "2026-11-22",
+"source": "auto",
+"oaChecked": "2026-11-22",
+"oa": {
+"url": "https://doi.org/10.1016/j.bbrep.2026.102841",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43067703",
+"pmid": "43067703",
+"doi": "10.1016/j.ymthe.2026.11.038",
+"title": "Direct convective delivery for gene therapy targeting central nervous system disorders.",
+"authors": "Damante MA, Elder JB, Bankiewicz K, Lonser RR",
+"journal": "Molecular therapy",
+"journal_iso": "Mol Ther",
+"date": "2026-11-22",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.ymthe.2026.11.038"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43067703/"
+}
+],
+"au": [
+"damante|m",
+"elder|j",
+"bankiewicz|k",
+"lonser|r"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"gene therapy"
+],
+"relevance": 2,
+"why": "Advances in the molecular biologic understanding of neurologic diseases have led to the development of targeted gene therapies for previously incompletely treatable or untreatable nervous system disorders. Intraparenchymal convection-enhanced delivery (CED) is the most common method for viral vector delivery in…",
+"addedAt": "2026-11-22",
+"source": "auto",
+"oaChecked": "2026-11-22"
+},
 {
 "id": "pmid-43065318",
 "pmid": "43065318",
@@ -110,6 +247,114 @@ window.PAPER_RADAR_DATA = {
 "oaChecked": "2026-11-21"
 },
 {
+"id": "pmid-43067423",
+"pmid": "43067423",
+"doi": "10.1016/j.jconrel.2026.115558",
+"title": "Vascular-targeted mild photothermal modulation of the blood-brain barrier enables efficient delivery of Pt(IV) prodrug to glioblastoma.",
+"authors": "Chen X, Shi J, Hu L, … Xiong H",
+"journal": "Journal of controlled release",
+"journal_iso": "J Control Release",
+"date": "2026-11-21",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jconrel.2026.115558"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43067423/"
+}
+],
+"au": [
+"chen|x",
+"shi|j",
+"hu|l",
+"zhang|y",
+"chen|j",
+"huang|x",
+"li|t",
+"shen|x",
+"wang|y",
+"zhou|d",
+"xiong|h"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"claudin-5",
+"nanoparticle",
+"permeability"
+],
+"relevance": 4,
+"why": "Effective platinum chemotherapy for glioblastoma is constrained by the blood-brain barrier and blood-brain tumor barrier (BBB/BBTB), which limit intracranial drug exposure. Here, we developed PS@RGD-Pt nanoparticles that integrate a NIR photothermal semiconducting polymer, a reduction-responsive Pt(IV)-backbone…",
+"addedAt": "2026-11-22",
+"source": "auto",
+"oaChecked": "2026-11-22"
+},
+{
+"id": "pmid-43066610",
+"pmid": "43066610",
+"doi": "10.1159/ned/adwag028",
+"title": "CADASIL Argentine Registry (CADASILAR): Establishment of a Harmonized Multicenter Registry with Preliminary Clinical and Cognitive Insights from Latin America.",
+"authors": "Ardohain Cristalli CA, Rosales J, Alonso J, … Cristalli DO",
+"journal": "Neuroepidemiology",
+"journal_iso": "Neuroepidemiology",
+"date": "2026-11-21",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1159/ned/adwag028"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43066610/"
+}
+],
+"au": [
+"ardohain cristalli|c",
+"rosales|j",
+"alonso|j",
+"calandri|i",
+"gonzalez-aquines|a",
+"gonzalez|f",
+"lopez|j",
+"morello-garcia|f",
+"selvaggi|v",
+"aguilar|m",
+"allegri|r",
+"chabriat|h",
+"chaves|h",
+"mezmezian|m",
+"muino-acuna|e",
+"pujol lereis|v",
+"saks|d",
+"sevlever|g",
+"kauffman|m",
+"cristalli|d"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"cadasil",
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 4,
+"why": "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL) is the most common monogenic small vessel disease. Despite extensive characterization in Europe and Asia, data from Latin America remain limited. This study aimed to describe the structure of the Argentine CADASIL…",
+"addedAt": "2026-11-22",
+"source": "auto",
+"oaChecked": "2026-11-22"
+},
+{
 "id": "pmid-43065222",
 "pmid": "43065222",
 "doi": "10.1155/jimr/4142717",
@@ -153,6 +398,204 @@ window.PAPER_RADAR_DATA = {
 "addedAt": "2026-11-21",
 "source": "auto",
 "oaChecked": "2026-11-21"
+},
+{
+"id": "pmid-43066233",
+"pmid": "43066233",
+"doi": "10.1021/acsomega.6c06597",
+"title": "Development and In Vitro Evaluation of Kaempferol-Loaded Liposomes in LN-229 Glioblastoma Cells: Potency, Selectivity, and Modulation of ROS-Dependent Cytotoxicity.",
+"authors": "Nwokwu CDO, Walker MH, De Andrade M, … Bugarin A",
+"journal": "ACS omega",
+"journal_iso": "ACS Omega",
+"date": "2026-11-21",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acsomega.6c06597"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43066233/"
+}
+],
+"au": [
+"nwokwu|c",
+"walker|m",
+"de andrade|m",
+"louis|s",
+"fearday|a",
+"bugarin|a"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Glioblastoma multiforme has a median survival of 12-15 months despite multimodal treatment, due to blood-brain barrier impermeability limiting CNS drug bioavailability. Liposomal nanoformulations circumvent this barrier while offering tunable surface chemistry and amphiphilic drug-loading capacity. Here, we report…",
+"addedAt": "2026-11-22",
+"source": "auto",
+"oaChecked": "2026-11-22",
+"oa": {
+"url": "https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c06597/69114625/acsomega.6c06597.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43065878",
+"pmid": "43065878",
+"doi": "10.1021/acsomega.6c05491",
+"title": "Plant Dehydrin-Derived, Lysine-Rich Peptides Show Both Antifungal Activity and Blood-Brain Barrier Penetration.",
+"authors": "Galgóczy L, Szecskó A, Cser NM, … Bodor A",
+"journal": "ACS omega",
+"journal_iso": "ACS Omega",
+"date": "2026-11-21",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acsomega.6c05491"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43065878/"
+}
+],
+"au": [
+"galgoczy|l",
+"szecsko|a",
+"cser|n",
+"veszelka|s",
+"varadi|g",
+"bende|g",
+"pardi|k",
+"deli|m",
+"bosze|s",
+"toth|g",
+"bodor|a"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"pericytes",
+"permeability"
+],
+"relevance": 3,
+"why": "The plant-based, dehydrin-derived peptides represent an underexplored source of antifungal agents. In this study, we investigated the antifungal activity, cellular association, and blood-brain barrier (BBB) permeability of a lysine-rich peptide (ERD-A) derived from the Arabidopsis thaliana dehydrin ERD14, as well as…",
+"addedAt": "2026-11-22",
+"source": "auto",
+"oaChecked": "2026-11-22",
+"oa": {
+"url": "https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c05491/69040639/acsomega.6c05491.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43065708",
+"pmid": "43065708",
+"doi": "10.3389/fddev.2026.1957314",
+"title": "Antipsychotic drug sensitivity in Alzheimer's disease due to blood-brain barrier breakdown with considerations for clinical prescribing: a narrative review.",
+"authors": "Nwalema N, Thomas SA",
+"journal": "Frontiers in drug delivery",
+"journal_iso": "Front Drug Deliv",
+"date": "2026-11-21",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fddev.2026.1957314"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43065708/"
+}
+],
+"au": [
+"nwalema|n",
+"thomas|s"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson",
+"tight junction"
+],
+"relevance": 3,
+"why": "Alzheimer's Disease (AD) is a neurodegenerative condition that affects cognitive function, memory and behaviour. Antipsychotics are used to manage psychosis and agitation in AD, through antagonism of dopamine (D2/3) receptors. However, AD patients exhibit an increased sensitivity to antipsychotics that is not shared…",
+"addedAt": "2026-11-22",
+"source": "auto",
+"oaChecked": "2026-11-22",
+"oa": {
+"url": "https://www.frontiersin.org/journals/drug-delivery/articles/10.3389/fddev.2026.1957314/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43065705",
+"pmid": "43065705",
+"doi": "10.1162/imag.a.1438",
+"title": "Comprehensive diffusion MRI analysis reveals key microstructural alterations underlying white matter hyperintensities.",
+"authors": "Thoumyre S, Tsuchida A, Boré A, … Rheault F",
+"journal": "Imaging neuroscience (Cambridge, Mass.)",
+"journal_iso": "Imaging Neurosci (Camb)",
+"date": "2026-11-21",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1162/imag.a.1438"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43065705/"
+}
+],
+"au": [
+"thoumyre|s",
+"tsuchida|a",
+"bore|a",
+"descoteaux|m",
+"joliot|m",
+"petit|l",
+"rheault|f"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Cerebral small vessel disease (CSVD) is a prevalent age-related condition and a major contributor to cognitive decline, dementia, and stroke. Its most common MRI marker, white matter hyperintensities (WMHs), reflects heterogeneous microstructural alterations, including demyelination, inflammation, and axonal loss.…",
+"addedAt": "2026-11-22",
+"source": "auto",
+"oaChecked": "2026-11-22",
+"oa": {
+"url": "https://doi.org/10.1162/imag.a.1438",
+"pdf": false,
+"status": "diamond"
+}
 },
 {
 "id": "pmid-43065328",
