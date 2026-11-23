@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-22",
-"lastRunAdded": 9,
-"total": 1879,
+"lastCurated": "2026-11-23",
+"lastRunAdded": 10,
+"total": 1889,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,156 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-43070015",
+"pmid": "43070015",
+"doi": "10.1042/cs20261916",
+"title": "Cerebral microvascular vasospasm after stroke and cardiac arrest: mechanisms of no-reflow and therapeutic opportunities.",
+"authors": "Novotny ME, Østergaard L, Granfeldt A, Staehr C",
+"journal": "Clinical science (London, England",
+"journal_iso": "Clin Sci (Lond)",
+"date": "2026-11-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1042/cs20261916"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43070015/"
+}
+],
+"au": [
+"novotny|m",
+"stergaard|l",
+"granfeldt|a",
+"staehr|c"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"capillary",
+"glymphatic",
+"neurovascular unit",
+"pericytes"
+],
+"relevance": 4,
+"why": "Acute ischaemic stroke and resuscitation after cardiac arrest are often accompanied by persistent cerebral microvascular dysfunction, known as the no-reflow phenomenon, which may contribute to secondary brain injury despite successful macrovascular reperfusion. Although no-reflow is a multifactorial process,…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23"
+},
+{
+"id": "pmid-43069275",
+"pmid": "43069275",
+"doi": "10.1038/s41467-026-79119-y",
+"title": "Enterovirus A71 exploits peripheral circulating extracellular vesicles to facilitate blood-brain barrier permeability.",
+"authors": "Liang Y, Meng Y, Kong Y, … Luo Z",
+"journal": "Nature communications",
+"journal_iso": "Nat Commun",
+"date": "2026-11-22",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41467-026-79119-y"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43069275/"
+}
+],
+"au": [
+"liang|y",
+"meng|y",
+"kong|y",
+"huang|s",
+"zhou|z",
+"liu|s",
+"zhou|x",
+"zhao|f",
+"wang|f",
+"jin|z",
+"jin|y",
+"yu|j",
+"luo|z"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"permeability"
+],
+"relevance": 4,
+"why": "Enterovirus A71 infection can cause hand, foot, and mouth disease to occasionally develop the severe neurological complications, but how peripheral Enterovirus A71 infection affects the blood-brain barrier remains incompletely understood. Here, we show that Enterovirus A71 infection of peripheral susceptible cells…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23",
+"oa": {
+"url": "https://www.nature.com/articles/s41467-026-79119-y_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43068580",
+"pmid": "43068580",
+"doi": "10.1016/j.phymed.2026.158934",
+"title": "Loureirin D alleviates ischemia-induced blood-brain barrier disruption via CD38-mediated suppression of microglial MAPK/JNK/ERK signaling.",
+"authors": "Peng J, Zhang X, Guo H, … Zhang J",
+"journal": "Phytomedicine",
+"journal_iso": "Phytomedicine",
+"date": "2026-11-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.phymed.2026.158934"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43068580/"
+}
+],
+"au": [
+"peng|j",
+"zhang|x",
+"guo|h",
+"zhang|p",
+"lin|g",
+"zhang|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"tight junction",
+"transendothelial electrical resistance"
+],
+"relevance": 4,
+"why": "The blood-brain barrier (BBB) is a critical gatekeeper of central nervous system homeostasis, and its disruption represents a pivotal pathological mechanism underlying secondary brain injury and adverse clinical outcomes following ischemic stroke (IS). Consequently, therapeutic strategies aimed at preserving BBB…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23",
+"oa": {
+"url": "https://doi.org/10.2139/ssrn.7156384",
+"pdf": false,
+"status": "green"
+}
+},
 {
 "id": "pmid-43068328",
 "pmid": "43068328",
@@ -113,6 +263,282 @@
 }
 },
 {
+"id": "pmid-43069400",
+"pmid": "43069400",
+"doi": "10.1007/s12264-026-01753-9",
+"title": "Photoacoustic Brain Imaging in Mice.",
+"authors": "Wang M, Wang Z, Li Y, … Tang Y",
+"journal": "Neuroscience bulletin",
+"journal_iso": "Neurosci Bull",
+"date": "2026-11-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s12264-026-01753-9"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43069400/"
+}
+],
+"au": [
+"wang|m",
+"wang|z",
+"li|y",
+"ma|q",
+"xu|g",
+"yang|s",
+"tang|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Photoacoustic brain imaging (PABI) has emerged as a promising modality that partially overcomes the trade-off between spatial resolution and penetration depth in conventional neuroimaging. By integrating optical absorption contrast with ultrasonic detection, PABI enables high-resolution visualization of cerebral…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23",
+"oa": {
+"url": "https://doi.org/10.1007/s12264-026-01753-9",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43069046",
+"pmid": "43069046",
+"doi": "10.1161/jaha.126.049433",
+"title": "Neuroimaging Profiling of Residual Ischemic Risk in Patients With Atrial Fibrillation and Acute Ischemic Stroke.",
+"authors": "Kim DY, Han SG, Guk HS, … Bae HJ",
+"journal": "Journal of the American Heart Association",
+"journal_iso": "J Am Heart Assoc",
+"date": "2026-11-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1161/jaha.126.049433"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43069046/"
+}
+],
+"au": [
+"kim|d",
+"han|s",
+"guk|h",
+"jeong|h",
+"lee|k",
+"kim|b",
+"han|m",
+"choi|k",
+"kim|j",
+"yum|k",
+"shin|d",
+"park|j",
+"kang|k",
+"lee|s",
+"lee|m",
+"oh|m",
+"yu|k",
+"lee|b",
+"park|h",
+"cho|y",
+"hong|k",
+"kang|c",
+"choi|j",
+"hong|j",
+"sohn|s",
+"park|t",
+"lee|j",
+"kim|w",
+"kwon|j",
+"kwon|d",
+"ryu|w",
+"kim|m",
+"lee|h",
+"gorelick|p",
+"bae|h"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"lacunar",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Predicting recurrent ischemic stroke (RIS) in patients with acute ischemic stroke and atrial fibrillation remains a clinical challenge, as traditional risk scores such as CHA2DS2-VASc (congestive heart failure, hypertension, age ≥75 years, diabetes, previous stroke or transient ischemic attack, vascular disease, age…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23"
+},
+{
+"id": "pmid-43068982",
+"pmid": "43068982",
+"doi": "10.1002/advs.78876",
+"title": "Disruption of the TCF7L1-TLE3 Complex by Sulforaphane De-Represses TFRC Transcription to Overcome Chemoresistance Through Ferroptosis in Pancreatic Cancer.",
+"authors": "Liu C, Zhang B, Liu P, … Yuan Q",
+"journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+"journal_iso": "Adv Sci (Weinh)",
+"date": "2026-11-22",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/advs.78876"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43068982/"
+}
+],
+"au": [
+"liu|c",
+"zhang|b",
+"liu|p",
+"zhang|h",
+"xu|q",
+"tian|m",
+"zhang|j",
+"wang|t",
+"xu|l",
+"xu|k",
+"yuan|q"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"organoid",
+"transferrin receptor"
+],
+"relevance": 3,
+"why": "Pancreatic ductal adenocarcinoma (PDAC) is among the most lethal malignancies. Inducing ferroptosis is a promising strategy to enhance chemotherapy and overcome resistance in PDAC. However, the transcriptional control of transferrin receptor 1 (TFRC, encoding the TFR1 protein), the iron gateway driving ferroptosis…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23",
+"oa": {
+"url": "https://doi.org/10.1002/advs.78876",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43068780",
+"pmid": "43068780",
+"doi": "10.1016/j.bbi.2026.107285",
+"title": "Individual differences in blood-brain barrier permeability are associated with childhood trauma and circulating immune markers in major depressive disorder: Preliminary findings.",
+"authors": "Cathomas F, Costi S, Evers A, … Murrough JW",
+"journal": "Brain, behavior, and immunity",
+"journal_iso": "Brain Behav Immun",
+"date": "2026-11-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.bbi.2026.107285"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43068780/"
+}
+],
+"au": [
+"cathomas|f",
+"costi|s",
+"evers|a",
+"meyer|e",
+"boukezzi|s",
+"chan|k",
+"parise|l",
+"ewert|j",
+"lun|c",
+"xu|x",
+"fayad|z",
+"morris|l",
+"tang|c",
+"russo|s",
+"murrough|j"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Major depressive disorder (MDD) is a major public health challenge, and childhood trauma is an important risk factor for its development. The blood-brain barrier (BBB) regulates communication between the peripheral immune system and the brain, but how childhood trauma and circulating immune alterations relate to BBB…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23"
+},
+{
+"id": "pmid-43068656",
+"pmid": "43068656",
+"doi": "10.1016/j.biopha.2026.120073",
+"title": "Squalenoyl siRNA nanoparticles biodistribution enable non-invasive gene silencing in the central nervous system via intravenous and intranasal delivery.",
+"authors": "Khalaf G, Boutary S, Desmaële D, … Massaad-Massade L",
+"journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+"journal_iso": "Biomed Pharmacother",
+"date": "2026-11-22",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.biopha.2026.120073"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43068656/"
+}
+],
+"au": [
+"khalaf|g",
+"boutary|s",
+"desmaele|d",
+"mattern|c",
+"schumacher|m",
+"massaad-massade|l"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"antisense",
+"blood-brain barrier",
+"nanoparticle"
+],
+"relevance": 3,
+"why": "The blood-brain barrier (BBB) remains a major obstacle to the delivery of small interfering RNAs (siRNAs) to the central nervous system (CNS), limiting the development of RNA-based therapies for neurological disorders. Squalenoyl nanoparticles (SQ NPs) represent a promising delivery platform due to their…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23",
+"oa": {
+"url": "https://www.sciencedirect.com/science/article/pii/S0753332226011091/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
 "id": "pmid-43067703",
 "pmid": "43067703",
 "doi": "10.1016/j.ymthe.2026.11.038",
@@ -152,6 +578,121 @@
 "addedAt": "2026-11-22",
 "source": "auto",
 "oaChecked": "2026-11-22"
+},
+{
+"id": "pmid-43068868",
+"pmid": "43068868",
+"doi": "10.1002/advs.78724",
+"title": "An Anti-Adhesive Hydrogel Delivering Ginger-Derived Exosome-Like Nanoparticles Reshapes the Neuroinflammatory Microenvironment After Traumatic Brain Injury.",
+"authors": "Chen J, Zhu T, Wen J, … Zhang B",
+"journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+"journal_iso": "Adv Sci (Weinh)",
+"date": "2026-11-22",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/advs.78724"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43068868/"
+}
+],
+"au": [
+"chen|j",
+"zhu|t",
+"wen|j",
+"shen|m",
+"hou|b",
+"gu|b",
+"zhang|m",
+"sun|s",
+"yan|c",
+"liu|b",
+"wang|k",
+"zhang|b"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"nanoparticle"
+],
+"relevance": 2,
+"why": "Traumatic brain injury (TBI) triggers secondary injury involving neuroinflammation, oxidative stress, and mitochondrial dysfunction, highlighting the need for multi-target therapies. Ginger-derived exosome-like nanoparticles (GELNs) offer multi-target therapeutic potential but are limited by insufficient local…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23",
+"oa": {
+"url": "https://doi.org/10.1002/advs.78724",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43068867",
+"pmid": "43068867",
+"doi": "10.1002/mds.70619",
+"title": "Responder Analysis of the Therapeutic Effect of Magnetic Resonance-Guided Focused Ultrasound Thalamotomy on Essential Tremor Correlates with Functional Improvement.",
+"authors": "Wolke R, Kerhoff S, Naumann J, … Paschen S",
+"journal": "Movement disorders",
+"journal_iso": "Mov Disord",
+"date": "2026-11-22",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/mds.70619"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43068867/"
+}
+],
+"au": [
+"wolke|r",
+"kerhoff|s",
+"naumann|j",
+"gless|a",
+"welzel|j",
+"martinez-fernandez|r",
+"obeso|j",
+"natera-villalba|e",
+"rojas|r",
+"lenuweit|j",
+"baumann|a",
+"moller|b",
+"hensler|j",
+"helmers|a",
+"drucks|b",
+"lubbing|i",
+"berg|d",
+"deuschl|g",
+"paschen|s"
+],
+"topics": [
+"delivery"
+],
+"keywords": [
+"focused ultrasound",
+"parkinson"
+],
+"relevance": 2,
+"why": "Outcomes of focused ultrasound thalamotomy (ventral intermediate nucleus focused ultrasound [Vim-FUS]) for essential tremor are usually reported as group-level tremor reductions, which may not reflect individual improvements in activities of daily living (ADL). The aim was to identify tremor amplitude thresholds…",
+"addedAt": "2026-11-23",
+"source": "auto",
+"oaChecked": "2026-11-23",
+"oa": {
+"url": "https://doi.org/10.1002/mds.70619",
+"pdf": false,
+"status": "hybrid"
+}
 },
 {
 "id": "pmid-43065318",
