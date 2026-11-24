@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-11-23",
-"lastRunAdded": 10,
-"total": 1889,
+"lastCurated": "2026-11-24",
+"lastRunAdded": 12,
+"total": 1901,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,155 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-43075276",
+"pmid": "43075276",
+"doi": "10.1155/ije/7656571",
+"title": "Correlation Between Cumulative Triglyceride-Glucose Index Exposure and Cerebral Small Vessel Disease.",
+"authors": "Wang J, Ma Z, Yuan W, … Hui Y",
+"journal": "International journal of endocrinology",
+"journal_iso": "Int J Endocrinol",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1155/ije/7656571"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43075276/"
+}
+],
+"au": [
+"wang|j",
+"ma|z",
+"yuan|w",
+"wu|s",
+"song|h",
+"li|j",
+"li|x",
+"li|r",
+"yang|l",
+"bai|m",
+"cui|l",
+"hui|y"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "We assessed the influence of cumulative triglyceride-glucose index (cumTyG) exposure on total cerebral small vessel disease (CSVD) burden risk using a large cohort study. A total of 1197 participants (mean age: 57.30 ± 9.95) who completed the Kailuan Group's 2006 health and 2021 brain magnetic resonance imaging…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24"
+},
+{
+"id": "pmid-43075186",
+"pmid": "43075186",
+"doi": "10.3389/fnagi.2026.1998054",
+"title": "Polysaccharides in the treatment of brain injury-related diseases: blood-brain barrier limitations and peripheral action pathways.",
+"authors": "Yu W, Wu Y, Yao B, … Shan M",
+"journal": "Frontiers in aging neuroscience",
+"journal_iso": "Front Aging Neurosci",
+"date": "2026-11-24",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fnagi.2026.1998054"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43075186/"
+}
+],
+"au": [
+"yu|w",
+"wu|y",
+"yao|b",
+"xu|l",
+"zhou|s",
+"luo|h",
+"guan|s",
+"fang|x",
+"shan|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Natural polysaccharides possess outstanding advantages including low toxicity, favorable biocompatibility, and multi-target regulatory capabilities. They hold broad application prospects in neuroprotective research on Alzheimer's disease (AD) and depression. Owing to their high molecular weight and strong…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24",
+"oa": {
+"url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1998054/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43075386",
+"pmid": "43075386",
+"doi": "10.3389/fimmu.2026.1995842",
+"title": "Research on the multilevel pathogenesis and cross-scale correlation networks of the microbiota-gut-brain axis in mediating central nervous system disorders.",
+"authors": "Liu L, Cai M, Yin Y, … Liu Y",
+"journal": "Frontiers in immunology",
+"journal_iso": "Front Immunol",
+"date": "2026-11-24",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fimmu.2026.1995842"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43075386/"
+}
+],
+"au": [
+"liu|l",
+"cai|m",
+"yin|y",
+"song|y",
+"zhuang|j",
+"shen|b",
+"liu|y"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "The microbiome-gut-brain axis (MGBA) is a bidirectional communication network that contributes to organismal homeostasis through neural, endocrine, immune, and microbial metabolic signaling. The gut microbiota influences central nervous system (CNS) function through pathways involving the vagus nerve and circulation,…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24",
+"oa": {
+"url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1995842/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
 {
 "id": "pmid-43070015",
 "pmid": "43070015",
@@ -59,6 +208,450 @@ window.PAPER_RADAR_DATA = {
 "addedAt": "2026-11-23",
 "source": "auto",
 "oaChecked": "2026-11-23"
+},
+{
+"id": "pmid-43072257",
+"pmid": "43072257",
+"doi": "10.1016/j.jss.2026.10.035",
+"title": "Cerebral Inflammation Is Additionally Reduced by Combined Quetiapine and Propranolol After Severe Traumatic Brain Injury.",
+"authors": "Bele P, Kauffman AM, Carlin PS, … Pascual JL",
+"journal": "The Journal of surgical research",
+"journal_iso": "J Surg Res",
+"date": "2026-11-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.jss.2026.10.035"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43072257/"
+}
+],
+"au": [
+"bele|p",
+"kauffman|a",
+"carlin|p",
+"culkin|m",
+"martinez-quinones|p",
+"georges|a",
+"jacovides|c",
+"mubeen|h",
+"kaplan|l",
+"johnson|v",
+"smith|d",
+"bass|g",
+"pascual|j"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood brain barrier",
+"permeability",
+"placebo"
+],
+"relevance": 4,
+"why": "Pharmacotherapeutics may enhance post traumatic brain injury (TBI) outcomes. While post-TBI quetiapine (QTP) reduces intracranial pressure, propranolol (βB) may blunt neurovascular inflammation and preserve blood brain barrier (BBB) integrity. We hypothesized that post-TBI QTP plus βB additively reduces penumbral…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24"
+},
+{
+"id": "pmid-43071585",
+"pmid": "43071585",
+"doi": "10.1097/rlu.0000000000006718",
+"title": "Centiloid Scaling in Probable Cerebral Amyloid Angiopathy: Discrimination From Deep Perforator Arteriopathy and Associations With Neuroimaging Markers and Cognition.",
+"authors": "Liu CJ, Ko KY, Lee BC, … Tsai HH",
+"journal": "Clinical nuclear medicine",
+"journal_iso": "Clin Nucl Med",
+"date": "2026-11-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1097/rlu.0000000000006718"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43071585/"
+}
+],
+"au": [
+"liu|c",
+"ko|k",
+"lee|b",
+"chiang|p",
+"chou|y",
+"lu|h",
+"yen|r",
+"tsai|l",
+"cheng|m",
+"tsai|h"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"cerebral amyloid angiopathy",
+"microbleed",
+"small vessel disease"
+],
+"relevance": 4,
+"why": "Centiloid (CL) scaling quantifies amyloid-β plaque burden in Alzheimer disease, but its utility in cerebral amyloid angiopathy (CAA) is uncertain. We evaluated the ability of CL to discriminate probable CAA from deep perforator arteriopathy (DPA) among patients with small vessel disease (SVD) and examined its…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24"
+},
+{
+"id": "pmid-43073463",
+"pmid": "43073463",
+"doi": "10.1007/s40120-026-01086-9",
+"title": "Markers of Blood-Brain Barrier Integrity and Neurodegeneration Across Alzheimer's and Non-Alzheimer Neurodegenerative Diseases.",
+"authors": "Kurz CI, Lamby N, Taute M, … Perneczky R",
+"journal": "Neurology and therapy",
+"journal_iso": "Neurol Ther",
+"date": "2026-11-23",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s40120-026-01086-9"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43073463/"
+}
+],
+"au": [
+"kurz|c",
+"lamby|n",
+"taute|m",
+"tegethoff|p",
+"hufnagel|a",
+"su|g",
+"koriath|c",
+"brendel|m",
+"gnorich|j",
+"utecht|j",
+"papazov|b",
+"levin|j",
+"hoglinger|g",
+"ochsner|m",
+"rauchmann|b",
+"perneczky|r"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"frontotemporal"
+],
+"relevance": 3,
+"why": "Dysfunction of the blood-brain barrier (BBB) is increasingly recognized as an early feature of Alzheimer's disease (AD). However, the relationship between BBB integrity, glial activation, and neuronal injury is not fully understood, particularly in non-Alzheimer's disorders such as frontotemporal dementia (NADD/FTD).…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24"
+},
+{
+"id": "pmid-43073309",
+"pmid": "43073309",
+"doi": "10.1038/s41467-026-78847-5",
+"title": "Holographic focused ultrasound enables multitarget EV and MSC delivery for neurovascular repair after ischemic stroke.",
+"authors": "Pan JJ, Li C, Yao X, … Cheng B",
+"journal": "Nature communications",
+"journal_iso": "Nat Commun",
+"date": "2026-11-23",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1038/s41467-026-78847-5"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43073309/"
+}
+],
+"au": [
+"pan|j",
+"li|c",
+"yao|x",
+"wei|y",
+"shen|l",
+"piao|x",
+"wang|m",
+"hu|j",
+"yang|g",
+"pei|y",
+"cheng|b"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound"
+],
+"relevance": 3,
+"why": "Noninvasive multitarget delivery of size-diverse therapeutics, including extracellular vesicles (EVs) and mesenchymal stromal cells (MSCs), to peri-infarct zones is hindered by the blood-brain barrier (BBB) and heterogeneous infarct topographies. Here, we developed a hologram-assisted multitarget BBB opening (HaMBO)…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24",
+"oa": {
+"url": "https://www.nature.com/articles/s41467-026-78847-5_reference.pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43072446",
+"pmid": "43072446",
+"doi": "10.1016/j.pharmthera.2026.109149",
+"title": "Therapeutic resistance in brain malignancies: mechanisms limiting drug efficacy and emerging pharmacological strategies.",
+"authors": "Chen L, Zhang N, He M, … Ni H",
+"journal": "Pharmacology & therapeutics",
+"journal_iso": "Pharmacol Ther",
+"date": "2026-11-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.pharmthera.2026.109149"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43072446/"
+}
+],
+"au": [
+"chen|l",
+"zhang|n",
+"he|m",
+"han|k",
+"shen|j",
+"li|l",
+"li|y",
+"zhu|w",
+"xia|h",
+"ni|h"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"drug repurposing",
+"randomized"
+],
+"relevance": 3,
+"why": "Therapeutic resistance in malignant brain tumors does not arise from a single molecular abnormality, but rather from the interplay among insufficient drug exposure, intrinsic and adaptive tumor-cell dependencies, cell-state plasticity, and the intracranial microenvironment. Although central nervous system (CNS)-active…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24"
+},
+{
+"id": "pmid-43070843",
+"pmid": "43070843",
+"doi": "10.1002/cns.71271",
+"title": "Therapeutic Potential of GLP-1 Receptor Agonists in Stroke Management: Evidence From Bench to Bedside.",
+"authors": "Wang L, Fan Q, Xie W, … Li P",
+"journal": "CNS neuroscience & therapeutics",
+"journal_iso": "CNS Neurosci Ther",
+"date": "2026-11-23",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/cns.71271"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43070843/"
+}
+],
+"au": [
+"wang|l",
+"fan|q",
+"xie|w",
+"xiang|l",
+"liu|q",
+"huang|d",
+"yin|w",
+"zhang|y",
+"li|y",
+"chen|c",
+"li|p"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"glp-1",
+"phase iii"
+],
+"relevance": 3,
+"why": "Stroke remains a leading cause of global disability, yet no pharmacotherapy has shown consistent neuroprotection. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have emerged as multifaceted therapeutic agents with cerebrovascular and neuroprotective properties. We synthesized evidence from preclinical models,…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24"
+},
+{
+"id": "medrxiv-10.64898_2026.11.20.26368608",
+"doi": "10.64898/2026.11.20.26368608",
+"title": "Missing Outcomes and Treatment Effect Estimates in the A4 Study of Solanezumab",
+"authors": "Jang, E. Y., Sims, K. D., Flanders, M., Ackley, S. F.",
+"journal": "medRxiv",
+"date": "2026-11-23",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "epidemiology",
+"version": "1",
+"au": [
+"jang|e",
+"sims|k",
+"flanders|m",
+"ackley|s"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.20.26368608v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.20.26368608v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"randomized"
+],
+"relevance": 3,
+"why": "INTRODUCTION: Missing final-visit outcome measurements may bias treatment effect estimates in amyloid-targeting drug trials. We examined whether accounting for missing Week-240 outcomes changed estimated treatment differences in the Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4) trial. METHODS: We…",
+"addedAt": "2026-11-24",
+"source": "auto"
+},
+{
+"id": "pmid-43071789",
+"pmid": "43071789",
+"doi": "10.1161/strokeaha.126.053517",
+"title": "Controversies in Stroke: Should We Thrombolyze Patients With Hemorrhagic Brain Imaging Markers of Cerebral Amyloid Angiopathy?",
+"authors": "Sellimi A, Puy L, Lebeau R, … Werring DJ",
+"journal": "Stroke",
+"journal_iso": "Stroke",
+"date": "2026-11-23",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1161/strokeaha.126.053517"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43071789/"
+}
+],
+"au": [
+"sellimi|a",
+"puy|l",
+"lebeau|r",
+"greenberg|s",
+"werring|d"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"cerebral amyloid angiopathy"
+],
+"relevance": 2,
+"why": "",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24"
+},
+{
+"id": "pmid-43071539",
+"pmid": "43071539",
+"doi": "10.1016/j.celrep.2026.118333",
+"title": "High-throughput screening of patient iPSC-derived neurons identifies the gut microbial metabolites that attenuate Alzheimer's disease pathology.",
+"authors": "Gohel D, Gupta AK, Li Y, … Feixiong Cheng",
+"journal": "Cell reports",
+"journal_iso": "Cell Rep",
+"date": "2026-11-23",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.celrep.2026.118333"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43071539/"
+}
+],
+"au": [
+"gohel|d",
+"gupta|a",
+"li|y",
+"tan|z",
+"burrows|a",
+"horak|a",
+"hou|y",
+"liu|z",
+"song|w",
+"yang|x",
+"pieper|a",
+"caldwell|j",
+"brown|j",
+"cummings|j",
+"cheng|f"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"ipsc"
+],
+"relevance": 2,
+"why": "Gut microbiota-derived metabolites influence the gut-brain axis and may impact Alzheimer's disease (AD) pathology. However, the microbial metabolites involved in this process and their functional roles are largely unknown. We screened 352 gut metabolites in induced pluripotent stem cells (iPSC)-derived neurons from…",
+"addedAt": "2026-11-24",
+"source": "auto",
+"oaChecked": "2026-11-24"
 },
 {
 "id": "pmid-43069275",
