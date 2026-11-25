@@ -1,8 +1,8 @@
 {
 "meta": {
-"lastCurated": "2026-11-24",
-"lastRunAdded": 12,
-"total": 1901,
+"lastCurated": "2026-11-25",
+"lastRunAdded": 30,
+"total": 1931,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,542 @@
 ]
 },
 "papers": [
+{
+"id": "pmid-43080463",
+"pmid": "43080463",
+"doi": "10.3389/fnins.2026.2010112",
+"title": "Low-intensity focused ultrasound for neuromodulation: mechanisms, parameters, and emerging clinical applications-a critical review.",
+"authors": "Liu D, Yang K, Cheng W, … Yang Y",
+"journal": "Frontiers in neuroscience",
+"journal_iso": "Front Neurosci",
+"date": "2026-11-25",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fnins.2026.2010112"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43080463/"
+}
+],
+"au": [
+"liu|d",
+"yang|k",
+"cheng|w",
+"liu|s",
+"an|j",
+"zhao|d",
+"ma|h",
+"yin|s",
+"jiang|l",
+"liu|l",
+"yang|y"
+],
+"topics": [
+"delivery",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"focused ultrasound",
+"parkinson",
+"randomized"
+],
+"relevance": 3,
+"why": "Low-intensity focused ultrasound (LIFU) is a non-invasive neuromodulation technique that combines millimeter-scale spatial precision with access to cortical and deep targets - including the thalamus, basal ganglia, amygdala, and nucleus accumbens - that otherwise require invasive deep brain stimulation (DBS). We…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25",
+"oa": {
+"url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.2010112/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43080177",
+"pmid": "43080177",
+"doi": "10.1155/bmri/1244342",
+"title": "Integrated In Vivo and Computational Assessment of the Neuropharmacological Activities of Swintonia floribunda Griff. Methanolic Leaf Extract.",
+"authors": "Nipa FA, Dina SS, Alvy IJ, … Dutta M",
+"journal": "BioMed research international",
+"journal_iso": "Biomed Res Int",
+"date": "2026-11-25",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1155/bmri/1244342"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43080177/"
+}
+],
+"au": [
+"nipa|f",
+"dina|s",
+"alvy|i",
+"chowdhury|m",
+"hossain|m",
+"chowdhury|s",
+"khan|s",
+"turzo|n",
+"uddin|m",
+"nisat|u",
+"yusuf|a",
+"rana|m",
+"dutta|m"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Swintonia floribunda Griff. is an ethnomedicinal plant traditionally used to treat various ailments, although its neuropharmacological potential remains insufficiently explored. The present study investigated the anxiolytic, antidepressant, and sedative activities of the methanolic extract of S. floribunda leaves…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43079750",
+"pmid": "43079750",
+"doi": "10.1002/tcr.70276",
+"title": "Food and Drug Administration-Approved Anti-Alzheimer Drugs as Privileged Small-Molecule Scaffolds for the Design of Hybrid Analogs: Rational Design, Structure-Activity Relationship, and Biological Evaluation (2024-2026).",
+"authors": "Shah M, Paul AT",
+"journal": "Chemical record (New York, N.Y.)",
+"journal_iso": "Chem Rec",
+"date": "2026-11-25",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/tcr.70276"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43079750/"
+}
+],
+"au": [
+"shah|m",
+"paul|a"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Alzheimer's disease (AD) is a chronic neurodegenerative condition characterized by a complicated and multifactorial pathophysiological background, which underlines the insufficiency of conventional monospecific therapy. Molecular hybridization of proven anti-Alzheimer pharmacophores constitutes an effective approach…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43079584",
+"pmid": "43079584",
+"doi": "10.1186/s12987-026-00862-x",
+"title": "Dynamic 68Ga‑PSMA‑11 PET reveals blood-brain barrier permeability as the primary driver of tracer uptake in glioma: a pharmacokinetic modeling study.",
+"authors": "Yang R, Guo K, Li S, … Kang F",
+"journal": "Fluids and barriers of the CNS",
+"journal_iso": "Fluids Barriers CNS",
+"date": "2026-11-25",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12987-026-00862-x"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43079584/"
+}
+],
+"au": [
+"yang|r",
+"guo|k",
+"li|s",
+"chen|z",
+"mao|x",
+"wang|j",
+"pan|l",
+"hu|z",
+"kang|f"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Prostate‑specific membrane antigen (PSMA) PET is increasingly used in glioma for tumor delineation and patient selection for PSMA‑targeted radioligand therapy. However, whether high tracer uptake reflects true target‑specific binding or non‑specific leakage across a disrupted blood-brain barrier (BBB) remains…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25",
+"oa": {
+"url": "https://doi.org/10.1186/s12987-026-00862-x",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43080406",
+"pmid": "43080406",
+"doi": "10.1007/s44164-026-00160-8",
+"title": "Breast cancer cell motility speed measurement using in vitro assays: a systematic scoping review of current knowledge.",
+"authors": "Maran MM, Shelling AN, Wu Z, Laking G",
+"journal": "In vitro models",
+"journal_iso": "In Vitro Model",
+"date": "2026-11-25",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s44164-026-00160-8"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43080406/"
+}
+],
+"au": [
+"maran|m",
+"shelling|a",
+"wu|z",
+"laking|g"
+],
+"topics": [
+"bbb",
+"lab-on-a-chip"
+],
+"keywords": [
+"lab-on-a-chip",
+"microfluidic"
+],
+"relevance": 3,
+"why": "This systematic scoping review evaluates contemporary advancements in the design and clinical application of lab-on-a-chip (LOC) microdevices specialised for measuring breast cancer cell motility parameters. It tracks the engineering frontiers of biomimetic systems and addresses their predictive potential in oncology…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1007/s44164-026-00160-8.pdf",
+"pdf": true,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43079974",
+"pmid": "43079974",
+"doi": "10.1093/brain/awag416",
+"title": "Hypothalamic delivery of self-assembled Ampkα1 siRNA via host extracellular vesicles treats obesity.",
+"authors": "Ur-Rehman U, Javed A, Yi Z, … Xiao R",
+"journal": "Brain",
+"journal_iso": "Brain",
+"date": "2026-11-25",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1093/brain/awag416"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43079974/"
+}
+],
+"au": [
+"ur-rehman|u",
+"javed|a",
+"yi|z",
+"zhao|j",
+"wang|y",
+"iqbal|h",
+"xin|j",
+"yuan|z",
+"chen|w",
+"zeng|l",
+"waqas|n",
+"wang|b",
+"liao|y",
+"xiao|r"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Obesity remains a significant global health issue characterized by complex pathophysiology and severe metabolic complications. Genetic suppression of AMP-activated protein kinase alpha 1 (Ampkα1) in steroidogenic factor 1 (SF1) neurons of the ventromedial hypothalamus (VMH) promote feeding-independent obesity…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43079581",
+"pmid": "43079581",
+"doi": "10.1186/s40035-026-00597-7",
+"title": "The invisible insult: replication-independent neurotoxicity of viral and bacterial factors in post-infectious neurological syndromes.",
+"authors": "Käufer C, Peelaerts W, Lau K, … Richter F",
+"journal": "Translational neurodegeneration",
+"journal_iso": "Transl Neurodegener",
+"date": "2026-11-25",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s40035-026-00597-7"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43079581/"
+}
+],
+"au": [
+"kaufer|c",
+"peelaerts|w",
+"lau|k",
+"kotzur|r",
+"richter|f"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Post-viral neurological syndromes, including Neuro-PASC (long COVID), HIV-associated neurocognitive disorders, and flavivirus-associated encephalopathies, present a paradox: neurological dysfunction persists despite minimal or absent viral replication in the central nervous system (CNS), challenging the…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "biorxiv-10.64898_2026.06.30.735532",
+"doi": "10.64898/2026.06.30.735532",
+"title": "Dysregulated SETX activity at R-loops links transcriptional and splicing alterations to compromised neuronal identity in ALS4",
+"authors": "Giannini, M., Gostan, T., El Aabidine, A. Z., … Porrua, O.",
+"journal": "bioRxiv",
+"date": "2026-11-25",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "molecular biology",
+"version": "2",
+"au": [
+"giannini|m",
+"gostan|t",
+"el aabidine|a",
+"bellieres|c",
+"nedelec|s",
+"porrua|o"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735532v2"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735532v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"amyotrophic",
+"induced pluripotent"
+],
+"relevance": 2,
+"why": "RNA dysregulation is an increasingly recognized driver of neurodegenerative diseases, yet the mechanisms linking defects in RNA metabolism to selective neuronal vulnerability remain poorly understood. Alterations in R-loop homeostasis have been observed in neurodegeneration, but it is unclear how these contribute to…",
+"addedAt": "2026-11-25",
+"source": "auto"
+},
+{
+"id": "pmid-43079490",
+"pmid": "43079490",
+"doi": "10.1186/s12987-026-00869-4",
+"title": "The effects of transcranial magnetic stimulation on the blood-brain barrier and glymphatic clearance: a scoping review with diagnostic and therapeutic implications.",
+"authors": "Ali AMS, Pedder J, Bakhsh A, … Lavrador JP",
+"journal": "Fluids and barriers of the CNS",
+"journal_iso": "Fluids Barriers CNS",
+"date": "2026-11-24",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12987-026-00869-4"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43079490/"
+}
+],
+"au": [
+"ali|a",
+"pedder|j",
+"bakhsh|a",
+"dickens|d",
+"sinosi|f",
+"jenkinson|m",
+"zakaria|r",
+"ashkan|k",
+"bhangoo|r",
+"vergani|f",
+"lavrador|j"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"blood-brain barrier",
+"glymphatic",
+"permeability"
+],
+"relevance": 4,
+"why": "The blood-brain barrier (BBB) prevents most therapeutics from reaching the brain, and the functionally coupled glymphatic system governs solute clearance. A controlled, non-invasive means of modulating these systems would have diagnostic and therapeutic value. We reviewed whether transcranial magnetic stimulation…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25",
+"oa": {
+"url": "https://doi.org/10.1186/s12987-026-00869-4",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43079251",
+"pmid": "43079251",
+"doi": "10.1186/s12866-026-05591-7",
+"title": "Type I and II pili mediate transcytosis of Streptococcus pneumoniae across blood-brain barrier cells in the pathogenesis of pneumococcal meningitis.",
+"authors": "Li MJ, Yang MJ, Huang LD, … Sun AH",
+"journal": "BMC microbiology",
+"journal_iso": "BMC Microbiol",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12866-026-05591-7"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43079251/"
+}
+],
+"au": [
+"li|m",
+"yang|m",
+"huang|l",
+"gou|x",
+"chen|s",
+"wang|y",
+"yan|j",
+"liu|x",
+"sun|a"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial",
+"pericytes",
+"transcytosis"
+],
+"relevance": 4,
+"why": "Streptococcus pneumoniae, a common pathogen to cause pneumonia and otitis media, is also the most important causative agent of bacterial meningitis in humans. Previous studies have shown that S. pneumoniae strains can be pilus-negative, type I pilus- and/or type II pilus-positive, and pneumococcal pili promote…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25",
+"oa": {
+"url": "https://doi.org/10.1186/s12866-026-05591-7",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43078309",
+"pmid": "43078309",
+"doi": "10.1016/j.trsl.2026.11.006",
+"title": "Beyond Amyloid in Alzheimer's Disease: A Multiscale Evidence-Based Review of Pathogenesis, Biomarkers, and Emerging Therapeutics.",
+"authors": "Gupta R, Lakhanpal S, Gupta S, … Kumar N",
+"journal": "Translational research",
+"journal_iso": "Transl Res",
+"date": "2026-11-24",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.trsl.2026.11.006"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43078309/"
+}
+],
+"au": [
+"gupta|r",
+"lakhanpal|s",
+"gupta|s",
+"rawat|j",
+"ravi|k",
+"abomughaid|m",
+"jha|n",
+"singh|k",
+"kumar|n"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"apoe ε4",
+"nanoparticle",
+"trem2"
+],
+"relevance": 4,
+"why": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterised neuropathologically by amyloid-β (Aβ) accumulation, phosphorylated-tau neurofibrillary tangles, synaptic dysfunction, and neuronal loss. However, the temporal and causal relationships underlying disease initiation, progression, and…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
 {
 "id": "pmid-43075276",
 "pmid": "43075276",
@@ -118,6 +654,812 @@
 }
 },
 {
+"id": "pmid-43079024",
+"pmid": "43079024",
+"doi": "10.1007/s00429-026-03197-3",
+"title": "Mapping global glymphatic system research (2012-2025): a scientometric and knowledge-mapping review integrating bioinformatics perspectives on aging.",
+"authors": "Zou W, Tan X, Meng X, … Gaebler AJ",
+"journal": "Brain structure & function",
+"journal_iso": "Brain Struct Funct",
+"date": "2026-11-24",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00429-026-03197-3"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43079024/"
+}
+],
+"au": [
+"zou|w",
+"tan|x",
+"meng|x",
+"cheng|t",
+"bechter|k",
+"mathiak|k",
+"gaebler|a"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glymphatic"
+],
+"relevance": 3,
+"why": "The glymphatic system is a newly discovered brain-wide clearance pathway offering promising novel therapeutic interventions across diverse medical conditions. Accordingly, a comprehensive overview mapping scientific knowledge is currently urgent. Our study examined the spatiotemporal evolution of research output,…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43078331",
+"pmid": "43078331",
+"doi": "10.1016/j.pcad.2026.11.014",
+"title": "Beyond longevity: Cardiovascular prevention and healthy brain aging.",
+"authors": "Dorman GS, Couto B, O'Neill S, … Manes F",
+"journal": "Progress in cardiovascular diseases",
+"journal_iso": "Prog Cardiovasc Dis",
+"date": "2026-11-24",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.pcad.2026.11.014"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43078331/"
+}
+],
+"au": [
+"dorman|g",
+"couto|b",
+"o'neill|s",
+"flores|i",
+"bustin|j",
+"klein|f",
+"hachinski|v",
+"chen|c",
+"elkind|m",
+"lopez|o",
+"manes|f"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"anti-amyloid",
+"randomized"
+],
+"relevance": 3,
+"why": "Cardiovascular prevention has extended life expectancy, and the question now is whether the added years are accompanied by preserved cognition and independence. This review asks what cardiologists can do for brain health today, on what evidence and for whom. We keep apart three brain health outcomes that are often…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43078199",
+"pmid": "43078199",
+"doi": "10.1016/j.neuroscience.2026.11.045",
+"title": "Evaluation of perivascular diffusivity alterations in Parkinson's disease patients with mood-related symptoms using the diffusion tensor imaging along the perivascular space index.",
+"authors": "Wang J, Liu J, Li H, … Shi Z",
+"journal": "Neuroscience",
+"journal_iso": "Neuroscience",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.neuroscience.2026.11.045"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43078199/"
+}
+],
+"au": [
+"wang|j",
+"liu|j",
+"li|h",
+"tang|l",
+"ji|p",
+"tang|c",
+"shen|j",
+"wang|m",
+"shi|z"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"parkinson",
+"perivascular space"
+],
+"relevance": 3,
+"why": "Previous studies have focused mainly on the relationship between perivascular diffusivity and motor dysfunction in Parkinson's disease (PD). The relationship with non-motor symptoms, such as mood-related anxiety, depression and apathy, remains unclear. This study aimed to assess perivascular diffusivity in PD patients…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25",
+"oa": {
+"url": "https://doi.org/10.2139/ssrn.7290697",
+"pdf": true,
+"status": "green"
+}
+},
+{
+"id": "pmid-43077963",
+"pmid": "43077963",
+"doi": "10.1016/j.maturitas.2026.109192",
+"title": "Total hysterectomy and cerebral small vessel disease: A large-scale brain MRI screening study in midlife and older women.",
+"authors": "Nezu T, Ikawa F, Chiku M, … Maruyama H",
+"journal": "Maturitas",
+"journal_iso": "Maturitas",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.maturitas.2026.109192"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43077963/"
+}
+],
+"au": [
+"nezu|t",
+"ikawa|f",
+"chiku|m",
+"kawata|r",
+"maruyama|h"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Hysterectomy is associated with increased risks of stroke and cognitive decline, but its association with cerebral small vessel disease remains unclear. We investigated the association between total hysterectomy and magnetic resonance imaging markers of cerebral small vessel disease in a large screening cohort. Among…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43077654",
+"pmid": "43077654",
+"doi": "10.1212/wnl.0000000000218818",
+"title": "Neuropathologic Correlates of Cognitive Decline in Community-Dwelling Elders Who Die as Centenarians.",
+"authors": "Mojdeganlou P, Agrawal S, Yu L, … Schneider JA",
+"journal": "Neurology",
+"journal_iso": "Neurology",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1212/wnl.0000000000218818"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43077654/"
+}
+],
+"au": [
+"mojdeganlou|p",
+"agrawal|s",
+"yu|l",
+"bennett|d",
+"schneider|j"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"arteriol",
+"cerebral amyloid angiopathy"
+],
+"relevance": 3,
+"why": "Brain pathologies are common in the elderly; however, their contribution to Alzheimer dementia risk and cognitive decline in those who die as centenarians remain unclear. This study examines the frequency of Alzheimer disease neuropathologic changes (ADNC), limbic-predominant age-related TDP-43 encephalopathy…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43077653",
+"pmid": "43077653",
+"doi": "10.1212/wnl.0000000000218823",
+"title": "Stage-Dependent Associations of Amyloid Pathology and White Matter Hyperintensities With Cognitive Decline Across the Clinical Continuum.",
+"authors": "Li Y, Chong JR, Cui J, … Alzheimer's Disease Neuroimaging Initiative",
+"journal": "Neurology",
+"journal_iso": "Neurology",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1212/wnl.0000000000218823"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43077653/"
+}
+],
+"au": [
+"li|y",
+"chong|j",
+"cui|j",
+"tee|m",
+"liu|w",
+"liao|y",
+"chong|e",
+"toh|a",
+"venketasubramanian|n",
+"hilal|s",
+"lai|m",
+"cplh|c",
+"initiative|a"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Alzheimer disease (AD) and cerebral small vessel disease frequently coexist, and their hallmarks, amyloid pathology and white matter hyperintensities (WMHs), are each associated with cognitive decline. Whether these associations are independent or interactive remains unclear. This study investigated their joint…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43077050",
+"pmid": "43077050",
+"doi": "10.1007/s12032-026-03554-6",
+"title": "Molecular mechanisms of fluoxetine-mediated anticancer activity in triple-negative breast cancer: an integrated experimental and computational approach.",
+"authors": "Kebiroğlu MH, Azarkan SY, Çankaya N",
+"journal": "Medical oncology (Northwood, London, England)",
+"journal_iso": "Med Oncol",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s12032-026-03554-6"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43077050/"
+}
+],
+"au": [
+"kebiroglu|m",
+"azarkan|s",
+"cankaya|n"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"drug repurposing",
+"permeability"
+],
+"relevance": 3,
+"why": "The aggressive subtype of breast cancer known as triple-negative breast cancer (TNBC) is marked by a poor prognosis, few treatment options, and a significant chance of metastases and treatment resistance. One promising method for finding new anticancer drugs with proven safety characteristics is drug repurposing.…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43076941",
+"pmid": "43076941",
+"doi": "10.1007/s11060-026-05848-1",
+"title": "Sonodynamic therapy for malignant brain tumors: a systematic review​ of preclinical and early clinical evidence.",
+"authors": "Shahabinejad E, Pourfridoni M, Shakoeizadeh A, … Sheehan JP",
+"journal": "Journal of neuro-oncology",
+"journal_iso": "J Neurooncol",
+"date": "2026-11-24",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s11060-026-05848-1"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076941/"
+}
+],
+"au": [
+"shahabinejad|e",
+"pourfridoni|m",
+"shakoeizadeh|a",
+"haghtalab|a",
+"elahi|r",
+"jafari|m",
+"abbaspour|f",
+"asadi|f",
+"mandegari|m",
+"baradaranfar|m",
+"salari|m",
+"fathi|s",
+"khan|m",
+"borghei-razavi|h",
+"sheehan|j"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"blood-brain barrier",
+"phase 1"
+],
+"relevance": 3,
+"why": "Glioblastoma and other malignant brain tumors are difficult to treat due to the invasive behavior of the disease, resistance to conventional medicines, and the blood-brain barrier that limits delivery of therapeutics. This systematic review evaluates the potential of Sonodynamic Therapy (SDT), a non-invasive therapy…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1007/s11060-026-05848-1.pdf",
+"pdf": true,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43076749",
+"pmid": "43076749",
+"doi": "10.1021/acs.est.6c08052",
+"title": "Organophosphate Flame Retardants Induce Neurodegenerative Pathologies by Paralyzing HSP90AB1 Chaperone Function: A Multi-Scale Computational and Biophysical Study.",
+"authors": "Xiao Z, Jiao J, Wang X, … Gu A",
+"journal": "Environmental science & technology",
+"journal_iso": "Environ Sci Technol",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.est.6c08052"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076749/"
+}
+],
+"au": [
+"xiao|z",
+"jiao|j",
+"wang|x",
+"li|j",
+"zhu|x",
+"ji|g",
+"xu|j",
+"gu|a"
+],
+"topics": [
+"bbb",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"parkinson"
+],
+"relevance": 3,
+"why": "This study integrated computational toxicology with biophysical and cellular validation to investigate the neurotoxic potential of 10 flame-retardant-related compounds. ADMETlab 3.0 predicted blood-brain barrier probabilities of 0.989 for bis(1,3-dichloro-2-propyl) phosphate and 0.444 for diphenyl phosphate (DPHP),…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43075845",
+"pmid": "43075845",
+"doi": "10.2174/0115672026518577261112113026",
+"title": "Neurovascular Unit and Brain Microenvironment Research in Cerebral Small Vessel Disease: A Bibliometric Analysis.",
+"authors": "Liu Y, Peng Y, Tong S",
+"journal": "Current neurovascular research",
+"journal_iso": "Curr Neurovasc Res",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0115672026518577261112113026"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43075845/"
+}
+],
+"au": [
+"liu|y",
+"peng|y",
+"tong|s"
+],
+"topics": [
+"csvd",
+"bbb"
+],
+"keywords": [
+"neurovascular unit",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Cerebral small vessel disease is commonly identified using magnetic resonance imaging markers, but increasing attention has been paid to the neurovascular unit and the brain microenvironment. This study aims to characterize the structure of a search-defined, neurovascular-topic-conditioned CSVD bibliometric…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43075702",
+"pmid": "43075702",
+"doi": "10.2174/0115672026523804261111094127",
+"title": "Clinical Profile of Patients with Acute Stroke and Cerebral Microbleeds- A Cross-Sectional Study.",
+"authors": "Hameer ST, Vibha D, Jali V, … Srivastava MVP",
+"journal": "Current neurovascular research",
+"journal_iso": "Curr Neurovasc Res",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0115672026523804261111094127"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43075702/"
+}
+],
+"au": [
+"hameer|s",
+"vibha|d",
+"jali|v",
+"singh|r",
+"pandit|a",
+"sebastian|l",
+"bhatia|r",
+"garg|a",
+"gaikwad|s",
+"srivastava|m"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"microbleed",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Cerebral Microbleeds (CMBs) are biomarkers of Cerebral Small Vessel Disease (CSVD). There is a lack of data on the in-hospital prevalence of CMBs in patients presenting with acute stroke. We aimed to study the prevalence of CMBs in acute stroke patients and the association of vascular risk factors with the presence of…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43075691",
+"pmid": "43075691",
+"doi": "10.2174/011871529x511588261110055533",
+"title": "NLRP3 Inhibition in the Modern Era: Advancing Targeted Pharmacology and Precision Medicine for Cardio-neuroinflammatory Disorders.",
+"authors": "Shafi T, Chandra Pati J, Rana R, … Gulati P",
+"journal": "Cardiovascular & hematological disorders drug targets",
+"journal_iso": "Cardiovasc Hematol Disord Drug Targets",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/011871529x511588261110055533"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43075691/"
+}
+],
+"au": [
+"shafi|t",
+"chandra pati|j",
+"rana|r",
+"islam|m",
+"khan|m",
+"judder|m",
+"jain|h",
+"kapil|m",
+"gulati|p"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "The NLRP3 inflammasome is a crucial component of innate immunity and inflammation, triggering caspase-1 activation and facilitating the maturation and release of pro-inflammatory cytokines such as IL-1β and IL-18. Dysregulated activation of NLRP3 is involved in the pathogenesis of cardiovascular, neurological, and…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "pmid-43075690",
+"pmid": "43075690",
+"doi": "10.2174/0115734099528108261111112643",
+"title": "Novel Quinazolinone-based CNS-active Agents: In Silico Studies, Synthesis, and In Vivo Evaluation.",
+"authors": "Gupta S, Verma S",
+"journal": "Current computer-aided drug design",
+"journal_iso": "Curr Comput Aided Drug Des",
+"date": "2026-11-24",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.2174/0115734099528108261111112643"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43075690/"
+}
+],
+"au": [
+"gupta|s",
+"verma|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Epilepsy and anxiety disorders remain major neurological challenges despite the availability of several therapeutic agents. However, the long-term use of currently available drugs is often associated with adverse effects, tolerance, and dependence, highlighting the need for safer and more effective therapeutic…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25"
+},
+{
+"id": "biorxiv-10.64898_2026.11.10.765662",
+"doi": "10.64898/2026.11.10.765662",
+"title": "Rapid, behaviorally timed increases in blood-brain barrier permeability are predicted by endothelial calcium events and driven by histaminergic axons",
+"authors": "Turner, K. L., Scott, S. J., Fekir, S., … Moore, C. I.",
+"journal": "bioRxiv",
+"date": "2026-11-24",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "2",
+"au": [
+"turner|k",
+"scott|s",
+"fekir|s",
+"teboul|e",
+"browning|k",
+"johnson|c",
+"nagar|a",
+"moore|c"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765662v2"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765662v2.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"arteriol",
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Survival requires a detailed understanding of body state, and the vasculature provides a continuous conduit of this information to the brain. Yet the blood-brain barrier (BBB) is canonically viewed as a stable boundary, and any passage across it as pathological leak, because sustained exposure carries real risk. How…",
+"addedAt": "2026-11-25",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.11.16.26368132",
+"doi": "10.64898/2026.11.16.26368132",
+"title": "Disease-specific versus symptom-specific neuroimaging phenotypes across Alzheimer's Disease, Parkinson's Disease, and Small Vessel Disease",
+"authors": "Lazari, A., Broulidakis, J., Gillis, G., … Mars, R. B.",
+"journal": "medRxiv",
+"date": "2026-11-24",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"lazari|a",
+"broulidakis|j",
+"gillis|g",
+"bhalerao|g",
+"halls|d",
+"wickham|f",
+"tendler|b",
+"sotiropoulos|s",
+"griffanti|l",
+"husain|m",
+"mars|r"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.16.26368132v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.16.26368132v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"parkinson",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Background: Neurodegenerative disorders are common in ageing populations, and arise from several distinct pathophysiological causes. Yet, they also share many symptoms, including cognitive and neuropsychiatric ones. It is unclear to what extent the impact of neurodegeneration on brain systems is unique or shared…",
+"addedAt": "2026-11-25",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.11.22.26368682",
+"doi": "10.64898/2026.11.22.26368682",
+"title": "Plasma proteomic markers of cognitive and brain aging in a multi-ethnic cohort",
+"authors": "Wood, B., Wood Alexander, M., Clappison, A., … Alzheimer's Disease Neuroimaging Initiative,",
+"journal": "medRxiv",
+"date": "2026-11-24",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"wood|b",
+"wood alexander|m",
+"clappison|a",
+"vandeloo|k",
+"yep|r",
+"saloner|r",
+"downer|j",
+"casaletto|k",
+"caunca|m",
+"kumar|r",
+"malhotra|s",
+"zhang|a",
+"marawi|t",
+"sit|v",
+"kim|e",
+"nyman|a",
+"splinter|t",
+"kang|m",
+"swardfager|w",
+"karikari|t",
+"black|s",
+"ottoy|j",
+"goubran|m",
+"rabin|j",
+"alzheimer's disease neuroimaging initiative|"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.22.26368682v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.22.26368682v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "Advances in ultrasensitive proteomics offer opportunities to characterize molecular pathways underlying brain aging. We measured 220 plasma proteins using NULISAseq Neuro220 in 250 Chinese, South Asian, and non-Hispanic White older adults (mean age=68.2 years, 70.4% female). Proteins implicated in neurodegenerative…",
+"addedAt": "2026-11-25",
+"source": "auto"
+},
+{
+"id": "medrxiv-10.64898_2026.11.23.26368742",
+"doi": "10.64898/2026.11.23.26368742",
+"title": "Integrating Plasma Brain-Derived pTau217, White Matter Hyperintensity and Hippocampal Volumes as Optimized Prognostic Markers for Cognitive Decline in an Asian Cohort with High Cerebrovascular Disease Burden",
+"authors": "Chong, J. R., Hilal, S., Karikari, T. K., … Lai, M. K.",
+"journal": "medRxiv",
+"date": "2026-11-24",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neurology",
+"version": "1",
+"au": [
+"chong|j",
+"hilal|s",
+"karikari|t",
+"venketasubramanian|n",
+"scholl|m",
+"zetterberg|h",
+"johnson|s",
+"chen|c",
+"lai|m"
+],
+"links": [
+{
+"label": "medRxiv",
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.23.26368742v1"
+}
+],
+"oa": {
+"url": "https://www.medrxiv.org/content/10.64898/2026.11.23.26368742v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"small vessel disease",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Abstract Background: Combination of plasma and neuroimaging biomarkers associated with Alzheimer's disease (AD) and cerebrovascular pathophysiology might provide more accurate prediction of cognitive decline in populations with extensive AD and cerebral small vessel disease copathologies. Here, we aimed to identify an…",
+"addedAt": "2026-11-25",
+"source": "auto"
+},
+{
 "id": "pmid-43075386",
 "pmid": "43075386",
 "doi": "10.3389/fimmu.2026.1995842",
@@ -164,6 +1506,113 @@
 "pdf": true,
 "status": "gold"
 }
+},
+{
+"id": "pmid-43077650",
+"pmid": "43077650",
+"doi": "10.1212/wnl.0000000000218585",
+"title": "MobilityAPP: A Randomized Controlled Trial Evaluating Gait-Focused Physiotherapy in Parkinson Disease and Atypical Parkinsonian Syndromes.",
+"authors": "Raccagni C, Sidoroff V, Moradi H, … MobilityAPP study group",
+"journal": "Neurology",
+"journal_iso": "Neurology",
+"date": "2026-11-24",
+"type": "journal",
+"kind": "Clinical trial",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1212/wnl.0000000000218585"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43077650/"
+}
+],
+"au": [
+"raccagni|c",
+"sidoroff|v",
+"moradi|h",
+"prigent|g",
+"jagusch|f",
+"teckenburg|i",
+"asalian|m",
+"giraitis|m",
+"schoenfeldt-reichmann|e",
+"ndayisaba|j",
+"goebel|g",
+"seppi|k",
+"krismer|f",
+"schoenherr|g",
+"benninger|d",
+"winkler|j",
+"eskofier|b",
+"klucken|j",
+"aminian|k",
+"wenning|g",
+"ionescu|a",
+"sapienza|s",
+"gassner|h",
+"group|m"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"parkinson",
+"randomized"
+],
+"relevance": 2,
+"why": "Physiotherapy is a crucial element of care strategies for parkinsonian syndromes, especially in atypical parkinsonian disorders (APDs), where levodopa response is limited. Preliminary studies in APDs have reported improvements in walking and motor functions; however, small sample sizes represented a common limitation…",
+"addedAt": "2026-11-25",
+"source": "auto",
+"oaChecked": "2026-11-25",
+"oa": {
+"url": "https://doi.org/10.2139/ssrn.5734943",
+"pdf": false,
+"status": "green"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.11.23.768619",
+"doi": "10.64898/2026.11.23.768619",
+"title": "Oral Silver Nanoparticle Exposure Increases Phosphorylated Tau Protein and Antioxidant Expression in Dentate Gyrus of Rat Brain",
+"authors": "Smith, R. N., Cantrell, E. S., Crockett, W. B., Spitzer, N.",
+"journal": "bioRxiv",
+"date": "2026-11-24",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "pharmacology and toxicology",
+"version": "1",
+"au": [
+"smith|r",
+"cantrell|e",
+"crockett|w",
+"spitzer|n"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768619v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768619v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"nanoparticle"
+],
+"relevance": 2,
+"why": "Silver nanoparticles (AgNPs) are incorporated into products including toys, cosmetics, and surgical tools due to their antimicrobial properties. AgNPs can cross the blood-brain barrier and bioaccumulate in the brain, persisting for months with no clearance. We previously found that AgNPs disrupt the f-actin…",
+"addedAt": "2026-11-25",
+"source": "auto"
 },
 {
 "id": "pmid-43070015",
