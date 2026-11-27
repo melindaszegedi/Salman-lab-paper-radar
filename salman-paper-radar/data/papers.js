@@ -1,8 +1,8 @@
 window.PAPER_RADAR_DATA = {
 "meta": {
-"lastCurated": "2026-11-26",
-"lastRunAdded": 48,
-"total": 1979,
+"lastCurated": "2026-11-27",
+"lastRunAdded": 22,
+"total": 2001,
 "topics": {
 "csvd": "Small vessel disease & CAA",
 "bbb": "BBB biology & in vitro models",
@@ -16,6 +16,250 @@ window.PAPER_RADAR_DATA = {
 ]
 },
 "papers": [
+{
+"id": "pmid-43100063",
+"pmid": "43100063",
+"doi": "10.1002/brb3.71978",
+"title": "Heart Rate Variability and Left Ventricular Diastolic Function Are Associated With Cerebral Small Vessel Disease Burden Among Older Adults.",
+"authors": "Huang X, Lu T, Wei L, … Zheng L",
+"journal": "Brain and behavior",
+"journal_iso": "Brain Behav",
+"date": "2026-11-27",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/brb3.71978"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43100063/"
+}
+],
+"au": [
+"huang|x",
+"lu|t",
+"wei|l",
+"wu|a",
+"zheng|l"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"lacune",
+"small vessel disease"
+],
+"relevance": 3,
+"why": "To explore the associations of autonomic function, cardiac diastolic performance, and cerebral arterial pulsatility index (PI) with cerebral small‑vessel disease (CSVD) burden in elderly hospitalized patients. This retrospective cross‑sectional study included 104 patients with complete cardiac, autonomic, and MRI…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27"
+},
+{
+"id": "pmid-43099611",
+"pmid": "43099611",
+"doi": "10.1186/s12951-026-04881-6",
+"title": "A peroxidase-mimetic platinum nanocluster induces concurrent DNA damage and oxidative cleavage in paediatric glioblastoma cells.",
+"authors": "Liu Z, Li B, Young N, … Townley HE",
+"journal": "Journal of nanobiotechnology",
+"journal_iso": "J Nanobiotechnology",
+"date": "2026-11-27",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s12951-026-04881-6"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43099611/"
+}
+],
+"au": [
+"liu|z",
+"li|b",
+"young|n",
+"thompson|i",
+"dobson|p",
+"townley|h"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"nanoparticle",
+"permeability"
+],
+"relevance": 3,
+"why": "The impermeability of the blood-brain barrier (BBB), formed by a monolayer of endothelial cells, remains a major obstacle for delivering chemotherapeutic drugs to the brain. Ultra-small nanoparticles, particularly nanoclusters smaller than 2 nm, offer a promising strategy to overcome this challenge. Here, we…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://doi.org/10.1186/s12951-026-04881-6",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43100364",
+"pmid": "43100364",
+"doi": "10.64898/2026.11.15.766869",
+"title": "Endothelial VCAM1 links oncogenic KRAS signaling to myeloid inflammation and hemorrhagic instability in brain arteriovenous malformations.",
+"authors": "Park JE, Park H, Myint O, … Park ES",
+"journal": "bioRxiv",
+"journal_iso": "bioRxiv",
+"date": "2026-11-27",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Preprint",
+"url": "https://doi.org/10.64898/2026.11.15.766869"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43100364/"
+}
+],
+"au": [
+"park|j",
+"park|h",
+"myint|o",
+"kang|s",
+"chen|x",
+"zhao|z",
+"choi|j",
+"jung|s",
+"huang|s",
+"korbelin|j",
+"choi|h",
+"aronowski|j",
+"chen|p",
+"kim|e",
+"park|e"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Hemorrhagic conversion is the most devastating complication of brain arteriovenous malformations (bAVMs). However, endothelial mechanisms promoting macrophages (Mϕ) recruitment, microglia (MG) activation, and bAVM lesion instability remain unclear. We investigated vascular cell adhesion molecule-1 (VCAM1) as a…",
+"addedAt": "2026-11-27",
+"source": "auto"
+},
+{
+"id": "pmid-43099638",
+"pmid": "43099638",
+"doi": "10.1186/s13195-026-02170-w",
+"title": "Effects of cerebellar rTMS on cognitive function in Alzheimer's disease: a randomized controlled fNIRS trial.",
+"authors": "Wang D, Wang T, Li F, … Shi J",
+"journal": "Alzheimer's research & therapy",
+"journal_iso": "Alzheimers Res Ther",
+"date": "2026-11-27",
+"type": "journal",
+"kind": "Clinical trial",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1186/s13195-026-02170-w"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43099638/"
+}
+],
+"au": [
+"wang|d",
+"wang|t",
+"li|f",
+"zhang|c",
+"li|w",
+"qi|x",
+"yao|q",
+"ye|x",
+"lin|x",
+"tian|m",
+"shi|j"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"randomized"
+],
+"relevance": 2,
+"why": "Repetitive transcranial magnetic stimulation (rTMS) has emerged as a research focus in the treatment of Alzheimer's disease (AD). However, the optimal stimulation target remains controversial and requires urgent resolution. To evaluate the cognitive effects of 5 Hz rTMS targeting the cerebellar Crus II region in…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://doi.org/10.1186/s13195-026-02170-w",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.11.15.766735",
+"doi": "10.64898/2026.11.15.766735",
+"title": "Dynamic remodeling of hybrid BBB-fenestrated capillaries in the hypothalamic arcuate nucleus",
+"authors": "Halfon, A., Oster, Y., Yeretz-Peretz, Y., … Ben-Zvi, A.",
+"journal": "bioRxiv",
+"date": "2026-11-27",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"halfon|a",
+"oster|y",
+"yeretz-peretz|y",
+"minsk|m",
+"kleiman|d",
+"bell|b",
+"sasson|e",
+"anzi|s",
+"ben-haroush schyr|r",
+"crouch|e",
+"liebner|s",
+"ben-zvi|d",
+"ben-zvi|a"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766735v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766735v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"bbb",
+"capillaries"
+],
+"relevance": 2,
+"why": "The hypothalamic arcuate nucleus (Arc) is a central regulator of metabolism. We show that capillaries with sparse fenestrae enable direct and rapid hormone transport into the Arc. Arc fenestrae are virtually absent during pregnancy and obesity, but reform postpartum and upon weight-loss. Fenestrated Arc endothelial…",
+"addedAt": "2026-11-27",
+"source": "auto"
+},
 {
 "id": "pmid-43090002",
 "pmid": "43090002",
@@ -463,6 +707,310 @@ window.PAPER_RADAR_DATA = {
 "oa": {
 "url": "https://doi.org/10.3390/biomedicines14112451",
 "pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43099291",
+"pmid": "43099291",
+"doi": "10.1177/17474930261513878",
+"title": "Cilostazol for Secondary Prevention of Stroke and Cognitive Decline: An Updated Systematic Review.",
+"authors": "Shi Y, Eskandaripour M, Bath PM, Wardlaw J",
+"journal": "International journal of stroke",
+"journal_iso": "Int J Stroke",
+"date": "2026-11-26",
+"type": "journal",
+"kind": "Review",
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/17474930261513878"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43099291/"
+}
+],
+"au": [
+"shi|y",
+"eskandaripour|m",
+"bath|p",
+"wardlaw|j"
+],
+"topics": [
+"csvd",
+"adtx"
+],
+"keywords": [
+"lacunar",
+"randomised",
+"small vessel disease"
+],
+"relevance": 4,
+"why": "Cilostazol may benefit secondary stroke prevention and cerebral small vessel disease (SVD). Evidence for its role in preventing recurrent stroke and cognitive decline, particularly after lacunar stroke, remains limited although evolving. We updated a previous systematic review to evaluate cilostazol effects on…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27"
+},
+{
+"id": "pmid-43097144",
+"pmid": "43097144",
+"doi": "10.1007/s00259-026-08252-z",
+"title": "Glymphatic dysfunction links neuropsychiatric symptoms to cognitive decline via neurodegeneration in Alzheimer's disease.",
+"authors": "Wang YY, Miao W, Zhu HY, … Alzheimer’s Disease Neuroimaging Initiative",
+"journal": "European journal of nuclear medicine and molecular imaging",
+"journal_iso": "Eur J Nucl Med Mol Imaging",
+"date": "2026-11-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1007/s00259-026-08252-z"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43097144/"
+}
+],
+"au": [
+"wang|y",
+"miao|w",
+"zhu|h",
+"song|x",
+"qin|j",
+"sun|z",
+"zhou|x",
+"zhao|j",
+"yu|x",
+"zhu|x",
+"initiative|a"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"apoe ε4",
+"glymphatic",
+"perivascular space"
+],
+"relevance": 4,
+"why": "Neuropsychiatric symptoms (NPSs) are prevalent in Alzheimer's disease (AD), yet the mechanistic link to glymphatic dysfunction remains unclear. In this multi-cohort study (Chinese discovery cohort, n = 212; Alzheimer's Disease Neuroimaging Initiative [ADNI; n = 446]), NPSs were assessed via the Neuropsychiatric…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://link.springer.com/content/pdf/10.1007/s00259-026-08252-z.pdf",
+"pdf": true,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43096992",
+"pmid": "43096992",
+"doi": "10.17305/bb.2026.15061",
+"title": "Ketamine and psychedelics: A path to Alzheimer's disease prevention?",
+"authors": "Anderson G",
+"journal": "Biomolecules & biomedicine",
+"journal_iso": "Biomol Biomed",
+"date": "2026-11-26",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.17305/bb.2026.15061"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43096992/"
+}
+],
+"au": [
+"anderson|g"
+],
+"topics": [
+"bbb",
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"blood-brain barrier",
+"glymphatic"
+],
+"relevance": 4,
+"why": "Astrocyte mitochondrial dysfunction contributes to mild cognitive impairment (MCI) and Alzheimer's disease (AD), making it a promising therapeutic target. This review investigates whether ketamine and psychedelics can modulate MCI and AD pathophysiology by regulating astrocyte mitochondria. Data on astrocyte…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://doi.org/10.17305/bb.2026.15061",
+"pdf": false,
+"status": "diamond"
+}
+},
+{
+"id": "pmid-43096170",
+"pmid": "43096170",
+"doi": "10.31083/pharmazie54296",
+"title": "Focused Ultrasound in Combination With Microbubbles and Nanoparticles for Reversible Blood-Brain Barrier Disruption and Targeted Brain Drug Delivery: Recent Advances and Therapeutic Perspectives.",
+"authors": "Sharma PK, Patil M, Dwivedi S, Darwhekar GN",
+"journal": "Die Pharmazie",
+"journal_iso": "Pharmazie",
+"date": "2026-11-26",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.31083/pharmazie54296"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43096170/"
+}
+],
+"au": [
+"sharma|p",
+"patil|m",
+"dwivedi|s",
+"darwhekar|g"
+],
+"topics": [
+"bbb",
+"delivery"
+],
+"keywords": [
+"blood-brain barrier",
+"focused ultrasound",
+"gene therapy",
+"nanoparticle",
+"permeability"
+],
+"relevance": 4,
+"why": "The blood-brain barrier (BBB) remains a major obstacle in the effective treatment of neurological disorders due to its highly selective permeability, which restricts the entry of therapeutic agents into the brain. Therefore, the development of advanced and targeted drug delivery strategies is of significant…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://doi.org/10.31083/pharmazie54296",
+"pdf": false,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43094910",
+"pmid": "43094910",
+"doi": "10.1002/dad2.70536",
+"title": "Initial clinical experience with lecanemab treatment for Alzheimer's disease.",
+"authors": "Khasnavis S, Gummerson C, Lowe N, … Fesharaki-Zadeh A",
+"journal": "Alzheimer's & dementia (Amsterdam, Netherlands)",
+"journal_iso": "Alzheimers Dement (Amst)",
+"date": "2026-11-26",
+"type": "journal",
+"kind": null,
+"q1": true,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/dad2.70536"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43094910/"
+}
+],
+"au": [
+"khasnavis|s",
+"gummerson|c",
+"lowe|n",
+"mahajan|a",
+"li|f",
+"agrawal|p",
+"agumamidi|s",
+"chen|m",
+"fredericks|c",
+"o'dell|r",
+"azizi|s",
+"mecca|a",
+"van dyck|c",
+"fesharaki-zadeh|a"
+],
+"topics": [
+"adtx"
+],
+"keywords": [
+"alzheimer",
+"aria",
+"lecanemab"
+],
+"relevance": 4,
+"why": "Lecanemab was approved by the U.S. Food and Drug Administration in 2023, as a treatment for Alzheimer's disease (AD). Outlined is our initial clinical experience with lecanemab. Patients referred for lecanemab during the first year of treatment availability at our institution were identified. Clinical trajectories of…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/dad2.70536",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43094848",
+"pmid": "43094848",
+"doi": "10.3389/fnagi.2026.1926613",
+"title": "Associations of white matter microstructural damage with both cross-sectional and longitudinal cognitive decline in cerebral amyloid angiopathy and non-CAA mild cognitive impairment.",
+"authors": "Hou X, Hong H, Li K, … Wang C",
+"journal": "Frontiers in aging neuroscience",
+"journal_iso": "Front Aging Neurosci",
+"date": "2026-11-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fnagi.2026.1926613"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43094848/"
+}
+],
+"au": [
+"hou|x",
+"hong|h",
+"li|k",
+"zeng|q",
+"wang|s",
+"luo|x",
+"qian|w",
+"xu|a",
+"huang|p",
+"tang|y",
+"wang|c"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"alzheimer",
+"cerebral amyloid angiopathy",
+"small vessel disease"
+],
+"relevance": 4,
+"why": "Peak width of skeletonized mean diffusivity (PSMD) is an automated diffusion marker that captures white matter microstructural damage more sensitively than conventional small vessel disease markers. We investigated the cross sectional and longitudinal associations of PSMD and amyloid β (Aβ) burden with cognition, and…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1926613/pdf",
+"pdf": true,
 "status": "gold"
 }
 },
@@ -1497,6 +2045,479 @@ window.PAPER_RADAR_DATA = {
 }
 },
 {
+"id": "pmid-43098473",
+"pmid": "43098473",
+"doi": "10.1016/j.exer.2026.111332",
+"title": "Riboflavin Attenuates High-Fructose Corn Syrup-Induced Ocular Injury Through Modulation of Redox, Inflammatory, and Barrier-Associated Responses.",
+"authors": "Ertugrul A, Asci H, Usta Sofu G, … Ozmen O",
+"journal": "Experimental eye research",
+"journal_iso": "Exp Eye Res",
+"date": "2026-11-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1016/j.exer.2026.111332"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43098473/"
+}
+],
+"au": [
+"ertugrul|a",
+"asci|h",
+"usta sofu|g",
+"yurt|d",
+"karacolak|c",
+"bilir|e",
+"ozmen|o"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"aqp4",
+"zo-1"
+],
+"relevance": 3,
+"why": "High-fructose corn syrup (HFCS) consumption has been associated with oxidative stress-related tissue injury; however, its effects on ocular tissues remain poorly understood. This study investigated the protective effects of riboflavin (RIB) against HFCS-induced ocular injury. Thirty-two male Wistar albino rats were…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://doi.org/10.2139/ssrn.7356867",
+"pdf": false,
+"status": "green"
+}
+},
+{
+"id": "pmid-43097535",
+"pmid": "43097535",
+"doi": "10.1002/smll.76887",
+"title": "Exercise-Mimetic Irisin Nanoplatforms Orchestrate Mitochondrial Integrity and Neuroinflammatory Modulation in Cerebral Ischemic-Reperfusion Injury.",
+"authors": "Wang F, Liu J, Yang Z, … Zeng C",
+"journal": "Small (Weinheim an der Bergstrasse, Germany)",
+"journal_iso": "Small",
+"date": "2026-11-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1002/smll.76887"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43097535/"
+}
+],
+"au": [
+"wang|f",
+"liu|j",
+"yang|z",
+"xiong|y",
+"zhou|r",
+"yi|x",
+"lu|l",
+"liang|l",
+"zeng|c"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Ischemic stroke remains a major clinical challenge, constrained by the narrow therapeutic windows and limited blood-brain barrier (BBB) permeability of neuroprotective agents. Mitochondrial dysfunction and excessive reactive oxygen species (ROS) are recognized as central pathological drivers of ischemic injury. While…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27"
+},
+{
+"id": "pmid-43096989",
+"pmid": "43096989",
+"doi": "10.1093/database/baag071",
+"title": "Brendo: an open resource for uniquely transcribed genes in brain endothelial cells.",
+"authors": "Beker O, Khorsand FR, Adebali O, Mustafaoglu N",
+"journal": "Database",
+"journal_iso": "Database (Oxford)",
+"date": "2026-11-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1093/database/baag071"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43096989/"
+}
+],
+"au": [
+"beker|o",
+"khorsand|f",
+"adebali|o",
+"mustafaoglu|n"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"brain microvascular endothelial"
+],
+"relevance": 3,
+"why": "The blood-brain barrier (BBB) plays a critical role in central nervous system homeostasis, yet comprehensive transcriptional profiling of brain microvascular endothelial cells (BMECs) remains limited. Leveraging the increasing availability of publicly accessible bulk RNA sequencing (RNA-seq) datasets, we developed an…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://doi.org/10.1093/database/baag071",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43096325",
+"pmid": "43096325",
+"doi": "10.1177/13872877261505476",
+"title": "Interpreting cerebral 18F-FDG hypometabolism in Alzheimer's disease: A multidomain framework for supply, transformation, demand, and clearance.",
+"authors": "Liu X, Liu J, Feng L, … Chen J",
+"journal": "Journal of Alzheimer's disease",
+"journal_iso": "J Alzheimers Dis",
+"date": "2026-11-26",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/13872877261505476"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43096325/"
+}
+],
+"au": [
+"liu|x",
+"liu|j",
+"feng|l",
+"xu|d",
+"wei|x",
+"tong|d",
+"chen|j"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"alzheimer",
+"glymphatic"
+],
+"relevance": 3,
+"why": "Cerebral glucose hypometabolism measured by 18F-fluorodeoxyglucose positron emission tomography (18F-FDG-PET) is a reproducible feature of Alzheimer's disease (AD), but the signal does not directly quantify mitochondrial oxidative phosphorylation or adenosine triphosphate (ATP) production. The measured 18F-FDG signal…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27"
+},
+{
+"id": "pmid-43096120",
+"pmid": "43096120",
+"doi": "10.31083/jin54912",
+"title": "From Protection to Injury: Vascular Autophagy in Ischemic Stroke.",
+"authors": "Li W, Ding Y, Kim J, … Geng X",
+"journal": "Journal of integrative neuroscience",
+"journal_iso": "J Integr Neurosci",
+"date": "2026-11-26",
+"type": "journal",
+"kind": "Review",
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.31083/jin54912"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43096120/"
+}
+],
+"au": [
+"li|w",
+"ding|y",
+"kim|j",
+"li|f",
+"geng|x"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"neurovascular unit",
+"pericytes"
+],
+"relevance": 3,
+"why": "Autophagy is a fundamental intracellular degradation process that maintains cellular homeostasis by recycling damaged organelles and macromolecules. In ischemic stroke, autophagy exhibits a dynamic and context-dependent dual role that evolves over time and cell types: moderate autophagy protects cells in early…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://doi.org/10.31083/jin54912",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43095979",
+"pmid": "43095979",
+"doi": "10.1021/acs.jmedchem.6c01370",
+"title": "Potent and Selective Caspase-2 Inhibitors: Biological Profiling, Structural Characterization, and Challenges of Molecular Instability.",
+"authors": "Forster L, Vallaster B, Hubmann A, … Pockes S",
+"journal": "Journal of medicinal chemistry",
+"journal_iso": "J Med Chem",
+"date": "2026-11-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1021/acs.jmedchem.6c01370"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43095979/"
+}
+],
+"au": [
+"forster|l",
+"vallaster|b",
+"hubmann|a",
+"bresinsky|m",
+"fuller|j",
+"shi|k",
+"lapcinski|i",
+"liu|p",
+"yang|m",
+"strasser|j",
+"nelson|k",
+"john|k",
+"mudaliar|d",
+"wirth|l",
+"daschner|j",
+"pongratz|h",
+"ashe|k",
+"walters|m",
+"pockes|s"
+],
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier",
+"permeability"
+],
+"relevance": 3,
+"why": "Caspase-2 (Casp2) has emerged as a promising therapeutic target for neurodegenerative diseases due to its role in pathological tau processing. Here, we designed and synthesized a series of 48 novel peptidomimetic Casp2 inhibitors organized into distinct structural classes. Compounds were evaluated for Casp2 inhibition…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://pubs.acs.org/jmcmar/article-pdf/doi/10.1021/acs.jmedchem.6c01370/69114340/jm6c01370.pdf",
+"pdf": true,
+"status": "hybrid"
+}
+},
+{
+"id": "pmid-43095407",
+"pmid": "43095407",
+"doi": "10.3389/fnagi.2026.1988642",
+"title": "Associations of DTI-ALPS with structural network topology and cognition across white matter hyperintensity severity.",
+"authors": "Wu M, Yi J, Li Z, … Yin C",
+"journal": "Frontiers in aging neuroscience",
+"journal_iso": "Front Aging Neurosci",
+"date": "2026-11-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.3389/fnagi.2026.1988642"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43095407/"
+}
+],
+"au": [
+"wu|m",
+"yi|j",
+"li|z",
+"li|s",
+"zhao|w",
+"yin|c"
+],
+"topics": [
+"glymph"
+],
+"keywords": [
+"glymphatic",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "White matter hyperintensities (WMHs) are associated with cognitive impairment, but their diffusion, astroglial and network correlates remain incompletely characterized. We examined glymphatic-related diffusion captured by diffusion tensor image analysis along the perivascular space (DTI-ALPS) across WMH severity. We…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1988642/pdf",
+"pdf": true,
+"status": "gold"
+}
+},
+{
+"id": "pmid-43095140",
+"pmid": "43095140",
+"doi": "10.1177/11795735261502255",
+"title": "Probable Cerebral Amyloid Angiopathy-Related Inflammation: A Case Report.",
+"authors": "Zheng T, Zhang K, Hao J, … Liang H",
+"journal": "Journal of central nervous system disease",
+"journal_iso": "J Cent Nerv Syst Dis",
+"date": "2026-11-26",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1177/11795735261502255"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43095140/"
+}
+],
+"au": [
+"zheng|t",
+"zhang|k",
+"hao|j",
+"fang|y",
+"liang|h"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"apoe ε4",
+"cerebral amyloid angiopathy",
+"white matter hyperintensit"
+],
+"relevance": 3,
+"why": "Cerebral amyloid angiopathy-related inflammation (CAA-RI) is a rare, treatable inflammatory variant of cerebral amyloid angiopathy characterized by heterogeneous clinical manifestations and ambiguous imaging features, frequently leading to delayed diagnosis. This report describes a 70-year-old hypertensive male who…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://doi.org/10.1177/11795735261502255",
+"pdf": false,
+"status": "gold"
+}
+},
+{
+"id": "biorxiv-10.64898_2026.11.25.769135",
+"doi": "10.64898/2026.11.25.769135",
+"title": "Extracellular vesicles produced by pathogenic E. coli expressing hlyF compromise epithelial barrier function",
+"authors": "Penary, M., Marrauld, C., Oswald, E., Branchu, P.",
+"journal": "bioRxiv",
+"date": "2026-11-26",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "pathology",
+"version": "1",
+"au": [
+"penary|m",
+"marrauld|c",
+"oswald|e",
+"branchu|p"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769135v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769135v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"teer",
+"tight junction"
+],
+"relevance": 2,
+"why": "The intestinal epithelium constitutes a critical barrier against toxins, microbiota, and pathogens, and its integrity is essential for maintaining host homeostasis. Selected pathogens or pathobionts, under specific conditions, have the capacity to disrupt barrier functionDespite its close genetic similarity to the…",
+"addedAt": "2026-11-27",
+"source": "auto"
+},
+{
+"id": "biorxiv-10.64898_2026.11.25.769134",
+"doi": "10.64898/2026.11.25.769134",
+"title": "β-Adrenergic regulation of mGluR5-dependent Ca2+ signalling in reactive astrocytes",
+"authors": "Stenovec, M., Pirnat, S., Vrsnik, J., … Zorec, R.",
+"journal": "bioRxiv",
+"date": "2026-11-26",
+"type": "preprint",
+"kind": null,
+"q1": false,
+"category": "neuroscience",
+"version": "1",
+"au": [
+"stenovec|m",
+"pirnat|s",
+"vrsnik|j",
+"dolinar|k",
+"verkhratsky|a",
+"zorec|r"
+],
+"links": [
+{
+"label": "bioRxiv",
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769134v1"
+}
+],
+"oa": {
+"url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769134v1.full.pdf",
+"pdf": true,
+"status": "preprint"
+},
+"topics": [
+"bbb"
+],
+"keywords": [
+"blood-brain barrier"
+],
+"relevance": 2,
+"why": "Astrocytes support neuronal function and brain homeostasis and undergo structural and functional remodelling under pathological conditions. Here, we compared astrocytes maintained in serum-containing medium, modelling a blood-brain barrier-compromised reactive state, with serum-free conditions that promote a more…",
+"addedAt": "2026-11-27",
+"source": "auto"
+},
+{
 "id": "pmid-43085631",
 "pmid": "43085631",
 "doi": "10.1016/j.brainresbull.2026.112231",
@@ -2327,6 +3348,54 @@ window.PAPER_RADAR_DATA = {
 "why": "Intranasal drug delivery is being explored as an alternative approach to overcome the blood-brain barrier in the treatment of central nervous system diseases. However, little is known about how therapeutics administered through this route affect human olfactory tissue. Here, we develop human induced pluripotent stem…",
 "addedAt": "2026-11-26",
 "source": "auto"
+},
+{
+"id": "pmid-43085984",
+"pmid": "43085984",
+"doi": "10.1136/bmjopen-2026-128641",
+"title": "Development and analysis protocol for ORCHARD-Stroke: a multimodal cohort study of infection, systemic inflammation and poststroke dementia.",
+"authors": "Milosevich ET, Davies J, Nagaratnam K, … Pendlebury ST",
+"journal": "BMJ open",
+"journal_iso": "BMJ Open",
+"date": "2026-11-25",
+"type": "journal",
+"kind": null,
+"q1": false,
+"links": [
+{
+"label": "Journal",
+"url": "https://doi.org/10.1136/bmjopen-2026-128641"
+},
+{
+"label": "PubMed",
+"url": "https://pubmed.ncbi.nlm.nih.gov/43085984/"
+}
+],
+"au": [
+"milosevich|e",
+"davies|j",
+"nagaratnam|k",
+"bains|h",
+"mccoll|a",
+"pendlebury|s"
+],
+"topics": [
+"csvd"
+],
+"keywords": [
+"small vessel disease",
+"vascular dementia"
+],
+"relevance": 3,
+"why": "Cognitive impairment and dementia affect approximately one-third of stroke survivors. Established risk factors, including age, stroke severity and pre-existing cerebrovascular disease, account for only part of the variance, and potentially modifiable contributors remain poorly characterised. In non-stroke populations,…",
+"addedAt": "2026-11-27",
+"source": "auto",
+"oaChecked": "2026-11-27",
+"oa": {
+"url": "https://bmjopen.bmj.com/content/bmjopen/16/11/e128641.full.pdf",
+"pdf": true,
+"status": "gold"
+}
 },
 {
 "id": "pmid-43079974",
